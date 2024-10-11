@@ -94,22 +94,10 @@ void CLK_Initialize( void )
     /* Configure UPLL */
     /* UPOSCEN = UPLL */
     /* PLLODIV = DIV_8 */
-    /* PLLMULT = MUL_32 */
+    /* PLLMULT = MUL_16 */
     /* PLLIDIV = DIV_1 */
-    /* PLLRANGE = RANGE_8_16_MHZ */
-    UPLLCON = 0x31f0002;
-
-    /* Peripheral Bus 2 is by default enabled, set its divisor */
-    PB2DIVbits.PBDIV = 2;
-
-    /* Peripheral Bus 3 is by default enabled, set its divisor */
-    PB3DIVbits.PBDIV = 3;
-
-    /* Peripheral Bus 4 is by default enabled, set its divisor */
-    PB4DIVbits.PBDIV = 4;
-
-    /* Peripheral Bus 6 is by default enabled, set its divisor */
-    PB6DIVbits.PBDIV = 5;
+    /* PLLRANGE = RANGE_13_26_MHZ */
+    UPLLCON = 0x30f0003;
 
   
 
@@ -117,11 +105,11 @@ void CLK_Initialize( void )
 
     CFGCONbits.PMDLOCK = 0;
 
-    PMD1 = 0x170U;
+    PMD1 = 0x370U;
     PMD2 = 0x17001fU;
     PMD3 = 0xffffffffU;
-    PMD4 = 0x7cf01ffU;
-    PMD5 = 0xf30f1f3cU;
+    PMD4 = 0xfff01feU;
+    PMD5 = 0xf30f3f3cU;
     PMD6 = 0xe0d0000U;
     PMD7 = 0x0U;
 

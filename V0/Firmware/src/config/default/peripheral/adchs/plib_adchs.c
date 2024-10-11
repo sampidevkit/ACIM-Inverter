@@ -67,6 +67,8 @@ void ADCHS_Initialize(void)
     ADC3TIME = 0x3010001U;
     ADC4CFG = DEVADC4;
     ADC4TIME = 0x3010001U;
+    ADC5CFG = DEVADC5;
+    ADC5TIME = 0x3010001U;
 
     ADC7CFG = DEVADC7;
 
@@ -74,7 +76,7 @@ void ADCHS_Initialize(void)
     ADCCON2 = 0x20001U;
     ADCCON3 = 0x1000000U;
 
-    ADCTRGMODE = 0x2800000U;
+    ADCTRGMODE = 0x5690000U;
 
     ADCTRG1 = 0x0U; 
     ADCTRG2 = 0x0U; 
@@ -152,6 +154,14 @@ void ADCHS_Initialize(void)
         /* Nothing to do */
     }
     ADCCON3bits.DIGEN4 = 1;      // Enable ADC
+
+    /* ADC 5 */
+    ADCANCONbits.ANEN5 = 1;      // Enable the clock to analog bias
+    while(ADCANCONbits.WKRDY5 == 0U) // Wait until ADC is ready
+    {
+        /* Nothing to do */
+    }
+    ADCCON3bits.DIGEN5 = 1;      // Enable ADC
 
     /* ADC 7 */
     ADCANCONbits.ANEN7 = 1;      // Enable the clock to analog bias

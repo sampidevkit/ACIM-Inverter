@@ -48,7 +48,6 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-#include "configuration.h"
 #include "interrupts.h"
 #include "definitions.h"
 
@@ -67,13 +66,8 @@
 // Section: System Interrupt Vector declarations
 // *****************************************************************************
 // *****************************************************************************
-void CORE_TIMER_Handler (void);
-void CHANGE_NOTICE_B_Handler (void);
-void UART2_FAULT_Handler (void);
-void UART2_RX_Handler (void);
-void UART2_TX_Handler (void);
-void SPI6_RX_Handler (void);
-void SPI6_TX_Handler (void);
+void TIMER_1_Handler (void);
+void CHANGE_NOTICE_F_Handler (void);
 
 
 // *****************************************************************************
@@ -81,39 +75,14 @@ void SPI6_TX_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_CORE_TIMER_VECTOR, ipl1SRS) CORE_TIMER_Handler (void)
+void __ISR(_TIMER_1_VECTOR, ipl1SRS) TIMER_1_Handler (void)
 {
-    CORE_TIMER_InterruptHandler();
+    TIMER_1_InterruptHandler();
 }
 
-void __ISR(_CHANGE_NOTICE_B_VECTOR, ipl1SRS) CHANGE_NOTICE_B_Handler (void)
+void __ISR(_CHANGE_NOTICE_F_VECTOR, ipl1SRS) CHANGE_NOTICE_F_Handler (void)
 {
-    CHANGE_NOTICE_B_InterruptHandler();
-}
-
-void __ISR(_UART2_FAULT_VECTOR, ipl1SRS) UART2_FAULT_Handler (void)
-{
-    UART2_FAULT_InterruptHandler();
-}
-
-void __ISR(_UART2_RX_VECTOR, ipl1SRS) UART2_RX_Handler (void)
-{
-    UART2_RX_InterruptHandler();
-}
-
-void __ISR(_UART2_TX_VECTOR, ipl1SRS) UART2_TX_Handler (void)
-{
-    UART2_TX_InterruptHandler();
-}
-
-void __ISR(_SPI6_RX_VECTOR, ipl1SRS) SPI6_RX_Handler (void)
-{
-    SPI6_RX_InterruptHandler();
-}
-
-void __ISR(_SPI6_TX_VECTOR, ipl1SRS) SPI6_TX_Handler (void)
-{
-    SPI6_TX_InterruptHandler();
+    CHANGE_NOTICE_F_InterruptHandler();
 }
 
 

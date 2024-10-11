@@ -111,24 +111,6 @@
 #define MC_VU_SENSE_Get()               ((PORTB >> 1) & 0x1U)
 #define MC_VU_SENSE_PIN                  GPIO_PIN_RB1
 
-/*** Macros for PGC pin ***/
-#define PGC_Set()               (LATBSET = (1U<<2))
-#define PGC_Clear()             (LATBCLR = (1U<<2))
-#define PGC_Toggle()            (LATBINV= (1U<<2))
-#define PGC_OutputEnable()      (TRISBCLR = (1U<<2))
-#define PGC_InputEnable()       (TRISBSET = (1U<<2))
-#define PGC_Get()               ((PORTB >> 2) & 0x1U)
-#define PGC_PIN                  GPIO_PIN_RB2
-
-/*** Macros for PGD pin ***/
-#define PGD_Set()               (LATBSET = (1U<<3))
-#define PGD_Clear()             (LATBCLR = (1U<<3))
-#define PGD_Toggle()            (LATBINV= (1U<<3))
-#define PGD_OutputEnable()      (TRISBCLR = (1U<<3))
-#define PGD_InputEnable()       (TRISBSET = (1U<<3))
-#define PGD_Get()               ((PORTB >> 3) & 0x1U)
-#define PGD_PIN                  GPIO_PIN_RB3
-
 /*** Macros for MC_VW_SENSE pin ***/
 #define MC_VW_SENSE_Get()               ((PORTC >> 0) & 0x1U)
 #define MC_VW_SENSE_PIN                  GPIO_PIN_RC0
@@ -140,44 +122,6 @@
 /*** Macros for MC_IPM_TEMP pin ***/
 #define MC_IPM_TEMP_Get()               ((PORTC >> 2) & 0x1U)
 #define MC_IPM_TEMP_PIN                  GPIO_PIN_RC2
-
-/*** Macros for MEM_TMP_N pin ***/
-#define MEM_TMP_N_Set()               (LATESET = (1U<<12))
-#define MEM_TMP_N_Clear()             (LATECLR = (1U<<12))
-#define MEM_TMP_N_Toggle()            (LATEINV= (1U<<12))
-#define MEM_TMP_N_OutputEnable()      (TRISECLR = (1U<<12))
-#define MEM_TMP_N_InputEnable()       (TRISESET = (1U<<12))
-#define MEM_TMP_N_Get()               ((PORTE >> 12) & 0x1U)
-#define MEM_TMP_N_PIN                  GPIO_PIN_RE12
-
-/*** Macros for MEM_CFG_N pin ***/
-#define MEM_CFG_N_Set()               (LATESET = (1U<<13))
-#define MEM_CFG_N_Clear()             (LATECLR = (1U<<13))
-#define MEM_CFG_N_Toggle()            (LATEINV= (1U<<13))
-#define MEM_CFG_N_OutputEnable()      (TRISECLR = (1U<<13))
-#define MEM_CFG_N_InputEnable()       (TRISESET = (1U<<13))
-#define MEM_CFG_N_Get()               ((PORTE >> 13) & 0x1U)
-#define MEM_CFG_N_PIN                  GPIO_PIN_RE13
-
-/*** Macros for SDO pin ***/
-#define SDO_Get()               ((PORTE >> 14) & 0x1U)
-#define SDO_PIN                  GPIO_PIN_RE14
-
-/*** Macros for SDI pin ***/
-#define SDI_Get()               ((PORTE >> 15) & 0x1U)
-#define SDI_PIN                  GPIO_PIN_RE15
-
-/*** Macros for SCK pin ***/
-#define SCK_Get()               ((PORTA >> 8) & 0x1U)
-#define SCK_PIN                  GPIO_PIN_RA8
-
-/*** Macros for RTS2 pin ***/
-#define RTS2_Get()               ((PORTB >> 4) & 0x1U)
-#define RTS2_PIN                  GPIO_PIN_RB4
-
-/*** Macros for CTS2 pin ***/
-#define CTS2_Get()               ((PORTA >> 4) & 0x1U)
-#define CTS2_PIN                  GPIO_PIN_RA4
 
 /*** Macros for SYS_CLK pin ***/
 #define SYS_CLK_Get()               ((PORTC >> 12) & 0x1U)
@@ -208,70 +152,88 @@
 #define TXD1_Get()               ((PORTB >> 7) & 0x1U)
 #define TXD1_PIN                  GPIO_PIN_RB7
 
-/*** Macros for SOSCI pin ***/
-#define SOSCI_Get()               ((PORTC >> 13) & 0x1U)
-#define SOSCI_PIN                  GPIO_PIN_RC13
-
-/*** Macros for SOSCO pin ***/
-#define SOSCO_Get()               ((PORTB >> 8) & 0x1U)
-#define SOSCO_PIN                  GPIO_PIN_RB8
-
 /*** Macros for MC_PWM_WH pin ***/
+#define MC_PWM_WH_Set()               (LATCSET = (1U<<6))
+#define MC_PWM_WH_Clear()             (LATCCLR = (1U<<6))
+#define MC_PWM_WH_Toggle()            (LATCINV= (1U<<6))
+#define MC_PWM_WH_OutputEnable()      (TRISCCLR = (1U<<6))
+#define MC_PWM_WH_InputEnable()       (TRISCSET = (1U<<6))
 #define MC_PWM_WH_Get()               ((PORTC >> 6) & 0x1U)
 #define MC_PWM_WH_PIN                  GPIO_PIN_RC6
 
 /*** Macros for MC_PWM_WL pin ***/
+#define MC_PWM_WL_Set()               (LATCSET = (1U<<7))
+#define MC_PWM_WL_Clear()             (LATCCLR = (1U<<7))
+#define MC_PWM_WL_Toggle()            (LATCINV= (1U<<7))
+#define MC_PWM_WL_OutputEnable()      (TRISCCLR = (1U<<7))
+#define MC_PWM_WL_InputEnable()       (TRISCSET = (1U<<7))
 #define MC_PWM_WL_Get()               ((PORTC >> 7) & 0x1U)
 #define MC_PWM_WL_PIN                  GPIO_PIN_RC7
 
 /*** Macros for MC_PWM_VH pin ***/
+#define MC_PWM_VH_Set()               (LATCSET = (1U<<8))
+#define MC_PWM_VH_Clear()             (LATCCLR = (1U<<8))
+#define MC_PWM_VH_Toggle()            (LATCINV= (1U<<8))
+#define MC_PWM_VH_OutputEnable()      (TRISCCLR = (1U<<8))
+#define MC_PWM_VH_InputEnable()       (TRISCSET = (1U<<8))
 #define MC_PWM_VH_Get()               ((PORTC >> 8) & 0x1U)
 #define MC_PWM_VH_PIN                  GPIO_PIN_RC8
 
 /*** Macros for MC_PWM_UH pin ***/
+#define MC_PWM_UH_Set()               (LATDSET = (1U<<5))
+#define MC_PWM_UH_Clear()             (LATDCLR = (1U<<5))
+#define MC_PWM_UH_Toggle()            (LATDINV= (1U<<5))
+#define MC_PWM_UH_OutputEnable()      (TRISDCLR = (1U<<5))
+#define MC_PWM_UH_InputEnable()       (TRISDSET = (1U<<5))
 #define MC_PWM_UH_Get()               ((PORTD >> 5) & 0x1U)
 #define MC_PWM_UH_PIN                  GPIO_PIN_RD5
 
 /*** Macros for MC_PWM_UL pin ***/
+#define MC_PWM_UL_Set()               (LATDSET = (1U<<6))
+#define MC_PWM_UL_Clear()             (LATDCLR = (1U<<6))
+#define MC_PWM_UL_Toggle()            (LATDINV= (1U<<6))
+#define MC_PWM_UL_OutputEnable()      (TRISDCLR = (1U<<6))
+#define MC_PWM_UL_InputEnable()       (TRISDSET = (1U<<6))
 #define MC_PWM_UL_Get()               ((PORTD >> 6) & 0x1U)
 #define MC_PWM_UL_PIN                  GPIO_PIN_RD6
 
 /*** Macros for MC_PWM_VL pin ***/
+#define MC_PWM_VL_Set()               (LATCSET = (1U<<9))
+#define MC_PWM_VL_Clear()             (LATCCLR = (1U<<9))
+#define MC_PWM_VL_Toggle()            (LATCINV= (1U<<9))
+#define MC_PWM_VL_OutputEnable()      (TRISCCLR = (1U<<9))
+#define MC_PWM_VL_InputEnable()       (TRISCSET = (1U<<9))
 #define MC_PWM_VL_Get()               ((PORTC >> 9) & 0x1U)
 #define MC_PWM_VL_PIN                  GPIO_PIN_RC9
 
-/*** Macros for INV_FLT_OC_N pin ***/
-#define INV_FLT_OC_N_Get()               ((PORTF >> 1) & 0x1U)
-#define INV_FLT_OC_N_PIN                  GPIO_PIN_RF1
+/*** Macros for INV_FLT_OC pin ***/
+#define INV_FLT_OC_Set()               (LATFSET = (1U<<1))
+#define INV_FLT_OC_Clear()             (LATFCLR = (1U<<1))
+#define INV_FLT_OC_Toggle()            (LATFINV= (1U<<1))
+#define INV_FLT_OC_OutputEnable()      (TRISFCLR = (1U<<1))
+#define INV_FLT_OC_InputEnable()       (TRISFSET = (1U<<1))
+#define INV_FLT_OC_Get()               ((PORTF >> 1) & 0x1U)
+#define INV_FLT_OC_PIN                  GPIO_PIN_RF1
+#define INV_FLT_OC_InterruptEnable()   (CNENFSET = (1U<<1))
+#define INV_FLT_OC_InterruptDisable()  (CNENFCLR = (1U<<1))
 
-/*** Macros for INV_FAULT_N pin ***/
-#define INV_FAULT_N_Set()               (LATBSET = (1U<<12))
-#define INV_FAULT_N_Clear()             (LATBCLR = (1U<<12))
-#define INV_FAULT_N_Toggle()            (LATBINV= (1U<<12))
-#define INV_FAULT_N_OutputEnable()      (TRISBCLR = (1U<<12))
-#define INV_FAULT_N_InputEnable()       (TRISBSET = (1U<<12))
-#define INV_FAULT_N_Get()               ((PORTB >> 12) & 0x1U)
-#define INV_FAULT_N_PIN                  GPIO_PIN_RB12
+/*** Macros for CUR_LIM_DIS pin ***/
+#define CUR_LIM_DIS_Set()               (LATBSET = (1U<<12))
+#define CUR_LIM_DIS_Clear()             (LATBCLR = (1U<<12))
+#define CUR_LIM_DIS_Toggle()            (LATBINV= (1U<<12))
+#define CUR_LIM_DIS_OutputEnable()      (TRISBCLR = (1U<<12))
+#define CUR_LIM_DIS_InputEnable()       (TRISBSET = (1U<<12))
+#define CUR_LIM_DIS_Get()               ((PORTB >> 12) & 0x1U)
+#define CUR_LIM_DIS_PIN                  GPIO_PIN_RB12
 
-/*** Macros for PWR_FAULT_N pin ***/
-#define PWR_FAULT_N_Set()               (LATBSET = (1U<<13))
-#define PWR_FAULT_N_Clear()             (LATBCLR = (1U<<13))
-#define PWR_FAULT_N_Toggle()            (LATBINV= (1U<<13))
-#define PWR_FAULT_N_OutputEnable()      (TRISBCLR = (1U<<13))
-#define PWR_FAULT_N_InputEnable()       (TRISBSET = (1U<<13))
-#define PWR_FAULT_N_Get()               ((PORTB >> 13) & 0x1U)
-#define PWR_FAULT_N_PIN                  GPIO_PIN_RB13
-#define PWR_FAULT_N_InterruptEnable()   (CNENBSET = (1U<<13))
-#define PWR_FAULT_N_InterruptDisable()  (CNENBCLR = (1U<<13))
-
-/*** Macros for IND_ERR pin ***/
-#define IND_ERR_Set()               (LATASET = (1U<<10))
-#define IND_ERR_Clear()             (LATACLR = (1U<<10))
-#define IND_ERR_Toggle()            (LATAINV= (1U<<10))
-#define IND_ERR_OutputEnable()      (TRISACLR = (1U<<10))
-#define IND_ERR_InputEnable()       (TRISASET = (1U<<10))
-#define IND_ERR_Get()               ((PORTA >> 10) & 0x1U)
-#define IND_ERR_PIN                  GPIO_PIN_RA10
+/*** Macros for VDC_EN pin ***/
+#define VDC_EN_Set()               (LATBSET = (1U<<13))
+#define VDC_EN_Clear()             (LATBCLR = (1U<<13))
+#define VDC_EN_Toggle()            (LATBINV= (1U<<13))
+#define VDC_EN_OutputEnable()      (TRISBCLR = (1U<<13))
+#define VDC_EN_InputEnable()       (TRISBSET = (1U<<13))
+#define VDC_EN_Get()               ((PORTB >> 13) & 0x1U)
+#define VDC_EN_PIN                  GPIO_PIN_RB13
 
 
 // *****************************************************************************

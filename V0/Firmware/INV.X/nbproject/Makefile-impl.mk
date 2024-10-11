@@ -27,11 +27,11 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 PROJECTNAME=INV.X
 
 # Active Configuration
-DEFAULTCONF=unit_test
+DEFAULTCONF=default
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=app unit_test 
+ALLCONFS=default 
 
 
 # build
@@ -45,15 +45,13 @@ ALLCONFS=app unit_test
 
 # clobber
 .clobber-impl: .clobber-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=app clean
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=unit_test clean
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
 
 
 
 # all
 .all-impl: .all-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=app build
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=unit_test build
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
 
 
 

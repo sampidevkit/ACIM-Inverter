@@ -492,9 +492,9 @@
     "netclass_assignments": {
       "/Inverter/MC_IDC_SENSE": "ADCH7",
       "/Inverter/MC_IPM_TEMP": "ADCH7",
-      "/Inverter/MC_IU_SENSE": "ADCH0",
-      "/Inverter/MC_IV_SENSE": "ADCH1",
-      "/Inverter/MC_IW_SENSE": "ADCH2",
+      "/Inverter/MC_IU_SENSE": "ADCH3",
+      "/Inverter/MC_IV_SENSE": "ADCH4",
+      "/Inverter/MC_IW_SENSE": "ADCH5",
       "/Inverter/MC_PWM_UH": "PWM12H",
       "/Inverter/MC_PWM_UL": "PWM12L",
       "/Inverter/MC_PWM_VH": "PWM5H",
@@ -538,6 +538,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

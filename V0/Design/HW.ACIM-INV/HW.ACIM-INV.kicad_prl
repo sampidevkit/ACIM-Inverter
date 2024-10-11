@@ -81,6 +81,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "HW.ACIM-INV.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1374,
+          "pos_y": 29,
+          "size_x": 1382,
+          "size_y": 748
+        }
+      },
+      {
+        "name": "HW.ACIM-INV.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1374,
+          "pos_y": 29,
+          "size_x": 1382,
+          "size_y": 748
+        }
+      }
+    ]
   }
 }

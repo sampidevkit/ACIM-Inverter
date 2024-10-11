@@ -57,13 +57,8 @@
 // *****************************************************************************
 // *****************************************************************************
 
-void CORE_TIMER_InterruptHandler( void );
-void CHANGE_NOTICE_B_InterruptHandler( void );
-void UART2_FAULT_InterruptHandler( void );
-void UART2_RX_InterruptHandler( void );
-void UART2_TX_InterruptHandler( void );
-void SPI6_RX_InterruptHandler( void );
-void SPI6_TX_InterruptHandler( void );
+void TIMER_1_InterruptHandler( void );
+void CHANGE_NOTICE_F_InterruptHandler( void );
 
 
 

@@ -4,18 +4,14 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>INV</name>
-            <creation-uuid>dafb9141-7ecd-4801-beed-670779314937</creation-uuid>
+            <creation-uuid>76de4a4e-8a61-4658-9178-ae9eb71c4fd2</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>app</name>
-                    <type>2</type>
-                </confElem>
-                <confElem>
-                    <name>unit_test</name>
+                    <name>default</name>
                     <type>2</type>
                 </confElem>
             </confList>

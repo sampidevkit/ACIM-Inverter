@@ -43,7 +43,6 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-#include "configuration.h"
 #include "definitions.h"
 #include "device.h"
 
@@ -72,14 +71,14 @@
 /*** DEVCFG1 ***/
 #pragma config FNOSC =      SPLL
 #pragma config DMTINTV =    WIN_127_128
-#pragma config FSOSCEN =    ON
+#pragma config FSOSCEN =    OFF
 #pragma config IESO =       ON
-#pragma config POSCMOD =    OFF
+#pragma config POSCMOD =    EC
 #pragma config OSCIOFNC =   OFF
 #pragma config FCKSM =      CSECME
 #pragma config WDTPS =      PS4096
 #pragma config WDTSPGM =    STOP
-#pragma config FWDTEN =     OFF
+#pragma config FWDTEN =     ON
 #pragma config WINDIS =     NORMAL
 #pragma config FWDTWINSZ =  WINSZ_25
 #pragma config DMTCNT =     DMT31
@@ -87,22 +86,22 @@
 
 /*** DEVCFG2 ***/
 #pragma config FPLLIDIV =   DIV_1
-#pragma config FPLLRNG =    RANGE_8_16_MHZ
-#pragma config FPLLICLK =   PLL_POSC
-#pragma config FPLLMULT =   MUL_40
+#pragma config FPLLRNG =    RANGE_5_10_MHZ
+#pragma config FPLLICLK =   PLL_FRC
+#pragma config FPLLMULT =   MUL_60
 #pragma config FPLLODIV =   DIV_4
 #pragma config BORSEL =     HIGH
 #pragma config UPLLEN =     ON
 
 /*** DEVCFG3 ***/
-#pragma config USERID =     0x3072
-#pragma config FUSBIDIO2 =   ON
-#pragma config FVBUSIO2 =  ON
+#pragma config USERID =     0xffff
+#pragma config FUSBIDIO2 =   OFF
+#pragma config FVBUSIO2 =  OFF
 #pragma config PGL1WAY =    ON
 #pragma config PMDL1WAY =   ON
 #pragma config IOL1WAY =    ON
-#pragma config FUSBIDIO1 =   ON
-#pragma config FVBUSIO1 =  ON
+#pragma config FUSBIDIO1 =   OFF
+#pragma config FVBUSIO1 =  OFF
 #pragma config PWMLOCK =  OFF
 
 /*** BF1SEQ ***/
@@ -130,8 +129,6 @@
 // Section: System Data
 // *****************************************************************************
 // *****************************************************************************
-/* Structure to hold the object handles for the modules in the system. */
-SYSTEM_OBJECTS sysObj;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -214,10 +211,6 @@ void SYS_Initialize ( void* data )
 
 	GPIO_Initialize();
 
-
-	SPI6_Initialize();
-
-    CORETIMER_Initialize();
     ADCHS_Initialize();
 
     QEI1_Initialize();
@@ -226,11 +219,8 @@ void SYS_Initialize ( void* data )
 
 	UART2_Initialize();
 
-    EEPROM_Initialize();
+    TMR1_Initialize();
 
-    MCPWM_Initialize();
-
-    RTCC_Initialize();
 
 
     /* MISRAC 2012 deviation block start */
