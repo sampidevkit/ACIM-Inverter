@@ -1,0 +1,3 @@
+[submodule "V0/Firmware/FwLib"]
+	path = V0/Firmware/FwLib
+	url = https://github.com/sampidevkit/ACIM-FwLib.git
