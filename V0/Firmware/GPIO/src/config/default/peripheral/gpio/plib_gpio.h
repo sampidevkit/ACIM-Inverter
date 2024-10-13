@@ -235,6 +235,15 @@
 #define VDC_EN_Get()               ((PORTB >> 13) & 0x1U)
 #define VDC_EN_PIN                  GPIO_PIN_RB13
 
+/*** Macros for IND_ERR_N pin ***/
+#define IND_ERR_N_Set()               (LATASET = (1U<<10))
+#define IND_ERR_N_Clear()             (LATACLR = (1U<<10))
+#define IND_ERR_N_Toggle()            (LATAINV= (1U<<10))
+#define IND_ERR_N_OutputEnable()      (TRISACLR = (1U<<10))
+#define IND_ERR_N_InputEnable()       (TRISASET = (1U<<10))
+#define IND_ERR_N_Get()               ((PORTA >> 10) & 0x1U)
+#define IND_ERR_N_PIN                  GPIO_PIN_RA10
+
 
 // *****************************************************************************
 /* GPIO Port

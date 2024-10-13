@@ -64,11 +64,11 @@ void TMR1_Initialize(void)
     TWDIS = 0
     TECS = 1
     TGATE = 0
-    TCKPS = 2
+    TCKPS = 3
     TSYNC = 0
     TCS = 0
     */
-    T1CONSET = 0x120;
+    T1CONSET = 0x130;
 
     /* Clear counter */
     TMR1 = 0x0;
@@ -112,7 +112,7 @@ uint16_t TMR1_CounterGet(void)
 
 uint32_t TMR1_FrequencyGet(void)
 {
-    return (937500);
+    return (234375);
 }
 
 void __attribute__((used)) TIMER_1_InterruptHandler (void)

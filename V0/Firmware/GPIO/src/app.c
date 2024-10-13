@@ -17,6 +17,7 @@ void APP_Initialize(void) // <editor-fold defaultstate="collapsed" desc="APP Ini
 void APP_Tasks(void) // <editor-fold defaultstate="collapsed" desc="APP loop tasks">
 {
     IND_RUN_Toggle();
+    IND_ERR_N_Toggle();
     printf("\nHello");
     __delay_ms(100);
     
