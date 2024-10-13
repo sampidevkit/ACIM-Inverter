@@ -81,6 +81,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "HW.ACIM-MCU.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": -1365,
+          "pos_y": 38,
+          "size_x": 1364,
+          "size_y": 730
+        }
+      },
+      {
+        "name": "HW.ACIM-MCU.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1382,
+          "size_y": 748
+        }
+      }
+    ]
   }
 }
