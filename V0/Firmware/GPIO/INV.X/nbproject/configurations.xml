@@ -96,6 +96,10 @@
         </logicalFolder>
         <logicalFolder name="f1" displayName="Motors" projectFiles="true">
           <itemPath>../../FwLib/LabHAU/Motors/SixStep.h</itemPath>
+          <itemPath>../../FwLib/LabHAU/Motors/ThreePhasePWM.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="PwrMoni" projectFiles="true">
+          <itemPath>../../FwLib/LabHAU/PwrMoni/PwrMoni.h</itemPath>
         </logicalFolder>
         <logicalFolder name="System" displayName="System" projectFiles="true">
           <itemPath>../../FwLib/LabHAU/System/Tick.h</itemPath>
@@ -188,6 +192,10 @@
         </logicalFolder>
         <logicalFolder name="f1" displayName="Motors" projectFiles="true">
           <itemPath>../../FwLib/LabHAU/Motors/SixStep.c</itemPath>
+          <itemPath>../../FwLib/LabHAU/Motors/ThreePhasePWM.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="PwrMoni" projectFiles="true">
+          <itemPath>../../FwLib/LabHAU/PwrMoni/PwrMoni.c</itemPath>
         </logicalFolder>
         <logicalFolder name="System" displayName="System" projectFiles="true">
           <itemPath>../../FwLib/LabHAU/System/Tick.c</itemPath>
