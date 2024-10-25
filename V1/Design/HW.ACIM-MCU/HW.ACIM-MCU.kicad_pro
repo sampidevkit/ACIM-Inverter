@@ -595,7 +595,8 @@
       "/TXD2": "UART2",
       "/VAC_DIV": "ADCH5",
       "/VREF_DIV": "ADCH7",
-      "/~{INV_FLT_OC}": "FLT1"
+      "/~{INV_FLT_OC}": "FLT1",
+      "/~{PFC_FLT}": "FLT1"
     },
     "netclass_patterns": [
       {
@@ -663,7 +664,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -691,18 +692,6 @@
         },
         {
           "group_by": false,
-          "label": "Checked",
-          "name": "Checked",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Comment",
-          "name": "Comment",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "MFT",
           "name": "MFT",
           "show": true
@@ -711,12 +700,6 @@
           "group_by": true,
           "label": "MNP",
           "name": "MNP",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Unit Price",
-          "name": "Unit Price",
           "show": true
         },
         {
