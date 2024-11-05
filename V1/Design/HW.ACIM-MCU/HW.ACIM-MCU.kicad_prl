@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -83,7 +83,7 @@
   "project": {
     "files": [
       {
-        "name": "HW.ACIM-MCU.kicad_sch",
+        "name": "HW.ACIM-MCU.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
@@ -95,13 +95,13 @@
         }
       },
       {
-        "name": "HW.ACIM-MCU.kicad_pcb",
+        "name": "HW.ACIM-MCU.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
+          "pos_x": -1374,
+          "pos_y": 29,
           "size_x": 1382,
           "size_y": 748
         }
