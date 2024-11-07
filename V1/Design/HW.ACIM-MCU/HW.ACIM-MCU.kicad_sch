@@ -1760,6 +1760,159 @@
 				)
 			)
 		)
+		(symbol "SAMPI:GLED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GLED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GLED_0_1"
+				(polyline
+					(pts
+						(xy 0.635 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GLED_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.27 -3.175) (xy 2.54 -2.54) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 255 0 1)
+					)
+				)
+				(pin bidirectional line
+					(at -1.905 -2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.715 -2.54 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SAMPI:PIC32MKxxxxMCM064"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3278,133 +3431,6 @@
 				)
 			)
 		)
-		(symbol "SAMPI:SCREWHOLDER"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "SH1"
-				(at 2.54 -2.5399 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SCREW HOLDER"
-				(at 2.54 -5.0799 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Liem:HOLDER-3MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SCREWHOLDER_1_1"
-				(polyline
-					(pts
-						(xy -0.508 -5.588) (xy 0.508 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -4.826) (xy 0.508 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -4.064) (xy 0.508 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.302) (xy 0.508 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy -0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy 1.905 -1.27) (xy 1.905 -2.54) (xy 0.635 -2.54) (xy 0.635 -5.715) (xy 0 -6.35)
-						(xy -0.635 -5.715) (xy -0.635 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "SAMPI:XTAL-4P"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3850,6 +3876,12 @@
 		(uuid "4dcaac56-3a3c-4ff2-8785-71084ef3f45e")
 	)
 	(junction
+		(at 241.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64075bd0-5646-495a-9f72-a434ae1c703c")
+	)
+	(junction
 		(at 119.38 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4044,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "322b098e-a101-4ec6-a1be-ff3846bd1a9d")
+	)
+	(wire
+		(pts
+			(xy 242.57 86.36) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325f6fe9-ba7f-4cf4-8074-446993df4e42")
 	)
 	(wire
 		(pts
@@ -4257,6 +4299,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 85.09) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ebb2c8-e037-487c-84a2-7fa4963e299d")
+	)
+	(wire
+		(pts
 			(xy 119.38 149.86) (xy 119.38 151.13)
 		)
 		(stroke
@@ -4377,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdee4446-1d90-4b67-8830-20ec700d7715")
+	)
+	(wire
+		(pts
 			(xy 119.38 142.24) (xy 120.65 142.24)
 		)
 		(stroke
@@ -4444,6 +4506,16 @@
 			(type default)
 		)
 		(uuid "f9cf880b-5c55-4be3-be67-89bd8c9775a2")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 241.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0d9f8d-0129-4ffe-8b96-54bfa125befe")
 	)
 	(wire
 		(pts
@@ -4970,18 +5042,6 @@
 			)
 		)
 	)
-	(hierarchical_label "GP02"
-		(shape input)
-		(at 114.3 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ca8954c-4bce-40c6-9a49-7e79908725bf")
-	)
 	(hierarchical_label "ENC_A"
 		(shape output)
 		(at 40.005 157.48 0)
@@ -5004,22 +5064,22 @@
 			)
 		)
 	)
-	(hierarchical_label "MC_IDC_SEN"
+	(hierarchical_label "IDC_SEN"
 		(shape output)
-		(at 40.005 160.02 0)
+		(at 31.115 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "10c2a6b9-25ab-4eb0-8df3-dcc1506960d7")
 	)
 	(hierarchical_label "PGD"
 		(shape bidirectional)
-		(at 120.65 81.28 180)
+		(at 120.65 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5029,61 +5089,18 @@
 		)
 		(uuid "235a6985-f89e-4ad7-bf3a-a08be59f3db8")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "MC_PWM_UH"
 		(shape output)
-		(at 113.665 53.34 180)
+		(at 67.31 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
-		)
-		(uuid "25aa7418-cba9-4e10-ace1-470cc39941fd")
-		(property "Netclass" "SPI6"
-			(at 99.695 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(hierarchical_label "MC_PWM_UH"
-		(shape output)
-		(at 76.2 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
 		)
 		(uuid "2ba1fdf7-749f-405d-9685-662f13b2d752")
 		(property "Netclass" "PWM12H"
-			(at 90.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "SDO"
-		(shape output)
-		(at 31.115 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e1f75b8-4bd4-4014-9cb6-307f344944ff")
-		(property "Netclass" "SPI6"
-			(at 15.875 172.72 0)
+			(at 53.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,27 +5108,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "SDO"
-		(shape output)
-		(at 231.775 59.055 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30aff762-563a-4253-8d23-4d5621fab9e6")
-		(property "Netclass" "SPI6"
-			(at 247.015 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5139,56 +5135,23 @@
 	)
 	(hierarchical_label "MC_PWM_WH"
 		(shape output)
-		(at 76.2 172.72 0)
+		(at 67.31 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "32f18d56-d07b-47f6-90fe-b8b99fc96d44")
 		(property "Netclass" "PWM6H"
-			(at 90.805 172.72 0)
+			(at 52.705 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "IO1"
-		(shape bidirectional)
-		(at 40.005 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34d78ceb-64de-4740-bb09-860632d8165e")
-	)
-	(hierarchical_label "SDI"
-		(shape input)
-		(at 231.775 61.595 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a1410e6-1414-4c53-a677-72134a5596a6")
-		(property "Netclass" "SPI6"
-			(at 247.015 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5215,7 +5178,7 @@
 	)
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
-		(at 67.31 187.96 180)
+		(at 67.31 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5225,28 +5188,16 @@
 		)
 		(uuid "3d90f5ec-9f6d-4dff-9d30-c474bbb466c8")
 	)
-	(hierarchical_label "IO0"
-		(shape bidirectional)
-		(at 31.115 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41a9a8ea-e8c7-455a-bb88-a7f2b43ab9fe")
-	)
 	(hierarchical_label "MC_TEMP_SEN"
 		(shape output)
-		(at 76.2 160.02 0)
+		(at 67.31 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "442d61b4-f3a6-44f1-aeed-1a9ec587c02d")
 	)
@@ -5268,28 +5219,6 @@
 					(italic yes)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "SDI"
-		(shape input)
-		(at 40.005 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b457931-d373-4850-bdea-aca6c09dda8b")
-		(property "Netclass" "SPI6"
-			(at 55.245 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5316,21 +5245,9 @@
 			)
 		)
 	)
-	(hierarchical_label "IO3"
-		(shape bidirectional)
-		(at 40.005 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d642542-7915-49c0-9920-c93ae0746e6a")
-	)
 	(hierarchical_label "MC_TEMP_SEN"
 		(shape input)
-		(at 100.33 61.595 180)
+		(at 120.65 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5340,7 +5257,7 @@
 		)
 		(uuid "51f4de92-875e-4ac8-8ba9-e82c680350ea")
 		(property "Netclass" "ADCH7"
-			(at 85.725 61.595 0)
+			(at 106.045 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,31 +5267,9 @@
 			)
 		)
 	)
-	(hierarchical_label "SCK"
-		(shape output)
-		(at 40.005 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55425207-7ff5-44c3-9a6f-0f28872e4147")
-		(property "Netclass" "SPI6"
-			(at 53.975 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "PFC_PWM_B"
 		(shape output)
-		(at 114.3 96.52 180)
+		(at 84.455 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5383,7 +5278,7 @@
 		)
 		(uuid "57a92ba2-5bc3-453a-8ac2-263817360ae1")
 		(property "Netclass" "PWM2H"
-			(at 100.33 96.52 0)
+			(at 70.485 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,14 +5311,14 @@
 	)
 	(hierarchical_label "MC_VR_DIV"
 		(shape output)
-		(at 76.2 162.56 0)
+		(at 67.31 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5bd9eec8-09fc-4156-afb0-357bc6d35fa4")
 	)
@@ -5453,7 +5348,7 @@
 	)
 	(hierarchical_label "RXD1"
 		(shape input)
-		(at 115.57 71.12 180)
+		(at 120.65 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5462,7 +5357,7 @@
 		)
 		(uuid "67621b32-2f51-4e35-aa6c-f274dd4685de")
 		(property "Netclass" "UART1"
-			(at 101.6 71.12 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,27 +5369,27 @@
 	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
-		(at 67.31 170.18 180)
+		(at 76.2 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "68a21ef0-8885-4df2-9fb5-9ad3c37cb3a2")
 		(property "Netclass" "PWM5L"
-			(at 53.34 170.18 0)
+			(at 90.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(hierarchical_label "ENC_INDEX"
+	(hierarchical_label "ENC_IDX"
 		(shape input)
 		(at 212.09 78.74 0)
 		(effects
@@ -5517,7 +5412,7 @@
 	)
 	(hierarchical_label "~{MCLR}"
 		(shape input)
-		(at 212.09 86.36 0)
+		(at 242.57 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5573,7 +5468,7 @@
 	)
 	(hierarchical_label "~{INV_FLT}"
 		(shape output)
-		(at 67.31 165.1 180)
+		(at 67.31 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5585,20 +5480,20 @@
 	)
 	(hierarchical_label "PFC_IA_SEN"
 		(shape output)
-		(at 31.115 165.1 180)
+		(at 40.005 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "777299e6-e5ee-4ffd-9d1d-469d0d44b515")
 	)
 	(hierarchical_label "RXD2"
 		(shape input)
-		(at 115.57 68.58 180)
+		(at 120.65 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,7 +5502,7 @@
 		)
 		(uuid "7a27f3fb-d141-446a-9288-0515d86c2914")
 		(property "Netclass" "UART2"
-			(at 101.6 68.58 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5514,7 @@
 	)
 	(hierarchical_label "~{PFC_FLT}"
 		(shape input)
-		(at 215.9 68.58 0)
+		(at 229.87 65.405 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5628,7 +5523,7 @@
 		)
 		(uuid "8062bda6-ef58-43e9-9668-ccafaa5a81b9")
 		(property "Netclass" "FLT1"
-			(at 227.33 68.58 0)
+			(at 241.3 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,22 +5556,22 @@
 	)
 	(hierarchical_label "MC_PWM_WL"
 		(shape output)
-		(at 67.31 172.72 180)
+		(at 76.2 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8763563a-24ee-4c38-bb77-14667868cc0d")
 		(property "Netclass" "PWM6L"
-			(at 48.26 172.72 0)
+			(at 95.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5692,18 +5587,6 @@
 			(justify left)
 		)
 		(uuid "8d338b36-7251-4bd0-8886-fb5fab3c5654")
-	)
-	(hierarchical_label "~{CS}"
-		(shape output)
-		(at 31.115 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f1e89c1-0519-4c10-84d9-11dc43ca9a27")
 	)
 	(hierarchical_label "PFC_IB_SEN"
 		(shape input)
@@ -5750,7 +5633,7 @@
 	)
 	(hierarchical_label "TXD1"
 		(shape output)
-		(at 111.125 66.04 180)
+		(at 120.65 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5759,7 +5642,7 @@
 		)
 		(uuid "96d4fd99-db12-4ae3-a7a1-ead15f359ab3")
 		(property "Netclass" "UART1"
-			(at 97.155 66.04 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5667,7 @@
 	)
 	(hierarchical_label "MC_IU_SEN"
 		(shape input)
-		(at 120.65 43.18 180)
+		(at 120.65 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5793,8 +5676,8 @@
 			(justify right)
 		)
 		(uuid "996d082c-be89-4954-8612-b33c2dc12d83")
-		(property "Netclass" "ADCH3"
-			(at 106.68 43.18 0)
+		(property "Netclass" "ADCH0"
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5689,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 67.31 182.88 180)
+		(at 67.31 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5836,18 +5719,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "IO2"
-		(shape bidirectional)
-		(at 31.115 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2222ae5-8e77-44a8-866d-5904b17a2fd9")
 	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
@@ -5891,9 +5762,9 @@
 			)
 		)
 	)
-	(hierarchical_label "PFC_IDC"
+	(hierarchical_label "IDC_SEN"
 		(shape input)
-		(at 120.65 48.26 180)
+		(at 95.885 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5902,8 +5773,8 @@
 			(justify right)
 		)
 		(uuid "a9876386-62bc-454c-aef2-33ff6c52f4a3")
-		(property "Netclass" "ADCH0"
-			(at 106.68 48.26 0)
+		(property "Netclass" "ADCH4"
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5786,7 @@
 	)
 	(hierarchical_label "RXD2"
 		(shape input)
-		(at 67.31 177.8 180)
+		(at 67.31 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5924,7 +5795,7 @@
 		)
 		(uuid "a9baf7a4-9c8e-40a7-a8f8-5fc830300448")
 		(property "Netclass" "UART2"
-			(at 53.34 177.8 0)
+			(at 53.34 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5808,7 @@
 	)
 	(hierarchical_label "TXD2"
 		(shape output)
-		(at 76.2 177.8 0)
+		(at 76.2 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5946,7 +5817,7 @@
 		)
 		(uuid "aa74169c-cc94-48c2-ba24-ecc07aee62c1")
 		(property "Netclass" "UART2"
-			(at 90.17 177.8 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5830,7 @@
 	)
 	(hierarchical_label "MC_IU_SEN"
 		(shape output)
-		(at 76.2 157.48 0)
+		(at 76.2 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5984,41 +5855,29 @@
 	)
 	(hierarchical_label "MC_PWM_UL"
 		(shape output)
-		(at 67.31 167.64 180)
+		(at 76.2 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b21e3a26-61d4-46a4-b591-5928a2ac2f18")
 		(property "Netclass" "PWM12L"
-			(at 53.34 167.64 0)
+			(at 90.17 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(hierarchical_label "GP01"
-		(shape input)
-		(at 114.3 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4393909-0103-470f-ad09-235fbac185e8")
-	)
 	(hierarchical_label "VAC_DIV"
 		(shape output)
-		(at 31.115 162.56 180)
+		(at 31.115 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6031,7 +5890,7 @@
 	)
 	(hierarchical_label "PGC"
 		(shape input)
-		(at 120.65 78.74 180)
+		(at 120.65 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6099,7 +5958,7 @@
 	)
 	(hierarchical_label "TXD1"
 		(shape output)
-		(at 76.2 180.34 0)
+		(at 76.2 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6108,7 +5967,7 @@
 		)
 		(uuid "c2b4bfca-41db-448c-8e06-8ae94f802093")
 		(property "Netclass" "UART1"
-			(at 90.17 180.34 0)
+			(at 90.17 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,22 +5980,22 @@
 	)
 	(hierarchical_label "TXD2"
 		(shape output)
-		(at 233.68 53.975 0)
+		(at 120.65 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c4f50ffe-da95-404c-ac57-5c68e616deab")
 		(property "Netclass" "UART2"
-			(at 247.65 53.975 0)
+			(at 106.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6152,7 +6011,7 @@
 		)
 		(uuid "c50d8c37-1308-496a-b086-0e9c121c3b75")
 	)
-	(hierarchical_label "ENC_INDEX"
+	(hierarchical_label "ENC_IDX"
 		(shape input)
 		(at 31.115 154.94 180)
 		(effects
@@ -6174,9 +6033,9 @@
 			)
 		)
 	)
-	(hierarchical_label "MC_VDC_DIV"
+	(hierarchical_label "VDC_DIV"
 		(shape output)
-		(at 31.115 160.02 180)
+		(at 31.115 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6189,7 +6048,7 @@
 	)
 	(hierarchical_label "MC_IV_SEN"
 		(shape output)
-		(at 76.2 154.94 0)
+		(at 76.2 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6202,7 +6061,7 @@
 	)
 	(hierarchical_label "PFC_PWM_A"
 		(shape output)
-		(at 114.3 91.44 180)
+		(at 84.455 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6211,7 +6070,7 @@
 		)
 		(uuid "cefc4da2-5b81-4dfb-8611-41052b5f08ae")
 		(property "Netclass" "PWM3H"
-			(at 100.33 91.44 0)
+			(at 70.485 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,29 +6104,29 @@
 	)
 	(hierarchical_label "MC_PWM_VH"
 		(shape output)
-		(at 76.2 170.18 0)
+		(at 67.31 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d6669c0e-a138-41d4-b5dd-7609cf0cf1aa")
 		(property "Netclass" "PWM5H"
-			(at 90.17 170.18 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(hierarchical_label "PFC_PWM_ENA"
 		(shape output)
-		(at 114.3 93.98 180)
+		(at 84.455 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6276,7 +6135,7 @@
 		)
 		(uuid "d70e19f4-add4-4ef4-8771-da7575aad52f")
 		(property "Netclass" "PWM3L"
-			(at 100.33 93.98 0)
+			(at 70.485 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,9 +6145,9 @@
 			)
 		)
 	)
-	(hierarchical_label "MC_VDC_DIV"
+	(hierarchical_label "VDC_DIV"
 		(shape input)
-		(at 114.3 127 180)
+		(at 95.885 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6298,7 +6157,7 @@
 		)
 		(uuid "dbab19da-9635-4457-97d6-b36d88e431ec")
 		(property "Netclass" "ADCH7"
-			(at 100.33 127 0)
+			(at 81.915 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6169,7 @@
 	)
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
-		(at 67.31 185.42 180)
+		(at 67.31 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6320,9 +6179,9 @@
 		)
 		(uuid "dfe18754-42ad-47b8-8b69-af2ade085778")
 	)
-	(hierarchical_label "PFC_VAC_DIV"
+	(hierarchical_label "VAC_DIV"
 		(shape input)
-		(at 106.045 79.375 180)
+		(at 95.885 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6332,7 +6191,7 @@
 		)
 		(uuid "e48812ac-122f-4f89-a1bc-ccf05103dc2e")
 		(property "Netclass" "ADCH5"
-			(at 92.075 79.375 0)
+			(at 81.915 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6203,7 @@
 	)
 	(hierarchical_label "PFC_PWM_ENB"
 		(shape output)
-		(at 114.3 99.06 180)
+		(at 84.455 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6353,7 +6212,7 @@
 		)
 		(uuid "e4d2d0b6-8bf6-49db-8ccd-e741c4534acb")
 		(property "Netclass" "PWM2L"
-			(at 100.33 99.06 0)
+			(at 70.485 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6236,7 @@
 	)
 	(hierarchical_label "MC_IV_SEN"
 		(shape input)
-		(at 120.65 45.72 180)
+		(at 120.65 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6386,8 +6245,8 @@
 			(justify right)
 		)
 		(uuid "e74a9837-b49a-4cc4-8f5f-05eade87cf03")
-		(property "Netclass" "ADCH4"
-			(at 106.68 45.72 0)
+		(property "Netclass" "ADCH3"
+			(at 106.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6258,7 @@
 	)
 	(hierarchical_label "RXD1"
 		(shape input)
-		(at 67.31 180.34 180)
+		(at 67.31 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6408,7 +6267,7 @@
 		)
 		(uuid "ede43bec-4e8e-4080-a45a-feb0b195835f")
 		(property "Netclass" "UART1"
-			(at 53.34 180.34 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,21 +6325,29 @@
 	)
 	(hierarchical_label "MC_VR_DIV"
 		(shape input)
-		(at 97.155 46.99 180)
-		(fields_autoplaced yes)
+		(at 212.09 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fb134807-45fd-453b-8d13-14c8e75022b5")
+		(property "Netclass" "ADCH7"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "~{INV_FLT}"
 		(shape input)
-		(at 215.9 66.04 0)
-		(fields_autoplaced yes)
+		(at 212.09 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6488,18 +6355,29 @@
 			(justify left)
 		)
 		(uuid "fd4078c6-90b5-48f6-a7b6-6ca1e2b67d0d")
+		(property "Netclass" "FLT1"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
-		(lib_id "SAMPI:AVDD")
-		(at 31.115 182.88 90)
+		(lib_id "power:GND")
+		(at 241.3 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0868cdf7-626e-42e6-8931-706391a66551")
-		(property "Reference" "#PWR03"
-			(at 34.925 182.88 0)
+		(uuid "0346c4b7-df8a-4749-9b6f-d25bb7534842")
+		(property "Reference" "#PWR06"
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,8 +6385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AVDD"
-			(at 26.035 182.88 90)
+		(property "Value" "GND"
+			(at 241.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 182.88 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6404,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 182.88 0)
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672e8d04-3bc7-459a-9655-43f9448e4d66")
+		)
+		(instances
+			(project "HW.ACIM-MCU"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:AVDD")
+		(at 31.115 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0868cdf7-626e-42e6-8931-706391a66551")
+		(property "Reference" "#PWR03"
+			(at 34.925 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 26.035 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AVDD\""
-			(at 31.115 182.88 0)
+			(at 31.115 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7354,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:AGND")
-		(at 40.005 185.42 90)
+		(at 40.005 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7418,7 +7362,7 @@
 		(dnp no)
 		(uuid "3f5aa297-5c0d-4e0a-ba64-fb4b8a992538")
 		(property "Reference" "#PWR037"
-			(at 43.815 185.42 0)
+			(at 43.815 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7371,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 44.45 185.42 90)
+			(at 44.45 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 185.42 0)
+			(at 40.005 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 185.42 0)
+			(at 40.005 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.005 185.42 0)
+			(at 40.005 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:HD-2x15x1.27-TH"
+		(property "Footprint" "SAMPI:HD-2x15x1.27-SMD"
 			(at 71.755 193.675 0)
 			(effects
 				(font
@@ -7939,7 +7883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.005 190.5 90)
+		(at 76.2 154.94 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7948,7 +7892,7 @@
 		(dnp no)
 		(uuid "5aa965d5-b202-4bc0-85d4-6fd966244930")
 		(property "Reference" "#PWR041"
-			(at 46.355 190.5 0)
+			(at 82.55 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +7901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 190.5 90)
+			(at 80.645 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +7910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 190.5 0)
+			(at 76.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,7 +7919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 190.5 0)
+			(at 76.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +7928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.005 190.5 0)
+			(at 76.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,6 +8191,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 241.3 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7eb69933-a01b-4c09-b2d7-26e1d6825aa7")
+		(property "Reference" "#PWR07"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 241.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24cf8090-d1bc-44c6-aef5-bc9c3e44dc3f")
+		)
+		(instances
+			(project "HW.ACIM-MCU"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 158.75 0)
 		(mirror y)
@@ -8405,7 +8416,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.005 187.96 270)
+		(at 76.2 157.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8414,7 +8425,7 @@
 		(dnp no)
 		(uuid "851dfb65-d746-45c6-b470-8cd99f1504c3")
 		(property "Reference" "#PWR039"
-			(at 36.195 187.96 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8434,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 187.96 90)
+			(at 81.915 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 187.96 0)
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 187.96 0)
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +8461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.005 187.96 0)
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:HD-2x15x1.27-TH"
+		(property "Footprint" "SAMPI:HD-2x15x1.27-SMD"
 			(at 35.56 193.675 0)
 			(effects
 				(font
@@ -8777,7 +8788,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.115 187.96 90)
+		(at 67.31 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8785,7 +8796,7 @@
 		(dnp no)
 		(uuid "944d295c-9bea-43de-b59c-d2f550e5d081")
 		(property "Reference" "#PWR038"
-			(at 34.925 187.96 0)
+			(at 71.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8805,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 25.4 187.96 90)
+			(at 61.595 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 187.96 0)
+			(at 67.31 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 187.96 0)
+			(at 67.31 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.115 187.96 0)
+			(at 67.31 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,6 +9506,77 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:RES")
+		(at 238.76 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abc6a0bb-ba09-4291-b74c-8d0b82d40465")
+		(property "Reference" "R3"
+			(at 242.57 80.0099 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 242.57 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0402"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40c91449-2e05-4e7d-b29b-bfd794db5282")
+		)
+		(pin "1"
+			(uuid "ce8d29d4-8d4f-448d-888c-94e2496d283a")
+		)
+		(instances
+			(project "HW.ACIM-MCU"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 241.3 156.21 270)
 		(mirror x)
@@ -9586,7 +9668,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:AVDD")
-		(at 40.005 182.88 270)
+		(at 40.005 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9594,7 +9676,7 @@
 		(dnp no)
 		(uuid "adf52b63-a3b9-4869-9401-9f6613879c8f")
 		(property "Reference" "#PWR02"
-			(at 36.195 182.88 0)
+			(at 36.195 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9685,7 @@
 			)
 		)
 		(property "Value" "AVDD"
-			(at 45.085 182.88 90)
+			(at 45.085 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 182.88 0)
+			(at 40.005 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 182.88 0)
+			(at 40.005 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AVDD\""
-			(at 40.005 182.88 0)
+			(at 40.005 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9734,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:AGND")
-		(at 31.115 185.42 270)
+		(at 31.115 190.5 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9661,7 +9743,7 @@
 		(dnp no)
 		(uuid "aef1dcbe-7469-4440-8f15-540a34d4e744")
 		(property "Reference" "#PWR036"
-			(at 27.305 185.42 0)
+			(at 27.305 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9752,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 26.67 185.42 90)
+			(at 26.67 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 185.42 0)
+			(at 31.115 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +9770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 185.42 0)
+			(at 31.115 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.115 185.42 0)
+			(at 31.115 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.115 190.5 270)
+		(at 67.31 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9860,7 +9942,7 @@
 		(dnp no)
 		(uuid "c43276b2-b064-47d6-a328-35f1023854bd")
 		(property "Reference" "#PWR040"
-			(at 24.765 190.5 0)
+			(at 60.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +9951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 190.5 90)
+			(at 62.865 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 190.5 0)
+			(at 67.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +9969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 190.5 0)
+			(at 67.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +9978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.115 190.5 0)
+			(at 67.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,8 +10310,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RLED")
-		(at 269.24 123.19 270)
+		(lib_id "SAMPI:GLED")
+		(at 267.335 122.555 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10238,7 +10320,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6807497-f3e1-4ec7-aa0b-45ac0e2f1901")
 		(property "Reference" "D1"
-			(at 266.7 123.1899 90)
+			(at 267.335 123.1899 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10248,7 +10330,7 @@
 			)
 		)
 		(property "Value" "SLED"
-			(at 266.7 125.7299 90)
+			(at 267.335 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10339,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:LED0603"
-			(at 269.24 123.19 0)
+			(at 267.335 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 123.19 0)
+			(at 267.335 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 123.19 0)
+			(at 267.335 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,70 +10519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:SCREWHOLDER")
-		(at 95.25 184.785 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec53b7dd-100b-4fb4-9150-daaa42fbc655")
-		(property "Reference" "SH1"
-			(at 93.98 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCREW HOLDER"
-			(at 97.79 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMPI:HOLDER-2.2MM"
-			(at 95.25 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "SH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 214.63 96.52 270)
 		(mirror x)
@@ -10568,35 +10586,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 190.5 270)
+		(lib_id "SAMPI:CERCAP")
+		(at 243.84 92.71 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3f676ff-b30a-493f-bfdc-4307e4d667b6")
-		(property "Reference" "#PWR042"
-			(at 60.96 190.5 0)
+		(uuid "f793b299-44e3-4d2f-b42f-e3e761bbdf55")
+		(property "Reference" "C1"
+			(at 245.745 90.17 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.865 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 					(bold yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 190.5 0)
+		(property "Value" "22pF"
+			(at 247.015 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SAMPI:CAP0402"
+			(at 243.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 190.5 0)
+			(at 243.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10633,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 190.5 0)
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 243.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,12 +10660,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "94a9d7a1-043b-419b-bec6-e6efc2f3e9e6")
+			(uuid "aae2dc5a-4344-46c7-98a7-63c5ee6bd7db")
+		)
+		(pin "2"
+			(uuid "78a007bf-efe9-4cf7-b79d-29d00eb49380")
 		)
 		(instances
 			(project "HW.ACIM-MCU"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "#PWR042")
+					(reference "C1")
 					(unit 1)
 				)
 			)

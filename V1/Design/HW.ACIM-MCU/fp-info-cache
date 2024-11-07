@@ -1,4 +1,4 @@
-2002494957645867
+2045816773930022
 Liem
 6-WLCSP
 
@@ -153,6 +153,20 @@ C16QS
 0
 102
 102
+Liem
+C41QS
+
+
+0
+58
+58
+Liem
+C41QS-xE310-Adaptor
+
+
+0
+94
+94
 Liem
 C42QM
 
@@ -900,8 +914,8 @@ ITRON-MIU-SENSOR
 
 
 0
-30
-10
+27
+9
 Liem
 JP0603
 
@@ -1103,7 +1117,7 @@ QFN-24-4x4-EP
 QFN, 24 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/hmc431.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-29
+25
 25
 Liem
 QFN16
@@ -1190,12 +1204,26 @@ RPDBG_TESTPIN
 10
 10
 Liem
+RPR-0720
+
+
+0
+6
+6
+Liem
 RV-8263-C7
 
 
 0
 8
 8
+Liem
+SC70-3_SOT-323
+
+
+0
+3
+3
 Liem
 SCAP1320
 
@@ -1317,6 +1345,13 @@ SOD-123FL_12
 2
 Liem
 SOD-123_12
+
+
+0
+2
+2
+Liem
+SOD-128_PMDTM
 
 
 0
@@ -3934,6 +3969,13 @@ HD-2x15x0.4-SMD
 30
 30
 SAMPI
+HD-2x15x1.27-SMD
+
+
+0
+30
+30
+SAMPI
 HD-2x15x1.27-TH
 
 
@@ -6062,6 +6104,13 @@ LED-0603
 2
 2
 Triet_KiCAD_Fprint
+LED_Combo
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 LFP 22mAh
 
 
@@ -6265,6 +6314,20 @@ MapleMini_Base
 0
 0
 Triet_KiCAD_Fprint
+Mini PCIe Full Outline
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+Mini PCIe Half Outline
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
 MiniMELF
 
 
@@ -6356,6 +6419,76 @@ PAD_TH_D.1mm
 1
 1
 Triet_KiCAD_Fprint
+PCB_PCIe _Full_Interface
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Full_MCU
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Full_Power
+
+
+0
+54
+3
+Triet_KiCAD_Fprint
+PCB_PCIe_Full_Sensor
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Full_Wireless
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Half_Interface
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Half_MCU
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Half_Power
+
+
+0
+54
+3
+Triet_KiCAD_Fprint
+PCB_PCIe_Half_Sensor
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_PCIe_Half_Wireless
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
 PCC-M0648M-LE
 IND_7.4x7.0x4.8
 
@@ -6439,6 +6572,13 @@ RX480E
 0
 7
 7
+Triet_KiCAD_Fprint
+R_Combo
+
+
+0
+2
+2
 Triet_KiCAD_Fprint
 Res0402
 
@@ -6831,6 +6971,41 @@ Socket_Bluetooth
 0
 6
 6
+Triet_KiCAD_Fprint
+Socket_PCIe_Interface
+
+
+0
+54
+53
+Triet_KiCAD_Fprint
+Socket_PCIe_MCU
+
+
+0
+54
+53
+Triet_KiCAD_Fprint
+Socket_PCIe_Power
+
+
+0
+54
+53
+Triet_KiCAD_Fprint
+Socket_PCIe_Sensor
+
+
+0
+54
+53
+Triet_KiCAD_Fprint
+Socket_PCIe_Wireless
+
+
+0
+54
+53
 Triet_KiCAD_Fprint
 T60403-K5024-X044
 
