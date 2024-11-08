@@ -1,13 +1,13 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       ""
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -84,7 +84,7 @@
     "files": [
       {
         "name": "HW.ACIM-MCU.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": true,

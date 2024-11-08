@@ -5042,6 +5042,41 @@
 			)
 		)
 	)
+	(hierarchical_label "MC_VV_DIV"
+		(shape output)
+		(at 67.31 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify right)
+		)
+		(uuid "0851a48c-be94-40fe-82f4-a8991f79a860")
+	)
+	(hierarchical_label "IO03"
+		(shape bidirectional)
+		(at 31.115 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09de78b5-25df-49c6-a737-58bd7b021baa")
+		(property "Netclass" "UART2"
+			(at 17.145 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "ENC_A"
 		(shape output)
 		(at 40.005 157.48 0)
@@ -5077,6 +5112,116 @@
 		)
 		(uuid "10c2a6b9-25ab-4eb0-8df3-dcc1506960d7")
 	)
+	(hierarchical_label "IO07"
+		(shape bidirectional)
+		(at 31.115 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11ceff10-c4be-4b6f-bce6-ea18aa186544")
+		(property "Netclass" "UART2"
+			(at 17.145 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO10"
+		(shape bidirectional)
+		(at 40.005 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13fb25eb-9d6f-4cfd-9ad6-8405ecec6a94")
+		(property "Netclass" "UART2"
+			(at 53.975 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "RTS2"
+		(shape output)
+		(at 120.65 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b479436-19aa-4383-8b2b-6308f49d574f")
+		(property "Netclass" "UART2"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO01"
+		(shape bidirectional)
+		(at 31.115 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ced392c-ca7b-43b5-9182-ed1badfc8d65")
+		(property "Netclass" "UART2"
+			(at 17.145 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO04"
+		(shape bidirectional)
+		(at 120.65 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "209de03e-7dd7-4c55-a771-c2e91faf0964")
+		(property "Netclass" "UART2"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "PGD"
 		(shape bidirectional)
 		(at 120.65 78.74 180)
@@ -5089,9 +5234,44 @@
 		)
 		(uuid "235a6985-f89e-4ad7-bf3a-a08be59f3db8")
 	)
+	(hierarchical_label "IO02"
+		(shape bidirectional)
+		(at 40.005 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26d32a6c-544b-4400-b0e0-c29664cae470")
+		(property "Netclass" "UART2"
+			(at 53.975 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "MC_VU_DIV"
+		(shape output)
+		(at 67.31 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify right)
+		)
+		(uuid "28547f3a-b5a7-4df7-920a-5a114b0a1e52")
+	)
 	(hierarchical_label "MC_PWM_UH"
 		(shape output)
-		(at 67.31 165.1 180)
+		(at 67.31 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5100,7 +5280,7 @@
 		)
 		(uuid "2ba1fdf7-749f-405d-9685-662f13b2d752")
 		(property "Netclass" "PWM12H"
-			(at 53.34 165.1 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5315,7 @@
 	)
 	(hierarchical_label "MC_PWM_WH"
 		(shape output)
-		(at 67.31 170.18 180)
+		(at 67.31 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,7 +5324,7 @@
 		)
 		(uuid "32f18d56-d07b-47f6-90fe-b8b99fc96d44")
 		(property "Netclass" "PWM6H"
-			(at 52.705 170.18 0)
+			(at 52.705 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,6 +5356,28 @@
 			)
 		)
 	)
+	(hierarchical_label "IO08"
+		(shape bidirectional)
+		(at 40.005 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d3c3579-6ded-415c-930b-567dccbfe455")
+		(property "Netclass" "UART2"
+			(at 53.975 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 67.31 185.42 180)
@@ -5188,9 +5390,53 @@
 		)
 		(uuid "3d90f5ec-9f6d-4dff-9d30-c474bbb466c8")
 	)
+	(hierarchical_label "IO05"
+		(shape bidirectional)
+		(at 120.65 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e29376d-321e-42de-acb6-1277e7430c38")
+		(property "Netclass" "UART2"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO03"
+		(shape bidirectional)
+		(at 120.65 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f1fd65a-b2f6-4043-bdfc-bdcdd0c7dfdb")
+		(property "Netclass" "UART2"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_TEMP_SEN"
 		(shape output)
-		(at 67.31 160.02 180)
+		(at 67.31 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5200,6 +5446,28 @@
 			(justify right)
 		)
 		(uuid "442d61b4-f3a6-44f1-aeed-1a9ec587c02d")
+	)
+	(hierarchical_label "IO02"
+		(shape bidirectional)
+		(at 212.09 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45c32c3f-ba25-42b4-9994-da62f27dc9d3")
+		(property "Netclass" "UART2"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "ENC_HOME"
 		(shape input)
@@ -5245,6 +5513,28 @@
 			)
 		)
 	)
+	(hierarchical_label "IO04"
+		(shape bidirectional)
+		(at 40.005 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fa906ab-631a-4062-93b2-65d81772cd6f")
+		(property "Netclass" "UART2"
+			(at 53.975 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_TEMP_SEN"
 		(shape input)
 		(at 120.65 88.9 180)
@@ -5269,7 +5559,7 @@
 	)
 	(hierarchical_label "PFC_PWM_B"
 		(shape output)
-		(at 84.455 96.52 180)
+		(at 120.65 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5278,7 +5568,7 @@
 		)
 		(uuid "57a92ba2-5bc3-453a-8ac2-263817360ae1")
 		(property "Netclass" "PWM2H"
-			(at 70.485 96.52 0)
+			(at 106.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,16 +5599,38 @@
 			)
 		)
 	)
+	(hierarchical_label "IO09"
+		(shape bidirectional)
+		(at 31.115 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a1fcce3-6904-410f-8de7-638153974663")
+		(property "Netclass" "UART2"
+			(at 17.145 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_VR_DIV"
 		(shape output)
-		(at 67.31 162.56 180)
+		(at 76.2 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 200 100 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5bd9eec8-09fc-4156-afb0-357bc6d35fa4")
 	)
@@ -5346,6 +5658,28 @@
 		)
 		(uuid "632247d9-bd81-4259-aaab-5c16a9327bfd")
 	)
+	(hierarchical_label "IO08"
+		(shape bidirectional)
+		(at 120.65 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6564a804-bc7c-47ec-983b-24232fa0d990")
+		(property "Netclass" "UART2"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "RXD1"
 		(shape input)
 		(at 120.65 134.62 180)
@@ -5367,9 +5701,31 @@
 			)
 		)
 	)
+	(hierarchical_label "MC_VU_DIV"
+		(shape input)
+		(at 120.65 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify right)
+		)
+		(uuid "6834c8df-2933-4584-8982-31c54f4dd82b")
+		(property "Netclass" "ADCH0"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
-		(at 76.2 167.64 0)
+		(at 76.2 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5378,13 +5734,35 @@
 		)
 		(uuid "68a21ef0-8885-4df2-9fb5-9ad3c37cb3a2")
 		(property "Netclass" "PWM5L"
-			(at 90.17 167.64 0)
+			(at 90.17 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO05"
+		(shape bidirectional)
+		(at 31.115 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a1d5c6b-b9f1-4feb-bb89-fe48595f35c0")
+		(property "Netclass" "UART2"
+			(at 17.145 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5444,6 +5822,28 @@
 			)
 		)
 	)
+	(hierarchical_label "IO00"
+		(shape bidirectional)
+		(at 76.2 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7060d16d-f6b0-4258-9f67-811f69c829cd")
+		(property "Netclass" "UART2"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "PFC_PWM_ENA"
 		(shape input)
 		(at 31.115 167.64 180)
@@ -5468,7 +5868,7 @@
 	)
 	(hierarchical_label "~{INV_FLT}"
 		(shape output)
-		(at 67.31 172.72 180)
+		(at 67.31 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5514,22 +5914,22 @@
 	)
 	(hierarchical_label "~{PFC_FLT}"
 		(shape input)
-		(at 229.87 65.405 0)
+		(at 120.65 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8062bda6-ef58-43e9-9668-ccafaa5a81b9")
-		(property "Netclass" "FLT1"
-			(at 241.3 65.405 0)
+		(property "Netclass" "OCFB"
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5556,7 +5956,7 @@
 	)
 	(hierarchical_label "MC_PWM_WL"
 		(shape output)
-		(at 76.2 170.18 0)
+		(at 76.2 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5565,13 +5965,35 @@
 		)
 		(uuid "8763563a-24ee-4c38-bb77-14667868cc0d")
 		(property "Netclass" "PWM6L"
-			(at 95.25 170.18 0)
+			(at 95.25 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CTS2"
+		(shape input)
+		(at 212.09 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cf09d02-af1c-40aa-804c-a3bbaea355e8")
+		(property "Netclass" "UART2"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5590,7 +6012,7 @@
 	)
 	(hierarchical_label "PFC_IB_SEN"
 		(shape input)
-		(at 120.65 111.76 180)
+		(at 120.65 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,8 +6021,8 @@
 			(justify right)
 		)
 		(uuid "909eebcf-2c9e-494f-9441-85d2fe5aaa5f")
-		(property "Netclass" "ADCH1"
-			(at 106.045 111.76 0)
+		(property "Netclass" "ADCH4"
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,6 +6142,28 @@
 			)
 		)
 	)
+	(hierarchical_label "IO06"
+		(shape bidirectional)
+		(at 120.65 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2a8e67d-4a6b-4ac4-a067-46564a4e35f5")
+		(property "Netclass" "UART2"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
 		(at 120.65 124.46 180)
@@ -5764,7 +6208,7 @@
 	)
 	(hierarchical_label "IDC_SEN"
 		(shape input)
-		(at 95.885 58.42 180)
+		(at 120.65 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5773,8 +6217,8 @@
 			(justify right)
 		)
 		(uuid "a9876386-62bc-454c-aef2-33ff6c52f4a3")
-		(property "Netclass" "ADCH4"
-			(at 81.915 58.42 0)
+		(property "Netclass" "ADCH2"
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,9 +6297,31 @@
 		)
 		(uuid "af22868d-ae4a-4365-9be4-40137d50141a")
 	)
+	(hierarchical_label "RTS2"
+		(shape input)
+		(at 67.31 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b12f36ce-4ae3-4055-8d21-ad8b9a272871")
+		(property "Netclass" "UART2"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_PWM_UL"
 		(shape output)
-		(at 76.2 165.1 0)
+		(at 76.2 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5864,13 +6330,35 @@
 		)
 		(uuid "b21e3a26-61d4-46a4-b591-5928a2ac2f18")
 		(property "Netclass" "PWM12L"
-			(at 90.17 165.1 0)
+			(at 90.17 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO10"
+		(shape bidirectional)
+		(at 120.65 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4680b88-d3d7-4142-800f-80651709a0ec")
+		(property "Netclass" "UART2"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5899,6 +6387,28 @@
 			(justify right)
 		)
 		(uuid "b5e0ef97-96cb-428f-b8ee-78f3ee788bcd")
+	)
+	(hierarchical_label "IO01"
+		(shape bidirectional)
+		(at 212.09 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8e6f51c-5583-482b-a46a-b880c489726f")
+		(property "Netclass" "UART2"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "PFC_PWM_ENB"
 		(shape input)
@@ -6059,9 +6569,53 @@
 		)
 		(uuid "c98acb4d-b31a-496d-b555-d78e440c10ea")
 	)
+	(hierarchical_label "CTS2"
+		(shape output)
+		(at 76.2 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd0ecb9b-1b02-472b-94b7-47409ddfafda")
+		(property "Netclass" "UART2"
+			(at 90.17 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "MC_VV_DIV"
+		(shape input)
+		(at 120.65 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify right)
+		)
+		(uuid "cd7ee290-c65f-42cb-b241-40fdb42238b0")
+		(property "Netclass" "ADCH3"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "PFC_PWM_A"
 		(shape output)
-		(at 84.455 91.44 180)
+		(at 120.65 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6070,7 +6624,7 @@
 		)
 		(uuid "cefc4da2-5b81-4dfb-8611-41052b5f08ae")
 		(property "Netclass" "PWM3H"
-			(at 70.485 91.44 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6636,7 @@
 	)
 	(hierarchical_label "PFC_IA_SEN"
 		(shape input)
-		(at 120.65 109.22 180)
+		(at 120.65 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6091,8 +6645,8 @@
 			(justify right)
 		)
 		(uuid "d050d15c-52f8-4da7-81d3-8f8d2a675ce8")
-		(property "Netclass" "ADCH2"
-			(at 106.045 109.22 0)
+		(property "Netclass" "ADCH1"
+			(at 106.045 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,9 +6656,31 @@
 			)
 		)
 	)
+	(hierarchical_label "IO09"
+		(shape bidirectional)
+		(at 120.65 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d55467dd-d536-4193-945e-2987078266ed")
+		(property "Netclass" "UART2"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MC_PWM_VH"
 		(shape output)
-		(at 67.31 167.64 180)
+		(at 67.31 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6113,7 +6689,7 @@
 		)
 		(uuid "d6669c0e-a138-41d4-b5dd-7609cf0cf1aa")
 		(property "Netclass" "PWM5H"
-			(at 53.34 167.64 0)
+			(at 53.34 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6702,7 @@
 	)
 	(hierarchical_label "PFC_PWM_ENA"
 		(shape output)
-		(at 84.455 93.98 180)
+		(at 120.65 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6134,20 +6710,10 @@
 			(justify right)
 		)
 		(uuid "d70e19f4-add4-4ef4-8771-da7575aad52f")
-		(property "Netclass" "PWM3L"
-			(at 70.485 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
 	)
 	(hierarchical_label "VDC_DIV"
 		(shape input)
-		(at 95.885 60.96 180)
+		(at 120.65 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6156,8 +6722,8 @@
 			(justify right)
 		)
 		(uuid "dbab19da-9635-4457-97d6-b36d88e431ec")
-		(property "Netclass" "ADCH7"
-			(at 81.915 60.96 0)
+		(property "Netclass" "ADCH5"
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6747,7 @@
 	)
 	(hierarchical_label "VAC_DIV"
 		(shape input)
-		(at 95.885 63.5 180)
+		(at 120.65 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6191,7 +6757,7 @@
 		)
 		(uuid "e48812ac-122f-4f89-a1bc-ccf05103dc2e")
 		(property "Netclass" "ADCH5"
-			(at 81.915 63.5 0)
+			(at 106.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6769,7 @@
 	)
 	(hierarchical_label "PFC_PWM_ENB"
 		(shape output)
-		(at 84.455 99.06 180)
+		(at 120.65 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6211,28 +6777,28 @@
 			(justify right)
 		)
 		(uuid "e4d2d0b6-8bf6-49db-8ccd-e741c4534acb")
-		(property "Netclass" "PWM2L"
-			(at 70.485 99.06 0)
+	)
+	(hierarchical_label "IO07"
+		(shape bidirectional)
+		(at 120.65 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e58f23a3-143c-40b2-b336-a18b6a1fabb7")
+		(property "Netclass" "UART2"
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "IO0"
-		(shape input)
-		(at 238.125 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6b254a3-1e4e-4df5-b012-2cc3aa037e6d")
 	)
 	(hierarchical_label "MC_IV_SEN"
 		(shape input)
@@ -6366,6 +6932,50 @@
 			)
 		)
 	)
+	(hierarchical_label "IO06"
+		(shape bidirectional)
+		(at 40.005 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe0c6b5f-5c10-4598-852d-3e494e1f3d72")
+		(property "Netclass" "UART2"
+			(at 53.975 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IO00"
+		(shape bidirectional)
+		(at 212.09 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff89f328-cdd8-4081-a3a4-d3f467105668")
+		(property "Netclass" "UART2"
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 241.3 95.25 0)
@@ -6494,6 +7104,72 @@
 			(project "HW.ACIM-MCU"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.115 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d6e2bc7-12c1-4e37-a0ac-e424257742b4")
+		(property "Reference" "#PWR08"
+			(at 24.765 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3246f1-e539-4d2b-9cb4-95a90386b08d")
+		)
+		(instances
+			(project "HW.ACIM-MCU"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7570,6 +8246,73 @@
 			(project "HW.ACIM-MCU"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.005 185.42 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7d9a6c-1d80-4565-835e-95ae18e5d79e")
+		(property "Reference" "#PWR09"
+			(at 46.355 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.005 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8681fbc-51ad-470b-ac67-1d1018beb021")
+		)
+		(instances
+			(project "HW.ACIM-MCU"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
