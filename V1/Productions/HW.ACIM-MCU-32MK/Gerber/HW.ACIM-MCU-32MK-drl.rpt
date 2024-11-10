@@ -1,0 +1,24 @@
+Drill report for HW.ACIM-MCU-32MK.kicad_pcb
+Created on 2024-11-10T20:51:13+0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'HW.ACIM-MCU-32MK-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (125 holes)
+
+    Total plated holes count 125
+
+
+Drill file 'HW.ACIM-MCU-32MK-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
