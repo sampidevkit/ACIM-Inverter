@@ -3758,7 +3758,7 @@
 	)
 	(hierarchical_label "HOME"
 		(shape input)
-		(at 92.075 33.02 180)
+		(at 99.695 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3806,7 +3806,7 @@
 	)
 	(hierarchical_label "ENC_A"
 		(shape input)
-		(at 75.565 109.855 180)
+		(at 83.185 109.855 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3854,7 +3854,7 @@
 	)
 	(hierarchical_label "ENC_B"
 		(shape input)
-		(at 92.075 90.805 180)
+		(at 99.695 90.805 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3878,7 +3878,7 @@
 	)
 	(hierarchical_label "INDEX"
 		(shape input)
-		(at 75.565 52.07 180)
+		(at 83.185 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4015,119 +4015,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:RES")
-		(at 94.615 88.265 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0be0569f-e971-457c-81a9-74a371729f08")
-		(property "Reference" "R67"
-			(at 95.885 88.265 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 95.885 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 94.615 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af0abfc-b622-435f-a0ed-ca55313aa699")
-		)
-		(pin "2"
-			(uuid "52a78132-7187-49f0-a4d1-22c918a09386")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -5810,119 +5697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RES")
-		(at 78.105 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "530bb50f-3665-4fab-9ad4-58a0572a0b53")
-		(property "Reference" "R44"
-			(at 79.375 49.53 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 79.375 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 78.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71028c23-e357-4081-a90a-a989516ca0d6")
-		)
-		(pin "2"
-			(uuid "ccc22a14-b962-42ca-8dd1-87397e7f8528")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 123.825 0)
 		(unit 1)
@@ -6050,119 +5824,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:RES")
-		(at 78.105 107.315 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63328cd7-5847-47e9-94d5-bf6a066b46fb")
-		(property "Reference" "R56"
-			(at 79.375 107.315 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 79.375 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 78.105 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06a7bde0-7cfe-4c0e-ad33-11cfc13500f5")
-		)
-		(pin "2"
-			(uuid "5ffc1982-370c-421e-b2d5-32225e6a8d2c")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -8080,119 +7741,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR0187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:RES")
-		(at 94.615 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "caa5952e-10df-4b9c-80a9-8facd11cd57f")
-		(property "Reference" "R62"
-			(at 95.885 30.48 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 95.885 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 94.615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "570ccbd1-bbd9-403f-8549-1c1058a8ddda")
-		)
-		(pin "2"
-			(uuid "7c49b7f5-e0ba-4b50-b8a2-5bd78229e7b5")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "R62")
 					(unit 1)
 				)
 			)

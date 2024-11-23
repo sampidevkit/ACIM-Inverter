@@ -23,3 +23,5 @@
 11. [IKCM15H60GA - CIPOS Mini 600 V, 15 A three-phase intelligent power module Datasheet](https://www.infineon.com/dgdl/Infineon-IKCM15H60GA-DS-v02_04-EN.pdf?fileId=5546d4624fb7fef2014fcb68016c78ec).
 
 12. [ACS724 - y Isolated Current Sensor IC with Common-Mode Field Rejection Datasheet](https://www.allegromicro.com/~/media/files/datasheets/acs724-datasheet.ashx).
+
+13. [Incremental Rotary Encoder OD 40 dia - E6B2-C Datasheet](https://www.mouser.com/datasheet/2/307/e6b2-c_ds_csm491-25665.pdf).
