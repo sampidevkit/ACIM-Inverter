@@ -463,7 +463,9 @@
       "Liem",
       "SAMPI"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SAMPI"
+    ]
   },
   "meta": {
     "filename": "HW.ACIM-MCU-32MK.kicad_pro",
@@ -661,7 +663,7 @@
       "plot": "../../Productions/HW.ACIM-MCU-32MK/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../Productions/HW.ACIM-MCU-32MK/3D/HW.ACIM-MCU-32MK.step",
+      "step": "../../../../../../CADLib/model3d/Source/HW.ACIM-MCU-32MK.step",
       "svg": "",
       "vrml": ""
     },

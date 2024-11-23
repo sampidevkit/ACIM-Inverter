@@ -113,7 +113,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 114.488207 105.195707)
+		(grid_origin 84.3375 112.655)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -11969,16 +11969,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ed1cd072-2f65-411b-8e59-9fdd3fca9086")
-	)
-	(gr_line
-		(start 102.53628 92.361853)
-		(end 101.993996 91.819569)
-		(stroke
-			(width 0.01)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "7bc8506d-412a-41b3-9876-fea9a126b271")
 	)
 	(gr_rect
 		(start 84.3375 92.655)
