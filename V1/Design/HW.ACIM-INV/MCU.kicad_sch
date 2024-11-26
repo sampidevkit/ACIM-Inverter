@@ -14,1199 +14,6 @@
 		(comment 3 "Approved by ...")
 	)
 	(lib_symbols
-		(symbol "HW.ACIM-MCU_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Value" "ACIM-MCU"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SAMPI:HW.ACIM-MCU"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ACIM-MCU BOARD"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MNP" "HW.ACIM-MCU-MK0"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFT" "SAMPI"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HW.ACIM-MCU_1_1_0"
-				(pin output line
-					(at 13.335 -30.48 180)
-					(length 2.54)
-					(name "DEV_RELAY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -27.94 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.335 -27.94 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -25.4 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.335 -25.4 180)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -22.86 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -22.86 180)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -20.32 0)
-					(length 2.54)
-					(name "PFC_PWM_ENB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.335 -20.32 180)
-					(length 2.54)
-					(name "PFC_PWM_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -17.78 0)
-					(length 2.54)
-					(name "PFC_PWM_ENA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -14.605 -40.64 0)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.335 -17.78 180)
-					(length 2.54)
-					(name "PFC_PWM_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -15.24 0)
-					(length 2.54)
-					(name "VAC_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -15.24 180)
-					(length 2.54)
-					(name "~{PFC_FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -12.7 0)
-					(length 2.54)
-					(name "VDC_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -12.7 180)
-					(length 2.54)
-					(name "PFC_IB_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -10.16 0)
-					(length 2.54)
-					(name "IDC_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -10.16 180)
-					(length 2.54)
-					(name "PFC_IA_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -7.62 0)
-					(length 2.54)
-					(name "ENC_HOME"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -7.62 180)
-					(length 2.54)
-					(name "ENC_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -5.08 0)
-					(length 2.54)
-					(name "ENC_IDX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.335 -40.64 180)
-					(length 2.54)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -5.08 180)
-					(length 2.54)
-					(name "ENC_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -14.605 -38.1 0)
-					(length 2.54)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.335 -38.1 180)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -14.605 -35.56 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.335 -35.56 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -14.605 -33.02 0)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.335 -33.02 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -14.605 -30.48 0)
-					(length 2.54)
-					(name "PWR_RELAY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HW.ACIM-MCU_1_1_1"
-				(rectangle
-					(start -12.065 -3.175)
-					(end 10.795 -42.545)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "LEFT"
-					(at 0 -41.275 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "HW.ACIM-MCU_1_2_0"
-				(pin output line
-					(at 13.97 -30.48 180)
-					(length 2.54)
-					(name "DV_TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -27.94 0)
-					(length 2.54)
-					(name "DV_RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -27.94 180)
-					(length 2.54)
-					(name "DV_CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -25.4 0)
-					(length 2.54)
-					(name "~{MC_PWM_FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -25.4 180)
-					(length 2.54)
-					(name "~{BUTTON}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -22.86 0)
-					(length 2.54)
-					(name "MC_PWM_WH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -22.86 180)
-					(length 2.54)
-					(name "MC_PWM_WL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -20.32 0)
-					(length 2.54)
-					(name "MC_PWM_VH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -20.32 180)
-					(length 2.54)
-					(name "MC_PWM_VL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -17.78 0)
-					(length 2.54)
-					(name "MC_PWM_UH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -40.64 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -17.78 180)
-					(length 2.54)
-					(name "MC_PWM_UL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -15.24 0)
-					(length 2.54)
-					(name "MC_TEMP_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -15.24 180)
-					(length 2.54)
-					(name "MC_VR_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -12.7 0)
-					(length 2.54)
-					(name "MC_VU_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -12.7 180)
-					(length 2.54)
-					(name "MC_IU_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -10.16 0)
-					(length 2.54)
-					(name "MC_VV_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -10.16 180)
-					(length 2.54)
-					(name "MC_IV_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -7.62 180)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.97 -40.64 180)
-					(length 2.54)
-					(name "PGD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -38.1 0)
-					(length 2.54)
-					(name "USB_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -38.1 180)
-					(length 2.54)
-					(name "PGC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -35.56 0)
-					(length 2.54)
-					(name "USB_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -35.56 180)
-					(length 2.54)
-					(name "~{MCLR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -33.02 0)
-					(length 2.54)
-					(name "DB_RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -33.02 180)
-					(length 2.54)
-					(name "DB_TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -30.48 0)
-					(length 2.54)
-					(name "DV_RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HW.ACIM-MCU_1_2_1"
-				(rectangle
-					(start -11.43 -3.175)
-					(end 11.43 -42.545)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "RIGHT"
-					(at 0.635 -41.275 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SAMPI:AGND"
 			(power)
 			(pin_names
@@ -2946,7 +1753,7 @@
 				(pin input line
 					(at -14.605 -15.24 0)
 					(length 2.54)
-					(name "VAC_DIV"
+					(name "UAC_DIV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2982,7 +1789,7 @@
 				(pin input line
 					(at -14.605 -12.7 0)
 					(length 2.54)
-					(name "VDC_DIV"
+					(name "UDC_DIV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3347,7 +2154,7 @@
 				(pin input line
 					(at -13.97 -25.4 0)
 					(length 2.54)
-					(name "~{INV_FLT}"
+					(name "~{MC_PWM_FLT}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3545,7 +2352,7 @@
 				(pin input line
 					(at -13.97 -12.7 0)
 					(length 2.54)
-					(name "MC_VU_DIV"
+					(name "MC_UU_DIV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3581,7 +2388,7 @@
 				(pin input line
 					(at -13.97 -10.16 0)
 					(length 2.54)
-					(name "MC_VV_DIV"
+					(name "MC_UV_DIV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5355,12 +4162,40 @@
 		(uuid "fa2dad18-4bd0-423b-a4cb-f9e163bca51c")
 	)
 	(no_connect
+		(at 116.205 77.47)
+		(uuid "21690ade-918f-407c-ba28-1493228d5886")
+	)
+	(no_connect
 		(at 116.205 92.71)
 		(uuid "2924907a-d5a1-40eb-9498-17f2706bc9f0")
 	)
 	(no_connect
+		(at 88.265 85.09)
+		(uuid "6f97ca45-f83d-4778-94ad-8d3249d70c4a")
+	)
+	(no_connect
 		(at 88.265 92.71)
 		(uuid "74a868ff-6c93-493e-9c0a-1b4c9b316cbb")
+	)
+	(no_connect
+		(at 116.205 74.93)
+		(uuid "74fa0dc0-16eb-4a16-a149-dbcb421ee036")
+	)
+	(no_connect
+		(at 88.265 82.55)
+		(uuid "8420afd9-6eba-4957-97ab-c37fde281f57")
+	)
+	(no_connect
+		(at 116.205 85.09)
+		(uuid "ce304d5d-7e0a-4902-bc40-591ca44b32f2")
+	)
+	(no_connect
+		(at 116.205 80.01)
+		(uuid "ec74c6a7-f34e-4b39-b9ae-45e84f4adb83")
+	)
+	(no_connect
+		(at 116.205 82.55)
+		(uuid "fbf6a70b-fe6d-49a6-8280-53a8c37bf1fd")
 	)
 	(wire
 		(pts
@@ -5854,19 +4689,6 @@
 		)
 		(uuid "0859d7b4-ba5b-4f63-86fc-ff8b0f5a63cf")
 	)
-	(hierarchical_label "PFC_IB_SEN"
-		(shape input)
-		(at 116.205 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 200 100 1)
-			)
-			(justify left)
-		)
-		(uuid "09ecd824-e1d2-4a71-93f3-6823f1f73d3f")
-	)
 	(hierarchical_label "MC_PWM_VH"
 		(shape output)
 		(at 154.305 85.09 180)
@@ -5916,7 +4738,7 @@
 		)
 		(uuid "1f079745-fc77-4d6f-adf5-f84b3bb105ec")
 	)
-	(hierarchical_label "MC_VU_DIV"
+	(hierarchical_label "MC_UV_DIV"
 		(shape input)
 		(at 154.305 74.93 180)
 		(fields_autoplaced yes)
@@ -6087,31 +4909,6 @@
 		)
 		(uuid "5501bf80-6272-4569-ae08-05376887fd30")
 	)
-	(hierarchical_label "PFC_PWM_ENB"
-		(shape output)
-		(at 88.265 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "569085be-a2d6-4c64-a8f5-b37fd928dac6")
-	)
-	(hierarchical_label "PFC_IA_SEN"
-		(shape input)
-		(at 116.205 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 200 100 1)
-			)
-			(justify left)
-		)
-		(uuid "5dd1c398-8a5b-4f32-987e-23cf1231a857")
-	)
 	(hierarchical_label "SDO"
 		(shape output)
 		(at 116.205 90.17 0)
@@ -6172,18 +4969,6 @@
 		)
 		(uuid "738a5f02-7dfe-4782-95e5-2ca280313837")
 	)
-	(hierarchical_label "PFC_PWM_ENA"
-		(shape output)
-		(at 88.265 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7639731c-9740-4fb9-9587-6589ebd21e07")
-	)
 	(hierarchical_label "ENC_A"
 		(shape input)
 		(at 116.205 72.39 0)
@@ -6196,7 +4981,7 @@
 		)
 		(uuid "79f3e7af-91ee-43bf-ab9f-8d3d2bbebb86")
 	)
-	(hierarchical_label "MC_VV_DIV"
+	(hierarchical_label "MC_UU_DIV"
 		(shape input)
 		(at 154.305 77.47 180)
 		(fields_autoplaced yes)
@@ -6222,18 +5007,6 @@
 		)
 		(uuid "82016d0e-1487-4bd7-82da-57f51f03befc")
 	)
-	(hierarchical_label "PFC_PWM_A"
-		(shape output)
-		(at 116.205 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8723089b-3560-46b0-8406-b0d2e1046965")
-	)
 	(hierarchical_label "~{SRAM_CS}"
 		(shape input)
 		(at 163.83 135.89 180)
@@ -6258,7 +5031,7 @@
 		)
 		(uuid "8d7a6203-51d7-4202-8a63-98d11bcb9f84")
 	)
-	(hierarchical_label "PFC_VDC_DIV"
+	(hierarchical_label "MC_UDC_DIV"
 		(shape input)
 		(at 88.265 77.47 180)
 		(fields_autoplaced yes)
@@ -6306,18 +5079,6 @@
 			(justify left)
 		)
 		(uuid "99e837e5-ff0d-45e1-99a5-f4af24b47720")
-	)
-	(hierarchical_label "PFC_PWM_B"
-		(shape output)
-		(at 116.205 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1687964-6955-4561-98d5-24ae14815491")
 	)
 	(hierarchical_label "ENC_INDEX"
 		(shape input)
@@ -6518,7 +5279,7 @@
 			)
 		)
 	)
-	(hierarchical_label "PFC_IDC_SEN"
+	(hierarchical_label "MC_IDC_SEN"
 		(shape input)
 		(at 88.265 74.93 180)
 		(fields_autoplaced yes)
@@ -6543,7 +5304,7 @@
 		)
 		(uuid "e241d3f9-c2d3-4854-82e4-6ebef71d7f08")
 	)
-	(hierarchical_label "PFC_VAC_DIV"
+	(hierarchical_label "MC_UW_DIV"
 		(shape input)
 		(at 88.265 80.01 180)
 		(fields_autoplaced yes)
@@ -6567,18 +5328,6 @@
 			(justify right)
 		)
 		(uuid "f6f06614-a5c0-4719-aada-29f9b32b352b")
-	)
-	(hierarchical_label "~{PFC_FLT}"
-		(shape input)
-		(at 116.205 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc878040-c7db-4f43-bdd9-448f0662fc35")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -10881,7 +9630,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HW.ACIM-MCU_1")
 		(lib_id "SAMPI:HW.ACIM-MCU")
 		(at 168.275 64.77 0)
 		(unit 2)

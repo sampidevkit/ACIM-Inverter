@@ -6012,6 +6012,12 @@
 		(uuid "eeb585f4-10d9-4473-932e-e26764e719e4")
 	)
 	(junction
+		(at 154.305 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29d2f17-9e06-4d16-804d-c635c9297a8d")
+	)
+	(junction
 		(at 154.305 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6118,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "0ec72f15-2d39-4313-9299-ec44ab78bf5b")
-	)
-	(wire
-		(pts
-			(xy 117.475 93.98) (xy 117.475 95.25)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "0fc55946-1aa2-4738-bbad-cf93512195dc")
 	)
 	(wire
 		(pts
@@ -6388,6 +6384,16 @@
 			(type default)
 		)
 		(uuid "444a2594-5a6b-4c2d-b9b9-baf1659e0821")
+	)
+	(wire
+		(pts
+			(xy 117.475 93.98) (xy 117.475 95.25)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "4534b7b5-5de8-410b-b667-385ec30d50fd")
 	)
 	(wire
 		(pts
@@ -7031,6 +7037,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 106.68) (xy 117.475 107.95)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "d689b082-5c4e-41e2-a462-074b2d4aa2cd")
+	)
+	(wire
+		(pts
 			(xy 107.95 45.72) (xy 154.305 45.72)
 		)
 		(stroke
@@ -7108,6 +7124,16 @@
 			(type default)
 		)
 		(uuid "edeadf91-907f-41ee-b23a-87eac8933577")
+	)
+	(wire
+		(pts
+			(xy 154.305 17.78) (xy 155.575 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee92aca5-65cb-426d-a2ac-ca7eecb15f32")
 	)
 	(wire
 		(pts
@@ -7211,6 +7237,19 @@
 		)
 		(uuid "00a71e3f-3d32-4180-8ff8-0c55f10564f1")
 	)
+	(hierarchical_label "MC_IDC_SEN_P"
+		(shape output)
+		(at 120.65 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify left)
+		)
+		(uuid "0e1b0115-8ce5-4221-8e10-1d3becd11f37")
+	)
 	(hierarchical_label "MC_PWM_UH"
 		(shape input)
 		(at 25.4 139.7 180)
@@ -7284,6 +7323,19 @@
 		)
 		(uuid "39d40b00-4f29-4027-b722-d7644933dbc0")
 	)
+	(hierarchical_label "MC_IDC_SEN_N"
+		(shape output)
+		(at 120.65 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify left)
+		)
+		(uuid "39f90f09-ebad-4c34-89e0-b691bc74328c")
+	)
 	(hierarchical_label "IPM_PWM_UH"
 		(shape input)
 		(at 52.07 139.7 0)
@@ -7344,6 +7396,19 @@
 		)
 		(uuid "5a9e0f23-4812-44f5-b55d-98d1c4958d75")
 	)
+	(hierarchical_label "MC_UW"
+		(shape output)
+		(at 155.575 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 200 100 1)
+			)
+			(justify left)
+		)
+		(uuid "5f14d393-edb2-4f22-85ff-551c688034b3")
+	)
 	(hierarchical_label "IPM_PWM_UH"
 		(shape input)
 		(at 62.23 60.96 180)
@@ -7380,7 +7445,7 @@
 		)
 		(uuid "6c2d6ce7-d093-4d35-9e3b-b4b1d47e24dc")
 	)
-	(hierarchical_label "MC_VV"
+	(hierarchical_label "MC_UV"
 		(shape output)
 		(at 172.085 17.78 0)
 		(fields_autoplaced yes)
@@ -7515,7 +7580,7 @@
 		)
 		(uuid "c1df1a76-8bcc-41ac-bcd0-b8b6f4d7a0ae")
 	)
-	(hierarchical_label "MC_VU"
+	(hierarchical_label "MC_UU"
 		(shape output)
 		(at 187.96 17.78 0)
 		(fields_autoplaced yes)
@@ -10205,7 +10270,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:PGND")
-		(at 117.475 95.25 0)
+		(at 117.475 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10213,7 +10278,7 @@
 		(dnp no)
 		(uuid "5ce3e472-52a0-42d9-ad9d-73d99a3a5d15")
 		(property "Reference" "#PWR05"
-			(at 117.475 100.33 0)
+			(at 117.475 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10287,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 117.475 99.06 0)
+			(at 117.475 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.475 95.25 0)
+			(at 117.475 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 95.25 0)
+			(at 117.475 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.475 95.25 0)
+			(at 117.475 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,6 +13739,125 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SHUNT")
+		(at 113.03 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcbd23bc-57ab-493b-9493-2ac84c729f4a")
+		(property "Reference" "R49"
+			(at 113.665 98.425 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "10mR/3W/1%"
+			(at 111.125 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:SHU2512"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0.005 OHM 1% 3W 2512"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "MSMA2512R0050FGM"
+			(at 108.585 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.6"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Eaton"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" "OK"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2ba8365-6ca7-4d2c-bcee-474a2348113b")
+		)
+		(pin "2"
+			(uuid "bd50fbf6-e0af-450c-a0f3-ba525b4052be")
+		)
+		(pin "3"
+			(uuid "cd886c06-d3ef-43b5-ae49-b3ba76d84f52")
+		)
+		(pin "4"
+			(uuid "1aa750c0-5d8d-4b94-95b3-907df63a3aea")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "R49")
 					(unit 1)
 				)
 			)

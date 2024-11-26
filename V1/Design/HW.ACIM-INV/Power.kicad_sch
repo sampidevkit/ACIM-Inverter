@@ -1477,23 +1477,24 @@
 				)
 			)
 		)
-		(symbol "SAMPI:SIL10"
+		(symbol "SAMPI:SIL12"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J4"
-				(at 7.62 -13.97 0)
+			(property "Reference" "J2"
+				(at 3.175 -17.7799 0)
 				(effects
 					(font
-						(size 1.5 1.5)
+						(size 1.27 1.27)
+						(thickness 0.254)
 						(bold yes)
 					)
 					(justify left)
 				)
 			)
-			(property "Value" "LOW VOLT"
-				(at 6.35 -17.78 90)
+			(property "Value" "SIL12"
+				(at 3.175 -20.3199 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1501,7 +1502,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SAMPI:HDM1x10x2.54_TH_RA"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1519,7 +1520,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN HDR 10POS 0.1 TIN PCB R/A"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1528,37 +1529,10 @@
 					(hide yes)
 				)
 			)
-			(property "MFT" "Sullins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MNP" "PPTC101LGBN-RC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Checked" "OK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SIL10_0_0"
+			(symbol "SIL12_0_0"
 				(polyline
 					(pts
-						(xy 1.27 -26.67) (xy 3.429 -26.67)
+						(xy -1.27 -33.02) (xy 0.889 -33.02)
 					)
 					(stroke
 						(width 0)
@@ -1570,7 +1544,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -24.13) (xy 3.429 -24.13)
+						(xy -1.27 -30.48) (xy 0.889 -30.48)
 					)
 					(stroke
 						(width 0)
@@ -1582,7 +1556,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -21.59) (xy 3.429 -21.59)
+						(xy -1.27 -27.94) (xy 0.889 -27.94)
 					)
 					(stroke
 						(width 0)
@@ -1594,7 +1568,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -13.97) (xy 3.429 -13.97)
+						(xy -1.27 -20.32) (xy 0.889 -20.32)
 					)
 					(stroke
 						(width 0)
@@ -1606,7 +1580,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -11.43) (xy 3.429 -11.43)
+						(xy -1.27 -17.78) (xy 0.889 -17.78)
 					)
 					(stroke
 						(width 0)
@@ -1618,7 +1592,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -8.89) (xy 3.429 -8.89)
+						(xy -1.27 -15.24) (xy 0.889 -15.24)
 					)
 					(stroke
 						(width 0)
@@ -1630,7 +1604,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -6.35) (xy 3.429 -6.35)
+						(xy -1.27 -12.7) (xy 0.889 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1642,7 +1616,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 3.429 -3.81)
+						(xy -1.27 -10.16) (xy 0.889 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 0.889 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 0.889 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1653,10 +1651,10 @@
 					)
 				)
 			)
-			(symbol "SIL10_1_0"
+			(symbol "SIL12_1_0"
 				(rectangle
-					(start 2.54 -2.54)
-					(end 5.08 -27.94)
+					(start 0 -3.81)
+					(end 2.54 -34.29)
 					(stroke
 						(width 0)
 						(type default)
@@ -1666,7 +1664,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -26.67)
+					(center 1.27 -33.02)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1677,7 +1675,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -24.13)
+					(center 1.27 -30.48)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1688,7 +1686,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -21.59)
+					(center 1.27 -27.94)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1699,7 +1697,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -13.97)
+					(center 1.27 -20.32)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1710,7 +1708,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -11.43)
+					(center 1.27 -17.78)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1721,7 +1719,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -8.89)
+					(center 1.27 -15.24)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1732,7 +1730,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -6.35)
+					(center 1.27 -12.7)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1743,7 +1741,29 @@
 					)
 				)
 				(circle
-					(center 3.81 -3.81)
+					(center 1.27 -10.16)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1754,7 +1774,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 0)
+					(at -2.54 -5.08 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -1772,7 +1792,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -26.67 0)
+					(at -2.54 -27.94 0)
 					(length 1.27)
 					(name "10"
 						(effects
@@ -1790,7 +1810,43 @@
 					)
 				)
 				(pin passive line
-					(at 0 -6.35 0)
+					(at -2.54 -30.48 0)
+					(length 1.27)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -33.02 0)
+					(length 1.27)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -1808,7 +1864,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -8.89 0)
+					(at -2.54 -10.16 0)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1826,7 +1882,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -11.43 0)
+					(at -2.54 -12.7 0)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -1844,7 +1900,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -13.97 0)
+					(at -2.54 -15.24 0)
 					(length 1.27)
 					(name "5"
 						(effects
@@ -1862,16 +1918,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 0)
+					(at -2.54 -17.78 0)
 					(length 1.27)
-					(name "8"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1880,16 +1936,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -24.13 0)
+					(at -2.54 -20.32 0)
 					(length 1.27)
-					(name "9"
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3487,6 +3543,30 @@
 		)
 		(uuid "2051df82-e125-484e-bce7-2c86e4df3279")
 	)
+	(hierarchical_label "DEV_RELAY"
+		(shape input)
+		(at 31.75 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29c0cf31-091c-4db5-8a63-71569294c956")
+	)
+	(hierarchical_label "PWR_RELAY"
+		(shape input)
+		(at 31.75 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3c3c857-cfdf-4108-8e3a-76afedd6978d")
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 31.75 74.93 270)
@@ -3813,121 +3893,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:SIL10")
-		(at 31.75 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2004a079-b070-48ac-9996-f3b3c9b0752b")
-		(property "Reference" "J4"
-			(at 24.13 72.39 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LOW VOLT"
-			(at 25.4 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SAMPI:HDM1x10x2.54_TH_RA"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HDR 10POS 0.1 TIN PCB R/A"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Sullins"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "PPTC101LGBN-RC"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "c5cda956-db58-44a4-893e-cb13fc087e90")
-		)
-		(pin "1"
-			(uuid "c0743cdc-8d5f-4087-b9de-7cb856c88761")
-		)
-		(pin "2"
-			(uuid "ef273374-727c-42a1-b807-61f1ce066993")
-		)
-		(pin "10"
-			(uuid "2d0527b3-73dd-4a06-bee6-a9c1d1218212")
-		)
-		(pin "4"
-			(uuid "39267360-45c8-4ddd-8a77-17c32aeca17e")
-		)
-		(pin "3"
-			(uuid "1199d971-e328-41b3-a1ce-133768bc6e6d")
-		)
-		(pin "9"
-			(uuid "a2cc46f0-2eeb-4f55-b74a-de2edc6380df")
-		)
-		(pin "5"
-			(uuid "ab8764e4-fbdc-40aa-8228-2b35da7ae4c5")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5066,6 +5031,101 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:SIL12")
+		(at 29.21 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f2de617-bbf6-405c-81dc-ef8410cea1be")
+		(property "Reference" "J2"
+			(at 24.13 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LOW VOLT"
+			(at 26.035 72.3901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2818266b-9525-44ef-af73-f02d44d23373")
+		)
+		(pin "3"
+			(uuid "95cb993d-fbb4-4f9b-9c85-51fa2f6dec01")
+		)
+		(pin "10"
+			(uuid "a3e7be8d-9c2c-4015-ae38-8ba9aab214ce")
+		)
+		(pin "2"
+			(uuid "8a8c045d-48d5-4b32-a331-782578e428c2")
+		)
+		(pin "6"
+			(uuid "1ea48df1-4036-4062-8d07-2854e361cd63")
+		)
+		(pin "1"
+			(uuid "547b35e5-0314-4e5b-950f-71ff89498b9f")
+		)
+		(pin "5"
+			(uuid "d7168cfb-c582-43ac-9252-556bebd4b362")
+		)
+		(pin "7"
+			(uuid "95699317-46b6-4e0a-87e1-6ca633f29d59")
+		)
+		(pin "11"
+			(uuid "4749f637-0339-453d-81d9-5bd39570981c")
+		)
+		(pin "12"
+			(uuid "c9f52a24-4620-41bb-9fd6-4012a9a66794")
+		)
+		(instances
+			(project ""
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 39.37 0)
 		(mirror y)
@@ -5201,7 +5261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 82.55 90)
+		(at 31.75 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5209,7 +5269,7 @@
 		(dnp no)
 		(uuid "85c31f82-84e4-4172-af40-4003d4a03322")
 		(property "Reference" "#PWR068"
-			(at 38.1 82.55 0)
+			(at 38.1 87.63 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -5219,7 +5279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.195 82.55 90)
+			(at 36.195 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 82.55 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 82.55 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 82.55 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 80.01 90)
+		(at 31.75 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6375,7 +6435,7 @@
 		(dnp no)
 		(uuid "fa778713-77f1-4511-909a-65c3bd415885")
 		(property "Reference" "#PWR064"
-			(at 38.1 80.01 0)
+			(at 38.1 85.09 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6385,7 +6445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.195 80.01 90)
+			(at 36.195 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 80.01 0)
+			(at 31.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 80.01 0)
+			(at 31.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 80.01 0)
+			(at 31.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
