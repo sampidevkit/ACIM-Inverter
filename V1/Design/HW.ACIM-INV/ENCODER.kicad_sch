@@ -557,170 +557,6 @@
 				)
 			)
 		)
-		(symbol "SAMPI:ELECCAP"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -1.905 1.905 0)
-				(effects
-					(font
-						(size 1.5 1.5)
-						(bold yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Cer Cap"
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ELECCAP_0_1"
-				(polyline
-					(pts
-						(xy 0.635 -1.27) (xy 0.635 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -1.27)
-					(mid 2.091 -1.456)
-					(end 1.905 -1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ELECCAP_1_1"
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -3.175) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -3.175)
-					(mid 2.091 -3.624)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SAMPI:FET_N-CH"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2836,18 +2672,6 @@
 		(uuid "95562d9e-a09c-42ce-b54e-3395a5333c74")
 	)
 	(junction
-		(at 26.67 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dc864bb-432b-4cf0-be80-578073b8a04f")
-	)
-	(junction
-		(at 40.64 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e886ba8-21f4-459f-bfea-c51a84bc7e11")
-	)
-	(junction
 		(at 133.35 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2858,12 +2682,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6ceb549-edfd-4b49-83aa-7630c50d1998")
-	)
-	(junction
-		(at 50.165 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d561e388-be60-4503-a60b-04c8c6981765")
 	)
 	(junction
 		(at 70.485 41.91)
@@ -2890,7 +2708,7 @@
 		(uuid "e80a5187-93a2-41ea-ad4d-449ce1f0c9d3")
 	)
 	(junction
-		(at 26.67 36.83)
+		(at 49.53 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2d7c05-2ca3-4380-9601-d7aaaeed02d0")
@@ -2929,16 +2747,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 31.75) (xy 50.165 33.02)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0c33c17f-fc9e-447d-a91f-2015bb284864")
-	)
-	(wire
-		(pts
 			(xy 109.22 92.71) (xy 95.25 92.71)
 		)
 		(stroke
@@ -2956,16 +2764,6 @@
 			(type default)
 		)
 		(uuid "10b3c20a-c49e-43f9-812f-4670ea8f074e")
-	)
-	(wire
-		(pts
-			(xy 26.67 31.75) (xy 40.64 31.75)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "1217de8c-20ec-4c8f-abb4-96d896676a5b")
 	)
 	(wire
 		(pts
@@ -2989,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 45.72) (xy 48.26 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1f683da5-f9a8-4f96-98c1-4e5ffd84619d")
+	)
+	(wire
+		(pts
 			(xy 69.215 95.25) (xy 70.485 95.25)
 		)
 		(stroke
@@ -3009,16 +2817,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 26.67 30.48)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2b524ad9-cce1-4979-8ecc-cfc1b7ca9cd6")
-	)
-	(wire
-		(pts
 			(xy 133.35 50.165) (xy 153.67 50.165)
 		)
 		(stroke
@@ -3029,16 +2827,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 33.02) (xy 26.67 33.02)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2df2d7e3-002c-4748-b67f-9ff7ae10addd")
-	)
-	(wire
-		(pts
 			(xy 70.485 41.91) (xy 76.2 41.91)
 		)
 		(stroke
@@ -3046,6 +2834,16 @@
 			(type default)
 		)
 		(uuid "30ddaee9-7468-4fd4-8585-6b3e6753862c")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3380a8c6-4fa7-4451-9019-5833c9fca876")
 	)
 	(wire
 		(pts
@@ -3139,16 +2937,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 33.02)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "438c4375-fa43-48e3-a4ad-a32b8489cee8")
-	)
-	(wire
-		(pts
 			(xy 81.28 67.31) (xy 88.9 67.31)
 		)
 		(stroke
@@ -3189,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 26.67 38.1)
+			(xy 48.26 38.1) (xy 49.53 38.1)
 		)
 		(stroke
 			(width 0.254)
@@ -3319,16 +3107,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 31.75) (xy 40.64 31.75)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "69b8cfba-d258-416a-a3a7-138968056455")
-	)
-	(wire
-		(pts
 			(xy 88.9 67.31) (xy 88.9 68.58)
 		)
 		(stroke
@@ -3356,16 +3134,6 @@
 			(type default)
 		)
 		(uuid "76dac602-796e-45f1-b3f4-0a11b518fb3c")
-	)
-	(wire
-		(pts
-			(xy 50.165 30.48) (xy 50.165 31.75)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "780f6271-f27b-49ea-99ef-dc09ebec950f")
 	)
 	(wire
 		(pts
@@ -3446,16 +3214,6 @@
 			(type default)
 		)
 		(uuid "8e6c74df-f3a3-43b9-a06a-d40b03da5db9")
-	)
-	(wire
-		(pts
-			(xy 26.67 31.75) (xy 26.67 33.02)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "92bd5d1c-5a2c-4207-b34a-03b591dc1e8f")
 	)
 	(wire
 		(pts
@@ -3549,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 35.56) (xy 26.67 35.56)
+			(xy 48.26 40.64) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3569,16 +3327,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 26.67 31.75)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "afa2ec2b-a8d1-45a7-b4b7-94b8c985a520")
-	)
-	(wire
-		(pts
 			(xy 139.7 65.405) (xy 153.67 65.405)
 		)
 		(stroke
@@ -3586,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "b2554045-dad2-4abd-8381-963e099766a0")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b5dcc1d8-5f54-4eec-80cf-94442288941d")
 	)
 	(wire
 		(pts
@@ -3679,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 27.94 36.83)
+			(xy 49.53 39.37) (xy 50.8 39.37)
 		)
 		(stroke
 			(width 0.254)
@@ -3749,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 26.67 36.83)
+			(xy 49.53 38.1) (xy 49.53 39.37)
 		)
 		(stroke
 			(width 0.254)
@@ -3839,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 26.67 35.56)
+			(xy 49.53 39.37) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3857,15 +3615,28 @@
 		)
 		(uuid "f9e278cc-703d-499d-aee5-e12afd667c06")
 	)
-	(text "ISOLATED POWER\nSAFE-ZONE"
+	(rectangle
+		(start 36.83 19.05)
+		(end 118.11 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 182 255 191 1)
+		)
+		(uuid 59eea0cf-3884-4c6d-b793-2638b7dc03e8)
+	)
+	(text "ISOLATED POWER - SAFE-ZONE"
 		(exclude_from_sim no)
-		(at 22.86 18.415 0)
+		(at 51.435 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 200 0 1)
+				(color 0 0 200 1)
 			)
 		)
 		(uuid "55e4273a-adcb-4f07-8bba-d26019971127")
@@ -3896,7 +3667,7 @@
 	)
 	(hierarchical_label "ENC_B"
 		(shape output)
-		(at 25.4 45.72 0)
+		(at 48.26 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3908,7 +3679,7 @@
 	)
 	(hierarchical_label "INDEX"
 		(shape output)
-		(at 25.4 43.18 0)
+		(at 48.26 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3944,7 +3715,7 @@
 	)
 	(hierarchical_label "ENC_A"
 		(shape output)
-		(at 25.4 48.26 0)
+		(at 48.26 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3992,7 +3763,7 @@
 	)
 	(hierarchical_label "HOME"
 		(shape output)
-		(at 25.4 40.64 0)
+		(at 48.26 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4013,138 +3784,6 @@
 			(justify right)
 		)
 		(uuid "ec2772ce-09bb-45f7-ae4d-3968c3cc1f34")
-	)
-	(symbol
-		(lib_id "SAMPI:GND_ISO")
-		(at 50.165 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "082b6310-25a6-4dc1-a574-1dac4d51c543")
-		(property "Reference" "#PWR021"
-			(at 50.165 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 50.165 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.165 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.165 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 50.165 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be09b3a4-0d32-4b84-a3d0-0156e706d7cf")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:GND_ISO")
-		(at 40.64 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0aa831fb-0ac1-4074-9766-6144fd23bb1b")
-		(property "Reference" "#PWR020"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 40.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "938e45be-74d4-4d3b-b837-f8a221cb8328")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4558,121 +4197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 139.7 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22291eea-3f5f-4512-b4e2-517c5f4f8d54")
-		(property "Reference" "C84"
-			(at 135.89 104.14 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 134.62 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B104KB8NNNC"
-			(at 139.7 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0146"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd3795ff-86a0-46e6-a665-c871342122d6")
-		)
-		(pin "2"
-			(uuid "0af0613a-0776-4a43-85f8-ff3aa151151e")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:FET_N-CH")
 		(at 76.2 91.44 90)
 		(mirror x)
@@ -4943,7 +4467,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CHASSIS")
-		(at 25.4 27.94 90)
+		(at 50.8 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4951,7 +4475,7 @@
 		(dnp no)
 		(uuid "25485b13-2f39-4cf6-ae09-c01d1d235fbc")
 		(property "Reference" "#PWR019"
-			(at 23.495 27.94 0)
+			(at 48.895 48.26 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4962,7 +4486,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 31.75 27.94 90)
+			(at 57.15 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 27.94 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 27.94 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +4513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 27.94 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,121 +5050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:ELECCAP")
-		(at 52.705 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dca3d0f-06f8-4d8b-b78e-3b8f84662416")
-		(property "Reference" "C73"
-			(at 52.705 35.56 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF/35V"
-			(at 52.705 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP_ELEC-6.6x6.6-DIA6.3"
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM POLY 47UF 20% 35V SMD"
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "A768EB476M1VLAE042"
-			(at 52.705 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.45"
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "KEMET"
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 52.705 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "+"
-			(uuid "317fec7e-a11e-463a-98ee-2833244a089f")
-		)
-		(pin "-"
-			(uuid "b9c51c21-9510-46ab-894f-ed785825bd98")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Liem:+5V_ISO")
 		(at 88.9 48.26 0)
 		(unit 1)
@@ -5768,6 +5177,113 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:CERCAP")
+		(at 96.52 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42dc7ef8-7774-43b9-aee8-dbaff166e309")
+		(property "Reference" "C73"
+			(at 101.6 104.1399 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 101.6 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SAMPI:CAP0603"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Samsung"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.079"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "CL10A106MQ8NNNC"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" "OK"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d0c939-44f4-412e-ada6-5782b7d70f31")
+		)
+		(pin "2"
+			(uuid "0204eea4-d949-4dcc-b48a-a2a97468ccf5")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -6088,16 +5604,15 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ISO")
-		(at 36.83 36.83 90)
+		(at 59.69 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a969bed-e157-48a2-8b5e-4744e9b03b7f")
 		(property "Reference" "#PWR018"
-			(at 30.48 36.83 0)
+			(at 53.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +5621,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 30.48 37.1474 90)
+			(at 53.34 39.6874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +5631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 36.83 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +5640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 36.83 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +5649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 36.83 36.83 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,122 +5863,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 101.6 106.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e70e058-57d7-48a6-9695-60ad25c8e7b4")
-		(property "Reference" "C82"
-			(at 105.41 104.14 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 106.68 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B104KB8NNNC"
-			(at 101.6 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0146"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f6707ac-8b24-4463-b05d-20c4da9f4f2f")
-		)
-		(pin "2"
-			(uuid "41165901-3246-43b7-93f7-135344274447")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -6767,7 +6166,8 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SIL09")
-		(at 24.765 53.34 180)
+		(at 47.625 22.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6775,7 +6175,7 @@
 		(dnp no)
 		(uuid "a1c2991b-5f1a-48d2-b563-69bbc42ddd8f")
 		(property "Reference" "J8"
-			(at 17.145 38.1 0)
+			(at 40.005 38.1 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6785,7 +6185,7 @@
 			)
 		)
 		(property "Value" "ENCODER"
-			(at 19.05 34.925 90)
+			(at 41.91 41.275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6194,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:HDM1x8x2.0_SMA_RA"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6212,7 @@
 			)
 		)
 		(property "Description" "8 POS 2.00MM(.079) SINGLE ROW SM"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +6221,7 @@
 			)
 		)
 		(property "Checked" "OK"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6230,7 @@
 			)
 		)
 		(property "MFT" "Cvilux"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6239,7 @@
 			)
 		)
 		(property "MNP" "CI0108M1HR0-NH"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6248,7 @@
 			)
 		)
 		(property "Unit Price" "0.44"
-			(at 24.765 53.34 0)
+			(at 47.625 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +6415,7 @@
 		(dnp no)
 		(uuid "a9c612ae-9df4-4489-8ac2-ad480e7c902f")
 		(property "Reference" "U9"
-			(at 114.935 82.55 0)
+			(at 127.635 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +6424,7 @@
 			)
 		)
 		(property "Value" "ISO6740"
-			(at 114.3 84.455 0)
+			(at 125.73 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,122 +7053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 43.18 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d510e14e-0611-4db6-9487-2853aeaf0292")
-		(property "Reference" "C74"
-			(at 46.99 35.56 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 48.26 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B104KB8NNNC"
-			(at 43.18 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0146"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "575916d1-c78c-421b-8159-a9e9b9acc455")
-		)
-		(pin "2"
-			(uuid "0b32f6c2-bb78-473c-8cea-a04911dfd490")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:FET_N-CH")
 		(at 76.2 55.88 90)
 		(mirror x)
@@ -7860,7 +7144,8 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+24V_ISO")
-		(at 50.165 30.48 0)
+		(at 50.8 45.72 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7868,7 +7153,7 @@
 		(dnp no)
 		(uuid "e07ac4b5-994b-4417-9c65-bd9105198b6d")
 		(property "Reference" "#PWR016"
-			(at 50.165 26.67 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7877,7 +7162,7 @@
 			)
 		)
 		(property "Value" "+24V_ISO"
-			(at 50.165 26.67 0)
+			(at 57.785 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +7172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.165 30.48 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +7181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.165 30.48 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V_ISO\""
-			(at 50.8 26.67 0)
+			(at 54.61 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +7229,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.225 100.33 90)
+			(at 148.59 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,6 +7271,180 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Liem:+5V_ISO")
+		(at 50.8 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b463ec-2d95-407d-8814-e0c0fe8b80b4")
+		(property "Reference" "#PWR020"
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 53.975 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V_ISO\""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c84b9b10-9974-4819-84d6-164b518a442f")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:CERCAP")
+		(at 144.78 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea923a1f-1ad6-4ae8-828e-04c07a7e542f")
+		(property "Reference" "C74"
+			(at 139.7 104.1399 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 139.7 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SAMPI:CAP0603"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Samsung"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.079"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "CL10A106MQ8NNNC"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" "OK"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8760cbdb-bcbb-4948-9011-2505bc2295a6")
+		)
+		(pin "2"
+			(uuid "f6f598b4-ae0c-495e-96e7-6c3db667cca0")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "C74")
 					(unit 1)
 				)
 			)
