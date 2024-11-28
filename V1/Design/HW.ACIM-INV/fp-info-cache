@@ -1,4 +1,4 @@
-2167938249232973
+2055226695357792
 Liem
 6-WLCSP
 
@@ -154,6 +154,20 @@ C16QS
 102
 102
 Liem
+C41QS
+
+
+0
+58
+58
+Liem
+C41QS-xE310-Adaptor
+
+
+0
+94
+94
+Liem
 C42QM
 
 
@@ -301,6 +315,13 @@ CIPOS-MINI
 24
 24
 Liem
+CUS-12B
+
+
+0
+7
+5
+Liem
 CapSenRot3PCB
 
 
@@ -314,6 +335,20 @@ DB9-1734354-1
 0
 11
 10
+Liem
+DFN3x3-6
+
+
+0
+7
+7
+Liem
+DFN3x3-10L
+
+
+0
+11
+11
 Liem
 DFN6-EP-1.7x2.3
 
@@ -350,6 +385,13 @@ DHVQFN-16-2.5x3.5
 17
 17
 Liem
+DIL04-1.27-SMD
+
+
+0
+4
+4
+Liem
 DIL04_2.54_MTH
 
 
@@ -370,6 +412,13 @@ DIL10_1.27_MTH
 0
 10
 10
+Liem
+DIL14-1.27-SMD
+
+
+0
+14
+14
 Liem
 DO-214AA
 
@@ -426,6 +475,13 @@ ECWFE2W105
 0
 2
 2
+Liem
+ER34615
+
+
+0
+0
+0
 Liem
 ESMQ451VSN681MA50S
 
@@ -546,6 +602,20 @@ HDF1x19x2.54_TH_RA
 19
 19
 Liem
+HDM-1x2x2.54-TH-RA
+
+
+0
+2
+2
+Liem
+HDM-1x2x2.54-TH-RA-CUS
+
+
+0
+6
+2
+Liem
 HDM-1x2x3.96
 
 
@@ -595,6 +665,20 @@ HDM-1x10x2MM-SMD
 10
 10
 Liem
+HDM-1x13x2.54-SMD-RA
+
+
+0
+13
+13
+Liem
+HDM-1x14x2.54-SMD-RA
+
+
+0
+14
+14
+Liem
 HDM-2x4-2.54x7.62
 
 
@@ -615,6 +699,13 @@ HDM-2x4x2.0-TH-RA
 0
 8
 8
+Liem
+HDM-2x5x1.27-TH
+
+
+0
+10
+10
 Liem
 HDM-2x6x2.54
 
@@ -707,6 +798,20 @@ HLK-10M
 4
 4
 Liem
+HOLDER-2.2MM
+
+
+0
+0
+0
+Liem
+HOLDER-3.2MM
+
+
+0
+0
+0
+Liem
 HOLDER-3MM
 
 
@@ -734,6 +839,13 @@ HPP845E034R5
 0
 7
 7
+Liem
+HeaderTest
+
+
+0
+2
+2
 Liem
 IND-5D28-5832
 
@@ -819,6 +931,20 @@ IND7870
 2
 2
 Liem
+INP101X
+
+
+0
+26
+26
+Liem
+ITRON-MIU-SENSOR
+
+
+0
+27
+9
+Liem
 JP0603
 
 
@@ -861,7 +987,21 @@ LE910
 181
 181
 Liem
+LED3MM-3P
+
+
+0
+3
+3
+Liem
 LED0603
+
+
+0
+2
+2
+Liem
+LED0603-0805-1206
 
 
 0
@@ -881,6 +1021,20 @@ LED0606_4P
 0
 4
 4
+Liem
+LED0805
+
+
+0
+2
+2
+Liem
+LED1206
+
+
+0
+2
+2
 Liem
 LTR-303ALS
 
@@ -973,6 +1127,13 @@ PTC_J21x_TDK
 2
 2
 Liem
+PWRMONI
+
+
+0
+4
+2
+Liem
 PowerVQFN15_TI
 
 
@@ -991,7 +1152,7 @@ QFN-24-4x4-EP
 QFN, 24 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/hmc431.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-29
+25
 25
 Liem
 QFN16
@@ -1000,6 +1161,13 @@ QFN16
 0
 17
 17
+Liem
+QFN48-TQFP48
+
+
+0
+97
+49
 Liem
 QFN50P300X300X90-17N-D
 (MG) 16-Pin QFN
@@ -1043,6 +1211,13 @@ RES2512
 2
 2
 Liem
+RIBBON-2x5x1MM
+
+
+0
+10
+10
+Liem
 RLGA10VG020T_ROHM
 
 
@@ -1057,12 +1232,33 @@ RPDBG
 10
 10
 Liem
+RPDBG_TESTPIN
+
+
+0
+10
+10
+Liem
+RPR-0720
+
+
+0
+6
+6
+Liem
 RV-8263-C7
 
 
 0
 8
 8
+Liem
+SC70-3_SOT-323
+
+
+0
+3
+3
 Liem
 SCAP1320
 
@@ -1112,6 +1308,13 @@ SHUNT_1206
 0
 4
 4
+Liem
+SIL01
+
+
+0
+1
+1
 Liem
 SIM8051-6-0-14-01-A_GCT
 
@@ -1183,6 +1386,20 @@ SOD-123_12
 2
 2
 Liem
+SOD-128_PMDTM
+
+
+0
+2
+2
+Liem
+SOD-128_PMDTM_12
+
+
+0
+2
+2
+Liem
 SOD-323
 
 
@@ -1245,6 +1462,13 @@ SOIC14-3.9
 0
 14
 14
+Liem
+SOIC16-3.9
+
+
+0
+16
+16
 Liem
 SOIC16_7.5_AN
 
@@ -1336,6 +1560,27 @@ SSOP5_ROHM
 0
 5
 5
+Liem
+SSOP20-5.3
+
+
+0
+20
+20
+Liem
+SW-SPST-7x6-THRA
+
+
+0
+4
+4
+Liem
+SW6x6-G
+
+
+0
+4
+4
 Liem
 SW_PUSH_2DPDT
 
@@ -1484,6 +1729,20 @@ TP1MM
 1
 1
 Liem
+TQFP32-7x7
+
+
+0
+32
+32
+Liem
+TQFP32-7x7_QFN32-5x5
+
+
+0
+65
+33
+Liem
 TQFP48-7x7_MCHP
 
 
@@ -1497,6 +1756,20 @@ TQFP64_10x10_MCHP
 0
 64
 64
+Liem
+TSMT8
+
+
+0
+8
+8
+Liem
+TSOT-3L
+
+
+0
+1
+1
 Liem
 TSSOP16-4.4X5.5
 
@@ -1582,6 +1855,13 @@ UQFN8-1.6x1.6-0.5P
 8
 8
 Liem
+UQFN10-1.6x2.1-0.5
+
+
+0
+10
+10
+Liem
 UQFN28-4x4-EP
 
 
@@ -1631,6 +1911,34 @@ VQFN20-4x4_MCHP
 21
 21
 Liem
+VQFN32-5x5
+
+
+0
+33
+33
+Liem
+VQFN48-6x6
+
+
+0
+49
+49
+Liem
+VSON04Z1114A
+
+
+0
+5
+5
+Liem
+WFQFN16-MLP16-3x3
+
+
+0
+17
+17
+Liem
 WQFN16-3x3_TI
 
 
@@ -1654,6 +1962,13 @@ XBEE-PRO-FORM-SMD
 Liem
 XT60
 HEADER 
+
+0
+2
+2
+Liem
+XTAL-2P-FC135
+
 
 0
 2
@@ -2982,6 +3297,20 @@ Socket_Bluetooth
 6
 6
 My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CL
+
+
+0
+1
+1
+My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CR
+
+
+0
+1
+1
+My_Library
 T60403-K5024-X044
 
 
@@ -3507,6 +3836,13 @@ CapSenRot3PCB
 4
 4
 SAMPI
+D2PAK_TO-263
+
+
+0
+3
+3
+SAMPI
 DB9-1734354-1
 
 
@@ -3710,6 +4046,27 @@ GM02SP
 120
 120
 SAMPI
+HD-2x15x0.4-SMD
+
+
+0
+30
+30
+SAMPI
+HD-2x15x1.27-SMD
+
+
+0
+30
+30
+SAMPI
+HD-2x15x1.27-TH
+
+
+0
+30
+30
+SAMPI
 HDF-1x10x2MM
 
 
@@ -3822,6 +4179,13 @@ HDM-1x10x2MM-SMD
 10
 10
 SAMPI
+HDM-1x13x2.54-SMD-RA
+
+
+0
+13
+13
+SAMPI
 HDM-2x2.54-TH
 
 
@@ -3920,6 +4284,13 @@ HDM1x10x2.54_TH_RA
 10
 10
 SAMPI
+HDM1x12x2.54_TH_RA
+
+
+0
+12
+12
+SAMPI
 HDM1x19x2.54_TH_RA
 
 
@@ -3940,6 +4311,13 @@ HLK-10M
 0
 4
 4
+SAMPI
+HOLDER-2.2MM
+
+
+0
+0
+0
 SAMPI
 HOLDER-3MM
 
@@ -3968,6 +4346,20 @@ HPP845E034R5
 0
 7
 7
+SAMPI
+HW.ACIM-MCU
+
+
+0
+60
+60
+SAMPI
+IDC-2x7x2MM-TH
+
+
+0
+14
+14
 SAMPI
 IND-5D28-5832
 
@@ -4162,6 +4554,13 @@ OPTO_SO4_7.6MM
 
 
 0
+4
+4
+SAMPI
+OPTO_SO16_6.5MM
+
+
+0
 16
 16
 SAMPI
@@ -4232,7 +4631,7 @@ QFN-24-4x4-EP
 QFN, 24 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/hmc431.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-29
+25
 25
 SAMPI
 QFN16
@@ -4375,6 +4774,13 @@ SMAJACKFEMALE-5
 2
 2
 SAMPI
+SMD4-2520
+
+
+0
+4
+4
+SAMPI
 SMD4-7015
 
 
@@ -4445,6 +4851,13 @@ SOD-323_12
 2
 2
 SAMPI
+SOD-923
+
+
+0
+2
+2
+SAMPI
 SOD128-0603
 
 
@@ -4493,6 +4906,20 @@ SOIC14-3.9
 0
 14
 14
+SAMPI
+SOIC16-3.9
+
+
+0
+16
+16
+SAMPI
+SOIC16-W
+
+
+0
+16
+16
 SAMPI
 SOIC16_7.5_AN
 
@@ -4585,6 +5012,13 @@ SSOP5_ROHM
 5
 5
 SAMPI
+SSOP20-5.3
+
+
+0
+20
+20
+SAMPI
 SW_PUSH_2DPDT
 
 
@@ -4605,6 +5039,20 @@ SW_TL3330AFxxxQG
 0
 6
 6
+SAMPI
+TB-1x2x5.08-THRA
+
+
+0
+2
+2
+SAMPI
+TB-1x3x5.08-THRA
+
+
+0
+3
+3
 SAMPI
 TB2x5.08
 
@@ -4731,6 +5179,13 @@ TO-252-3_SC-63_DPAK
 0
 3
 2
+SAMPI
+TO-263-7
+
+
+0
+8
+8
 SAMPI
 TP1MM
 
@@ -4886,6 +5341,13 @@ VQFN20-4x4_MCHP
 21
 21
 SAMPI
+VQFN64-9x9-L0.5
+
+
+0
+65
+65
+SAMPI
 WQFN16-3x3_TI
 
 
@@ -4941,1077 +5403,6 @@ xE310
 0
 94
 94
-Symbol
-CE-Logo_8.5x6mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-CE-Logo_11.2x8mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-CE-Logo_16.8x12mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-CE-Logo_28x20mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-CE-Logo_42x30mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-CE-Logo_56.1x40mm_SilkScreen
-CE marking
-Logo CE certification
-0
-0
-0
-Symbol
-ESD-Logo_6.6x6mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-ESD-Logo_8.9x8mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-ESD-Logo_13.2x12mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-ESD-Logo_22x20mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-ESD-Logo_33x30mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-ESD-Logo_44.1x40mm_SilkScreen
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-Symbol
-EasterEgg_EWG1308-2013_ClassA
-Egg with 42x60mm Body-Size, ClassA, according to EWG1308/2013
-egg easter 
-0
-0
-0
-Symbol
-FCC-Logo_7.3x6mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-FCC-Logo_9.6x8mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-FCC-Logo_14.6x12mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-FCC-Logo_24.2x20mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-FCC-Logo_36.3x30mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-FCC-Logo_48.3x40mm_SilkScreen
-FCC marking
-Logo FCC certification
-0
-0
-0
-Symbol
-KiCad-Logo2_5mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_5mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_6mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_6mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_8mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_8mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_12mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_12mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_20mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_20mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_30mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_30mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_40mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo2_40mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_5mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_5mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_6mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_6mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_8mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_8mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_12mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_12mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_20mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_20mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_30mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_30mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_40mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-KiCad-Logo_40mm_SilkScreen
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Symbol
-OSHW-Logo2_7.3x6mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_7.3x6mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_9.8x8mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_9.8x8mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_14.6x12mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_14.6x12mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_24.3x20mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_24.3x20mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_36.5x30mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_36.5x30mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_48.7x40mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo2_48.7x40mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_5.7x6mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_5.7x6mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_7.5x8mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_7.5x8mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_11.4x12mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_11.4x12mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_19x20mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_19x20mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_28.5x30mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_28.5x30mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_38.1x40mm_Copper
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Logo_38.1x40mm_SilkScreen
-Open Source Hardware Logo
-Logo OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_6.7x6mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_6.7x6mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_8.9x8mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_8.9x8mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_13.4x12mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_13.4x12mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_22.3x20mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_22.3x20mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_33.5x30mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_33.5x30mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_44.5x40mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-OSHW-Symbol_44.5x40mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-Symbol
-Polarity_Center_Negative_6mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Negative_8mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Negative_12mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Negative_20mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Negative_30mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Negative_40mm_SilkScreen
-Polarity Logo, Center Negative
-Logo Polarity Center Negative
-0
-0
-0
-Symbol
-Polarity_Center_Positive_6mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-Polarity_Center_Positive_8mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-Polarity_Center_Positive_12mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-Polarity_Center_Positive_20mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-Polarity_Center_Positive_30mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-Polarity_Center_Positive_40mm_SilkScreen
-Polarity Logo, Center Positive
-Logo Polarity Center Positive
-0
-0
-0
-Symbol
-RoHS-Logo_6mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-RoHS-Logo_8mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-RoHS-Logo_12mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-RoHS-Logo_20mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-RoHS-Logo_30mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-RoHS-Logo_40mm_SilkScreen
-Restriction of Hazardous Substances Directive Logo
-Logo RoHS
-0
-0
-0
-Symbol
-Symbol_Attention_CopperTop_Big
-Symbol, Attention, Copper Top, Big,
-Symbol, Attention, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_Attention_CopperTop_Small
-Symbol, Attention, Copper Top, Small,
-Symbol, Attention, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_Attention_Triangle_8x7mm_Copper
-Symbol, Attention, 8x7mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_Attention_Triangle_17x15mm_Copper
-Symbol, attention, 17x15mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_Barrel_Polarity
-Barrel connector polarity indicator
-barrel polarity
-0
-0
-0
-Symbol
-Symbol_CC-Attribution_CopperTop_Big
-Symbol, CC-Attribution, Copper Top, Big,
-Symbol, CC-Attribution, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_CC-Attribution_CopperTop_Small
-Symbol, CC-Share Alike, Copper Top, Small,
-Symbol, CC-Share Alike, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_CC-Noncommercial_CopperTop_Big
-Symbol, CC-Noncommercial, Copper Top, Big,
-Symbol, CC-Noncommercial, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_CC-Noncommercial_CopperTop_Small
-Symbol, CC-Noncommercial Alike, Copper Top, Small,
-Symbol, CC-Noncommercial Alike, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_CC-PublicDomain_CopperTop_Big
-Symbol, CC-PublicDomain, Copper Top, Big,
-Symbol, CC-PublicDomain, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_CC-PublicDomain_CopperTop_Small
-Symbol, CC-Public Domain, Copper Top, Small,
-Symbol, CC-Public Domain, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_CC-PublicDomain_SilkScreenTop_Big
-Symbol, CC-PublicDomain, SilkScreen Top, Big,
-Symbol, CC-PublicDomain, SilkScreen Top, Big,
-0
-0
-0
-Symbol
-Symbol_CC-ShareAlike_CopperTop_Big
-Symbol, CC-Share Alike, Copper Top, Big,
-Symbol, CC-Share Alike, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_CC-ShareAlike_CopperTop_Small
-Symbol, CC-Share Alike, Copper Top, Small,
-Symbol, CC-Share Alike, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_CreativeCommonsPublicDomain_CopperTop_Small
-Symbol, Creative Commons Public Domain, CopperTop, Small,
-Symbol, Creative Commons Public Domain, CopperTop, Small,
-0
-0
-0
-Symbol
-Symbol_CreativeCommonsPublicDomain_SilkScreenTop_Small
-Symbol, Creative Commons Public Domain, SilkScreenTop, Small,
-Symbol, Creative Commons Public Domain, SilkScreen Top, Small,
-0
-0
-0
-Symbol
-Symbol_CreativeCommons_CopperTop_Type1_Big
-Symbol, Creative Commons, CopperTop, Type 1, Big,
-Symbol, Creative Commons, CopperTop, Type 1, Big,
-0
-0
-0
-Symbol
-Symbol_CreativeCommons_CopperTop_Type2_Big
-Symbol, Creative Commons, CopperTop, Type 2, Big,
-Symbol, Creative Commons, CopperTop, Type 2, Big,
-0
-0
-0
-Symbol
-Symbol_CreativeCommons_CopperTop_Type2_Small
-Symbol, Creative Commons, CopperTop, Type 2, Small,
-Symbol, Creative Commons, CopperTop, Type 2, Small,
-0
-0
-0
-Symbol
-Symbol_CreativeCommons_SilkScreenTop_Type2_Big
-Symbol, Creative Commons, SilkScreen Top, Type 2, Big,
-Symbol, Creative Commons, SilkScreen Top, Type 2, Big,
-0
-0
-0
-Symbol
-Symbol_Danger_8x8mm_Copper
-Danger symbol, 8x8mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_Danger_18x16mm_Copper
-Danger symbol, 18x16mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_Danger_CopperTop_Big
-Symbol, Danger, CopperTop, Big,
-Symbol, Danger, CopperTop, Big,
-0
-0
-0
-Symbol
-Symbol_Danger_CopperTop_Small
-Symbol, Danger, Copper Top, Small,
-Symbol, Danger, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_ESD-Logo-Text_CopperTop
-
-
-0
-0
-0
-Symbol
-Symbol_ESD-Logo_CopperTop
-ESD-Logo, similar JEDEC-14, without text, ohne Text, Copper Top,
-ESD-Logo, similar JEDEC-14, without text, ohne Text, Copper Top,
-0
-0
-0
-Symbol
-Symbol_GNU-GPL_CopperTop_Big
-Symbol, GNU-GPL, Copper Top, Big,
-Symbol, GNU-GPL, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_GNU-GPL_CopperTop_Small
-Symbol, GNU-GPL, Copper Top, Small,
-Symbol, GNU-GPL, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_GNU-Logo_CopperTop
-GNU-Logo, GNU-Head, GNU-Kopf, Copper Top,
-GNU-Logo, GNU-Head, GNU-Kopf, Copper Top,
-0
-0
-0
-Symbol
-Symbol_GNU-Logo_SilkscreenTop
-GNU-Logo, GNU-Head, GNU-Kopf, Silkscreen,
-GNU-Logo, GNU-Head, GNU-Kopf, Silkscreen,
-0
-0
-0
-Symbol
-Symbol_HighVoltage_NoTriangle_2x5mm_Copper
-High voltage symbol, no triangle, 2x5mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_HighVoltage_NoTriangle_6x15mm_Copper
-High voltage symbol, no triangle, 6x15mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Triangle_6x6mm_Copper
-High voltage symbol, in triangle, 6x6mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Triangle_8x7mm_Copper
-High voltage symbol, in triangle, 8x7mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Triangle_17x15mm_Copper
-High voltage symbol, in triangle, 17x15mm, copper layer
-warning graphic
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Type1_CopperTop_Big
-Symbol, HighVoltage, Type1, Copper Top, Big,
-Symbol, HighVoltage, Type1, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Type2_CopperTop_Big
-Symbol, HighVoltage, Type2, Copper Top, Big,
-Symbol, HighVoltage, Type2, Copper Top, Big,
-0
-0
-0
-Symbol
-Symbol_HighVoltage_Type2_CopperTop_VerySmall
-Symbol, High Voltage, Type 2, Copper Top, Very Small,
-Symbol, High Voltage, Type 2, Copper Top, Very Small,
-0
-0
-0
-Symbol
-Symbol_Highvoltage_Type1_CopperTop_Small
-Symbol, Highvoltage, Type 1, Copper Top, Small,
-Symbol, Highvoltage, Type 1, Copper Top, Small,
-0
-0
-0
-Symbol
-Symbol_Highvoltage_Type2_CopperTop_Small
-Symbol, Highvoltage, Type 2, Copper Top, Small,
-Symbol, Highvoltage, Type 2, Copper Top, Small,
-0
-0
-0
-Symbol
-UKCA-Logo_6x6mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-UKCA-Logo_8x8mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-UKCA-Logo_12x12mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-UKCA-Logo_20x20mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-UKCA-Logo_30x30mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-UKCA-Logo_40x40mm_SilkScreen
-UKCA marking
-Logo UKCA marking
-0
-0
-0
-Symbol
-WEEE-Logo_4.2x6mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-Symbol
-WEEE-Logo_5.6x8mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-Symbol
-WEEE-Logo_8.4x12mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-Symbol
-WEEE-Logo_14x20mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-Symbol
-WEEE-Logo_21x30mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-Symbol
-WEEE-Logo_28.1x40mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
 Triet_KiCAD_Fprint
 8-PowerTDFN
 
@@ -6118,19 +5509,19 @@ BD33GA5WEFJ
 9
 9
 Triet_KiCAD_Fprint
-Base10x10
-
-
-0
-0
-0
-Triet_KiCAD_Fprint
 BaseDevKit
 
 
 0
 0
 0
+Triet_KiCAD_Fprint
+Base_100x100
+
+
+0
+40
+1
 Triet_KiCAD_Fprint
 Batt-26650
 
@@ -6776,6 +6167,34 @@ IND_SMD_7.2x6.65
 2
 2
 Triet_KiCAD_Fprint
+IR-RX-0603
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+IR-RX-1206
+SCM-014
+
+0
+2
+2
+Triet_KiCAD_Fprint
+IR-TX-0603
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+IR-TX-1206
+SCM-013
+
+0
+2
+2
+Triet_KiCAD_Fprint
 IS32PM3510
 Bk-Bst Ctrl
 
@@ -6784,6 +6203,13 @@ Bk-Bst Ctrl
 16
 Triet_KiCAD_Fprint
 LED-0603
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+LED_Combo
 
 
 0
@@ -6803,6 +6229,20 @@ LM2596
 0
 6
 5
+Triet_KiCAD_Fprint
+LQFP-48_7x7mm_P0.5mm
+
+
+0
+48
+48
+Triet_KiCAD_Fprint
+LuaNode32-30P
+
+
+0
+30
+29
 Triet_KiCAD_Fprint
 MAX77857-QFN
 
@@ -6930,6 +6370,13 @@ MP1479
 6
 6
 Triet_KiCAD_Fprint
+MP1584_Bck
+
+
+0
+8
+4
+Triet_KiCAD_Fprint
 MP3431GL-Z
 
 
@@ -6965,6 +6412,13 @@ MPM3610A
 20
 18
 Triet_KiCAD_Fprint
+MT3608_Bst
+
+
+0
+4
+4
+Triet_KiCAD_Fprint
 MapleMini_Base
 
 
@@ -6992,6 +6446,13 @@ NE310L2-W1
 0
 94
 94
+Triet_KiCAD_Fprint
+NRF24L01-exAnt
+
+
+0
+8
+8
 Triet_KiCAD_Fprint
 NTC
 
@@ -7056,6 +6517,20 @@ PAD_TH_D.1mm
 1
 1
 Triet_KiCAD_Fprint
+PCB_Mini_PCIe_Full
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
+PCB_Mini_PCIe_Half
+
+
+0
+54
+52
+Triet_KiCAD_Fprint
 PCC-M0648M-LE
 IND_7.4x7.0x4.8
 
@@ -7090,6 +6565,13 @@ PLC_3Phase_Input
 0
 8
 8
+Triet_KiCAD_Fprint
+Profet
+
+
+0
+5
+4
 Triet_KiCAD_Fprint
 QFN-20_3X3
 
@@ -7126,6 +6608,13 @@ RAF040_Pch
 3
 3
 Triet_KiCAD_Fprint
+RP2040-QFN56
+QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+57
+57
+Triet_KiCAD_Fprint
 RP_DEBUG
 2x5_pitch 1.27
 
@@ -7139,6 +6628,13 @@ RX480E
 0
 7
 7
+Triet_KiCAD_Fprint
+R_Combo
+
+
+0
+2
+2
 Triet_KiCAD_Fprint
 Res0402
 
@@ -7179,32 +6675,18 @@ ResShunt1206
 
 
 0
-10
+4
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-6
+4
 4
 Triet_KiCAD_Fprint
 SB
 
-
-0
-2
-2
-Triet_KiCAD_Fprint
-SCM-013
-IR Trans
-
-0
-2
-2
-Triet_KiCAD_Fprint
-SCM-014
-IR Reci
 
 0
 2
@@ -7322,6 +6804,13 @@ SOIC SO
 14
 14
 Triet_KiCAD_Fprint
+SOIC8-Mosfet
+
+
+0
+8
+6
+Triet_KiCAD_Fprint
 SOT-23-3
 
 
@@ -7342,6 +6831,13 @@ SOT-23-6
 0
 6
 6
+Triet_KiCAD_Fprint
+SOT-23-BJT
+
+
+0
+3
+3
 Triet_KiCAD_Fprint
 SOT-23-Mosfet-DSG
 
@@ -7511,12 +7007,26 @@ Socket-4P-2.54-TH
 4
 4
 Triet_KiCAD_Fprint
-Socket-Cell-8C
+Socket-8S-9P-2.54
 
 
 0
-23
-16
+9
+9
+Triet_KiCAD_Fprint
+Socket-8S-9P-3.96
+
+
+0
+9
+9
+Triet_KiCAD_Fprint
+Socket_4P_2.54-XH
+
+
+0
+4
+4
 Triet_KiCAD_Fprint
 Socket_Bluetooth
 
@@ -7524,6 +7034,13 @@ Socket_Bluetooth
 0
 6
 6
+Triet_KiCAD_Fprint
+Socket_Mini_PCIe
+
+
+0
+54
+53
 Triet_KiCAD_Fprint
 T60403-K5024-X044
 
@@ -7574,6 +7091,13 @@ TO-263-3-Mosfet-GDS
 3
 3
 Triet_KiCAD_Fprint
+TP4056 Module
+
+
+0
+6
+6
+Triet_KiCAD_Fprint
 TP_SMD
 
 
@@ -7595,14 +7119,21 @@ TQ-RL-10P-T/H
 10
 10
 Triet_KiCAD_Fprint
-TQFP-48P
+TQFP-32
+
+
+0
+32
+32
+Triet_KiCAD_Fprint
+TQFP-48
 
 
 0
 48
 48
 Triet_KiCAD_Fprint
-TQFP-48P_EP
+TQFP-48_EP
 
 
 0
@@ -7650,6 +7181,13 @@ UMT3
 0
 3
 3
+Triet_KiCAD_Fprint
+UQFN28-EP
+
+
+0
+33
+30
 Triet_KiCAD_Fprint
 USB4105
 
@@ -7706,13 +7244,6 @@ VH3.96-2P
 0
 2
 2
-Triet_KiCAD_Fprint
-VH3.96-9P
-
-
-0
-9
-9
 Triet_KiCAD_Fprint
 VMD2-SOD723
 
@@ -7783,6 +7314,13 @@ XTAL_FC-135
 0
 2
 2
+Triet_KiCAD_Fprint
+mega328-TQFP32
+
+
+0
+32
+32
 tuanlib
 6913125100002_1
 2 Position Terminal Block Header, Male Pins, Shrouded (2 Side) 0.200" (5.08mm) 90°, Right Angle Through Hole
