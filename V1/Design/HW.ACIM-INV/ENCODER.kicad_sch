@@ -3665,7 +3665,7 @@
 		)
 		(uuid "3cde19ce-e831-4fa3-b540-3e1e8d3d58a6")
 	)
-	(hierarchical_label "ENC_B"
+	(hierarchical_label "PULSE_B"
 		(shape output)
 		(at 48.26 30.48 0)
 		(fields_autoplaced yes)
@@ -3701,7 +3701,7 @@
 		)
 		(uuid "7e5a1ac4-5ab9-49d1-b606-df6d63a0dac1")
 	)
-	(hierarchical_label "ENC_A"
+	(hierarchical_label "PULSE_A"
 		(shape input)
 		(at 69.215 95.25 180)
 		(fields_autoplaced yes)
@@ -3713,7 +3713,7 @@
 		)
 		(uuid "7fdaf4c8-6a38-4d04-9f0f-511b1d516258")
 	)
-	(hierarchical_label "ENC_A"
+	(hierarchical_label "PULSE_A"
 		(shape output)
 		(at 48.26 27.94 0)
 		(fields_autoplaced yes)
@@ -3749,7 +3749,7 @@
 		)
 		(uuid "d3e30146-fb90-49fb-8cd7-ff80f9d56fdd")
 	)
-	(hierarchical_label "ENC_B"
+	(hierarchical_label "PULSE_B"
 		(shape input)
 		(at 69.215 77.47 180)
 		(fields_autoplaced yes)
@@ -3907,15 +3907,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 151.13 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "0603N220J500CT"
 			(at 151.13 86.995 0)
 			(effects
@@ -3925,25 +3916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.012"
-			(at 151.13 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFT" "Walsin"
-			(at 151.13 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 151.13 86.995 0)
 			(effects
 				(font
@@ -4020,24 +3993,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 91.44 35.56 0)
 			(effects
@@ -4048,15 +4003,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -4136,15 +4082,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 151.13 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "0603N220J500CT"
 			(at 151.13 56.515 0)
 			(effects
@@ -4154,25 +4091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.012"
-			(at 151.13 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFT" "Walsin"
-			(at 151.13 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 151.13 56.515 0)
 			(effects
 				(font
@@ -4339,24 +4258,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 73.025 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 73.025 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 73.025 50.8 0)
 			(effects
@@ -4367,15 +4268,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 73.025 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 73.025 50.8 0)
 			(effects
 				(font
@@ -4586,24 +4478,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 91.44 53.34 0)
 			(effects
@@ -4614,15 +4488,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -4989,24 +4854,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 73.025 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 73.025 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 73.025 68.58 0)
 			(effects
@@ -5017,15 +4864,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 73.025 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 73.025 68.58 0)
 			(effects
 				(font
@@ -5247,25 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.079"
-			(at 96.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "CL10A106MQ8NNNC"
-			(at 96.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 96.52 106.68 0)
 			(effects
 				(font
@@ -5542,24 +5362,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 73.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 73.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 73.025 33.02 0)
 			(effects
@@ -5570,15 +5372,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 73.025 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 73.025 33.02 0)
 			(effects
 				(font
@@ -5991,15 +5784,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 151.13 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "0603N220J500CT"
 			(at 151.13 71.755 0)
 			(effects
@@ -6009,25 +5793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.012"
-			(at 151.13 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFT" "Walsin"
-			(at 151.13 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 151.13 71.755 0)
 			(effects
 				(font
@@ -6104,24 +5870,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 91.44 88.9 0)
 			(effects
@@ -6132,15 +5880,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -6220,15 +5959,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" "OK"
-			(at 47.625 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFT" "Cvilux"
 			(at 47.625 22.86 0)
 			(effects
@@ -6239,15 +5969,6 @@
 			)
 		)
 		(property "MNP" "CI0108M1HR0-NH"
-			(at 47.625 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.44"
 			(at 47.625 22.86 0)
 			(effects
 				(font
@@ -6345,24 +6066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 73.025 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 73.025 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 73.025 86.36 0)
 			(effects
@@ -6373,15 +6076,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 73.025 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 73.025 86.36 0)
 			(effects
 				(font
@@ -6586,24 +6280,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.021"
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "AC0603FR-074K3L"
 			(at 91.44 71.12 0)
 			(effects
@@ -6614,15 +6290,6 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -6902,15 +6569,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "0603N220J500CT"
 			(at 151.13 101.6 0)
 			(effects
@@ -6920,25 +6578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.012"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFT" "Walsin"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -7408,25 +7048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" "0.079"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MNP" "CL10A106MQ8NNNC"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
 			(at 144.78 106.68 0)
 			(effects
 				(font

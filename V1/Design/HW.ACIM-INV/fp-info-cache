@@ -1,4 +1,4 @@
-2055226695357792
+2056245890821591
 Liem
 6-WLCSP
 
@@ -699,13 +699,6 @@ HDM-2x4x2.0-TH-RA
 0
 8
 8
-Liem
-HDM-2x5x1.27-TH
-
-
-0
-10
-10
 Liem
 HDM-2x6x2.54
 
@@ -3297,20 +3290,6 @@ Socket_Bluetooth
 6
 6
 My_Library
-Spring_Coil_Antenna_GBT-1800_2023.09.15CL
-
-
-0
-1
-1
-My_Library
-Spring_Coil_Antenna_GBT-1800_2023.09.15CR
-
-
-0
-1
-1
-My_Library
 T60403-K5024-X044
 
 
@@ -3599,6 +3578,13 @@ ASGGB184.A
 2
 SAMPI
 AT-1224
+
+
+0
+2
+2
+SAMPI
+AXIAL-9.5x4.0
 
 
 0
@@ -4368,6 +4354,13 @@ IND-5D28-5832
 2
 2
 SAMPI
+IND-8D43-8045
+
+
+0
+2
+2
+SAMPI
 IND-10x10x3.8
 
 
@@ -4388,6 +4381,27 @@ IND-2520-1008
 0
 2
 2
+SAMPI
+IND-FL2D
+
+
+0
+0
+0
+SAMPI
+IND-R5-2MM-TH
+
+
+0
+2
+2
+SAMPI
+IND-SQ1010
+
+
+0
+4
+4
 SAMPI
 IND0402
 
@@ -4809,6 +4823,13 @@ SO8W_5.3
 8
 8
 SAMPI
+SOD-80C_DO-213AC
+
+
+0
+2
+2
+SAMPI
 SOD-123
 
 
@@ -4941,6 +4962,13 @@ SOT-23-6_MCHP
 0
 6
 6
+SAMPI
+SOT-89
+
+
+0
+3
+3
 SAMPI
 SOT-583
 
@@ -6566,13 +6594,6 @@ PLC_3Phase_Input
 8
 8
 Triet_KiCAD_Fprint
-Profet
-
-
-0
-5
-4
-Triet_KiCAD_Fprint
 QFN-20_3X3
 
 
@@ -6607,13 +6628,6 @@ RAF040_Pch
 0
 3
 3
-Triet_KiCAD_Fprint
-RP2040-QFN56
-QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-57
-57
 Triet_KiCAD_Fprint
 RP_DEBUG
 2x5_pitch 1.27
@@ -6675,14 +6689,14 @@ ResShunt1206
 
 
 0
-4
+10
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-4
+6
 4
 Triet_KiCAD_Fprint
 SB
@@ -6803,13 +6817,6 @@ SOIC SO
 0
 14
 14
-Triet_KiCAD_Fprint
-SOIC8-Mosfet
-
-
-0
-8
-6
 Triet_KiCAD_Fprint
 SOT-23-3
 
@@ -7119,21 +7126,14 @@ TQ-RL-10P-T/H
 10
 10
 Triet_KiCAD_Fprint
-TQFP-32
-
-
-0
-32
-32
-Triet_KiCAD_Fprint
-TQFP-48
+TQFP-48P
 
 
 0
 48
 48
 Triet_KiCAD_Fprint
-TQFP-48_EP
+TQFP-48P_EP
 
 
 0
@@ -7181,13 +7181,6 @@ UMT3
 0
 3
 3
-Triet_KiCAD_Fprint
-UQFN28-EP
-
-
-0
-33
-30
 Triet_KiCAD_Fprint
 USB4105
 
@@ -7314,13 +7307,6 @@ XTAL_FC-135
 0
 2
 2
-Triet_KiCAD_Fprint
-mega328-TQFP32
-
-
-0
-32
-32
 tuanlib
 6913125100002_1
 2 Position Terminal Block Header, Male Pins, Shrouded (2 Side) 0.200" (5.08mm) 90°, Right Angle Through Hole
