@@ -14,6 +14,1199 @@
 		(comment 3 "Approved by ...")
 	)
 	(lib_symbols
+		(symbol "HW.ACIM-MCU_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "ACIM-MCU"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SAMPI:HW.ACIM-MCU"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ACIM-MCU BOARD"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" "HW.ACIM-MCU-MK0"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "SAMPI"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HW.ACIM-MCU_1_1_0"
+				(pin passive line
+					(at -14.605 -40.64 0)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -30.48 180)
+					(length 2.54)
+					(name "~{DEV_RELAY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -27.94 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.335 -27.94 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -25.4 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -25.4 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -22.86 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -22.86 180)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -20.32 0)
+					(length 2.54)
+					(name "PFC_PWM_ENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -20.32 180)
+					(length 2.54)
+					(name "PFC_PWM_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -17.78 0)
+					(length 2.54)
+					(name "PFC_PWM_ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.335 -40.64 180)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -17.78 180)
+					(length 2.54)
+					(name "PFC_PWM_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -15.24 0)
+					(length 2.54)
+					(name "UAC_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -15.24 180)
+					(length 2.54)
+					(name "~{PFC_FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -12.7 0)
+					(length 2.54)
+					(name "UDC_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -12.7 180)
+					(length 2.54)
+					(name "PFC_IB_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -10.16 0)
+					(length 2.54)
+					(name "IDC_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -10.16 180)
+					(length 2.54)
+					(name "PFC_IA_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -7.62 0)
+					(length 2.54)
+					(name "ENC_HOME"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -7.62 180)
+					(length 2.54)
+					(name "ENC_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -5.08 0)
+					(length 2.54)
+					(name "ENC_IDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -14.605 -38.1 0)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -5.08 180)
+					(length 2.54)
+					(name "ENC_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.335 -38.1 180)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -14.605 -35.56 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.335 -35.56 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -14.605 -33.02 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.335 -33.02 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -14.605 -30.48 0)
+					(length 2.54)
+					(name "PWR_RELAY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HW.ACIM-MCU_1_1_1"
+				(rectangle
+					(start -12.065 -3.175)
+					(end 10.795 -42.545)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "LEFT"
+					(at 0 -41.275 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "HW.ACIM-MCU_1_2_0"
+				(pin input line
+					(at -13.97 -40.64 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -30.48 180)
+					(length 2.54)
+					(name "DV_TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -27.94 0)
+					(length 2.54)
+					(name "DV_RTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -27.94 180)
+					(length 2.54)
+					(name "DV_CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -25.4 0)
+					(length 2.54)
+					(name "~{MC_PWM_FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -25.4 180)
+					(length 2.54)
+					(name "~{BUTTON}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -22.86 0)
+					(length 2.54)
+					(name "MC_PWM_WH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -22.86 180)
+					(length 2.54)
+					(name "MC_PWM_WL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -20.32 0)
+					(length 2.54)
+					(name "MC_PWM_VH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -20.32 180)
+					(length 2.54)
+					(name "MC_PWM_VL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -17.78 0)
+					(length 2.54)
+					(name "MC_PWM_UH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -40.64 180)
+					(length 2.54)
+					(name "PGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -17.78 180)
+					(length 2.54)
+					(name "MC_PWM_UL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -15.24 0)
+					(length 2.54)
+					(name "MC_TEMP_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -15.24 180)
+					(length 2.54)
+					(name "MC_VR_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "MC_UU_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -12.7 180)
+					(length 2.54)
+					(name "MC_IU_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "MC_UV_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "MC_IV_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -38.1 0)
+					(length 2.54)
+					(name "USB_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -38.1 180)
+					(length 2.54)
+					(name "PGC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -35.56 0)
+					(length 2.54)
+					(name "USB_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -35.56 180)
+					(length 2.54)
+					(name "~{MCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -33.02 0)
+					(length 2.54)
+					(name "DB_RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -33.02 180)
+					(length 2.54)
+					(name "DB_TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -30.48 0)
+					(length 2.54)
+					(name "DV_RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HW.ACIM-MCU_1_2_1"
+				(rectangle
+					(start -11.43 -3.175)
+					(end 11.43 -42.545)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "RIGHT"
+					(at 0.635 -41.275 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SAMPI:AGND"
 			(power)
 			(pin_names
@@ -1534,17 +2727,35 @@
 				)
 			)
 			(symbol "HW.ACIM-MCU_1_0"
-				(pin output line
-					(at 13.335 -30.48 180)
+				(pin passive line
+					(at -14.605 -40.64 0)
 					(length 2.54)
-					(name "DEV_RELAY"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10L"
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -30.48 180)
+					(length 2.54)
+					(name "~{DEV_RELAY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,7 +2773,7 @@
 							)
 						)
 					)
-					(number "11L"
+					(number "L11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,7 +2791,7 @@
 							)
 						)
 					)
-					(number "12L"
+					(number "L12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1598,7 +2809,7 @@
 							)
 						)
 					)
-					(number "13L"
+					(number "L13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1616,7 +2827,7 @@
 							)
 						)
 					)
-					(number "14L"
+					(number "L14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1634,7 +2845,7 @@
 							)
 						)
 					)
-					(number "15L"
+					(number "L15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1652,7 +2863,7 @@
 							)
 						)
 					)
-					(number "16L"
+					(number "L16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1670,7 +2881,7 @@
 							)
 						)
 					)
-					(number "17L"
+					(number "L17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1688,7 +2899,7 @@
 							)
 						)
 					)
-					(number "18L"
+					(number "L18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1706,205 +2917,7 @@
 							)
 						)
 					)
-					(number "19L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -14.605 -40.64 0)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.335 -17.78 180)
-					(length 2.54)
-					(name "PFC_PWM_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -15.24 0)
-					(length 2.54)
-					(name "UAC_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -15.24 180)
-					(length 2.54)
-					(name "~{PFC_FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -12.7 0)
-					(length 2.54)
-					(name "UDC_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -12.7 180)
-					(length 2.54)
-					(name "PFC_IB_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -10.16 0)
-					(length 2.54)
-					(name "IDC_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -10.16 180)
-					(length 2.54)
-					(name "PFC_IA_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -7.62 0)
-					(length 2.54)
-					(name "ENC_HOME"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.335 -7.62 180)
-					(length 2.54)
-					(name "ENC_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -14.605 -5.08 0)
-					(length 2.54)
-					(name "ENC_IDX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29L"
+					(number "L19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1922,7 +2935,25 @@
 							)
 						)
 					)
-					(number "2L"
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.335 -17.78 180)
+					(length 2.54)
+					(name "PFC_PWM_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1931,16 +2962,160 @@
 					)
 				)
 				(pin input line
-					(at 13.335 -5.08 180)
+					(at -14.605 -15.24 0)
 					(length 2.54)
-					(name "ENC_B"
+					(name "UAC_DIV"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "30L"
+					(number "L21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -15.24 180)
+					(length 2.54)
+					(name "~{PFC_FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -12.7 0)
+					(length 2.54)
+					(name "UDC_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -12.7 180)
+					(length 2.54)
+					(name "PFC_IB_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -10.16 0)
+					(length 2.54)
+					(name "IDC_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -10.16 180)
+					(length 2.54)
+					(name "PFC_IA_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -7.62 0)
+					(length 2.54)
+					(name "ENC_HOME"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -7.62 180)
+					(length 2.54)
+					(name "ENC_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -14.605 -5.08 0)
+					(length 2.54)
+					(name "ENC_IDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1958,7 +3133,25 @@
 							)
 						)
 					)
-					(number "3L"
+					(number "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.335 -5.08 180)
+					(length 2.54)
+					(name "ENC_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1976,7 +3169,7 @@
 							)
 						)
 					)
-					(number "4L"
+					(number "L4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1994,7 +3187,7 @@
 							)
 						)
 					)
-					(number "5L"
+					(number "L5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2012,7 +3205,7 @@
 							)
 						)
 					)
-					(number "6L"
+					(number "L6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2030,7 +3223,7 @@
 							)
 						)
 					)
-					(number "7L"
+					(number "L7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2048,7 +3241,7 @@
 							)
 						)
 					)
-					(number "8L"
+					(number "L8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2066,7 +3259,7 @@
 							)
 						)
 					)
-					(number "9L"
+					(number "L9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2097,6 +3290,24 @@
 				)
 			)
 			(symbol "HW.ACIM-MCU_2_0"
+				(pin input line
+					(at -13.97 -40.64 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 13.97 -30.48 180)
 					(length 2.54)
@@ -2107,7 +3318,7 @@
 							)
 						)
 					)
-					(number "10R"
+					(number "R10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2125,7 +3336,7 @@
 							)
 						)
 					)
-					(number "11R"
+					(number "R11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2143,7 +3354,7 @@
 							)
 						)
 					)
-					(number "12R"
+					(number "R12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2161,7 +3372,7 @@
 							)
 						)
 					)
-					(number "13R"
+					(number "R13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2179,7 +3390,7 @@
 							)
 						)
 					)
-					(number "14R"
+					(number "R14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2197,7 +3408,7 @@
 							)
 						)
 					)
-					(number "15R"
+					(number "R15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2215,7 +3426,7 @@
 							)
 						)
 					)
-					(number "16R"
+					(number "R16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2233,7 +3444,7 @@
 							)
 						)
 					)
-					(number "17R"
+					(number "R17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2251,7 +3462,7 @@
 							)
 						)
 					)
-					(number "18R"
+					(number "R18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2269,205 +3480,7 @@
 							)
 						)
 					)
-					(number "19R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -40.64 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -17.78 180)
-					(length 2.54)
-					(name "MC_PWM_UL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -15.24 0)
-					(length 2.54)
-					(name "MC_TEMP_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -15.24 180)
-					(length 2.54)
-					(name "MC_VR_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -12.7 0)
-					(length 2.54)
-					(name "MC_UU_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -12.7 180)
-					(length 2.54)
-					(name "MC_IU_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -10.16 0)
-					(length 2.54)
-					(name "MC_UV_DIV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -10.16 180)
-					(length 2.54)
-					(name "MC_IV_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -7.62 180)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29R"
+					(number "R19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2485,7 +3498,169 @@
 							)
 						)
 					)
-					(number "2R"
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -17.78 180)
+					(length 2.54)
+					(name "MC_PWM_UL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -15.24 0)
+					(length 2.54)
+					(name "MC_TEMP_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -15.24 180)
+					(length 2.54)
+					(name "MC_VR_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "MC_UU_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -12.7 180)
+					(length 2.54)
+					(name "MC_IU_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "MC_UV_DIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "MC_IV_SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,7 +3669,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -5.08 180)
+					(at -13.97 -5.08 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2503,7 +3678,7 @@
 							)
 						)
 					)
-					(number "30R"
+					(number "R29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2521,7 +3696,25 @@
 							)
 						)
 					)
-					(number "3R"
+					(number "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2539,7 +3732,7 @@
 							)
 						)
 					)
-					(number "4R"
+					(number "R4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2557,7 +3750,7 @@
 							)
 						)
 					)
-					(number "5R"
+					(number "R5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2575,7 +3768,7 @@
 							)
 						)
 					)
-					(number "6R"
+					(number "R6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2593,7 +3786,7 @@
 							)
 						)
 					)
-					(number "7R"
+					(number "R7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2611,7 +3804,7 @@
 							)
 						)
 					)
-					(number "8R"
+					(number "R8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2629,7 +3822,7 @@
 							)
 						)
 					)
-					(number "9R"
+					(number "R9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4683,7 +5876,7 @@
 		)
 		(uuid "0da25959-3ce7-44da-95a2-a984b505afcb")
 	)
-	(hierarchical_label "DEV_RELAY"
+	(hierarchical_label "~{DEV_RELAY}"
 		(shape output)
 		(at 116.205 95.25 0)
 		(fields_autoplaced yes)
@@ -7128,6 +8321,7 @@
 		)
 	)
 	(symbol
+		(lib_name "HW.ACIM-MCU_1")
 		(lib_id "SAMPI:HW.ACIM-MCU")
 		(at 102.87 64.77 0)
 		(unit 1)
@@ -7198,184 +8392,184 @@
 				(hide yes)
 			)
 		)
-		(pin "14R"
+		(pin "R6"
 			(uuid "8b766172-e411-41d4-ac4f-4500535df1ef")
 		)
-		(pin "20L"
+		(pin "R7"
 			(uuid "490f7499-213b-42a3-a7b1-fc6193fd580f")
 		)
-		(pin "19R"
+		(pin "R9"
 			(uuid "07ac74bd-4819-4f25-b455-1d4460e6b06b")
 		)
-		(pin "26L"
+		(pin "L27"
 			(uuid "bc5a195b-89ad-4bd2-a7e8-5728c0103a2a")
 		)
-		(pin "30L"
+		(pin "R8"
 			(uuid "98c40902-903a-4213-8fd8-798a9d31b5b7")
 		)
-		(pin "2L"
+		(pin "R5"
 			(uuid "edb93013-17e0-4627-956e-d3113e8fea41")
 		)
-		(pin "18R"
+		(pin "L11"
 			(uuid "e67e1014-ffea-4a02-8d5a-a15ad3b7c1da")
 		)
-		(pin "29R"
+		(pin "L30"
 			(uuid "bd12ed1f-f737-4ac6-bfe6-085bedccfb01")
 		)
-		(pin "5L"
+		(pin "L1"
 			(uuid "590b17e0-8ba3-40ab-8bb4-60b708c9a04d")
 		)
-		(pin "16L"
+		(pin "L10"
 			(uuid "1891aa10-9613-4d43-b955-1da6df8fdd53")
 		)
-		(pin "17R"
+		(pin "L8"
 			(uuid "a6a22708-0ca9-4c9b-8060-1bfad3e16b65")
 		)
-		(pin "23R"
+		(pin "L4"
 			(uuid "b9e43c13-d38d-48ee-b2ea-305a0a2b0220")
 		)
-		(pin "19L"
+		(pin "L6"
 			(uuid "8fdc17c3-6fb8-4da7-849e-d30b685f10b4")
 		)
-		(pin "15L"
+		(pin "L16"
 			(uuid "f26a2e2b-874a-4763-bb8c-04158ae12bac")
 		)
-		(pin "11L"
+		(pin "L7"
 			(uuid "b5ffe0bf-dabb-45e4-ba57-ccb6d1abf698")
 		)
-		(pin "10L"
+		(pin "R25"
 			(uuid "97cc0a5b-8747-4d71-a9d5-8320389ceeae")
 		)
-		(pin "22R"
+		(pin "L26"
 			(uuid "3607da83-ecd5-410a-8940-39e1b46e3410")
 		)
-		(pin "24L"
+		(pin "L29"
 			(uuid "01698db7-e66d-4031-8e02-b3fff985a566")
 		)
-		(pin "11R"
+		(pin "R23"
 			(uuid "a7501eec-ab9e-4330-95dd-2e2edbb75457")
 		)
-		(pin "1L"
+		(pin "R18"
 			(uuid "b10d8006-dace-4cef-b794-716629261321")
 		)
-		(pin "8L"
+		(pin "L13"
 			(uuid "d52abb5c-26cd-45bc-878c-c94f910b09f9")
 		)
-		(pin "7L"
+		(pin "R28"
 			(uuid "ec364b4d-cac9-4bee-b48c-150001666336")
 		)
-		(pin "15R"
+		(pin "L25"
 			(uuid "ada7590b-e155-43b9-bb80-a4d43badfd8a")
 		)
-		(pin "1R"
+		(pin "L3"
 			(uuid "998a0b5a-11e1-457f-bbf6-af0936f0e88c")
 		)
-		(pin "24R"
+		(pin "L20"
 			(uuid "21698186-4e75-4269-8bbc-44214a795dfc")
 		)
-		(pin "25L"
+		(pin "R3"
 			(uuid "6e5744e4-4b0f-4f8f-96de-90234260cb69")
 		)
-		(pin "21R"
+		(pin "R22"
 			(uuid "7d95fb30-4dfa-45b4-b340-357a161c990a")
 		)
-		(pin "23L"
+		(pin "L12"
 			(uuid "28d866fd-fbd8-4541-b493-ba6e93452fbd")
 		)
-		(pin "9L"
+		(pin "L23"
 			(uuid "c66ce379-2235-4c43-a570-8fc1f3503bc1")
 		)
-		(pin "3L"
+		(pin "R20"
 			(uuid "5604f73f-ff1d-4269-b470-039e4c451f1a")
 		)
-		(pin "16R"
+		(pin "R17"
 			(uuid "a5f08cb9-8770-4c87-894b-7b4aae1388f3")
 		)
-		(pin "21L"
+		(pin "R4"
 			(uuid "afd34d47-c304-43dc-b118-1e32e60815e5")
 		)
-		(pin "25R"
+		(pin "R27"
 			(uuid "0f2272ca-87ee-40d6-ab61-21f11a473071")
 		)
-		(pin "26R"
+		(pin "L14"
 			(uuid "aa77f359-d578-4972-b20c-ae05692eec0e")
 		)
-		(pin "17L"
+		(pin "R16"
 			(uuid "6eaa0311-6590-4389-ad1d-1b1f5c66562d")
 		)
-		(pin "28R"
+		(pin "L24"
 			(uuid "8d5141d3-c7ed-47fd-a7de-752081bf7b23")
 		)
-		(pin "10R"
+		(pin "L18"
 			(uuid "bd691866-b35c-49c4-8a68-087edf372e06")
 		)
-		(pin "20R"
+		(pin "R13"
 			(uuid "2f598442-6ef4-4a6c-a32f-f1d93f7ddeea")
 		)
-		(pin "3R"
+		(pin "L5"
 			(uuid "cadbffd0-87fa-4ae9-8fa5-857f156fa20a")
 		)
-		(pin "14L"
+		(pin "L28"
 			(uuid "a4f4a04f-20f3-4279-a828-a80cd3103a23")
 		)
-		(pin "2R"
+		(pin "R12"
 			(uuid "fbb956e0-ed78-45fb-aae7-48a39a512c60")
 		)
-		(pin "27L"
+		(pin "R15"
 			(uuid "97c07692-0782-4ef1-b532-2a651b06e82e")
 		)
-		(pin "4R"
+		(pin "L2"
 			(uuid "93bd6f57-ae80-4648-9334-b978d4b7bce2")
 		)
-		(pin "5R"
+		(pin "R11"
 			(uuid "dea53064-156a-4acf-9802-65f88c4f9197")
 		)
-		(pin "13R"
+		(pin "L9"
 			(uuid "bd2e2e2b-8f1e-430d-a984-7426930febf0")
 		)
-		(pin "7R"
+		(pin "R29"
 			(uuid "30e01ea0-d8a1-489a-8bfd-99b28638933c")
 		)
-		(pin "8R"
+		(pin "L17"
 			(uuid "5c59d1d4-a5f0-4434-9c04-f9f1c207fcf0")
 		)
-		(pin "9R"
+		(pin "R2"
 			(uuid "efa3d5d7-ea81-4971-a978-58f47f207864")
 		)
-		(pin "22L"
+		(pin "R14"
 			(uuid "85d693cf-f12b-4abb-8595-ddf11911ccf0")
 		)
-		(pin "28L"
+		(pin "R26"
 			(uuid "744ef8a2-8f4c-4d3e-8657-79c7b8f3748f")
 		)
-		(pin "29L"
+		(pin "R21"
 			(uuid "9a5208d5-acbe-4c92-9596-061234fbc53a")
 		)
-		(pin "13L"
+		(pin "R19"
 			(uuid "1328c806-1f9a-4c72-a03c-cc6fac49e2bb")
 		)
-		(pin "6L"
+		(pin "R1"
 			(uuid "ec916f59-2858-45a6-aa47-bd3b2018066d")
 		)
-		(pin "12L"
+		(pin "R30"
 			(uuid "8a4e1d03-ddcd-4597-a83d-728687cfed53")
 		)
-		(pin "18L"
+		(pin "R24"
 			(uuid "9e76a88a-f0a0-4d39-9ffb-66f094ffec8f")
 		)
-		(pin "4L"
+		(pin "L22"
 			(uuid "a409f144-9ed0-4af4-8b45-d1f997ec9bc5")
 		)
-		(pin "12R"
+		(pin "L21"
 			(uuid "a8f26c70-7333-41ca-a5f3-2b34370f577d")
 		)
-		(pin "27R"
+		(pin "L19"
 			(uuid "3af8bebd-0f53-4331-b619-6646e64a8a4e")
 		)
-		(pin "30R"
+		(pin "L15"
 			(uuid "1968ec2a-f509-45b2-8770-b40f91417682")
 		)
-		(pin "6R"
+		(pin "R10"
 			(uuid "3979dd3b-62da-46d3-9efe-3f45c1b2abfe")
 		)
 		(instances
@@ -9348,184 +10542,184 @@
 				(hide yes)
 			)
 		)
-		(pin "14R"
+		(pin "L16"
 			(uuid "8b766172-e411-41d4-ac4f-4500535df1f0")
 		)
-		(pin "20L"
+		(pin "L19"
 			(uuid "490f7499-213b-42a3-a7b1-fc6193fd5810")
 		)
-		(pin "19R"
+		(pin "L7"
 			(uuid "07ac74bd-4819-4f25-b455-1d4460e6b06c")
 		)
-		(pin "26L"
+		(pin "L18"
 			(uuid "bc5a195b-89ad-4bd2-a7e8-5728c0103a2b")
 		)
-		(pin "30L"
+		(pin "R20"
 			(uuid "98c40902-903a-4213-8fd8-798a9d31b5b8")
 		)
-		(pin "2L"
+		(pin "L25"
 			(uuid "edb93013-17e0-4627-956e-d3113e8fea42")
 		)
-		(pin "18R"
+		(pin "R24"
 			(uuid "e67e1014-ffea-4a02-8d5a-a15ad3b7c1db")
 		)
-		(pin "29R"
+		(pin "L30"
 			(uuid "bd12ed1f-f737-4ac6-bfe6-085bedccfb02")
 		)
-		(pin "5L"
+		(pin "L29"
 			(uuid "590b17e0-8ba3-40ab-8bb4-60b708c9a04e")
 		)
-		(pin "16L"
+		(pin "L17"
 			(uuid "1891aa10-9613-4d43-b955-1da6df8fdd54")
 		)
-		(pin "17R"
+		(pin "L5"
 			(uuid "a6a22708-0ca9-4c9b-8060-1bfad3e16b66")
 		)
-		(pin "23R"
+		(pin "R2"
 			(uuid "b9e43c13-d38d-48ee-b2ea-305a0a2b0221")
 		)
-		(pin "19L"
+		(pin "R23"
 			(uuid "8fdc17c3-6fb8-4da7-849e-d30b685f10b5")
 		)
-		(pin "15L"
+		(pin "L28"
 			(uuid "f26a2e2b-874a-4763-bb8c-04158ae12bad")
 		)
-		(pin "11L"
+		(pin "R29"
 			(uuid "b5ffe0bf-dabb-45e4-ba57-ccb6d1abf699")
 		)
-		(pin "10L"
+		(pin "R1"
 			(uuid "97cc0a5b-8747-4d71-a9d5-8320389ceeaf")
 		)
-		(pin "22R"
+		(pin "L10"
 			(uuid "3607da83-ecd5-410a-8940-39e1b46e3411")
 		)
-		(pin "24L"
+		(pin "R3"
 			(uuid "01698db7-e66d-4031-8e02-b3fff985a567")
 		)
-		(pin "11R"
+		(pin "L8"
 			(uuid "a7501eec-ab9e-4330-95dd-2e2edbb75458")
 		)
-		(pin "1L"
+		(pin "L11"
 			(uuid "b10d8006-dace-4cef-b794-716629261322")
 		)
-		(pin "8L"
+		(pin "L1"
 			(uuid "d52abb5c-26cd-45bc-878c-c94f910b09fa")
 		)
-		(pin "7L"
+		(pin "L6"
 			(uuid "ec364b4d-cac9-4bee-b48c-150001666337")
 		)
-		(pin "15R"
+		(pin "R15"
 			(uuid "ada7590b-e155-43b9-bb80-a4d43badfd8b")
 		)
-		(pin "1R"
+		(pin "R7"
 			(uuid "998a0b5a-11e1-457f-bbf6-af0936f0e88d")
 		)
-		(pin "24R"
+		(pin "R18"
 			(uuid "21698186-4e75-4269-8bbc-44214a795dfd")
 		)
-		(pin "25L"
+		(pin "L12"
 			(uuid "6e5744e4-4b0f-4f8f-96de-90234260cb6a")
 		)
-		(pin "21R"
+		(pin "R21"
 			(uuid "7d95fb30-4dfa-45b4-b340-357a161c990b")
 		)
-		(pin "23L"
+		(pin "L23"
 			(uuid "28d866fd-fbd8-4541-b493-ba6e93452fbe")
 		)
-		(pin "9L"
+		(pin "R4"
 			(uuid "c66ce379-2235-4c43-a570-8fc1f3503bc2")
 		)
-		(pin "3L"
+		(pin "R11"
 			(uuid "5604f73f-ff1d-4269-b470-039e4c451f1b")
 		)
-		(pin "16R"
+		(pin "L13"
 			(uuid "a5f08cb9-8770-4c87-894b-7b4aae1388f4")
 		)
-		(pin "21L"
+		(pin "R27"
 			(uuid "afd34d47-c304-43dc-b118-1e32e60815e6")
 		)
-		(pin "25R"
+		(pin "L14"
 			(uuid "0f2272ca-87ee-40d6-ab61-21f11a473072")
 		)
-		(pin "26R"
+		(pin "L4"
 			(uuid "aa77f359-d578-4972-b20c-ae05692eec0f")
 		)
-		(pin "17L"
+		(pin "R12"
 			(uuid "6eaa0311-6590-4389-ad1d-1b1f5c66562e")
 		)
-		(pin "28R"
+		(pin "R14"
 			(uuid "8d5141d3-c7ed-47fd-a7de-752081bf7b24")
 		)
-		(pin "10R"
+		(pin "L26"
 			(uuid "bd691866-b35c-49c4-8a68-087edf372e07")
 		)
-		(pin "20R"
+		(pin "L22"
 			(uuid "2f598442-6ef4-4a6c-a32f-f1d93f7ddeeb")
 		)
-		(pin "3R"
+		(pin "L27"
 			(uuid "cadbffd0-87fa-4ae9-8fa5-857f156fa20b")
 		)
-		(pin "14L"
+		(pin "R9"
 			(uuid "a4f4a04f-20f3-4279-a828-a80cd3103a24")
 		)
-		(pin "2R"
+		(pin "L9"
 			(uuid "fbb956e0-ed78-45fb-aae7-48a39a512c61")
 		)
-		(pin "27L"
+		(pin "L24"
 			(uuid "97c07692-0782-4ef1-b532-2a651b06e82f")
 		)
-		(pin "4R"
+		(pin "L15"
 			(uuid "93bd6f57-ae80-4648-9334-b978d4b7bce3")
 		)
-		(pin "5R"
+		(pin "R25"
 			(uuid "dea53064-156a-4acf-9802-65f88c4f9198")
 		)
-		(pin "13R"
+		(pin "R26"
 			(uuid "bd2e2e2b-8f1e-430d-a984-7426930febf1")
 		)
-		(pin "7R"
+		(pin "R22"
 			(uuid "30e01ea0-d8a1-489a-8bfd-99b28638933d")
 		)
-		(pin "8R"
+		(pin "L3"
 			(uuid "5c59d1d4-a5f0-4434-9c04-f9f1c207fcf1")
 		)
-		(pin "9R"
+		(pin "L21"
 			(uuid "efa3d5d7-ea81-4971-a978-58f47f207865")
 		)
-		(pin "22L"
+		(pin "R16"
 			(uuid "85d693cf-f12b-4abb-8595-ddf11911ccf1")
 		)
-		(pin "28L"
+		(pin "R17"
 			(uuid "744ef8a2-8f4c-4d3e-8657-79c7b8f37490")
 		)
-		(pin "29L"
+		(pin "R5"
 			(uuid "9a5208d5-acbe-4c92-9596-061234fbc53b")
 		)
-		(pin "13L"
+		(pin "R13"
 			(uuid "1328c806-1f9a-4c72-a03c-cc6fac49e2bc")
 		)
-		(pin "6L"
+		(pin "R8"
 			(uuid "ec916f59-2858-45a6-aa47-bd3b2018066e")
 		)
-		(pin "12L"
+		(pin "R19"
 			(uuid "8a4e1d03-ddcd-4597-a83d-728687cfed54")
 		)
-		(pin "18L"
+		(pin "R30"
 			(uuid "9e76a88a-f0a0-4d39-9ffb-66f094ffec90")
 		)
-		(pin "4L"
+		(pin "L2"
 			(uuid "a409f144-9ed0-4af4-8b45-d1f997ec9bc6")
 		)
-		(pin "12R"
+		(pin "R6"
 			(uuid "a8f26c70-7333-41ca-a5f3-2b34370f577e")
 		)
-		(pin "27R"
+		(pin "L20"
 			(uuid "3af8bebd-0f53-4331-b619-6646e64a8a4f")
 		)
-		(pin "30R"
+		(pin "R10"
 			(uuid "1968ec2a-f509-45b2-8770-b40f91417683")
 		)
-		(pin "6R"
+		(pin "R28"
 			(uuid "3979dd3b-62da-46d3-9efe-3f45c1b2abff")
 		)
 		(instances
