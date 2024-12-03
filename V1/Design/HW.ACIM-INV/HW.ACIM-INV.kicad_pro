@@ -653,7 +653,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "TDTU_Sheet.kicad_wks",
-    "plot_directory": "../../Production/V0.1/Sch/",
+    "plot_directory": "../../Productions/HW.ACIM-INV-V1.0/Sch/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
