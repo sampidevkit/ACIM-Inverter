@@ -2642,18 +2642,6 @@
 		(uuid "0a63b9f6-b0c4-47f7-8051-45225a232efd")
 	)
 	(junction
-		(at 247.65 43.815)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c5c249d-8afc-4ece-a3d9-ceb5007ba0b2")
-	)
-	(junction
-		(at 160.02 92.075)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "118daba3-f662-4eba-ac13-e80f6cfe9b5d")
-	)
-	(junction
 		(at 43.18 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2706,12 +2694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ba8f03e-435c-4b83-8e30-734278f42f25")
-	)
-	(junction
-		(at 61.595 165.735)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e3cb6fe-e05c-4e0c-861e-725978c00f3a")
 	)
 	(junction
 		(at 46.99 139.7)
@@ -2912,12 +2894,6 @@
 		(uuid "d4121976-51aa-4ee2-bcc1-e35b14276275")
 	)
 	(junction
-		(at 142.875 165.735)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7a111f1-0b28-4c21-a2b3-d9f0d316feff")
-	)
-	(junction
 		(at 132.715 184.785)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2990,22 +2966,10 @@
 		(uuid "ed984f24-b479-45f1-9a81-d9c658581af5")
 	)
 	(junction
-		(at 247.65 92.075)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef575a2d-ff43-43fe-b914-35aec3e6bd18")
-	)
-	(junction
 		(at 71.755 177.165)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f129f2b3-ba8c-46a6-9099-8b397e5df549")
-	)
-	(junction
-		(at 78.74 92.075)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3afd460-53d2-4298-b879-d1691ab36a54")
 	)
 	(junction
 		(at 68.58 111.125)
@@ -3031,13 +2995,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 92.075) (xy 257.81 92.075)
+			(xy 160.02 92.075) (xy 160.02 103.505)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00fe9c65-3daf-4608-b6bc-2447e13fd477")
+		(uuid "01518f56-c26b-44fd-947f-35e92b849321")
 	)
 	(wire
 		(pts
@@ -3241,26 +3205,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 43.815) (xy 247.65 46.355)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c45576-b84b-4f56-aef5-d758f9caf4f0")
-	)
-	(wire
-		(pts
-			(xy 160.02 92.075) (xy 170.18 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13fd7080-b8d9-4256-9831-adcf59150405")
-	)
-	(wire
-		(pts
 			(xy 68.58 111.125) (xy 68.58 109.855)
 		)
 		(stroke
@@ -3388,16 +3332,6 @@
 			(type default)
 		)
 		(uuid "1ed2557a-53c7-4b31-b5fe-b8fb7522edeb")
-	)
-	(wire
-		(pts
-			(xy 142.875 165.735) (xy 153.035 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ffe8b4a-c599-444a-b6a4-ce8e0854c2a2")
 	)
 	(wire
 		(pts
@@ -3571,16 +3505,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 53.975) (xy 257.81 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37fd35fb-de8c-4486-9d9f-97c23d3129d5")
-	)
-	(wire
-		(pts
 			(xy 184.15 54.61) (xy 176.53 54.61)
 		)
 		(stroke
@@ -3701,16 +3625,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.075) (xy 78.74 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "427fa146-1ae0-400c-a0ad-3f881d42915b")
-	)
-	(wire
-		(pts
 			(xy 109.22 180.34) (xy 109.22 181.61)
 		)
 		(stroke
@@ -3741,26 +3655,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 175.895) (xy 71.755 177.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e26089-0cd6-48a3-b2c4-28b5a0dcbe0e")
-	)
-	(wire
-		(pts
-			(xy 170.18 92.075) (xy 170.18 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474b809a-bd0b-47e2-848f-0ae608eb64c0")
-	)
-	(wire
-		(pts
 			(xy 134.62 59.69) (xy 134.62 72.39)
 		)
 		(stroke
@@ -3781,26 +3675,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 103.505) (xy 247.65 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49309bf0-9fe5-4b03-aad1-e03300e0ccb2")
-	)
-	(wire
-		(pts
-			(xy 71.755 165.735) (xy 71.755 168.275)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7ecf82-6ec9-48ba-8463-852143f23b43")
-	)
-	(wire
-		(pts
 			(xy 71.755 177.165) (xy 71.755 178.435)
 		)
 		(stroke
@@ -3811,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 165.735) (xy 61.595 168.275)
+			(xy 61.595 165.735) (xy 61.595 177.165)
 		)
 		(stroke
 			(width 0)
@@ -3871,16 +3745,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 92.075) (xy 257.81 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "559ee1c2-3b57-401f-99e9-36f414245dc8")
-	)
-	(wire
-		(pts
 			(xy 38.1 57.15) (xy 46.99 57.15)
 		)
 		(stroke
@@ -3928,16 +3792,6 @@
 			(type default)
 		)
 		(uuid "5d627e1e-c6e0-49f7-9bb0-70131153ddc3")
-	)
-	(wire
-		(pts
-			(xy 170.18 102.235) (xy 170.18 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2c44a1-3e3f-4f7f-a3a2-b5ee3417d256")
 	)
 	(wire
 		(pts
@@ -3998,16 +3852,6 @@
 			(type default)
 		)
 		(uuid "6376c4f4-52a7-4277-8f4f-e08478d26659")
-	)
-	(wire
-		(pts
-			(xy 134.62 49.53) (xy 140.97 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639215ba-5c99-4f30-82ee-30b6cd07eaed")
 	)
 	(wire
 		(pts
@@ -4131,16 +3975,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 175.895) (xy 153.035 177.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775eae43-d95d-4952-aa2b-59e1222a57ec")
-	)
-	(wire
-		(pts
 			(xy 26.67 171.45) (xy 27.94 171.45)
 		)
 		(stroke
@@ -4151,7 +3985,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 165.735) (xy 142.875 168.275)
+			(xy 142.875 165.735) (xy 142.875 177.165)
 		)
 		(stroke
 			(width 0)
@@ -4261,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 43.815) (xy 247.65 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e47276-653e-454d-b923-c785e54bedcf")
+	)
+	(wire
+		(pts
 			(xy 46.99 55.88) (xy 46.99 57.15)
 		)
 		(stroke
@@ -4321,16 +4165,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 43.815) (xy 257.81 46.355)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c51e8e-cf65-470f-9e3d-794cef4e3e46")
-	)
-	(wire
-		(pts
 			(xy 209.55 130.175) (xy 210.82 130.175)
 		)
 		(stroke
@@ -4378,16 +4212,6 @@
 			(type default)
 		)
 		(uuid "95c6f325-800c-42ca-a6ef-e4be37ccfa79")
-	)
-	(wire
-		(pts
-			(xy 247.65 55.245) (xy 247.65 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95fbf00a-2f1d-4264-a8b3-fd1998eead31")
 	)
 	(wire
 		(pts
@@ -4571,16 +4395,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 103.505) (xy 160.02 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29812a2-0464-41da-b8db-854d865f4801")
-	)
-	(wire
-		(pts
 			(xy 123.19 82.55) (xy 124.46 82.55)
 		)
 		(stroke
@@ -4598,6 +4412,16 @@
 			(type default)
 		)
 		(uuid "a35e4d03-1ace-4717-b239-7f26758d7093")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.075) (xy 247.65 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38bab5d-292d-443f-8b1e-b507fa77a1f4")
 	)
 	(wire
 		(pts
@@ -4751,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 43.815) (xy 257.81 43.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21ba703-3fa4-4463-a0aa-d402ad8da4c2")
-	)
-	(wire
-		(pts
 			(xy 163.83 130.175) (xy 171.45 130.175)
 		)
 		(stroke
@@ -4831,26 +4645,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.075) (xy 160.02 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc35d239-b608-4416-89c8-7c8bf8af1341")
-	)
-	(wire
-		(pts
-			(xy 153.035 165.735) (xy 153.035 168.275)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd737310-c91c-4880-95cc-a41f84334b87")
-	)
-	(wire
-		(pts
 			(xy 259.08 103.505) (xy 257.81 103.505)
 		)
 		(stroke
@@ -4858,16 +4652,6 @@
 			(type default)
 		)
 		(uuid "be5d78e7-bcc0-4352-be6f-f93072bebfc7")
-	)
-	(wire
-		(pts
-			(xy 257.81 102.235) (xy 257.81 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf793528-49ab-4259-8ce9-f14038020ea0")
 	)
 	(wire
 		(pts
@@ -4918,16 +4702,6 @@
 			(type default)
 		)
 		(uuid "c5d40f9d-fcc5-4000-a3c4-0ad63f27680b")
-	)
-	(wire
-		(pts
-			(xy 88.9 102.235) (xy 88.9 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9876182-d594-4f37-aff8-c22ca0423121")
 	)
 	(wire
 		(pts
@@ -5061,16 +4835,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 92.075) (xy 247.65 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39bb9d7-5fb6-4a62-b286-c34bb3958008")
-	)
-	(wire
-		(pts
 			(xy 222.25 107.95) (xy 228.6 107.95)
 		)
 		(stroke
@@ -5098,16 +4862,6 @@
 			(type default)
 		)
 		(uuid "d607c043-b20b-40d0-ae1f-d062bc746694")
-	)
-	(wire
-		(pts
-			(xy 78.74 92.075) (xy 88.9 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6148290-053e-4b37-8e80-1cd78b4088f1")
 	)
 	(wire
 		(pts
@@ -5281,16 +5035,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 165.735) (xy 71.755 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56f8fd7-c717-409e-a1e6-0bf19277fcf6")
-	)
-	(wire
-		(pts
 			(xy 166.37 72.39) (xy 166.37 54.61)
 		)
 		(stroke
@@ -5391,16 +5135,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 177.165) (xy 61.595 175.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9d76ac-5b48-47eb-9d26-96e16fbc28b8")
-	)
-	(wire
-		(pts
 			(xy 77.47 103.505) (xy 78.74 103.505)
 		)
 		(stroke
@@ -5411,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 103.505) (xy 78.74 102.235)
+			(xy 78.74 92.075) (xy 78.74 103.505)
 		)
 		(stroke
 			(width 0)
@@ -5458,16 +5192,6 @@
 			(type default)
 		)
 		(uuid "f22bbcf9-06c6-47bf-a8ce-c073990c7f93")
-	)
-	(wire
-		(pts
-			(xy 142.875 177.165) (xy 142.875 175.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bb7620-40c1-4c6b-9016-3c7505e6b5c5")
 	)
 	(wire
 		(pts
@@ -5558,16 +5282,6 @@
 			(type default)
 		)
 		(uuid "fbab3c00-5757-43b0-b018-172ee4cf08eb")
-	)
-	(wire
-		(pts
-			(xy 88.9 92.075) (xy 88.9 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd633cb5-0332-4e6a-9e3a-29d1f7934e35")
 	)
 	(wire
 		(pts
@@ -5745,7 +5459,7 @@
 	)
 	(hierarchical_label "MC_IDC_SEN"
 		(shape input)
-		(at 134.62 49.53 180)
+		(at 133.35 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6114,7 +5828,7 @@
 		(dnp no)
 		(uuid "03a3a153-4739-483b-a5e7-02c9961003a9")
 		(property "Reference" "C104"
-			(at 136.525 188.595 0)
+			(at 135.89 181.61 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6124,7 +5838,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 135.255 191.135 0)
+			(at 135.89 187.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,184 +6432,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "C98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 157.48 97.155 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1489edc2-45d5-4aaa-b331-79fb27ac6b8c")
-		(property "Reference" "C25"
-			(at 162.56 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 162.56 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 157.48 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 157.48 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 157.48 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 157.48 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a3bb324-a831-4a7c-a459-bf56e20720ce")
-		)
-		(pin "2"
-			(uuid "74f72b2a-5ec4-416c-87fd-9ffffb8440c3")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 245.11 97.155 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15014b36-8abc-4322-bcd6-5dda74138ed6")
-		(property "Reference" "C43"
-			(at 250.19 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 250.19 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 245.11 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 245.11 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 245.11 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 245.11 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "131c0dfb-b6b0-4d41-bf6d-9ae633d2515f")
-		)
-		(pin "2"
-			(uuid "4b50d78e-37fc-4d59-b786-04752c404851")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9045,92 +8581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RES")
-		(at 260.35 48.895 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f390f92-2a6d-4623-99de-1c79e5cdc336")
-		(property "Reference" "R79"
-			(at 261.62 48.895 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 261.62 51.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 260.35 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 260.35 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 260.35 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 260.35 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10e29a20-887d-45ad-be17-dc02835c027d")
-		)
-		(pin "2"
-			(uuid "c94a4fe8-76a0-4b7d-9d53-e5c6ab971b58")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:DIODE_ARR2")
 		(at 215.9 54.61 0)
 		(mirror y)
@@ -9305,92 +8755,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:RES")
-		(at 260.35 97.155 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4301d533-dd2c-4e9c-bddf-c78928fd67df")
-		(property "Reference" "R60"
-			(at 261.62 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 261.62 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 260.35 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 260.35 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 260.35 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 260.35 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f23e9ec8-38a6-492b-aa2e-7aa0aa2170f5")
-		)
-		(pin "2"
-			(uuid "11ca46bb-c1f2-4c0a-8616-9802b785abb1")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -11191,7 +10555,7 @@
 		(dnp no)
 		(uuid "6e580a7d-d24d-4ac8-88cc-06399d9f2ffe")
 		(property "Reference" "C95"
-			(at 55.245 188.595 0)
+			(at 54.61 181.61 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -11201,7 +10565,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.975 191.135 0)
+			(at 53.975 187.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +10710,7 @@
 		(dnp no)
 		(uuid "6f06d554-5ca6-4117-9b9e-30e21e772730")
 		(property "Reference" "C102"
-			(at 42.545 185.42 90)
+			(at 43.18 185.42 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -11356,7 +10720,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 42.545 187.96 90)
+			(at 41.91 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,6 +11426,93 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:RES")
+		(at 138.43 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4a5ca9-476f-43d9-bf5a-e9d19a8c7b7e")
+		(property "Reference" "R10"
+			(at 137.16 46.99 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "1.1K"
+			(at 137.16 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "AC0603FR-071K1L"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "YAGEO"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8dc5b8e-e0dd-41e9-ae01-f98a168941f3")
+		)
+		(pin "2"
+			(uuid "1675ad8b-7f4d-4e15-9613-626c55063e22")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 172.72 149.225 270)
 		(mirror x)
@@ -12578,92 +12029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RES")
-		(at 155.575 170.815 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "878c14e0-1ffc-4ee0-bdc9-d2917ec4c8f7")
-		(property "Reference" "R101"
-			(at 156.845 170.815 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 156.845 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 155.575 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.575 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 155.575 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 155.575 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 155.575 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c4662c-5025-4714-855d-0c7d0e8a2be0")
-		)
-		(pin "2"
-			(uuid "7dd459e9-d20a-4d95-be34-05c1dd5a6cc1")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:AVDD")
 		(at 203.2 102.87 0)
 		(unit 1)
@@ -12938,7 +12303,7 @@
 		(dnp no)
 		(uuid "93415fbd-d3ef-42af-aec6-f0b2190d3e95")
 		(property "Reference" "C41"
-			(at 241.3 114.935 0)
+			(at 240.665 107.95 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12948,7 +12313,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 240.03 117.475 0)
+			(at 240.03 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,92 +12787,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:RES")
-		(at 74.295 170.815 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bba35d6-447e-4036-84b1-a83d0dd7c5f0")
-		(property "Reference" "R81"
-			(at 75.565 170.815 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 75.565 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 74.295 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.295 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 74.295 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 74.295 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 74.295 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db7255a4-4329-4fc4-bd9d-daaad9a2b3d3")
-		)
-		(pin "2"
-			(uuid "eceeaad9-734c-4e63-b02d-3dde03d42e8c")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -13999,95 +13278,6 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 140.335 170.815 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4e3d722-f9a9-4eaf-923d-155da0fce925")
-		(property "Reference" "C105"
-			(at 145.415 170.815 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 145.415 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 140.335 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.335 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 140.335 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 140.335 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 140.335 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "691c6935-00b1-4dc7-ad0f-cb3dc753561b")
-		)
-		(pin "2"
-			(uuid "689a87c9-21c9-43ce-857b-0eb605bdf5d8")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
 		(at 156.21 108.585 0)
 		(mirror y)
 		(unit 1)
@@ -14097,7 +13287,7 @@
 		(dnp no)
 		(uuid "a5df12d7-95ad-4038-b8f0-5c9ca86587ee")
 		(property "Reference" "C27"
-			(at 153.67 114.935 0)
+			(at 153.035 107.95 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14107,7 +13297,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 152.4 117.475 0)
+			(at 152.4 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +14511,7 @@
 		(dnp no)
 		(uuid "b2304ad6-f307-45ca-969b-27b9d2823014")
 		(property "Reference" "C106"
-			(at 159.385 180.975 90)
+			(at 160.02 180.975 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -15331,7 +14521,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 159.385 183.515 90)
+			(at 158.75 183.515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,7 +14609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 45.72 90)
+			(at 169.545 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15632,7 +14822,7 @@
 		(dnp no)
 		(uuid "b620898e-6be0-4330-9fa8-3e9c5b4f52a1")
 		(property "Reference" "C22"
-			(at 120.65 63.5 90)
+			(at 121.285 63.5 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -15642,7 +14832,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 66.04 90)
+			(at 122.555 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,95 +16959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 76.2 97.155 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e58caf0c-fec0-46e1-a857-274a4a08b974")
-		(property "Reference" "C19"
-			(at 81.28 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 81.28 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 76.2 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 76.2 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 76.2 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 76.2 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "808192f3-0184-431b-96f9-2bfeca8b3696")
-		)
-		(pin "2"
-			(uuid "a6330dd7-9be6-4277-bbb0-5c59a7abf168")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:AGND")
 		(at 53.34 116.84 0)
 		(unit 1)
@@ -18033,7 +17134,7 @@
 		(dnp no)
 		(uuid "e88c66d1-1cb6-4abe-be8f-25c5fe7e7561")
 		(property "Reference" "C46"
-			(at 241.3 66.675 0)
+			(at 240.665 59.69 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -18043,7 +17144,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 240.03 69.215 0)
+			(at 240.03 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18122,7 +17223,7 @@
 		(dnp no)
 		(uuid "e909c55f-565d-43e4-ae31-b46c846a483c")
 		(property "Reference" "C42"
-			(at 153.67 67.31 0)
+			(at 153.035 60.325 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -18132,7 +17233,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 152.4 69.85 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18201,92 +17302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RES")
-		(at 172.72 97.155 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9340df4-4e56-47b9-ae07-42c46487b2d4")
-		(property "Reference" "R36"
-			(at 173.99 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 173.99 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 172.72 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 172.72 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 172.72 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 172.72 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87b04899-2c4c-455c-a08a-9d9f0c8128e2")
-		)
-		(pin "2"
-			(uuid "e4888a8d-55f8-4623-9a84-e093bc668d98")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 74.93 108.585 0)
 		(mirror y)
@@ -18297,7 +17312,7 @@
 		(dnp no)
 		(uuid "ea5c66be-cc98-4eb3-b1eb-498795bad61f")
 		(property "Reference" "C24"
-			(at 72.39 114.935 0)
+			(at 71.755 107.95 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -18307,7 +17322,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 117.475 0)
+			(at 71.12 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18508,92 +17523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:RES")
-		(at 91.44 97.155 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eaedde06-e8f2-4249-9555-b1e346a7d580")
-		(property "Reference" "R10"
-			(at 92.71 97.155 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "1.1K"
-			(at 92.71 99.695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:RES0603"
-			(at 91.44 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1.1K OHM 1% 1/10W 0603"
-			(at 91.44 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "AC0603FR-071K1L"
-			(at 91.44 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "YAGEO"
-			(at 91.44 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4385562-5a5a-4d4b-9e76-8819bad25811")
-		)
-		(pin "2"
-			(uuid "d06a1b1d-fc06-4b89-8859-e7c03cafb4fe")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 86.36 107.315 90)
 		(mirror x)
@@ -18677,95 +17606,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 245.11 48.895 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eeb1fdff-6894-4530-ad8d-be0acb66658e")
-		(property "Reference" "C47"
-			(at 250.19 48.895 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 250.19 51.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 245.11 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 245.11 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 245.11 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 245.11 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ae8436a-4095-43fb-9409-eb815772e308")
-		)
-		(pin "2"
-			(uuid "2b3d88e8-7ea8-429e-a4a4-1abe278b8f64")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -19371,95 +18211,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:CERCAP")
-		(at 59.055 170.815 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe192774-f316-4392-abc7-799ccbf67a1d")
-		(property "Reference" "C101"
-			(at 64.135 170.815 90)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 64.135 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 59.055 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.055 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
-			(at 59.055 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "CL10B102KB8NNNC"
-			(at 59.055 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung"
-			(at 59.055 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ac018a9-ad36-4a68-9b09-3d3db9f4b17b")
-		)
-		(pin "2"
-			(uuid "7c7f355e-75c4-497f-ae05-81d09e47790d")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "C101")
 					(unit 1)
 				)
 			)

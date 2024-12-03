@@ -1,4 +1,4 @@
-2056246009453844
+2084691284891104
 Liem
 6-WLCSP
 
@@ -420,6 +420,13 @@ DIL14-1.27-SMD
 14
 14
 Liem
+DIL14_1.27_MTH
+
+
+0
+14
+14
+Liem
 DO-214AA
 
 
@@ -567,6 +574,13 @@ GM02SP
 120
 120
 Liem
+HD-2x4x1.27-SMD
+
+
+0
+8
+8
+Liem
 HDF-1x10x2MM
 
 
@@ -699,6 +713,13 @@ HDM-2x4x2.0-TH-RA
 0
 8
 8
+Liem
+HDM-2x5x1.27-TH
+
+
+0
+10
+10
 Liem
 HDM-2x6x2.54
 
@@ -935,8 +956,8 @@ ITRON-MIU-SENSOR
 
 
 0
-27
-9
+24
+8
 Liem
 JP0603
 
@@ -1217,6 +1238,20 @@ RLGA10VG020T_ROHM
 0
 10
 10
+Liem
+RPAS.NB-B3L-1.0
+
+
+0
+1
+1
+Liem
+RPAS.NB-B3R-1.0
+
+
+0
+1
+1
 Liem
 RPDBG
 
@@ -3290,6 +3325,20 @@ Socket_Bluetooth
 6
 6
 My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CL
+
+
+0
+1
+1
+My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CR
+
+
+0
+1
+1
+My_Library
 T60403-K5024-X044
 
 
@@ -3948,6 +3997,13 @@ ECWFE2W105
 2
 2
 SAMPI
+EE8.3
+
+
+0
+4
+4
+SAMPI
 ESMQ451VSN681MA50S
 
 
@@ -4031,6 +4087,13 @@ GM02SP
 0
 120
 120
+SAMPI
+HD-2x5x1.27MM-TH
+
+
+0
+10
+10
 SAMPI
 HD-2x15x0.4-SMD
 
@@ -4339,6 +4402,20 @@ HW.ACIM-MCU
 0
 60
 60
+SAMPI
+IDC-2x5x1.27MM-TH
+
+
+0
+10
+10
+SAMPI
+IDC-2x5x2MM-TH
+
+
+0
+14
+14
 SAMPI
 IDC-2x7x2MM-TH
 
@@ -6195,6 +6272,13 @@ IND_SMD_7.2x6.65
 2
 2
 Triet_KiCAD_Fprint
+INOUT-RSLFP
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 IR-RX-0603
 
 
@@ -6594,6 +6678,13 @@ PLC_3Phase_Input
 8
 8
 Triet_KiCAD_Fprint
+Profet
+
+
+0
+5
+4
+Triet_KiCAD_Fprint
 QFN-20_3X3
 
 
@@ -6628,6 +6719,13 @@ RAF040_Pch
 0
 3
 3
+Triet_KiCAD_Fprint
+RP2040-QFN56
+QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+57
+57
 Triet_KiCAD_Fprint
 RP_DEBUG
 2x5_pitch 1.27
@@ -6689,14 +6787,14 @@ ResShunt1206
 
 
 0
-10
+4
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-6
+4
 4
 Triet_KiCAD_Fprint
 SB
@@ -6769,6 +6867,13 @@ SMTDR54_IND_3L
 2
 2
 Triet_KiCAD_Fprint
+SO8
+
+
+0
+8
+8
+Triet_KiCAD_Fprint
 SOD-106
 
 
@@ -6817,6 +6922,13 @@ SOIC SO
 0
 14
 14
+Triet_KiCAD_Fprint
+SOIC8-Mosfet
+
+
+0
+8
+6
 Triet_KiCAD_Fprint
 SOT-23-3
 
@@ -7126,14 +7238,21 @@ TQ-RL-10P-T/H
 10
 10
 Triet_KiCAD_Fprint
-TQFP-48P
+TQFP-32
+
+
+0
+32
+32
+Triet_KiCAD_Fprint
+TQFP-48
 
 
 0
 48
 48
 Triet_KiCAD_Fprint
-TQFP-48P_EP
+TQFP-48_EP
 
 
 0
@@ -7181,6 +7300,13 @@ UMT3
 0
 3
 3
+Triet_KiCAD_Fprint
+UQFN28-EP
+
+
+0
+33
+30
 Triet_KiCAD_Fprint
 USB4105
 
@@ -7307,6 +7433,13 @@ XTAL_FC-135
 0
 2
 2
+Triet_KiCAD_Fprint
+mega328-TQFP32
+
+
+0
+32
+32
 tuanlib
 6913125100002_1
 2 Position Terminal Block Header, Male Pins, Shrouded (2 Side) 0.200" (5.08mm) 90°, Right Angle Through Hole

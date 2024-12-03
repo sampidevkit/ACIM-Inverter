@@ -6929,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 45.72) (xy 274.955 45.72)
+			(xy 254 45.72) (xy 276.225 45.72)
 		)
 		(stroke
 			(width 0.3)
@@ -7859,16 +7859,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.955 45.72) (xy 276.225 45.72)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "e03c4841-7632-4dd0-943a-126dce48e5ba")
-	)
-	(wire
-		(pts
 			(xy 157.48 80.01) (xy 157.48 81.28)
 		)
 		(stroke
@@ -8235,7 +8225,7 @@
 		(uuid "3a5d4660-4be1-4643-921d-635cecaa6152")
 	)
 	(hierarchical_label "IPM_PWM_UH"
-		(shape input)
+		(shape output)
 		(at 52.07 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8247,7 +8237,7 @@
 		(uuid "461a9b42-3c13-44c4-96e3-680af264f33a")
 	)
 	(hierarchical_label "IPM_PWM_VH"
-		(shape input)
+		(shape output)
 		(at 52.07 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8259,7 +8249,7 @@
 		(uuid "4859b589-9dae-4e08-8cce-50f4150d21dd")
 	)
 	(hierarchical_label "IPM_PWM_VL"
-		(shape input)
+		(shape output)
 		(at 109.22 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8517,7 +8507,7 @@
 		(uuid "d15ddacd-1985-472a-9d30-2e6601f85219")
 	)
 	(hierarchical_label "IPM_PWM_WL"
-		(shape input)
+		(shape output)
 		(at 109.22 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8529,7 +8519,7 @@
 		(uuid "dfabaf7a-7a9e-4551-94ef-5b9908309aad")
 	)
 	(hierarchical_label "IPM_PWM_UL"
-		(shape input)
+		(shape output)
 		(at 109.22 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8602,7 +8592,7 @@
 		(uuid "f448f4ed-dee1-4690-a836-e23261693fcb")
 	)
 	(hierarchical_label "IPM_PWM_WH"
-		(shape input)
+		(shape output)
 		(at 52.07 149.86 0)
 		(fields_autoplaced yes)
 		(effects
