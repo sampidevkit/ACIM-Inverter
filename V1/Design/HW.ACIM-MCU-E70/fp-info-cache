@@ -1,4 +1,4 @@
-2045816773930022
+2093408586352831
 Liem
 6-WLCSP
 
@@ -315,6 +315,13 @@ CIPOS-MINI
 24
 24
 Liem
+CUS-12B
+
+
+0
+7
+5
+Liem
 CapSenRot3PCB
 
 
@@ -378,6 +385,13 @@ DHVQFN-16-2.5x3.5
 17
 17
 Liem
+DIL04-1.27-SMD
+
+
+0
+4
+4
+Liem
 DIL04_2.54_MTH
 
 
@@ -398,6 +412,20 @@ DIL10_1.27_MTH
 0
 10
 10
+Liem
+DIL14-1.27-SMD
+
+
+0
+14
+14
+Liem
+DIL14_1.27_MTH
+
+
+0
+14
+14
 Liem
 DO-214AA
 
@@ -546,6 +574,13 @@ GM02SP
 120
 120
 Liem
+HD-2x4x1.27-SMD
+
+
+0
+8
+8
+Liem
 HDF-1x10x2MM
 
 
@@ -678,6 +713,13 @@ HDM-2x4x2.0-TH-RA
 0
 8
 8
+Liem
+HDM-2x5x1.27-TH
+
+
+0
+10
+10
 Liem
 HDM-2x6x2.54
 
@@ -914,8 +956,8 @@ ITRON-MIU-SENSOR
 
 
 0
-27
-9
+24
+8
 Liem
 JP0603
 
@@ -958,6 +1000,13 @@ LE910
 0
 181
 181
+Liem
+LED3MM-3P
+
+
+0
+3
+3
 Liem
 LED0603
 
@@ -1190,6 +1239,20 @@ RLGA10VG020T_ROHM
 10
 10
 Liem
+RPAS.NB-B3L-1.0
+
+
+0
+1
+1
+Liem
+RPAS.NB-B3R-1.0
+
+
+0
+1
+1
+Liem
 RPDBG
 
 
@@ -1352,6 +1415,13 @@ SOD-123_12
 2
 Liem
 SOD-128_PMDTM
+
+
+0
+2
+2
+Liem
+SOD-128_PMDTM_12
 
 
 0
@@ -1525,6 +1595,13 @@ SSOP20-5.3
 0
 20
 20
+Liem
+SW-SPST-7x6-THRA
+
+
+0
+4
+4
 Liem
 SW6x6-G
 
@@ -1708,6 +1785,13 @@ TQFP64_10x10_MCHP
 64
 64
 Liem
+TSMT8
+
+
+0
+8
+8
+Liem
 TSOT-3L
 
 
@@ -1799,6 +1883,13 @@ UQFN8-1.6x1.6-0.5P
 8
 8
 Liem
+UQFN10-1.6x2.1-0.5
+
+
+0
+10
+10
+Liem
 UQFN28-4x4-EP
 
 
@@ -1868,6 +1959,13 @@ VSON04Z1114A
 0
 5
 5
+Liem
+WFQFN16-MLP16-3x3
+
+
+0
+17
+17
 Liem
 WQFN16-3x3_TI
 
@@ -3227,6 +3325,20 @@ Socket_Bluetooth
 6
 6
 My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CL
+
+
+0
+1
+1
+My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CR
+
+
+0
+1
+1
+My_Library
 T60403-K5024-X044
 
 
@@ -3515,6 +3627,13 @@ ASGGB184.A
 2
 SAMPI
 AT-1224
+
+
+0
+2
+2
+SAMPI
+AXIAL-9.5x4.0
 
 
 0
@@ -3878,6 +3997,13 @@ ECWFE2W105
 2
 2
 SAMPI
+EE8.3
+
+
+0
+4
+4
+SAMPI
 ESMQ451VSN681MA50S
 
 
@@ -3961,6 +4087,13 @@ GM02SP
 0
 120
 120
+SAMPI
+HD-2x5x1.27MM-TH
+
+
+0
+10
+10
 SAMPI
 HD-2x15x0.4-SMD
 
@@ -4200,6 +4333,13 @@ HDM1x10x2.54_TH_RA
 10
 10
 SAMPI
+HDM1x12x2.54_TH_RA
+
+
+0
+12
+12
+SAMPI
 HDM1x19x2.54_TH_RA
 
 
@@ -4256,6 +4396,27 @@ HPP845E034R5
 7
 7
 SAMPI
+HW.ACIM-MCU
+
+
+0
+60
+60
+SAMPI
+IDC-2x5x1.27MM-TH
+
+
+0
+10
+10
+SAMPI
+IDC-2x5x2MM-TH
+
+
+0
+10
+10
+SAMPI
 IDC-2x7x2MM-TH
 
 
@@ -4264,6 +4425,13 @@ IDC-2x7x2MM-TH
 14
 SAMPI
 IND-5D28-5832
+
+
+0
+2
+2
+SAMPI
+IND-8D43-8045
 
 
 0
@@ -4290,6 +4458,27 @@ IND-2520-1008
 0
 2
 2
+SAMPI
+IND-FL2D
+
+
+0
+4
+4
+SAMPI
+IND-R5-2MM-TH
+
+
+0
+2
+2
+SAMPI
+IND-SQ1010
+
+
+0
+4
+4
 SAMPI
 IND0402
 
@@ -4711,6 +4900,13 @@ SO8W_5.3
 8
 8
 SAMPI
+SOD-80C_DO-213AC
+
+
+0
+2
+2
+SAMPI
 SOD-123
 
 
@@ -4816,6 +5012,13 @@ SOIC16-3.9
 16
 16
 SAMPI
+SOIC16-W
+
+
+0
+16
+16
+SAMPI
 SOIC16_7.5_AN
 
 
@@ -4836,6 +5039,13 @@ SOT-23-6_MCHP
 0
 6
 6
+SAMPI
+SOT-89
+
+
+0
+3
+3
 SAMPI
 SOT-583
 
@@ -6062,6 +6272,13 @@ IND_SMD_7.2x6.65
 2
 2
 Triet_KiCAD_Fprint
+INOUT-RSLFP
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 IR-RX-0603
 
 
@@ -6124,6 +6341,13 @@ LM2596
 0
 6
 5
+Triet_KiCAD_Fprint
+LQFP-48_7x7mm_P0.5mm
+
+
+0
+48
+48
 Triet_KiCAD_Fprint
 LuaNode32-30P
 
@@ -6307,26 +6531,26 @@ MT3608_Bst
 4
 4
 Triet_KiCAD_Fprint
+MX3.0-18P
+
+
+0
+18
+18
+Triet_KiCAD_Fprint
+MX3.0-18P-RSLFP8s
+
+
+0
+18
+9
+Triet_KiCAD_Fprint
 MapleMini_Base
 
 
 0
 0
 0
-Triet_KiCAD_Fprint
-Mini PCIe Full Outline
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-Mini PCIe Half Outline
-
-
-0
-54
-52
 Triet_KiCAD_Fprint
 MiniMELF
 
@@ -6419,70 +6643,14 @@ PAD_TH_D.1mm
 1
 1
 Triet_KiCAD_Fprint
-PCB_PCIe _Full_Interface
+PCB_Mini_PCIe_Full
 
 
 0
 54
 52
 Triet_KiCAD_Fprint
-PCB_PCIe_Full_MCU
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Full_Power
-
-
-0
-54
-3
-Triet_KiCAD_Fprint
-PCB_PCIe_Full_Sensor
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Full_Wireless
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Half_Interface
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Half_MCU
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Half_Power
-
-
-0
-54
-3
-Triet_KiCAD_Fprint
-PCB_PCIe_Half_Sensor
-
-
-0
-54
-52
-Triet_KiCAD_Fprint
-PCB_PCIe_Half_Wireless
+PCB_Mini_PCIe_Half
 
 
 0
@@ -6524,6 +6692,13 @@ PLC_3Phase_Input
 8
 8
 Triet_KiCAD_Fprint
+Profet
+
+
+0
+5
+4
+Triet_KiCAD_Fprint
 QFN-20_3X3
 
 
@@ -6558,6 +6733,13 @@ RAF040_Pch
 0
 3
 3
+Triet_KiCAD_Fprint
+RP2040-QFN56
+QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+57
+57
 Triet_KiCAD_Fprint
 RP_DEBUG
 2x5_pitch 1.27
@@ -6619,14 +6801,14 @@ ResShunt1206
 
 
 0
-10
+4
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-6
+4
 4
 Triet_KiCAD_Fprint
 SB
@@ -6699,7 +6881,28 @@ SMTDR54_IND_3L
 2
 2
 Triet_KiCAD_Fprint
+SO8
+
+
+0
+8
+8
+Triet_KiCAD_Fprint
+SO8_Mosfet
+
+
+0
+8
+6
+Triet_KiCAD_Fprint
 SOD-106
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+SOD-128
 
 
 0
@@ -6727,13 +6930,6 @@ SMF5V0TR
 2
 2
 Triet_KiCAD_Fprint
-SOD_128
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
 SOD_323
 
 
@@ -6747,6 +6943,13 @@ SOIC SO
 0
 14
 14
+Triet_KiCAD_Fprint
+SOIC8-Mosfet
+
+
+0
+8
+6
 Triet_KiCAD_Fprint
 SOT-23-3
 
@@ -6819,6 +7022,13 @@ SOT-363
 6
 Triet_KiCAD_Fprint
 SOT-363-TVS
+
+
+0
+6
+6
+Triet_KiCAD_Fprint
+SOT-363_Mosfet
 
 
 0
@@ -6972,35 +7182,7 @@ Socket_Bluetooth
 6
 6
 Triet_KiCAD_Fprint
-Socket_PCIe_Interface
-
-
-0
-54
-53
-Triet_KiCAD_Fprint
-Socket_PCIe_MCU
-
-
-0
-54
-53
-Triet_KiCAD_Fprint
-Socket_PCIe_Power
-
-
-0
-54
-53
-Triet_KiCAD_Fprint
-Socket_PCIe_Sensor
-
-
-0
-54
-53
-Triet_KiCAD_Fprint
-Socket_PCIe_Wireless
+Socket_Mini_PCIe
 
 
 0
@@ -7084,14 +7266,21 @@ TQ-RL-10P-T/H
 10
 10
 Triet_KiCAD_Fprint
-TQFP-48P
+TQFP-32
+
+
+0
+32
+32
+Triet_KiCAD_Fprint
+TQFP-48
 
 
 0
 48
 48
 Triet_KiCAD_Fprint
-TQFP-48P_EP
+TQFP-48_EP
 
 
 0
@@ -7139,6 +7328,13 @@ UMT3
 0
 3
 3
+Triet_KiCAD_Fprint
+UQFN28-EP
+
+
+0
+33
+30
 Triet_KiCAD_Fprint
 USB4105
 
@@ -7238,6 +7434,13 @@ VQFN-48P
 49
 49
 Triet_KiCAD_Fprint
+VQFN28-1EP
+VQFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9505-AT42-QTouch-BSW-AT42QT1060_Datasheet.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+29
+29
+Triet_KiCAD_Fprint
 WBZ451
 
 
@@ -7265,6 +7468,13 @@ XTAL_FC-135
 0
 2
 2
+Triet_KiCAD_Fprint
+mega328-TQFP32
+
+
+0
+32
+32
 tuanlib
 6913125100002_1
 2 Position Terminal Block Header, Male Pins, Shrouded (2 Side) 0.200" (5.08mm) 90°, Right Angle Through Hole
