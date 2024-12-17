@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "62102c60-f92d-4c51-bae5-965384a891f0")
+	(paper "A4")
+	(title_block
+		(title "INVERTER BOARD")
+		(date "2024-09-24")
+		(rev "1.0")
+		(company "TON DUC THANG UNIVERSITY")
+		(comment 1 "Schematic Designed by ...")
+		(comment 2 "PCB Designed by ...")
+		(comment 3 "Approved by ...")
+	)
+	(lib_symbols)
+)

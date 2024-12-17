@@ -670,15 +670,19 @@
     ],
     [
       "34b63420-23a7-4d2d-affc-c07be2bf5f59",
-      "POWER"
+      "INVERTER POWER"
+    ],
+    [
+      "90bc1c00-8aa2-4331-ad43-a75c4df66101",
+      "MCU POWER"
     ],
     [
       "220ce183-b27e-490b-828f-5201e8e92b41",
-      "Inverter"
+      "INVERTER"
     ],
     [
       "7de2aa19-8f84-4f41-81e1-8fc4a5d38687",
-      "VI Measurement"
+      "POWER MEASUREMENT"
     ],
     [
       "51ad8afa-91d3-4900-86cd-9e9f0d5dd47e",

@@ -588,7 +588,7 @@
 	)
 	(polyline
 		(pts
-			(xy 35.56 37.465) (xy 36.83 38.735)
+			(xy 30.48 37.465) (xy 31.75 38.735)
 		)
 		(stroke
 			(width 0.5)
@@ -768,7 +768,7 @@
 	)
 	(polyline
 		(pts
-			(xy 35.56 40.005) (xy 36.83 38.735)
+			(xy 30.48 40.005) (xy 31.75 38.735)
 		)
 		(stroke
 			(width 0.5)
@@ -1198,7 +1198,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 38.735) (xy 36.83 38.735)
+			(xy 21.59 38.735) (xy 31.75 38.735)
 		)
 		(stroke
 			(width 0.5)
@@ -23724,7 +23724,7 @@
 	)
 	(text_box "POWER SUPPLY"
 		(exclude_from_sim no)
-		(at 17.78 31.75 0)
+		(at 13.97 31.75 0)
 		(size 7.62 12.7)
 		(stroke
 			(width 0)
@@ -23851,7 +23851,7 @@
 	)
 	(text "220VAC"
 		(exclude_from_sim no)
-		(at 31.115 37.465 0)
+		(at 25.4 37.465 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24441,8 +24441,8 @@
 			(color 150 255 150 1.0000)
 		)
 		(uuid "220ce183-b27e-490b-828f-5201e8e92b41")
-		(property "Sheetname" "Inverter"
-			(at 158.75 27.94 0)
+		(property "Sheetname" "INVERTER"
+			(at 158.75 28.575 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -24451,8 +24451,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Inverter.kicad_sch"
-			(at 158.75 29.21 0)
+		(property "Sheetfile" "INVERTER.kicad_sch"
+			(at 158.75 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24729,8 +24729,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 31.75)
-		(size 20.32 12.7)
+		(at 31.75 31.75)
+		(size 25.4 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -24739,8 +24739,8 @@
 			(color 150 255 150 1.0000)
 		)
 		(uuid "34b63420-23a7-4d2d-affc-c07be2bf5f59")
-		(property "Sheetname" "POWER"
-			(at 37.465 30.48 0)
+		(property "Sheetname" "INVERTER POWER"
+			(at 31.75 28.575 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -24749,8 +24749,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 36.83 45.72 0)
+		(property "Sheetfile" "INVPOWER.kicad_sch"
+			(at 31.75 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24801,7 +24801,7 @@
 			(at 158.75 111.125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 					(bold yes)
 				)
 				(justify left bottom)
@@ -24916,7 +24916,7 @@
 		)
 		(uuid "51ad8afa-91d3-4900-86cd-9e9f0d5dd47e")
 		(property "Sheetname" "MCU"
-			(at 69.85 27.94 0)
+			(at 69.85 28.575 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -24926,7 +24926,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 69.85 29.21 0)
+			(at 69.85 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25367,7 +25367,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -25383,8 +25383,8 @@
 			(color 150 255 150 1.0000)
 		)
 		(uuid "7de2aa19-8f84-4f41-81e1-8fc4a5d38687")
-		(property "Sheetname" "VI Measurement"
-			(at 158.75 73.025 0)
+		(property "Sheetname" "POWER MEASUREMENT"
+			(at 158.75 73.66 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -25393,8 +25393,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VI_Measurement.kicad_sch"
-			(at 158.75 74.295 0)
+		(property "Sheetfile" "POWERMEASUREMENT.kicad_sch"
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25625,7 +25625,46 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(page "4")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 57.15)
+		(size 25.4 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 150 255 150 1.0000)
+		)
+		(uuid "90bc1c00-8aa2-4331-ad43-a75c4df66101")
+		(property "Sheetname" "MCU POWER"
+			(at 31.75 53.975 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCUPOWER.kicad_sch"
+			(at 31.75 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(page "3")
 				)
 			)
 		)
