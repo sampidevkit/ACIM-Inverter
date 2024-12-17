@@ -24816,8 +24816,8 @@
 				)
 			)
 		)
-		(property "Value" "AC-DC 24V±2%/10W"
-			(at 189.23 75.565 0)
+		(property "Value" "24V±2%/10W"
+			(at 182.245 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
