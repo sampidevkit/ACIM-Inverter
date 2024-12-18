@@ -1,4 +1,4 @@
-2084691284891104
+2113646061057754
 Liem
 6-WLCSP
 
@@ -475,6 +475,13 @@ EA2-5NU
 0
 10
 10
+Liem
+EC800G-CN
+
+
+0
+109
+109
 Liem
 ECWFE2W105
 
@@ -1343,6 +1350,27 @@ SIL01
 0
 1
 1
+Liem
+SIM5320
+
+
+0
+80
+80
+Liem
+SIM5320_ADAPTOR
+
+
+0
+80
+80
+Liem
+SIM5320_ADAPTOR_LITE
+
+
+0
+36
+36
 Liem
 SIM8051-6-0-14-01-A_GCT
 
@@ -4088,6 +4116,13 @@ GM02SP
 120
 120
 SAMPI
+HD-1x6x1.27MM-TH
+
+
+0
+6
+6
+SAMPI
 HD-2x5x1.27MM-TH
 
 
@@ -4414,8 +4449,15 @@ IDC-2x5x2MM-TH
 
 
 0
-14
-14
+10
+10
+SAMPI
+IDC-2x6x2.54MM_TH
+
+
+0
+12
+12
 SAMPI
 IDC-2x7x2MM-TH
 
@@ -4577,6 +4619,13 @@ LE910
 0
 181
 181
+SAMPI
+LED3MM
+
+
+0
+2
+2
 SAMPI
 LED0603
 
@@ -5026,6 +5075,13 @@ SOIC16_7.5_AN
 16
 16
 SAMPI
+SOP8-2.54
+
+
+0
+8
+8
+SAMPI
 SOT-23-5_MCHP
 
 
@@ -5046,6 +5102,13 @@ SOT-89
 0
 3
 3
+SAMPI
+SOT-223-3
+
+
+0
+0
+0
 SAMPI
 SOT-583
 
@@ -6041,6 +6104,13 @@ FUSE BLOCK BLADE
 6
 2
 Triet_KiCAD_Fprint
+Fuse Block 1808
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 Fuse-P5.08
 
 
@@ -6531,6 +6601,20 @@ MT3608_Bst
 4
 4
 Triet_KiCAD_Fprint
+MX3.0-18P
+
+
+0
+18
+18
+Triet_KiCAD_Fprint
+MX3.0-18P-RSLFP8s
+
+
+0
+18
+9
+Triet_KiCAD_Fprint
 MapleMini_Base
 
 
@@ -6867,14 +6951,14 @@ SMTDR54_IND_3L
 2
 2
 Triet_KiCAD_Fprint
-SO8
+SOD-106
 
 
 0
-8
-8
+2
+2
 Triet_KiCAD_Fprint
-SOD-106
+SOD-128
 
 
 0
@@ -6902,13 +6986,6 @@ SMF5V0TR
 2
 2
 Triet_KiCAD_Fprint
-SOD_128
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
 SOD_323
 
 
@@ -6916,19 +6993,26 @@ SOD_323
 2
 2
 Triet_KiCAD_Fprint
+SOIC-8
+
+
+0
+8
+6
+Triet_KiCAD_Fprint
+SOIC-8-Mosfet
+
+
+0
+8
+6
+Triet_KiCAD_Fprint
 SOIC-14_4ChOp
 SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 14
 14
-Triet_KiCAD_Fprint
-SOIC8-Mosfet
-
-
-0
-8
-6
 Triet_KiCAD_Fprint
 SOT-23-3
 
@@ -7001,6 +7085,13 @@ SOT-363
 6
 Triet_KiCAD_Fprint
 SOT-363-TVS
+
+
+0
+6
+6
+Triet_KiCAD_Fprint
+SOT-363_Mosfet
 
 
 0
@@ -7405,6 +7496,13 @@ VQFN-48P
 0
 49
 49
+Triet_KiCAD_Fprint
+VQFN28-1EP
+VQFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9505-AT42-QTouch-BSW-AT42QT1060_Datasheet.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+29
+29
 Triet_KiCAD_Fprint
 WBZ451
 

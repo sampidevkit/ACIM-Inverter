@@ -14,22 +14,25 @@
 		(comment 3 "Approved by ...")
 	)
 	(lib_symbols
-		(symbol "SAM1:TVS_3CH"
-			(pin_names hide)
+		(symbol "SAMPI:+12V_MCU"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 6.985 -10.795 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
-						(size 1.3 1.3)
-						(bold yes)
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "TVS 3-CH"
-				(at 10.16 -12.7 0)
+			(property "Value" "+12V_MCU"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,24 +40,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 6.985 -10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 6.985 -10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,8 +48,8 @@
 					(hide yes)
 				)
 			)
-			(property "MNP" "PRTR5V0U2X,215"
-				(at 13.335 -14.605 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,10 +57,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS_3CH_0_1"
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_MCU_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -13.335) (xy -1.27 -13.97)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -87,7 +90,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -13.335) (xy 0.635 -13.335)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -99,127 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -11.43) (xy 0 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -13.335) (xy 1.27 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -13.335) (xy 1.27 -13.97)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -13.335) (xy 3.175 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -13.97) (xy 2.54 -16.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -12.7) (xy 2.54 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -13.335) (xy 3.81 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -12.7) (xy 5.715 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 5.08 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -12.7) (xy 6.35 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -13.97) (xy 5.08 -15.24) (xy 2.54 -15.24) (xy 0 -15.24) (xy 0 -13.97)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -230,82 +113,11 @@
 					)
 				)
 			)
-			(symbol "TVS_3CH_1_1"
-				(polyline
-					(pts
-						(xy 0 -13.335) (xy -0.635 -13.97) (xy 0.635 -13.97) (xy 0 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -13.335) (xy -0.635 -12.7) (xy 0.635 -12.7) (xy 0 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -13.335) (xy 1.905 -13.97) (xy 3.175 -13.97) (xy 2.54 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -13.335) (xy 1.905 -12.7) (xy 3.175 -12.7) (xy 2.54 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 4.445 -13.97) (xy 5.715 -13.97) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -15.24)
-					(radius 0.1796)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -19.05 90)
-					(length 2.54)
-					(name "GND"
+			(symbol "+12V_MCU_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -320,17 +132,119 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -8.89 270)
-					(length 2.54)
-					(name "CH1"
+			)
+		)
+		(symbol "SAMPI:+24V_MCU"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V_MCU"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_MCU_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_MCU_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -338,17 +252,119 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -8.89 270)
-					(length 2.54)
-					(name "CH2"
+			)
+		)
+		(symbol "SAMPI:+3V3_MCU"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_MCU"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_MCU_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_MCU_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -356,17 +372,119 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -8.89 270)
-					(length 2.54)
-					(name "CH3"
+			)
+		)
+		(symbol "SAMPI:+5V_MCU"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V_MCU"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_MCU_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_MCU_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -996,6 +1114,102 @@
 				)
 			)
 		)
+		(symbol "SAMPI:GND_MCU"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_MCU"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_MCU_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_MCU_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SAMPI:RES"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1535,33 +1749,32 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
+		(symbol "TVS_3CH_1"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "D23"
+				(at 6.985 -12.7 0)
+				(effects
+					(font
+						(size 1.3 1.3)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TVS 5.5V 3-CH"
+				(at 6.985 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "SAMPI:SOT143B_NEXT"
+				(at 6.985 -10.795 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1570,6 +1783,15 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 6.985 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS DIODE 5.5VWM SOT143B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1578,7 +1800,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "MNP" "PRTR5V0U2X,215"
+				(at 13.335 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "  Nexperia"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1587,19 +1818,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
+			(symbol "TVS_3CH_1_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -0.635 -13.335) (xy -1.27 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -1611,7 +1833,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy -0.635 -13.335) (xy 0.635 -13.335)
 					)
 					(stroke
 						(width 0)
@@ -1623,103 +1845,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy 0.635 -13.335) (xy 1.27 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1731,7 +1857,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 1.905 -13.335) (xy 1.27 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -1743,103 +1869,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy 1.905 -13.335) (xy 3.175 -13.335)
 					)
 					(stroke
 						(width 0)
@@ -1851,7 +1881,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 2.54 -15.24) (xy 2.54 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -1863,103 +1893,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy 3.175 -13.335) (xy 3.81 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1971,7 +1905,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 4.445 -12.7) (xy 5.715 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1983,7 +1917,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 5.715 -12.7) (xy 6.35 -13.335)
 					)
 					(stroke
 						(width 0)
@@ -1993,93 +1927,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 5.08 -13.97) (xy 5.08 -15.24) (xy 2.54 -15.24) (xy 0 -15.24) (xy 0 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -2090,10 +1940,81 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
+			(symbol "TVS_3CH_1_1_1"
+				(polyline
+					(pts
+						(xy 0 -13.335) (xy -0.635 -13.97) (xy 0.635 -13.97) (xy 0 -13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.335) (xy -0.635 -12.7) (xy 0.635 -12.7) (xy 0 -13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -13.335) (xy 1.905 -13.97) (xy 3.175 -13.97) (xy 2.54 -13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -13.335) (xy 1.905 -12.7) (xy 3.175 -12.7) (xy 2.54 -13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -12.7) (xy 4.445 -13.97) (xy 5.715 -13.97) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -15.24)
+					(radius 0.1796)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -17.78 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -2102,6 +2023,60 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 270)
+					(length 2.54)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 270)
+					(length 2.54)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 270)
+					(length 2.54)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2358,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 135.89) (xy 63.5 135.89)
+			(xy 38.1 135.89) (xy 63.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2892,7 @@
 		(uuid "fe34aea9-535c-45e0-a1a9-6ad5b72d9c99")
 	)
 	(label "V_ENC"
-		(at 52.705 135.89 0)
+		(at 50.8 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2953,7 +2928,7 @@
 	)
 	(hierarchical_label "PULSE_B"
 		(shape output)
-		(at 44.45 125.73 0)
+		(at 38.1 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2965,7 +2940,7 @@
 	)
 	(hierarchical_label "INDEX"
 		(shape output)
-		(at 44.45 128.27 0)
+		(at 38.1 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3001,7 +2976,7 @@
 	)
 	(hierarchical_label "PULSE_A"
 		(shape output)
-		(at 44.45 123.19 0)
+		(at 38.1 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3049,7 +3024,7 @@
 	)
 	(hierarchical_label "HOME"
 		(shape output)
-		(at 44.45 130.81 0)
+		(at 38.1 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3070,72 +3045,6 @@
 			(justify right)
 		)
 		(uuid "ec2772ce-09bb-45f7-ae4d-3968c3cc1f34")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10cffb59-c4ee-45ad-8e24-21e48bbce0f3")
-		(property "Reference" "#PWR0137"
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ca5a79-18e8-4beb-a7ca-12770ddbc216")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
@@ -3840,16 +3749,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 59.69 0)
+		(lib_id "SAMPI:GND_MCU")
+		(at 88.9 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "423df384-22a8-4c0e-af09-1d80c6e708cd")
-		(property "Reference" "#PWR0135"
-			(at 88.9 66.04 0)
+		(uuid "49a99aab-26f9-495d-8dc0-81c70ecb6306")
+		(property "Reference" "#PWR0101"
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,17 +3766,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 63.5 0)
+		(property "Value" "GND_MCU"
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 59.69 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 59.69 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,8 +3794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,20 +3804,222 @@
 			)
 		)
 		(pin "1"
-			(uuid "30821e8b-7199-4ffc-8e51-e374512dad4f")
+			(uuid "1bd2e279-74c9-45f9-8137-e2b9ba86ad29")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0135")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:+3V3_MCU")
+		(at 88.9 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fddf311-9b4a-444b-b201-6580dd1a35c9")
+		(property "Reference" "#PWR02"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_MCU"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71bede57-084b-4629-8749-7e3f7fd711e4")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:+12V_MCU")
+		(at 38.1 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "566423bf-c38a-4117-99b8-e5ac1a820a83")
+		(property "Reference" "#PWR018"
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_MCU"
+			(at 45.72 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba6d1bf0-ff51-437b-af39-d43fa0aa429a")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 101.6 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ce536a2-2692-4dbd-a9e2-449de991ec3c")
+		(property "Reference" "#PWR0118"
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "210d0932-1bf5-4cfb-af8a-6162f2a7bcbf")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TVS_3CH_1")
 		(lib_id "SAM1:TVS_3CH")
-		(at 99.06 138.43 0)
+		(at 99.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3915,7 +4027,7 @@
 		(dnp no)
 		(uuid "5d50ab29-036d-4c33-b690-e55587eea94b")
 		(property "Reference" "D23"
-			(at 106.045 151.13 0)
+			(at 106.045 149.86 0)
 			(effects
 				(font
 					(size 1.3 1.3)
@@ -3925,7 +4037,7 @@
 			)
 		)
 		(property "Value" "TVS 5.5V 3-CH"
-			(at 106.045 153.67 0)
+			(at 106.045 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:SOT143B_NEXT"
-			(at 106.045 149.225 0)
+			(at 106.045 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.045 149.225 0)
+			(at 106.045 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4064,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5.5VWM SOT143B"
-			(at 99.06 138.43 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4073,7 @@
 			)
 		)
 		(property "MNP" "PRTR5V0U2X,215"
-			(at 112.395 153.035 0)
+			(at 112.395 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4082,7 @@
 			)
 		)
 		(property "MFT" "  Nexperia"
-			(at 99.06 138.43 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,30 +4201,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "SAMPI:GND_MCU")
 		(at 63.5 144.78 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65c09792-5b53-4623-aa29-f28ea440b1fb")
+		(uuid "6749f60f-7c7b-455f-98a0-36bb0e890d6a")
 		(property "Reference" "#PWR0119"
 			(at 63.5 151.13 0)
 			(effects
 				(font
-					(size 1.5 1.5)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_MCU"
 			(at 63.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
@@ -4135,7 +4246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 144.78 0)
 			(effects
 				(font
@@ -4145,106 +4256,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b7b9237-40c7-4c6d-bf46-da4ba01fd895")
+			(uuid "8f68b2ab-0ef0-45d1-b730-326523928b10")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAM1:TVS_3CH")
-		(at 99.06 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6649a3a6-10dd-4bcf-a0af-33ebaaad799c")
-		(property "Reference" "D19"
-			(at 106.045 87.63 0)
-			(effects
-				(font
-					(size 1.3 1.3)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS 5.5V 3-CH"
-			(at 106.045 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SAMPI:SOT143B_NEXT"
-			(at 106.045 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE 5.5VWM SOT143B"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "PRTR5V0U2X,215"
-			(at 112.395 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "  Nexperia"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0868018e-d6d0-400d-b0ba-cffad212c1f6")
-		)
-		(pin "2"
-			(uuid "3b2af9ec-0651-40c4-afb5-14ff49c44880")
-		)
-		(pin "3"
-			(uuid "8f93d8c1-ef5f-441b-8888-b827e7a549b4")
-		)
-		(pin "4"
-			(uuid "48db10dc-8155-4ac2-9d7a-bee334be1ccc")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -4337,35 +4354,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 93.98 0)
-		(mirror y)
+		(lib_name "TVS_3CH_1")
+		(lib_id "SAM1:TVS_3CH")
+		(at 99.06 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69bd988c-00fa-4606-858d-cab7bad7b912")
-		(property "Reference" "#PWR064"
-			(at 101.6 100.33 0)
+		(uuid "76987c25-a400-4717-8610-d937833f7669")
+		(property "Reference" "D10"
+			(at 106.045 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.3 1.3)
 					(bold yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 93.98 0)
+		(property "Value" "TVS 5.5V 3-CH"
+			(at 106.045 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:SOT143B_NEXT"
+			(at 106.045 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 93.98 0)
+			(at 106.045 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,8 +4400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 93.98 0)
+		(property "Description" "TVS DIODE 5.5VWM SOT143B"
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,29 +4409,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1df6050a-157d-43f1-b6f3-d293bb66bfda")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e76d1d5-299d-4d0b-82f7-24e1b98bb7df")
-		(property "Reference" "#PWR0185"
-			(at 88.9 129.54 0)
+		(property "MNP" "PRTR5V0U2X,215"
+			(at 112.395 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,35 +4418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 123.19 0)
+		(property "MFT" "  Nexperia"
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,12 +4428,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f79bb13-14f7-426c-b3b4-7d9fd2dd90a3")
+			(uuid "1f8398ba-a0e9-454f-8f9c-7abbff723e3d")
+		)
+		(pin "2"
+			(uuid "ce0b819b-d99e-4ac1-a9f7-bc5511f18b63")
+		)
+		(pin "3"
+			(uuid "709da682-5e09-4a24-ad81-cbb7a7ba4809")
+		)
+		(pin "4"
+			(uuid "decc943c-8863-4a64-ab97-c3b1c51e84ac")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0185")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4450,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CABLE1")
-		(at 29.845 127.635 0)
+		(at 23.495 127.635 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4480,7 +4459,7 @@
 		(dnp no)
 		(uuid "775ced76-7442-4f47-98b1-e0d7014f6620")
 		(property "Reference" "CB3"
-			(at 24.765 132.7149 0)
+			(at 18.415 132.7149 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4490,7 +4469,7 @@
 			)
 		)
 		(property "Value" "CABLE1"
-			(at 24.765 135.2549 0)
+			(at 18.415 135.2549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 127.635 0)
+			(at 23.495 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 127.635 0)
+			(at 23.495 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.845 127.635 0)
+			(at 23.495 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,16 +4514,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 133.35 90)
+		(lib_id "SAMPI:GND_MCU")
+		(at 88.9 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "80be6f4f-f902-437f-802b-eb8bf841cd43")
-		(property "Reference" "#PWR020"
-			(at 50.8 133.35 0)
+		(uuid "79d1c569-e199-4ded-86d4-dbb35d078fa3")
+		(property "Reference" "#PWR0100"
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,74 +4531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 48.895 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf3ebec-d4a3-4183-93dc-ae6753c0edd4")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 44.45 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8afd1301-70d5-4496-9e98-d101148ec5f6")
-		(property "Reference" "#PWR019"
-			(at 40.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 49.53 140.97 90)
+		(property "Value" "GND_MCU"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 140.97 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 140.97 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,8 +4559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 44.45 140.97 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,47 +4569,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "7013f430-bf22-4125-a7b9-aa3332226456")
+			(uuid "cfff4079-c875-47bb-8076-4844dc487868")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR019")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 138.43 270)
+		(lib_id "SAMPI:+3V3_MCU")
+		(at 88.9 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a4e53ae-cec4-472b-b7bc-764acffa32be")
-		(property "Reference" "#PWR018"
-			(at 40.64 138.43 0)
+		(uuid "7bb6150b-c421-4acc-ac60-2b8862a455ac")
+		(property "Reference" "#PWR03"
+			(at 88.9 106.68 0)
 			(effects
 				(font
-					(size 1.5 1.5)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 48.895 138.43 90)
+		(property "Value" "+3V3_MCU"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 138.43 0)
+			(at 88.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 138.43 0)
+			(at 88.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,8 +4626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 44.45 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 88.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,12 +4636,213 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fe38d43-09dd-4f26-a428-c28e2e15df79")
+			(uuid "b121345c-56b6-41bf-ba78-22e5096f6696")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR018")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 88.9 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bec2dc6-21ca-45a8-ba06-28e830180c5a")
+		(property "Reference" "#PWR0112"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "483975ef-6bd5-422b-a303-650c57d62280")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:+3V3_MCU")
+		(at 88.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f966c25-9941-4e0b-b897-def46be94f77")
+		(property "Reference" "#PWR054"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_MCU"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b328f8be-4eee-4cd7-9f8c-741fb33d2816")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:+5V_MCU")
+		(at 38.1 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93491fd4-780b-47d0-8e7b-b65d6918e827")
+		(property "Reference" "#PWR019"
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MCU"
+			(at 45.085 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de7bb4c3-5764-46ee-a966-347c51f44814")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4911,7 +5025,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SIL09")
-		(at 43.815 118.11 0)
+		(at 37.465 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4920,7 +5034,7 @@
 		(dnp no)
 		(uuid "a1c2991b-5f1a-48d2-b563-69bbc42ddd8f")
 		(property "Reference" "J8"
-			(at 36.195 133.35 0)
+			(at 29.845 133.35 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4930,7 +5044,7 @@
 			)
 		)
 		(property "Value" "ENCODER"
-			(at 38.1 136.525 90)
+			(at 31.75 136.525 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:HDM1x8x2.0_SMA_RA"
-			(at 43.815 118.11 0)
+			(at 37.465 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +5062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.815 118.11 0)
+			(at 37.465 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5071,7 @@
 			)
 		)
 		(property "Description" "8 POS 2.00MM(.079) SINGLE ROW SM"
-			(at 43.815 118.11 0)
+			(at 37.465 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5080,7 @@
 			)
 		)
 		(property "MFT" "Cvilux"
-			(at 43.815 118.11 0)
+			(at 37.465 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5089,7 @@
 			)
 		)
 		(property "MNP" "CI0108M1HR0-NH"
-			(at 43.815 118.11 0)
+			(at 37.465 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,140 +5128,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 44.45 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3c9f660-15bb-43c3-80e8-99bff494241b")
-		(property "Reference" "#PWR016"
-			(at 40.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 49.53 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d07aca8d-e1a1-4a57-b257-b4396ca902ef")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a442b17f-f0e2-4624-a679-cc4370908ea7")
-		(property "Reference" "#PWR054"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59aa62b4-dc34-4d20-afd8-d20f0aed0d1b")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5240,35 +5220,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 134.62 0)
+		(lib_id "SAMPI:GND_MCU")
+		(at 101.6 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aeec4ae5-ff67-4797-86c6-81021be3344a")
-		(property "Reference" "#PWR0104"
-			(at 88.9 138.43 0)
+		(uuid "af40d10a-b706-4f12-b231-f022935123f9")
+		(property "Reference" "#PWR064"
+			(at 101.6 97.79 0)
 			(effects
 				(font
-					(size 1.5 1.5)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 88.9 130.81 0)
+		(property "Value" "GND_MCU"
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 134.62 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 134.62 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,75 +5265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5251697-770f-4bac-b986-cfd359e5eb68")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b659f79c-7c3f-408a-ae83-755c2af168e8")
-		(property "Reference" "#PWR03"
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,12 +5275,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99510415-24a8-42de-87d0-d7330e282b84")
+			(uuid "4d2e10cb-35a0-4232-8aca-cf47892f79af")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR03")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5454,72 +5367,6 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
 					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1cac694-9e0e-4f2b-a5f8-2f6d8fe61e8e")
-		(property "Reference" "#PWR0187"
-			(at 88.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5825523-b718-4ba9-a7ad-638183228fa0")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -5795,29 +5642,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "SAMPI:+3V3_MCU")
 		(at 88.9 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddb5716c-a39b-4bb2-9dc8-dbb7cd751fd8")
-		(property "Reference" "#PWR02"
+		(uuid "dea6aef4-5931-4ccc-a46b-dff39856901c")
+		(property "Reference" "#PWR0120"
 			(at 88.9 43.18 0)
 			(effects
 				(font
-					(size 1.5 1.5)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_MCU"
 			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
@@ -5840,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 88.9 39.37 0)
 			(effects
 				(font
@@ -5850,29 +5697,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "49a906a6-db9d-43d2-b242-106b33a4a783")
+			(uuid "ddb183cc-f3c3-4081-a36a-b4f30774af53")
 		)
 		(instances
-			(project "HW.ACIM-INV"
+			(project ""
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR02")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 157.48 0)
-		(mirror y)
+		(lib_id "SAMPI:GND_MCU")
+		(at 38.1 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e56e012c-638d-4c7a-944f-94572ea558ee")
-		(property "Reference" "#PWR0118"
-			(at 101.6 163.83 0)
+		(uuid "dfd36733-ae7b-4534-bd1b-c6b895ae4276")
+		(property "Reference" "#PWR020"
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,17 +5726,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 161.29 0)
+		(property "Value" "GND_MCU"
+			(at 45.085 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 157.48 0)
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 157.48 0)
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,8 +5754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,12 +5764,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9884dc0-cb07-436a-9932-58a56ec0b8de")
+			(uuid "519d5443-f42c-45bd-ade7-3aa906b35eca")
 		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
-					(reference "#PWR0118")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:+24V_MCU")
+		(at 38.1 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2ef92d0-a2c9-4e1f-a5d5-8c6ea53655f9")
+		(property "Reference" "#PWR016"
+			(at 34.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_MCU"
+			(at 45.72 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c1fc7e-b556-496d-8320-3ff190d118dc")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 88.9 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f452a254-18b7-4834-8154-fe9972ad2c22")
+		(property "Reference" "#PWR0113"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda111e6-3e83-4466-93b8-a3e8bc89af3f")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/3b393387-96f5-4b8b-8a59-d8739719ea08"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
