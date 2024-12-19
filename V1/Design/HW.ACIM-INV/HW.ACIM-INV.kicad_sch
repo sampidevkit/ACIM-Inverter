@@ -8,10 +8,6 @@
 		(title "INVERTER BOARD")
 		(date "2024-09-24")
 		(rev "1.0")
-		(company "TON DUC THANG UNIVERSITY")
-		(comment 1 "Schematic Designed by ...")
-		(comment 2 "PCB Designed by ...")
-		(comment 3 "Approved by ...")
 	)
 	(lib_symbols
 		(symbol "SAMPI:SCREWHOLDER"
