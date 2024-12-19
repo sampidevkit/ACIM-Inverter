@@ -3502,6 +3502,157 @@
 				)
 			)
 		)
+		(symbol "SAMPI:WLED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "WLED"
+				(at 1.27 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WLED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.635 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.445) (xy 0.635 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy -0.635 -5.715) (xy 0.635 -5.08) (xy -0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WLED_1_1"
+				(circle
+					(center 0 -5.08)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -5.08 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3672,7 +3823,7 @@
 		(uuid "6384dba2-aa7d-4fcd-990d-c746df624e5e")
 	)
 	(junction
-		(at 154.94 81.28)
+		(at 154.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63dbed7c-3f45-472d-b586-810f779955d8")
@@ -3708,7 +3859,7 @@
 		(uuid "856e35c8-123b-4ecd-9cd1-e87e708f6a0f")
 	)
 	(junction
-		(at 165.1 81.28)
+		(at 165.1 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90f41560-289f-4fbb-9f15-483cdac03b8d")
@@ -3720,7 +3871,7 @@
 		(uuid "92a3436b-c009-4af4-a70e-f17c45e9bc32")
 	)
 	(junction
-		(at 114.3 81.28)
+		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9496ebc5-576a-4d8f-b711-34c3b50a1bb8")
@@ -3905,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 165.1 82.55)
+			(xy 165.1 88.9) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3922,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "1baaf1d0-bced-4df9-9d33-bdd87834fdee")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207fa79c-07d0-41cf-9573-86ee7b8f96cc")
 	)
 	(wire
 		(pts
@@ -3975,7 +4136,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 129.54 83.82)
+			(xy 128.27 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3992,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "355b14e0-0d71-46cf-b268-710970a0d9d6")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 114.3 81.28)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "3563623e-39d8-41c0-9038-2352345ba9fb")
 	)
 	(wire
 		(pts
@@ -4045,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 154.94 81.28)
+			(xy 144.78 88.9) (xy 154.94 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -4145,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 82.55)
+			(xy 154.94 88.9) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4173,6 +4324,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "5dffecf1-eca5-4710-bd25-77a97f3daffc")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e95394e-7f8d-43b2-a1bf-a2a1cd8a95c0")
 	)
 	(wire
 		(pts
@@ -4256,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 85.09) (xy 128.27 83.82)
+			(xy 128.27 92.71) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 165.1 81.28)
+			(xy 165.1 87.63) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -4346,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 114.3 82.55)
+			(xy 114.3 88.9) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4406,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 129.54 81.28)
+			(xy 114.3 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -4456,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 144.78 83.82)
+			(xy 146.05 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4718,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 154.94 81.28)
+			(xy 165.1 88.9) (xy 154.94 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -4745,6 +4906,26 @@
 			(type default)
 		)
 		(uuid "d4551913-59a3-4ea4-bacd-58aaa5af16d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d565a532-948f-4f6d-b1f0-c175b429672f")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dd1f9e76-3082-4b63-b318-57d93ad07c08")
 	)
 	(wire
 		(pts
@@ -4798,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 146.05 83.82)
+			(xy 146.05 92.71) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4897,6 +5078,72 @@
 		)
 		(uuid "fae16e90-de81-4470-9c5a-97e06daeaf63")
 	)
+	(text_box "+12V_MCU:\n+ DC fan.\n+ Relays.\n+ Encoder."
+		(exclude_from_sim no)
+		(at 106.045 46.99 0)
+		(size 9.525 8.89)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "131d6707-d2f2-4006-aee9-4d6e1dcab476")
+	)
+	(text_box "+3V3_ADC:\n+ MCU ADC reference voltage"
+		(exclude_from_sim no)
+		(at 227.965 50.165 0)
+		(size 15.24 6.985)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4edb6f72-9412-4011-a39d-3a97e6c00fb2")
+	)
+	(text_box "+24V_MCU:\n+ Main volatge.\n+ Encoder."
+		(exclude_from_sim no)
+		(at 64.135 14.605 0)
+		(size 13.97 6.35)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "888dc00d-bae8-4852-b1aa-db93b7b26c6b")
+	)
 	(text_box "Vo=Vfb*(1+Rt/Rb)\n=0.8*(1+140/10)\n=12V"
 		(exclude_from_sim no)
 		(at 60.96 71.755 0)
@@ -4910,20 +5157,66 @@
 		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
 			)
 			(justify left)
 		)
 		(uuid "95679686-a00a-4bff-b89e-eff373df3f3f")
+	)
+	(text_box "+5V_MCU:\n+ Current sensors.\n+ Op-amps.\n+ Encoder."
+		(exclude_from_sim no)
+		(at 149.225 46.355 0)
+		(size 20.32 8.89)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a6485587-2521-4604-a946-9eb891d3a32d")
+	)
+	(text_box "+3V3_MCU:\n+ MCU main voltage.\n+ Digital isolators.\n+ Peripherals."
+		(exclude_from_sim no)
+		(at 156.845 74.295 0)
+		(size 21.59 8.89)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e0429495-a660-4c96-9aad-d340827d47b3")
 	)
 	(text "LOW VOLTAGE ZONE"
 		(exclude_from_sim no)
 		(at 29.845 43.18 0)
 		(effects
 			(font
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
+				(face "Consolas")
+				(size 1.524 1.524)
+				(thickness 0.127)
 				(color 0 0 255 1)
 			)
 		)
@@ -4934,9 +5227,9 @@
 		(at 29.845 36.195 0)
 		(effects
 			(font
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
+				(face "Consolas")
+				(size 1.524 1.524)
+				(thickness 0.127)
 				(color 255 0 0 1)
 			)
 		)
@@ -4955,7 +5248,10 @@
 			(at 59.69 82.55 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -4964,9 +5260,9 @@
 			(at 59.69 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -4974,7 +5270,9 @@
 			(at 59.69 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -4983,7 +5281,9 @@
 			(at 59.69 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -4992,7 +5292,9 @@
 			(at 59.69 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5022,7 +5324,8 @@
 			(at 147.955 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -5032,7 +5335,9 @@
 			(at 147.955 63.4999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -5041,7 +5346,9 @@
 			(at 142.875 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5050,7 +5357,9 @@
 			(at 142.875 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5059,7 +5368,9 @@
 			(at 142.875 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5068,7 +5379,9 @@
 			(at 142.875 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5077,7 +5390,9 @@
 			(at 142.875 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5110,7 +5425,10 @@
 			(at 25.4 59.69 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -5119,9 +5437,9 @@
 			(at 25.4 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5129,7 +5447,9 @@
 			(at 25.4 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5138,7 +5458,9 @@
 			(at 25.4 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5147,7 +5469,9 @@
 			(at 25.4 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5177,7 +5501,10 @@
 			(at 81.28 39.37 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -5186,9 +5513,9 @@
 			(at 81.28 36.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5196,7 +5523,9 @@
 			(at 81.28 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5205,7 +5534,9 @@
 			(at 81.28 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5214,7 +5545,9 @@
 			(at 81.28 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5244,7 +5577,8 @@
 			(at 64.77 53.975 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -5253,7 +5587,9 @@
 			(at 64.77 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5261,7 +5597,9 @@
 			(at 63.5 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5270,7 +5608,9 @@
 			(at 63.5 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5279,7 +5619,9 @@
 			(at 63.5 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5288,7 +5630,9 @@
 			(at 68.58 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5297,7 +5641,9 @@
 			(at 63.5 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5330,7 +5676,10 @@
 			(at 175.26 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -5339,9 +5688,9 @@
 			(at 175.26 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5349,7 +5698,9 @@
 			(at 175.26 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5358,7 +5709,9 @@
 			(at 175.26 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5367,7 +5720,9 @@
 			(at 175.26 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5397,7 +5752,8 @@
 			(at 83.185 73.66 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -5406,7 +5762,9 @@
 			(at 85.09 76.2 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5414,7 +5772,9 @@
 			(at 77.47 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5423,7 +5783,9 @@
 			(at 77.47 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5432,7 +5794,9 @@
 			(at 77.47 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5441,7 +5805,9 @@
 			(at 77.47 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5450,7 +5816,9 @@
 			(at 77.47 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5483,7 +5851,8 @@
 			(at 194.31 51.435 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -5492,7 +5861,9 @@
 			(at 194.31 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -5500,7 +5871,9 @@
 			(at 189.23 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5509,7 +5882,9 @@
 			(at 189.23 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5518,7 +5893,9 @@
 			(at 189.23 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5527,25 +5904,9 @@
 			(at 194.31 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "1"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5554,16 +5915,9 @@
 			(at 189.23 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5597,7 +5951,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 152.4 87.63 90)
+		(at 152.4 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5605,65 +5959,78 @@
 		(dnp no)
 		(uuid "178b3fc3-e468-4038-963b-38be1f43a282")
 		(property "Reference" "C55"
-			(at 157.48 85.0899 90)
+			(at 157.48 92.7099 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 156.21 87.63 90)
+			(at 156.21 95.25 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 152.4 87.63 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 87.63 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 152.4 87.63 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "CL10B104KB8NNNC"
-			(at 152.4 87.63 90)
+			(at 152.4 95.25 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 152.4 87.63 0)
+			(at 152.4 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5684,6 +6051,82 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 180.34 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fd258c-c3f7-46c5-86ae-cdd17c020558")
+		(property "Reference" "#PWR082"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8e9cf4-00be-4769-beff-329b085413fe")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 22.86 63.5 90)
 		(unit 1)
@@ -5696,7 +6139,8 @@
 			(at 27.94 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -5706,16 +6150,20 @@
 			(at 27.94 63.4999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP1206"
 			(at 22.86 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5724,34 +6172,42 @@
 			(at 22.86 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+		(property "Description" ""
 			(at 22.86 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung"
+		(property "MFT" ""
 			(at 22.86 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10A106MQ8NNNC"
+		(property "MNP" ""
 			(at 22.86 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5784,7 +6240,8 @@
 			(at 125.73 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -5794,16 +6251,20 @@
 			(at 125.73 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP1206"
 			(at 121.285 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5812,34 +6273,42 @@
 			(at 121.285 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+		(property "Description" ""
 			(at 121.285 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung"
+		(property "MFT" ""
 			(at 121.285 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10A106MQ8NNNC"
+		(property "MNP" ""
 			(at 121.285 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5873,7 +6342,8 @@
 			(at 171.45 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -5883,7 +6353,9 @@
 			(at 171.45 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -5892,7 +6364,9 @@
 			(at 167.64 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5901,7 +6375,9 @@
 			(at 167.64 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5910,16 +6386,9 @@
 			(at 167.64 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5928,16 +6397,9 @@
 			(at 167.64 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.012"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5946,16 +6408,9 @@
 			(at 167.64 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -5988,7 +6443,8 @@
 			(at 63.5 25.3999 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -5998,7 +6454,9 @@
 			(at 63.5 27.9399 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6007,7 +6465,9 @@
 			(at 55.88 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6016,7 +6476,9 @@
 			(at 55.88 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6025,7 +6487,9 @@
 			(at 55.88 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6034,7 +6498,9 @@
 			(at 66.04 30.48 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6043,7 +6509,9 @@
 			(at 55.88 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6076,7 +6544,10 @@
 			(at 145.415 59.69 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -6085,8 +6556,9 @@
 			(at 145.415 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -6094,7 +6566,9 @@
 			(at 145.415 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6103,7 +6577,9 @@
 			(at 145.415 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6112,7 +6588,9 @@
 			(at 145.415 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6142,7 +6620,8 @@
 			(at 83.82 25.4 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify left)
@@ -6152,7 +6631,9 @@
 			(at 83.82 27.94 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify left)
 			)
@@ -6161,7 +6642,9 @@
 			(at 83.82 25.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6170,7 +6653,9 @@
 			(at 83.82 25.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6179,7 +6664,9 @@
 			(at 83.82 25.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6188,7 +6675,9 @@
 			(at 83.82 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6197,7 +6686,9 @@
 			(at 83.82 25.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6230,7 +6721,10 @@
 			(at 101.6 59.69 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -6239,9 +6733,9 @@
 			(at 101.6 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -6249,7 +6743,9 @@
 			(at 101.6 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6258,7 +6754,9 @@
 			(at 101.6 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6267,7 +6765,9 @@
 			(at 101.6 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6297,7 +6797,8 @@
 			(at 73.66 25.3999 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -6307,7 +6808,9 @@
 			(at 73.025 27.94 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6316,7 +6819,9 @@
 			(at 68.58 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6325,7 +6830,9 @@
 			(at 68.58 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6334,7 +6841,9 @@
 			(at 68.58 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6343,7 +6852,9 @@
 			(at 68.58 27.94 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6352,7 +6863,9 @@
 			(at 68.58 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6385,7 +6898,10 @@
 			(at 41.91 82.55 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -6394,9 +6910,9 @@
 			(at 41.91 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -6404,7 +6920,9 @@
 			(at 41.91 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6413,7 +6931,9 @@
 			(at 41.91 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6422,7 +6942,9 @@
 			(at 41.91 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6452,7 +6974,8 @@
 			(at 177.8 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -6462,7 +6985,9 @@
 			(at 176.53 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6471,7 +6996,9 @@
 			(at 172.72 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6480,7 +7007,9 @@
 			(at 172.72 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6489,7 +7018,9 @@
 			(at 172.72 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6498,25 +7029,9 @@
 			(at 172.72 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0146"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6525,16 +7040,9 @@
 			(at 172.72 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6567,7 +7075,8 @@
 			(at 101.6 39.37 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(hide yes)
@@ -6577,8 +7086,9 @@
 			(at 101.6 36.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -6586,7 +7096,9 @@
 			(at 101.6 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6595,7 +7107,9 @@
 			(at 101.6 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6604,7 +7118,9 @@
 			(at 101.6 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6635,7 +7151,8 @@
 			(at 224.79 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -6645,7 +7162,9 @@
 			(at 224.79 63.4999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6654,7 +7173,9 @@
 			(at 219.71 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6663,7 +7184,9 @@
 			(at 219.71 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6672,16 +7195,9 @@
 			(at 219.71 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6690,16 +7206,9 @@
 			(at 219.71 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.079"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6708,16 +7217,9 @@
 			(at 219.71 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6751,6 +7253,7 @@
 			(at 109.22 29.2099 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -6761,7 +7264,9 @@
 			(at 109.22 31.7499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify left)
 			)
@@ -6770,7 +7275,9 @@
 			(at 106.68 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6779,7 +7286,9 @@
 			(at 106.68 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6788,7 +7297,9 @@
 			(at 106.68 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6797,7 +7308,9 @@
 			(at 106.68 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6806,7 +7319,9 @@
 			(at 106.68 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6840,7 +7355,8 @@
 			(at 72.39 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -6850,7 +7366,9 @@
 			(at 72.39 63.4999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6859,7 +7377,9 @@
 			(at 67.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6868,7 +7388,9 @@
 			(at 67.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6877,7 +7399,9 @@
 			(at 67.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6886,7 +7410,9 @@
 			(at 67.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6895,7 +7421,9 @@
 			(at 67.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6929,7 +7457,8 @@
 			(at 157.48 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -6939,7 +7468,9 @@
 			(at 157.48 63.4999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -6948,7 +7479,9 @@
 			(at 152.4 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6957,7 +7490,9 @@
 			(at 152.4 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6966,16 +7501,9 @@
 			(at 152.4 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -6984,16 +7512,9 @@
 			(at 152.4 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.079"
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7002,16 +7523,9 @@
 			(at 152.4 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7044,7 +7558,10 @@
 			(at 25.4 80.01 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7053,9 +7570,9 @@
 			(at 25.4 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7063,7 +7580,9 @@
 			(at 25.4 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7072,7 +7591,9 @@
 			(at 25.4 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7081,7 +7602,9 @@
 			(at 25.4 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7108,20 +7631,23 @@
 		(dnp no)
 		(uuid "5356f88f-6724-4e81-918e-0ec3abcacf13")
 		(property "Reference" "C57"
-			(at 33.655 26.67 90)
+			(at 33.02 26.67 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "100nF/400V"
-			(at 40.64 21.59 0)
+			(at 40.64 22.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -7130,7 +7656,9 @@
 			(at 35.56 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7139,7 +7667,9 @@
 			(at 35.56 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7148,7 +7678,9 @@
 			(at 35.56 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7157,7 +7689,9 @@
 			(at 35.56 27.94 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7166,7 +7700,9 @@
 			(at 35.56 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7199,7 +7735,10 @@
 			(at 101.6 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7208,9 +7747,9 @@
 			(at 101.6 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7218,7 +7757,9 @@
 			(at 101.6 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7227,7 +7768,9 @@
 			(at 101.6 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7236,7 +7779,9 @@
 			(at 101.6 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7266,7 +7811,10 @@
 			(at 165.1 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7275,9 +7823,9 @@
 			(at 165.1 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7285,7 +7833,9 @@
 			(at 165.1 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7294,7 +7844,9 @@
 			(at 165.1 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7303,7 +7855,9 @@
 			(at 165.1 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7333,7 +7887,10 @@
 			(at 80.01 85.09 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7342,9 +7899,9 @@
 			(at 80.01 82.55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7352,7 +7909,9 @@
 			(at 80.01 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7361,7 +7920,9 @@
 			(at 80.01 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7370,7 +7931,9 @@
 			(at 80.01 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7382,6 +7945,107 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:WLED")
+		(at 185.42 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd59931-b902-433b-a94e-e4fae8e6f385")
+		(property "Reference" "D4"
+			(at 182.88 92.7099 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR"
+			(at 182.88 95.2499 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:LED0603"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED WHITE 0603 SMD"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Harvatek"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B1931TW--20P000314U1930"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "b4bcf68f-e89d-473f-ae7d-3fd5d04d34f2")
+		)
+		(pin "K"
+			(uuid "0e9fb94e-7dbf-4229-a2b2-9978b0d7168b")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7400,7 +8064,10 @@
 			(at 123.825 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7409,9 +8076,9 @@
 			(at 123.825 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7419,7 +8086,9 @@
 			(at 123.825 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7428,7 +8097,9 @@
 			(at 123.825 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7437,7 +8108,9 @@
 			(at 123.825 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7467,7 +8140,8 @@
 			(at 50.8 52.07 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -7476,7 +8150,9 @@
 			(at 50.8 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7484,7 +8160,9 @@
 			(at 46.99 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7493,7 +8171,9 @@
 			(at 46.99 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7502,7 +8182,9 @@
 			(at 46.99 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7511,7 +8193,9 @@
 			(at 50.8 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7520,7 +8204,9 @@
 			(at 50.8 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7574,16 +8260,19 @@
 			(at 41.91 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 41.91 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7591,7 +8280,9 @@
 			(at 35.56 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7600,34 +8291,42 @@
 			(at 35.56 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+		(property "Description" ""
 			(at 35.56 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MFT" "YAGEO"
+		(property "MFT" ""
 			(at 35.56 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0603FR-07100KL"
+		(property "MNP" ""
 			(at 35.56 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7660,7 +8359,8 @@
 			(at 214.63 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -7670,7 +8370,9 @@
 			(at 213.36 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -7679,7 +8381,9 @@
 			(at 209.55 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7688,7 +8392,9 @@
 			(at 209.55 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7697,7 +8403,9 @@
 			(at 209.55 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7706,25 +8414,9 @@
 			(at 209.55 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0146"
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7733,16 +8425,9 @@
 			(at 209.55 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" "OK"
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7764,7 +8449,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+3V3_MCU")
-		(at 165.1 80.01 0)
+		(at 165.1 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7772,47 +8457,56 @@
 		(dnp no)
 		(uuid "7b8ca6b4-582a-4839-b1f3-723004a8028f")
 		(property "Reference" "#PWR0108"
-			(at 165.1 83.82 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 165.1 76.2 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 80.01 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 80.01 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 165.1 80.01 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7842,7 +8536,10 @@
 			(at 185.42 74.93 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -7851,9 +8548,9 @@
 			(at 185.42 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -7861,7 +8558,9 @@
 			(at 185.42 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7870,7 +8569,9 @@
 			(at 185.42 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7879,7 +8580,9 @@
 			(at 185.42 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7898,7 +8601,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 114.3 90.17 0)
+		(at 114.3 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7906,47 +8609,56 @@
 		(dnp no)
 		(uuid "809c3a6f-aed9-437b-ae02-7ca591154623")
 		(property "Reference" "#PWR0114"
-			(at 114.3 96.52 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 114.3 93.98 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 90.17 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 90.17 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 90.17 0)
+			(at 114.3 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -7976,7 +8688,8 @@
 			(at 95.25 60.9599 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -7986,7 +8699,9 @@
 			(at 93.98 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -7995,7 +8710,9 @@
 			(at 90.17 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8004,7 +8721,9 @@
 			(at 90.17 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8013,7 +8732,9 @@
 			(at 90.17 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8022,7 +8743,9 @@
 			(at 90.17 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8031,7 +8754,9 @@
 			(at 90.17 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8064,7 +8789,10 @@
 			(at 203.2 74.93 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -8073,9 +8801,9 @@
 			(at 203.2 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8083,7 +8811,9 @@
 			(at 203.2 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8092,7 +8822,9 @@
 			(at 203.2 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8101,7 +8833,9 @@
 			(at 203.2 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8119,8 +8853,108 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:RES")
+		(at 173.99 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c2bd67a-82bb-4179-bb87-fc44033444ff")
+		(property "Reference" "R1"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 175.26 90.805 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9da5368-2e02-46f8-95ef-fb6b4fc2e1ce")
+		)
+		(pin "2"
+			(uuid "431c068a-45f2-4cc5-aa7c-37c9c2d8b35d")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 165.1 90.17 0)
+		(at 165.1 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8128,47 +8962,56 @@
 		(dnp no)
 		(uuid "99242d9f-23e7-444c-910c-705a90f7a864")
 		(property "Reference" "#PWR0107"
-			(at 165.1 96.52 0)
+			(at 165.1 104.14 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 165.1 93.98 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 90.17 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 90.17 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 90.17 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8198,7 +9041,10 @@
 			(at 222.25 59.69 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -8207,9 +9053,9 @@
 			(at 222.25 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8217,7 +9063,9 @@
 			(at 222.25 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8226,7 +9074,9 @@
 			(at 222.25 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8235,7 +9085,9 @@
 			(at 222.25 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8254,7 +9106,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 154.94 90.17 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8262,47 +9114,56 @@
 		(dnp no)
 		(uuid "b38336c9-0998-4319-92f4-53f5e475b9fc")
 		(property "Reference" "#PWR098"
-			(at 154.94 96.52 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 154.94 93.98 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 90.17 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 90.17 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 90.17 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8332,7 +9193,10 @@
 			(at 145.415 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -8341,9 +9205,9 @@
 			(at 145.415 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8351,7 +9215,9 @@
 			(at 145.415 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8360,7 +9226,9 @@
 			(at 145.415 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8369,7 +9237,9 @@
 			(at 145.415 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8388,7 +9258,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 146.05 85.09 0)
+		(at 146.05 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8396,47 +9266,56 @@
 		(dnp no)
 		(uuid "bb7501e4-84cc-4899-b6a5-cb1e5b4dec5a")
 		(property "Reference" "#PWR0128"
-			(at 146.05 91.44 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 146.05 88.9 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 85.09 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 85.09 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 85.09 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8467,7 +9346,8 @@
 			(at 61.595 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
@@ -8477,7 +9357,9 @@
 			(at 61.595 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
@@ -8486,7 +9368,9 @@
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8495,7 +9379,9 @@
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8504,7 +9390,9 @@
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8513,7 +9401,9 @@
 			(at 57.15 60.96 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8522,7 +9412,9 @@
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8544,7 +9436,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 111.76 87.63 90)
+		(at 111.76 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8552,65 +9444,78 @@
 		(dnp no)
 		(uuid "c06f5ad2-d857-4178-956e-be688505efb0")
 		(property "Reference" "C63"
-			(at 116.84 85.0899 90)
+			(at 116.84 92.7099 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "10uF/35V"
-			(at 116.84 87.6299 90)
+			(at 116.84 95.2499 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
-			(at 111.76 87.63 0)
+		(property "Footprint" "SAMPI:CAP1206"
+			(at 111.76 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 87.63 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
-			(at 111.76 87.63 0)
+		(property "Description" ""
+			(at 111.76 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung"
-			(at 111.76 87.63 0)
+		(property "MFT" ""
+			(at 111.76 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10A106MQ8NNNC"
-			(at 111.76 87.63 0)
+		(property "MNP" ""
+			(at 111.76 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8643,7 +9548,8 @@
 			(at 83.82 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -8652,7 +9558,9 @@
 			(at 85.725 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8660,7 +9568,9 @@
 			(at 77.47 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8669,7 +9579,9 @@
 			(at 77.47 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8678,7 +9590,9 @@
 			(at 77.47 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8687,7 +9601,9 @@
 			(at 77.47 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8696,7 +9612,9 @@
 			(at 77.47 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8729,7 +9647,8 @@
 			(at 34.29 69.215 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -8738,7 +9657,9 @@
 			(at 34.29 74.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8746,7 +9667,9 @@
 			(at 33.02 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8755,7 +9678,9 @@
 			(at 33.02 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8764,7 +9689,9 @@
 			(at 33.02 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8773,7 +9700,9 @@
 			(at 33.02 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8782,7 +9711,9 @@
 			(at 33.02 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8816,7 +9747,8 @@
 			(at 31.75 31.75 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(hide yes)
@@ -8826,8 +9758,9 @@
 			(at 22.86 31.75 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8835,7 +9768,9 @@
 			(at 27.94 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8844,7 +9779,9 @@
 			(at 27.94 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8853,7 +9790,9 @@
 			(at 27.94 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8883,7 +9822,8 @@
 			(at 31.75 21.59 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(hide yes)
@@ -8893,8 +9833,9 @@
 			(at 22.86 21.59 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8902,7 +9843,9 @@
 			(at 27.94 21.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8911,7 +9854,9 @@
 			(at 27.94 21.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8920,7 +9865,9 @@
 			(at 27.94 21.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8950,7 +9897,10 @@
 			(at 101.6 31.75 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -8959,9 +9909,9 @@
 			(at 101.6 24.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -8969,7 +9919,9 @@
 			(at 101.6 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8978,7 +9930,9 @@
 			(at 101.6 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -8987,7 +9941,9 @@
 			(at 101.6 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9017,7 +9973,8 @@
 			(at 194.945 64.77 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -9026,7 +9983,9 @@
 			(at 194.945 69.215 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9034,7 +9993,9 @@
 			(at 194.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9043,7 +10004,9 @@
 			(at 194.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9052,7 +10015,9 @@
 			(at 194.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9061,7 +10026,9 @@
 			(at 194.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9070,7 +10037,9 @@
 			(at 194.31 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9103,7 +10072,10 @@
 			(at 222.25 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9112,9 +10084,9 @@
 			(at 222.25 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9122,7 +10094,9 @@
 			(at 222.25 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9131,7 +10105,9 @@
 			(at 222.25 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9140,7 +10116,9 @@
 			(at 222.25 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9171,6 +10149,7 @@
 			(at 128.27 29.2099 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -9182,7 +10161,9 @@
 			(at 128.27 31.7499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify left)
 			)
@@ -9191,7 +10172,9 @@
 			(at 120.65 20.955 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9200,7 +10183,9 @@
 			(at 120.65 20.955 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9209,7 +10194,9 @@
 			(at 120.65 20.955 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9218,7 +10205,9 @@
 			(at 120.65 20.955 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9227,7 +10216,9 @@
 			(at 120.65 20.955 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9254,7 +10245,8 @@
 			(at 45.72 16.51 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -9263,7 +10255,9 @@
 			(at 42.545 19.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9271,7 +10265,9 @@
 			(at 44.45 17.145 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9280,7 +10276,9 @@
 			(at 44.45 17.145 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9289,7 +10287,9 @@
 			(at 44.45 17.145 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9298,7 +10298,9 @@
 			(at 49.53 19.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9307,7 +10309,9 @@
 			(at 44.45 17.145 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9338,7 +10342,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:ELECCAP")
-		(at 167.64 85.09 270)
+		(at 167.64 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9346,65 +10350,78 @@
 		(dnp no)
 		(uuid "de11c1f1-e3f3-43e4-9cf0-876d926fba8d")
 		(property "Reference" "C58"
-			(at 167.64 85.0899 90)
+			(at 167.64 92.7099 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "220uF/6.3V"
-			(at 167.64 87.6299 90)
+			(at 167.64 95.2499 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "SAMPI:CAP1411"
-			(at 167.64 85.09 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 85.09 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "CAP TANT 220UF 20% 6.3V 1411"
-			(at 167.64 85.09 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "TLJB227M006R0500"
-			(at 175.26 90.17 90)
+			(at 175.26 97.79 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MFT" "KAVX"
-			(at 167.64 85.09 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9437,7 +10454,10 @@
 			(at 212.09 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9446,9 +10466,9 @@
 			(at 212.09 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9456,7 +10476,9 @@
 			(at 212.09 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9465,7 +10487,9 @@
 			(at 212.09 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9474,7 +10498,9 @@
 			(at 212.09 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9493,7 +10519,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 128.27 85.09 0)
+		(at 128.27 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9501,47 +10527,56 @@
 		(dnp no)
 		(uuid "e3ba398b-7f1c-4eb3-b33e-38166f61ad2a")
 		(property "Reference" "#PWR0126"
-			(at 128.27 91.44 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 128.27 88.9 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 85.09 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 85.09 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 85.09 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9572,7 +10607,8 @@
 			(at 31.115 16.51 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
@@ -9581,7 +10617,9 @@
 			(at 31.115 19.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9589,7 +10627,9 @@
 			(at 29.845 35.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9598,7 +10638,9 @@
 			(at 29.845 35.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9607,7 +10649,9 @@
 			(at 29.845 35.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9616,7 +10660,9 @@
 			(at 31.75 34.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9625,7 +10671,9 @@
 			(at 29.845 35.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9664,7 +10712,10 @@
 			(at 81.28 24.13 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9673,9 +10724,9 @@
 			(at 81.28 16.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9683,7 +10734,9 @@
 			(at 81.28 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9692,7 +10745,9 @@
 			(at 81.28 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9701,7 +10756,9 @@
 			(at 81.28 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9731,7 +10788,10 @@
 			(at 134.62 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9740,9 +10800,9 @@
 			(at 134.62 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9750,7 +10810,9 @@
 			(at 134.62 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9759,7 +10821,9 @@
 			(at 134.62 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9768,7 +10832,9 @@
 			(at 134.62 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9798,7 +10864,10 @@
 			(at 154.94 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9807,9 +10876,9 @@
 			(at 154.94 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9817,7 +10886,9 @@
 			(at 154.94 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9826,7 +10897,9 @@
 			(at 154.94 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9835,7 +10908,9 @@
 			(at 154.94 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9862,9 +10937,10 @@
 		(dnp no)
 		(uuid "f58e52a7-5262-4f3b-b28c-d47cdb4df4fd")
 		(property "Reference" "U10"
-			(at 134.62 52.07 0)
+			(at 134.62 51.435 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -9875,7 +10951,9 @@
 			(at 134.62 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9883,7 +10961,9 @@
 			(at 134.62 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9892,7 +10972,9 @@
 			(at 134.62 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9901,7 +10983,9 @@
 			(at 134.62 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9910,7 +10994,9 @@
 			(at 134.62 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9919,7 +11005,9 @@
 			(at 134.62 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9955,7 +11043,10 @@
 			(at 92.71 72.39 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -9964,9 +11055,9 @@
 			(at 92.71 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
@@ -9974,7 +11065,9 @@
 			(at 92.71 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9983,7 +11076,9 @@
 			(at 92.71 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -9992,7 +11087,9 @@
 			(at 92.71 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10022,7 +11119,8 @@
 			(at 104.14 60.96 90)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify left)
@@ -10032,7 +11130,9 @@
 			(at 104.14 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(justify left)
 			)
@@ -10041,7 +11141,9 @@
 			(at 104.14 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10050,7 +11152,9 @@
 			(at 104.14 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10059,7 +11163,9 @@
 			(at 104.14 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10068,7 +11174,9 @@
 			(at 104.14 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10077,7 +11185,9 @@
 			(at 104.14 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
@@ -10099,7 +11209,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:LDO_MCP1755")
-		(at 137.16 76.2 0)
+		(at 137.16 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10107,9 +11217,10 @@
 		(dnp no)
 		(uuid "fc89ad70-78b5-4ba0-89ad-f43887a648b8")
 		(property "Reference" "U2"
-			(at 137.16 75.565 0)
+			(at 137.16 83.185 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
@@ -10117,54 +11228,66 @@
 			)
 		)
 		(property "Value" "LDO 3V3±2%"
-			(at 137.16 78.105 0)
+			(at 137.16 85.725 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 			)
 		)
 		(property "Footprint" "SAMPI:SOT-223-3"
-			(at 137.16 78.105 0)
+			(at 137.16 85.725 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 76.2 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "PMIC LDO SMD SOT223-3 POSFIX 3.3V 300mA 16VIMAX 0.3VDROP"
-			(at 137.16 78.105 0)
+			(at 137.16 85.725 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "MCP1755S-3302E/DB"
-			(at 137.16 78.105 0)
+			(at 137.16 85.725 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
 		)
 		(property "MFT" "Microchip"
-			(at 137.16 78.105 0)
+			(at 137.16 85.725 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
 				)
 				(hide yes)
 			)
