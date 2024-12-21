@@ -2257,6 +2257,98 @@
 				)
 			)
 		)
+		(symbol "SAMPI:BANANA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "BABANA JACK"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BANANA JACK 4MM"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" "BANANA-4MM-R/Y/G/B"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "OEM"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BANANA_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "SAMPI:BLED"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -8031,6 +8123,12 @@
 		(uuid "096f4957-feab-4596-ad45-13a37d4740b3")
 	)
 	(junction
+		(at 111.125 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c642cec-6583-4da3-8761-26b1a5a8be53")
+	)
+	(junction
 		(at 40.005 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9059,7 +9157,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 20.32) (xy 99.06 21.59)
+			(xy 111.125 20.32) (xy 111.125 21.59)
 		)
 		(stroke
 			(width 0.3)
@@ -9186,6 +9284,16 @@
 			(type default)
 		)
 		(uuid "54803ec0-bf72-4e0a-bf69-074396593c3c")
+	)
+	(wire
+		(pts
+			(xy 111.125 21.59) (xy 99.06 21.59)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "556cf5fd-474a-4732-9647-5ec28947c43f")
 	)
 	(wire
 		(pts
@@ -9911,6 +10019,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.125 21.59) (xy 111.125 22.86)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "bebeb812-64a3-450a-ab91-7d38e53b1245")
+	)
+	(wire
+		(pts
 			(xy 152.4 93.98) (xy 152.4 95.25)
 		)
 		(stroke
@@ -10478,7 +10596,7 @@
 		(effects
 			(font
 				(face "Consolas")
-				(size 1.524 1.524)
+				(size 1.016 1.016)
 				(thickness 0.127)
 				(color 255 0 0 1)
 			)
@@ -10491,7 +10609,7 @@
 		(effects
 			(font
 				(face "Consolas")
-				(size 1.524 1.524)
+				(size 1.016 1.016)
 				(thickness 0.127)
 				(color 0 0 255 1)
 			)
@@ -10930,7 +11048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00084f82-3482-4cd3-9cc7-1b0815dace73")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0108"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -10991,7 +11109,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR043")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11007,7 +11125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07825bf2-fc24-405d-9049-77c5eec0dd67")
-		(property "Reference" "U3"
+		(property "Reference" "U9"
 			(at 119.38 141.605 0)
 			(effects
 				(font
@@ -11072,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Analog Devices Inc."
+		(property "MFT" "Analog Devices"
 			(at 109.855 140.335 0)
 			(effects
 				(font
@@ -11110,7 +11228,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U3")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -11127,7 +11245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0927826d-c71f-490a-8324-274cd99ba101")
-		(property "Reference" "C18"
+		(property "Reference" "C54"
 			(at 130.175 159.3849 90)
 			(effects
 				(font
@@ -11213,7 +11331,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C18")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a540c95-e670-47c0-8d72-0f9fff3ee8cb")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR077"
 			(at 78.74 183.515 0)
 			(effects
 				(font
@@ -11289,7 +11407,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR062")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11306,7 +11424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ccfb910-11eb-46f4-aafd-983e80da4146")
-		(property "Reference" "C23"
+		(property "Reference" "C55"
 			(at 130.175 187.3249 90)
 			(effects
 				(font
@@ -11392,7 +11510,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C23")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d461306-b292-4033-8103-20d83dfe4756")
-		(property "Reference" "C17"
+		(property "Reference" "C42"
 			(at 39.37 93.98 90)
 			(effects
 				(font
@@ -11494,7 +11612,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C17")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -11509,7 +11627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eff48e1-5a9c-42e1-be46-f505326198ac")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR083"
 			(at 86.995 198.755 0)
 			(effects
 				(font
@@ -11570,7 +11688,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR060")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -11585,7 +11703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135bcca1-6c6f-4829-9a63-9ab75efe2085")
-		(property "Reference" "C16"
+		(property "Reference" "C41"
 			(at 29.845 93.98 90)
 			(effects
 				(font
@@ -11596,7 +11714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470uF/25V"
 			(at 29.845 96.52 90)
 			(effects
 				(font
@@ -11671,7 +11789,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C16")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -11686,7 +11804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "140e8234-2a3e-47d4-a212-d0369307c52f")
-		(property "Reference" "C81"
+		(property "Reference" "C63"
 			(at 254.635 135.255 90)
 			(effects
 				(font
@@ -11772,7 +11890,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C81")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14dea710-34c8-4fc2-a5ac-417f1adbe4c9")
-		(property "Reference" "C97"
+		(property "Reference" "C57"
 			(at 155.575 102.87 90)
 			(effects
 				(font
@@ -11873,7 +11991,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C97")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -11888,7 +12006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16778381-c928-416c-a377-0d52fd57956f")
-		(property "Reference" "C94"
+		(property "Reference" "C52"
 			(at 121.92 102.87 90)
 			(effects
 				(font
@@ -11974,7 +12092,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C94")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -11989,7 +12107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19d043ce-14f7-4923-a3bc-115d81c37569")
-		(property "Reference" "C12"
+		(property "Reference" "C60"
 			(at 214.63 31.115 90)
 			(effects
 				(font
@@ -12073,7 +12191,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C12")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -12089,7 +12207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1eddd54b-8bc2-4a5c-be05-804f9eab3a81")
-		(property "Reference" "M2"
+		(property "Reference" "M6"
 			(at 200.025 49.53 90)
 			(effects
 				(font
@@ -12175,7 +12293,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "M2")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -12190,7 +12308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f35331d-6fa7-403f-ab0a-1b1c1a626b41")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR082"
 			(at 86.995 170.815 0)
 			(effects
 				(font
@@ -12251,7 +12369,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR048")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12267,7 +12385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2986620c-e2e7-4e45-82bd-17e908326ba3")
-		(property "Reference" "OP2"
+		(property "Reference" "OP1"
 			(at 202.565 114.3 0)
 			(effects
 				(font
@@ -12332,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Everlight Electronics Co Ltd"
+		(property "MFT" "Everlight"
 			(at 206.375 113.03 0)
 			(effects
 				(font
@@ -12358,7 +12476,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "OP2")
+					(reference "OP1")
 					(unit 1)
 				)
 			)
@@ -12373,7 +12491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2acd5710-98ef-494b-9cc6-3d143c9c941b")
-		(property "Reference" "R31"
+		(property "Reference" "R24"
 			(at 216.535 111.125 90)
 			(effects
 				(font
@@ -12415,7 +12533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
 			(at 210.82 113.665 0)
 			(effects
 				(font
@@ -12426,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 210.82 113.665 0)
 			(effects
 				(font
@@ -12437,7 +12555,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-071KL"
 			(at 210.82 113.665 0)
 			(effects
 				(font
@@ -12457,7 +12575,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R31")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12472,7 +12590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30dc3899-e7cd-41aa-ae88-5e0c7fb99685")
-		(property "Reference" "C24"
+		(property "Reference" "C48"
 			(at 89.535 187.3249 90)
 			(effects
 				(font
@@ -12558,7 +12676,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C24")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -12574,7 +12692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30f81f2c-ce0e-4b65-aa5f-e47baa55e610")
-		(property "Reference" "R66"
+		(property "Reference" "R20"
 			(at 152.4 179.705 90)
 			(effects
 				(font
@@ -12616,7 +12734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
 			(at 151.13 182.245 0)
 			(effects
 				(font
@@ -12627,7 +12745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 151.13 182.245 0)
 			(effects
 				(font
@@ -12638,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-071KL"
 			(at 151.13 182.245 0)
 			(effects
 				(font
@@ -12658,7 +12776,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R66")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12674,7 +12792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36608d94-8930-4193-9fc2-f3462d5ed515")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 261.62 109.8549 90)
 			(effects
 				(font
@@ -12740,7 +12858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Bourns Inc."
+		(property "MFT" "Bourns"
 			(at 264.16 111.125 0)
 			(effects
 				(font
@@ -12763,7 +12881,7 @@
 		(instances
 			(project ""
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -12778,7 +12896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3750ed86-e207-4e59-a727-4c93208288b4")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0105"
 			(at 148.59 170.815 0)
 			(effects
 				(font
@@ -12839,7 +12957,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR097")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12854,7 +12972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "397bb13f-ee84-40df-9e80-99e615e5b49f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0110"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -12915,7 +13033,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR049")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -12931,7 +13049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39ec3dae-236a-4399-8e23-4af22044f26f")
-		(property "Reference" "M1"
+		(property "Reference" "M7"
 			(at 216.535 59.69 90)
 			(effects
 				(font
@@ -13017,7 +13135,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "M1")
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -13032,7 +13150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e0a916e-b51a-425a-9519-e63e1a8f18a8")
-		(property "Reference" "C25"
+		(property "Reference" "C46"
 			(at 89.535 131.4449 90)
 			(effects
 				(font
@@ -13118,7 +13236,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C25")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13134,7 +13252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eea9540-f9c2-4d0e-96be-5421a0432d81")
-		(property "Reference" "R30"
+		(property "Reference" "R22"
 			(at 194.945 111.125 90)
 			(effects
 				(font
@@ -13176,7 +13294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 5% 1/10W 0603"
 			(at 196.215 111.125 0)
 			(effects
 				(font
@@ -13187,7 +13305,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-0710KL"
 			(at 196.215 111.125 0)
 			(effects
 				(font
@@ -13198,7 +13316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 196.215 111.125 0)
 			(effects
 				(font
@@ -13218,7 +13336,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R30")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13234,7 +13352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb78966-4b8a-4961-a859-e5efc3cf8492")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0118"
 			(at 234.95 140.335 0)
 			(effects
 				(font
@@ -13295,7 +13413,88 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0193")
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:BANANA")
+		(at 238.76 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "41d31ddd-32a5-4e1a-9d32-25923f1b1b99")
+		(property "Reference" "J9"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BANANA JACK 4MM BLACK"
+			(at 238.76 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "BANANA-4MM-B"
+			(at 238.76 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "OEM"
+			(at 238.76 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13311,7 +13510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "429e4d0c-d0c6-4f10-b6c2-3d237a114a8d")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 152.4 123.825 90)
 			(effects
 				(font
@@ -13353,7 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
 			(at 151.13 126.365 0)
 			(effects
 				(font
@@ -13364,7 +13563,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 151.13 126.365 0)
 			(effects
 				(font
@@ -13375,7 +13574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-071KL"
 			(at 151.13 126.365 0)
 			(effects
 				(font
@@ -13395,7 +13594,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13410,7 +13609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448ea777-1aca-4b63-8942-0916af100f2e")
-		(property "Reference" "C5"
+		(property "Reference" "C44"
 			(at 42.545 38.0999 90)
 			(effects
 				(font
@@ -13496,7 +13695,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C5")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -13504,15 +13703,15 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 99.06 20.32 0)
+		(at 111.125 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "44a833a9-c463-4f40-968d-70df0c88d765")
-		(property "Reference" "#PWR01"
-			(at 99.06 22.86 0)
+		(property "Reference" "#PWR089"
+			(at 111.125 22.86 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13524,7 +13723,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 99.06 16.51 0)
+			(at 111.125 16.51 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13534,7 +13733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 20.32 0)
+			(at 111.125 20.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13545,7 +13744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 20.32 0)
+			(at 111.125 20.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13556,7 +13755,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 20.32 0)
+			(at 111.125 20.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13572,7 +13771,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR01")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -13587,7 +13786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46ff621e-5e6e-4c23-b7d0-3c3aa612bf25")
-		(property "Reference" "C2"
+		(property "Reference" "C43"
 			(at 42.545 25.3999 90)
 			(effects
 				(font
@@ -13673,7 +13872,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C2")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -13688,7 +13887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe73c0d-8840-4775-8b8a-5a319cc9d876")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 150.495 131.445 90)
 			(effects
 				(font
@@ -13774,7 +13973,88 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D12")
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:BANANA")
+		(at 238.76 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "504a2971-ffd6-4ed2-8898-a8a8b5076172")
+		(property "Reference" "J7"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "V"
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BANANA JACK 4MM YELLOW"
+			(at 238.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "BANANA-4MM-Y"
+			(at 238.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "OEM"
+			(at 238.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -13789,7 +14069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "576618a2-7461-4758-8af3-961caf6a49fe")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR087"
 			(at 95.25 198.755 0)
 			(effects
 				(font
@@ -13850,7 +14130,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR059")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -13865,7 +14145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a00f1bb-c2c2-4346-a92d-d049aaf4b26f")
-		(property "Reference" "R37"
+		(property "Reference" "R25"
 			(at 221.615 130.175 90)
 			(effects
 				(font
@@ -13907,7 +14187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1.2M OHM 5% 1/10W 0603"
 			(at 215.9 132.715 0)
 			(effects
 				(font
@@ -13918,7 +14198,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-071M2L"
 			(at 215.9 132.715 0)
 			(effects
 				(font
@@ -13929,7 +14209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 215.9 132.715 0)
 			(effects
 				(font
@@ -13949,7 +14229,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R37")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13964,7 +14244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bc8a9a6-ea88-429b-ab63-186654113fd3")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0104"
 			(at 148.59 142.875 0)
 			(effects
 				(font
@@ -14025,7 +14305,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR091")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -14040,7 +14320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c6e0a81-9510-45d7-8872-f7fb67622af5")
-		(property "Reference" "U1"
+		(property "Reference" "U7"
 			(at 52.07 15.24 0)
 			(effects
 				(font
@@ -14190,7 +14470,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U1")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -14205,7 +14485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ce3e472-52a0-42d9-ad9d-73d99a3a5d15")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR084"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -14266,7 +14546,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR05")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -14282,7 +14562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de764f4-adc3-401e-b280-6d3edd19271e")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0115"
 			(at 213.36 135.255 0)
 			(effects
 				(font
@@ -14343,7 +14623,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0191")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -14358,7 +14638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60c29d5c-da09-4c39-8eef-54ed440ffb16")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR078"
 			(at 78.74 142.875 0)
 			(effects
 				(font
@@ -14419,7 +14699,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR028")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -14434,7 +14714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61c4ba90-72eb-4b17-920f-5852bc13bf83")
-		(property "Reference" "C14"
+		(property "Reference" "C49"
 			(at 102.87 24.13 90)
 			(effects
 				(font
@@ -14518,7 +14798,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C14")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -14533,7 +14813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62f38029-4954-4fa6-b66f-26b4772575ae")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0109"
 			(at 161.29 114.3 0)
 			(effects
 				(font
@@ -14594,7 +14874,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR046")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -14610,7 +14890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6464565a-a25b-49a5-b669-09c93c67154d")
-		(property "Reference" "C4"
+		(property "Reference" "C39"
 			(at 29.845 38.1 90)
 			(effects
 				(font
@@ -14696,7 +14976,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C4")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -14712,7 +14992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6539bb84-e0eb-4fb2-ae72-4892d7f12283")
-		(property "Reference" "C3"
+		(property "Reference" "C38"
 			(at 29.845 25.4 90)
 			(effects
 				(font
@@ -14798,7 +15078,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C3")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -14813,7 +15093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65c6519f-2e11-475f-ac00-71f48c8f034e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR076"
 			(at 78.74 155.575 0)
 			(effects
 				(font
@@ -14874,7 +15154,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR053")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -14889,7 +15169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66626448-88e9-4e59-a02b-ecbfd2cdb0f4")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR098"
 			(at 132.715 170.815 0)
 			(effects
 				(font
@@ -14950,7 +15230,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR094")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -14967,7 +15247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6aefb4fa-a3b4-4f7f-999a-1d4876c3d42d")
-		(property "Reference" "U16"
+		(property "Reference" "U12"
 			(at 154.94 80.01 90)
 			(effects
 				(font
@@ -15071,7 +15351,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U16")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -15086,7 +15366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e48093c-de0f-4759-abd1-cf6bdabf1e0c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR091"
 			(at 118.745 96.52 0)
 			(effects
 				(font
@@ -15147,7 +15427,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -15162,7 +15442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "722c44cd-9afd-4a57-9daf-cd0536856301")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR099"
 			(at 132.715 198.755 0)
 			(effects
 				(font
@@ -15223,7 +15503,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0106")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -15238,7 +15518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "753e40e0-06c1-4a65-983c-278a648fa12a")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0119"
 			(at 252.73 126.365 0)
 			(effects
 				(font
@@ -15299,7 +15579,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0199")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -15315,7 +15595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "763416b2-b556-4c00-9bcd-ad60f015cfae")
-		(property "Reference" "R63"
+		(property "Reference" "R21"
 			(at 181.61 23.495 90)
 			(effects
 				(font
@@ -15399,7 +15679,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R63")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -15414,7 +15694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "791ceb8a-d62f-4864-88cf-1ffeed7a2b0c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR081"
 			(at 86.995 142.875 0)
 			(effects
 				(font
@@ -15475,7 +15755,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR027")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -15491,7 +15771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd6bacc-b7dd-48a3-a644-1a98b5797ad5")
-		(property "Reference" "U15"
+		(property "Reference" "U11"
 			(at 121.285 80.01 90)
 			(effects
 				(font
@@ -15595,7 +15875,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U15")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -15610,7 +15890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d63b4ea-3cfb-47c8-8753-0070bf09bcb8")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR080"
 			(at 78.74 198.755 0)
 			(effects
 				(font
@@ -15671,7 +15951,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR061")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -15687,7 +15967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f8d751d-b7b9-4f24-9411-45dc33d3fcb4")
-		(property "Reference" "U5"
+		(property "Reference" "U10"
 			(at 119.38 169.545 0)
 			(effects
 				(font
@@ -15752,7 +16032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Analog Devices Inc."
+		(property "MFT" "Analog Devices"
 			(at 109.855 168.275 0)
 			(effects
 				(font
@@ -15790,7 +16070,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U5")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -15805,7 +16085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80177be3-7d59-420e-bc0b-b4d3e1d13653")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0111"
 			(at 175.895 66.675 0)
 			(effects
 				(font
@@ -15867,7 +16147,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR06")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -15883,8 +16163,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80be8087-d4bf-4965-a6ed-1e4450b12f7c")
-		(property "Reference" "J3"
-			(at 227.965 33.655 0)
+		(property "Reference" "J5"
+			(at 227.965 32.385 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15895,7 +16175,7 @@
 			)
 		)
 		(property "Value" "MOTOR"
-			(at 232.41 48.895 90)
+			(at 227.33 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15975,7 +16255,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15992,7 +16272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82dbb045-f972-462d-8e69-b14bb8beb842")
-		(property "Reference" "C19"
+		(property "Reference" "C53"
 			(at 130.175 131.4449 90)
 			(effects
 				(font
@@ -16078,7 +16358,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C19")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -16093,7 +16373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "846f2913-f5f5-4670-bb8c-b44fa3d5f871")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0102"
 			(at 130.175 183.515 0)
 			(effects
 				(font
@@ -16154,7 +16434,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0131")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -16169,7 +16449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86a8dac8-724c-4aa8-9c56-3772de081e3b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR079"
 			(at 78.74 170.815 0)
 			(effects
 				(font
@@ -16230,7 +16510,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR051")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -16245,7 +16525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86bed5d7-eef3-455f-b037-174ff14b8186")
-		(property "Reference" "C20"
+		(property "Reference" "C47"
 			(at 89.535 159.3849 90)
 			(effects
 				(font
@@ -16331,7 +16611,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C20")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -16346,7 +16626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88834fe5-2ca1-4cef-acee-88044e9c2f37")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0103"
 			(at 141.605 101.6 0)
 			(effects
 				(font
@@ -16407,7 +16687,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR041")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -16423,7 +16703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b92be6d-74e2-4559-ae8f-f199b0bef355")
-		(property "Reference" "R69"
+		(property "Reference" "R26"
 			(at 214.63 23.495 90)
 			(effects
 				(font
@@ -16507,7 +16787,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R69")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16522,7 +16802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c093c2e-8186-4106-925e-52a7f2bbf623")
-		(property "Reference" "C7"
+		(property "Reference" "C45"
 			(at 42.545 50.7999 90)
 			(effects
 				(font
@@ -16608,7 +16888,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C7")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -16623,7 +16903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9451eb14-f9d8-4294-bfb6-394e72a99e7b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0122"
 			(at 260.35 126.365 0)
 			(effects
 				(font
@@ -16684,7 +16964,88 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR08")
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:BANANA")
+		(at 238.76 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "98394e54-5fb8-4a46-820b-f4bf2ad631e5")
+		(property "Reference" "J8"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "W"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BANANA JACK 4MM GREEN"
+			(at 238.76 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "BANANA-4MM-G"
+			(at 238.76 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "OEM"
+			(at 238.76 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -16699,7 +17060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9886f602-a913-4058-8f51-294ccdaf27a2")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0101"
 			(at 130.175 155.575 0)
 			(effects
 				(font
@@ -16760,7 +17121,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR055")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -16775,7 +17136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9904980a-eceb-444a-8884-46398de7599f")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0121"
 			(at 260.35 111.125 0)
 			(effects
 				(font
@@ -16836,7 +17197,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0198")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -16852,7 +17213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "995372cf-ffb4-483a-a1b5-8fc392533bd2")
-		(property "Reference" "D13"
+		(property "Reference" "D11"
 			(at 154.305 159.385 90)
 			(effects
 				(font
@@ -16938,7 +17299,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -16954,7 +17315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a4ee3f1-a3ef-44fe-aa13-8d2c4aa52cec")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 154.305 187.325 90)
 			(effects
 				(font
@@ -17040,7 +17401,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -17056,7 +17417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c0a5c8e-c41f-4bd4-80cb-e29751e5445d")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0116"
 			(at 224.79 125.095 0)
 			(effects
 				(font
@@ -17117,7 +17478,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0194")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -17132,7 +17493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c0acfdb-dec8-4324-8f21-e83b5f333e95")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR092"
 			(at 118.745 109.22 0)
 			(effects
 				(font
@@ -17193,7 +17554,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR029")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -17208,7 +17569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ce54b9-1701-4718-abd6-a92ffe46d01b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR073"
 			(at 36.83 105.41 0)
 			(effects
 				(font
@@ -17269,7 +17630,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR013")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -17285,7 +17646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2245acd-94e7-4c29-a1b8-8d8c7b71dc97")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 119.38 113.665 0)
 			(effects
 				(font
@@ -17350,7 +17711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Analog Devices Inc."
+		(property "MFT" "Analog Devices"
 			(at 109.855 112.395 0)
 			(effects
 				(font
@@ -17388,7 +17749,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -17403,7 +17764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a793c711-6df9-4f5f-9197-03ddcc7c75a3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR072"
 			(at 27.305 105.41 0)
 			(effects
 				(font
@@ -17464,7 +17825,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR09")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -17479,7 +17840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab3f90fe-fa06-40a4-a52f-bfc4f2758054")
-		(property "Reference" "C96"
+		(property "Reference" "C56"
 			(at 146.05 97.79 90)
 			(effects
 				(font
@@ -17565,7 +17926,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C96")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -17580,7 +17941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0b8fea7-3912-4d76-aea0-6734ee46a0c8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR070"
 			(at 27.305 74.93 0)
 			(effects
 				(font
@@ -17641,7 +18002,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR022")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17657,7 +18018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29b9c62-7242-4b32-903f-b3476e1fcd6e")
-		(property "Reference" "C13"
+		(property "Reference" "C58"
 			(at 181.61 31.115 90)
 			(effects
 				(font
@@ -17741,7 +18102,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C13")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -17756,7 +18117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b39eb666-7486-442d-8e26-5c39f96263a4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR094"
 			(at 124.46 170.815 0)
 			(effects
 				(font
@@ -17817,7 +18178,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -17832,7 +18193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b43813ae-a703-4a05-9952-7a3d4446ec83")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 31.115 73.66 90)
 			(effects
 				(font
@@ -17874,7 +18235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 5% 1/10W 0603"
 			(at 29.845 73.66 0)
 			(effects
 				(font
@@ -17885,7 +18246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-0710KL"
 			(at 29.845 73.66 0)
 			(effects
 				(font
@@ -17896,7 +18257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 29.845 73.66 0)
 			(effects
 				(font
@@ -17916,7 +18277,88 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R12")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:BANANA")
+		(at 238.76 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b472698d-2f9f-44c9-8a15-2e253dd647fb")
+		(property "Reference" "J6"
+			(at 238.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "U"
+			(at 238.76 39.37 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BANANA JACK 4MM RED"
+			(at 238.76 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "BANANA-4MM-R"
+			(at 238.76 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "OEM"
+			(at 238.76 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17931,7 +18373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5fce2ac-1c50-4f4b-972d-827e80934aef")
-		(property "Reference" "G1"
+		(property "Reference" "G2"
 			(at 180.975 64.77 0)
 			(effects
 				(font
@@ -18015,7 +18457,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "G1")
+					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -18031,7 +18473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6bb11ab-d623-4cf1-a962-f981be0ad743")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0120"
 			(at 252.73 146.685 0)
 			(effects
 				(font
@@ -18092,7 +18534,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0197")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -18107,7 +18549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8b3f952-8a4d-4d14-ac80-ee6482bb220c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR074"
 			(at 45.72 105.41 0)
 			(effects
 				(font
@@ -18168,7 +18610,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR014")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -18184,7 +18626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8c1d7cb-46d9-4a9b-9d0c-bbd1c685bba4")
-		(property "Reference" "U20"
+		(property "Reference" "U13"
 			(at 241.3 116.84 0)
 			(effects
 				(font
@@ -18279,7 +18721,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "U20")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -18294,7 +18736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc72c12f-3223-4c91-b1f2-5bbb5536675a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR085"
 			(at 95.25 142.875 0)
 			(effects
 				(font
@@ -18355,7 +18797,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR024")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -18371,7 +18813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcbd23bc-57ab-493b-9493-2ac84c729f4a")
-		(property "Reference" "R49"
+		(property "Reference" "R17"
 			(at 97.79 99.695 90)
 			(effects
 				(font
@@ -18461,7 +18903,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R49")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -18477,7 +18919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bee82fdc-115c-4b14-8496-4e4af5444224")
-		(property "Reference" "R68"
+		(property "Reference" "R23"
 			(at 198.755 23.495 90)
 			(effects
 				(font
@@ -18561,7 +19003,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R68")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18576,7 +19018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c089b1af-5acb-467f-be46-c4aca29ffc32")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR086"
 			(at 95.25 170.815 0)
 			(effects
 				(font
@@ -18637,7 +19079,83 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR047")
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:PGND")
+		(at 111.125 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0a18dfa-b427-4a59-bc7c-654af8b46144")
+		(property "Reference" "#PWR090"
+			(at 111.125 35.56 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 111.125 33.655 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.125 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.125 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.125 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfcf9298-8d7a-4c46-82f9-e4bf62b625d1")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -18652,7 +19170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2579da3-d595-4d1b-a6cc-569c1fee636c")
-		(property "Reference" "C78"
+		(property "Reference" "C61"
 			(at 231.14 114.3 0)
 			(effects
 				(font
@@ -18738,7 +19256,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C78")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -18754,7 +19272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c367ef1a-7def-4caf-8bc7-0ffb8326fb2a")
-		(property "Reference" "D15"
+		(property "Reference" "D8"
 			(at 74.295 131.445 0)
 			(effects
 				(font
@@ -18846,7 +19364,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D15")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18862,7 +19380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c430af6e-fd96-4171-b7d3-e8c4ba9b459d")
-		(property "Reference" "D1"
+		(property "Reference" "D9"
 			(at 74.295 159.385 0)
 			(effects
 				(font
@@ -18954,7 +19472,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -18970,7 +19488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5140a98-6ded-4607-aa14-516b306b18c0")
-		(property "Reference" "C6"
+		(property "Reference" "C40"
 			(at 29.845 50.8 90)
 			(effects
 				(font
@@ -19056,7 +19574,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C6")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -19071,7 +19589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8a2eff3-b8bb-46d7-a509-725b18d4d34c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0100"
 			(at 130.175 127.635 0)
 			(effects
 				(font
@@ -19132,7 +19650,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR040")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -19147,7 +19665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca6112fa-8a11-4842-a01f-34f46fc638d4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR075"
 			(at 78.74 127.635 0)
 			(effects
 				(font
@@ -19208,7 +19726,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR038")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -19223,7 +19741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd6dabd6-3a1f-4444-937b-481ff83e35f5")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0112"
 			(at 198.755 112.395 0)
 			(effects
 				(font
@@ -19284,7 +19802,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0189")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -19300,7 +19818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce2dbdbb-701f-464f-9f80-3f7bb1606f93")
-		(property "Reference" "C11"
+		(property "Reference" "C59"
 			(at 198.755 31.115 90)
 			(effects
 				(font
@@ -19384,7 +19902,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C11")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -19399,7 +19917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf3803dc-2f73-4ad3-a1b8-6a3cd400b06a")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0117"
 			(at 234.95 120.015 0)
 			(effects
 				(font
@@ -19460,7 +19978,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0195")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -19475,7 +19993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfd5d4e8-4643-418a-9dba-28f9a0d2938d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR096"
 			(at 127.635 114.3 0)
 			(effects
 				(font
@@ -19536,7 +20054,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR030")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -19552,7 +20070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d116175e-800a-4831-82c3-72e9b5ba6670")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 215.9 121.285 0)
 			(effects
 				(font
@@ -19639,7 +20157,106 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "Q1")
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:CERCAP")
+		(at 113.665 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d34a7049-4e72-4799-9bbe-699115b39f89")
+		(property "Reference" "C50"
+			(at 114.935 24.13 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "470nF/630V"
+			(at 117.475 26.67 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:FCAP-15MM"
+			(at 113.665 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP FILM 0.47UF 10% 630VDC RAD"
+			(at 113.665 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "R523I347050P0K"
+			(at 118.745 29.21 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "KEMET"
+			(at 113.665 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33642a5a-ed20-4bad-9dcf-8748d3e0ef42")
+		)
+		(pin "2"
+			(uuid "b311b07b-4b4b-44eb-a8c5-2a262972d176")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -19655,7 +20272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4436978-0d7c-4eaf-8c52-55bf5fca7fff")
-		(property "Reference" "R64"
+		(property "Reference" "R19"
 			(at 152.4 151.765 90)
 			(effects
 				(font
@@ -19697,7 +20314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
 			(at 151.13 154.305 0)
 			(effects
 				(font
@@ -19708,7 +20325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "YAGEO"
 			(at 151.13 154.305 0)
 			(effects
 				(font
@@ -19719,7 +20336,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" ""
+		(property "MNP" "RC0603JR-071KL"
 			(at 151.13 154.305 0)
 			(effects
 				(font
@@ -19739,7 +20356,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "R64")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -19755,7 +20372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8261aab-de10-4778-9739-72ae97e98e72")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0113"
 			(at 198.755 127.635 0)
 			(effects
 				(font
@@ -19816,7 +20433,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0190")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -19831,7 +20448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b7a4f6-0106-49b1-8626-6c0ccbc9f8b1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR071"
 			(at 27.305 92.71 0)
 			(effects
 				(font
@@ -19892,7 +20509,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR04")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -19907,7 +20524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd527454-e585-49b8-a364-3060a37b3be3")
-		(property "Reference" "C80"
+		(property "Reference" "C62"
 			(at 254.635 114.935 90)
 			(effects
 				(font
@@ -19993,7 +20610,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C80")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -20009,7 +20626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd6bd69c-4212-4ea7-b4c8-22983e4034d9")
-		(property "Reference" "M3"
+		(property "Reference" "M5"
 			(at 182.88 39.37 90)
 			(effects
 				(font
@@ -20095,7 +20712,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "M3")
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -20110,7 +20727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e142f8be-f23f-4180-b059-14f1bbefb8c1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR093"
 			(at 124.46 142.875 0)
 			(effects
 				(font
@@ -20171,7 +20788,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR057")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -20186,7 +20803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1682ad6-d646-4b28-9dfc-01feccd6287d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0107"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -20247,7 +20864,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR090")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -20262,7 +20879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e40e0163-4cce-45e9-9358-4ae8dd7cbdf1")
-		(property "Reference" "C93"
+		(property "Reference" "C51"
 			(at 112.395 97.79 90)
 			(effects
 				(font
@@ -20348,7 +20965,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "C93")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -20363,7 +20980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e43aec1c-fc76-49c4-baa0-f18ac406fe35")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR088"
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -20376,7 +20993,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 99.06 34.29 0)
+			(at 99.06 33.655 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -20424,7 +21041,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR07")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -20439,7 +21056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f07a8023-54ae-4e6e-8adc-9579f0e7b7da")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR097"
 			(at 132.715 142.875 0)
 			(effects
 				(font
@@ -20500,7 +21117,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR058")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -20515,7 +21132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f081135f-282f-4ee9-8741-420af6436b88")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0114"
 			(at 213.36 112.395 0)
 			(effects
 				(font
@@ -20576,7 +21193,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0192")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -20591,7 +21208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f17bf2ab-fe60-47d3-9664-a5168c040835")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR095"
 			(at 124.46 198.755 0)
 			(effects
 				(font
@@ -20652,7 +21269,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0105")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -20667,7 +21284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1d938b1-0008-434b-aa63-b26831be16bb")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0106"
 			(at 148.59 198.755 0)
 			(effects
 				(font
@@ -20728,7 +21345,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "#PWR0130")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -20744,7 +21361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b9730c-6cea-4615-ab15-4f25e7380f15")
-		(property "Reference" "D2"
+		(property "Reference" "D10"
 			(at 74.295 187.325 0)
 			(effects
 				(font
@@ -20836,7 +21453,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 			)

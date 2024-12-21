@@ -1024,7 +1024,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 146.685) (xy 218.44 145.415)
+			(xy 219.71 151.765) (xy 218.44 150.495)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1084,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 145.415) (xy 262.89 145.415)
+			(xy 218.44 150.495) (xy 262.89 150.495)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 144.145) (xy 218.44 145.415)
+			(xy 219.71 149.225) (xy 218.44 150.495)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1184,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 139.065) (xy 218.44 140.335)
+			(xy 219.71 143.51) (xy 218.44 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1424,16 +1424,6 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 149.225) (xy 218.44 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59bf3e44-ead4-4511-8aed-fc848d20ac3d")
-	)
-	(polyline
-		(pts
 			(xy 30.48 73.66) (xy 31.75 72.39)
 		)
 		(stroke
@@ -1634,7 +1624,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 141.605) (xy 218.44 140.335)
+			(xy 219.71 146.05) (xy 218.44 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1681,16 +1671,6 @@
 			(type default)
 		)
 		(uuid "92de4e7b-c726-4298-b387-fad6171434c0")
-	)
-	(polyline
-		(pts
-			(xy 219.71 151.765) (xy 218.44 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9309bc3a-f1d9-499a-9b8b-1e4656e2a747")
 	)
 	(polyline
 		(pts
@@ -1964,16 +1944,6 @@
 	)
 	(polyline
 		(pts
-			(xy 262.89 150.495) (xy 218.44 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d596d3b8-6fae-4139-a049-be195ed82da1")
-	)
-	(polyline
-		(pts
 			(xy 107.95 52.705) (xy 107.95 65.405)
 		)
 		(stroke
@@ -2004,7 +1974,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 140.335) (xy 262.89 140.335)
+			(xy 218.44 144.78) (xy 262.89 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2125,7 @@
 		(uuid 36b3f716-bee5-4c7e-b7dd-c34f1a5e9f80)
 	)
 	(circle
-		(center 262.89 140.335)
+		(center 262.89 144.78)
 		(radius 0.254)
 		(stroke
 			(width 0)
@@ -2233,19 +2203,6 @@
 		(uuid b9f67e82-9d69-459a-a8dd-b38af6b06f6b)
 	)
 	(circle
-		(center 262.89 150.495)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid e5cc9ef6-6e69-4f44-9fd1-d82cecaec18b)
-	)
-	(circle
 		(center 262.89 120.65)
 		(radius 0.254)
 		(stroke
@@ -2259,7 +2216,7 @@
 		(uuid edb324e6-0187-44f4-935e-63f9695bc2b6)
 	)
 	(circle
-		(center 262.89 145.415)
+		(center 262.89 150.495)
 		(radius 0.254)
 		(stroke
 			(width 0)
@@ -24537,18 +24494,6 @@
 		)
 		(uuid "51e194b3-04cf-4cab-97c1-0ed4bcd0e8fd")
 	)
-	(text "5V_MCU"
-		(exclude_from_sim no)
-		(at 226.06 149.86 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "587aa78b-6eaf-463a-b9fc-80acbaf1c8e1")
-	)
 	(text "5V_INV"
 		(exclude_from_sim no)
 		(at 198.12 57.785 90)
@@ -24614,7 +24559,7 @@
 	)
 	(text "12V_MCU"
 		(exclude_from_sim no)
-		(at 229.235 145.415 0)
+		(at 229.235 150.495 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -24639,7 +24584,7 @@
 	)
 	(text "24V_MCU"
 		(exclude_from_sim no)
-		(at 229.235 140.335 0)
+		(at 229.235 144.78 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -24703,7 +24648,7 @@
 		(at 114.3 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2193d809-2d05-4d81-8a4f-1065da4e9349")
@@ -24753,13 +24698,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 114.3 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -24778,7 +24743,7 @@
 		(at 101.6 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "444d05ab-90f5-4735-8425-beab392de2ef")
@@ -24828,13 +24793,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 101.6 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -24853,7 +24838,7 @@
 		(at 95.25 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4503c43a-c05b-47df-90d2-8192fdf3943e")
@@ -24903,13 +24888,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 95.25 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -24928,7 +24933,7 @@
 		(at 107.95 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "58f78ff1-6ef6-4f00-8b76-bf86b44efbb6")
@@ -24978,13 +24983,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 107.95 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -25007,7 +25032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bfe1cf9-efd2-42ea-a284-ed99c9c9b5df")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR02"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -25068,7 +25093,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "#PWR084")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -25079,7 +25104,7 @@
 		(at 82.55 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7da36bfa-132f-46d4-86b4-4a0a5b7be95d")
@@ -25129,13 +25154,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 82.55 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 82.55 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 82.55 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -25158,7 +25203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88029bb9-a6c3-49fc-83dd-3e5f457197b3")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR01"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -25219,7 +25264,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "#PWR083")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -25234,7 +25279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9068bd26-f98c-4d70-a223-3ccc2af5e476")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 46.99 108.585 0)
 			(effects
 				(font
@@ -25298,7 +25343,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samtec Inc."
+		(property "MFT" "Samtec"
 			(at 46.99 130.175 0)
 			(effects
 				(font
@@ -25348,7 +25393,7 @@
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -25375,8 +25420,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CABLE1"
-			(at 50.8 135.8899 0)
+		(property "Value" "MCDBG CABLE"
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -25408,13 +25453,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "INSULATION DISPLACEMENT TERMINAL"
 			(at 45.72 128.27 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "IDSD-06-D-06.00-T-G"
+			(at 45.72 128.27 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Samtec Inc."
+			(at 45.72 128.27 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -25433,7 +25498,7 @@
 		(at 120.65 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9131a455-f9ec-430a-92c6-ff82e1afbee0")
@@ -25483,13 +25548,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 120.65 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 120.65 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 120.65 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -25508,7 +25593,7 @@
 		(at 88.9 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "af471e58-a6c7-4f11-a324-315d385a91c5")
@@ -25558,13 +25643,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
 			(at 88.9 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)

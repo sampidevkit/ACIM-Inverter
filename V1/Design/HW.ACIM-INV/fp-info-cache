@@ -1,4 +1,4 @@
-2113646061057754
+2122449552013778
 Liem
 6-WLCSP
 
@@ -1392,6 +1392,13 @@ SMAJACKFEMALE-5
 0
 2
 2
+Liem
+SMD4-2025
+
+
+0
+4
+4
 Liem
 SMD4-7015
 
@@ -4060,6 +4067,13 @@ FB0805
 2
 2
 SAMPI
+FCAP-15MM
+
+
+0
+2
+2
+SAMPI
 FT0603
 
 
@@ -4395,6 +4409,13 @@ HLK-10M
 0
 4
 4
+SAMPI
+HLK-PMxx
+
+
+0
+0
+0
 SAMPI
 HOLDER-2.2MM
 
@@ -5005,6 +5026,13 @@ SOD-923
 2
 2
 SAMPI
+SOD80C-LL34
+
+
+0
+2
+2
+SAMPI
 SOD128-0603
 
 
@@ -5107,8 +5135,8 @@ SOT-223-3
 
 
 0
-0
-0
+4
+4
 SAMPI
 SOT-583
 
@@ -6998,7 +7026,14 @@ SOIC-8
 
 0
 8
-6
+8
+Triet_KiCAD_Fprint
+SOIC-8-358
+
+
+0
+8
+8
 Triet_KiCAD_Fprint
 SOIC-8-Mosfet
 
@@ -7126,7 +7161,7 @@ SOT-583
 8
 8
 Triet_KiCAD_Fprint
-SOT-723-Mosfet
+SOT-723-Mosfet-GDS
 
 
 0
@@ -7357,12 +7392,12 @@ TQFP-128-EP_14x14
 129
 129
 Triet_KiCAD_Fprint
-TSMT8
-Dual Mosfet Nch
+TSMT8-Mosfet
+Mosfet Dual
 
 0
 8
-8
+6
 Triet_KiCAD_Fprint
 TVS-SOD-128
 TVS
