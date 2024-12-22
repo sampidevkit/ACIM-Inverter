@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.18,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 0.8,
+        "copper_text_size_v": 0.8,
+        "copper_text_thickness": 0.15,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.05,
+        "courtyard_line_width": 0.01,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,16 +24,16 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.1,
+        "fab_line_width": 0.01,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
+        "fab_text_size_h": 0.8,
+        "fab_text_size_v": 0.8,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
+        "other_text_size_h": 0.8,
+        "other_text_size_v": 0.8,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
@@ -43,8 +43,8 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -538,7 +538,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "TDTU_Sheet.kicad_wks"
+    "page_layout_descr_file": "${SAMPI_LIB_DIR}/KiCAD_Sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -667,10 +667,6 @@
     [
       "20f80521-75f2-4ccc-bb34-c9566e70ef5c",
       "Root"
-    ],
-    [
-      "34b63420-23a7-4d2d-affc-c07be2bf5f59",
-      "INVERTER POWER"
     ],
     [
       "90bc1c00-8aa2-4331-ad43-a75c4df66101",

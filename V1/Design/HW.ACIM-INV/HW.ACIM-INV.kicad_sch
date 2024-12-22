@@ -1104,16 +1104,6 @@
 	)
 	(polyline
 		(pts
-			(xy 55.88 52.705) (xy 55.88 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba3858f-2b5c-4b46-96e2-234b4bb6830a")
-	)
-	(polyline
-		(pts
 			(xy 232.41 71.755) (xy 233.68 70.485)
 		)
 		(stroke
@@ -2084,19 +2074,6 @@
 			(color 0 0 0 0)
 		)
 		(uuid 026b1403-9800-4688-be3a-cbe875065665)
-	)
-	(circle
-		(center 55.88 52.705)
-		(radius 0.635)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 1e1d86fa-3cbd-44b8-8cf3-94132153f42c)
 	)
 	(circle
 		(center 107.95 52.705)
@@ -24375,7 +24352,7 @@
 		)
 		(uuid "00c8f7e1-467e-43c2-b7db-8fa1f75e5b38")
 	)
-	(text_box "POWER SUPPLY"
+	(text_box "POWER SUPPLY BOARD"
 		(exclude_from_sim no)
 		(at 13.97 65.405 0)
 		(size 7.62 12.7)
@@ -24505,18 +24482,6 @@
 			)
 		)
 		(uuid "62d0d5a8-4746-48a4-bead-39bec70dcf82")
-	)
-	(text "220VAC"
-		(exclude_from_sim no)
-		(at 25.4 71.12 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "76aee08b-4747-4a07-8088-6d055465265b")
 	)
 	(text "ENCODER"
 		(exclude_from_sim no)
@@ -25953,71 +25918,6 @@
 		)
 	)
 	(sheet
-		(at 31.75 65.405)
-		(size 25.4 12.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 150 255 150 1.0000)
-		)
-		(uuid "34b63420-23a7-4d2d-affc-c07be2bf5f59")
-		(property "Sheetname" "INVERTER POWER"
-			(at 31.75 62.23 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "INVPOWER.kicad_sch"
-			(at 31.75 63.5 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PWR_RELAY" input
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "17c9de7b-2cc2-4062-acad-6779186bb746")
-		)
-		(pin "~{DEV_RELAY}" input
-			(at 57.15 69.85 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "b1abe111-d994-4729-87b1-7ab11cfb2c99")
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 158.75 135.255)
 		(size 59.69 23.495)
 		(stroke
@@ -26681,7 +26581,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 27.305)
+		(at 31.75 65.405)
 		(size 25.4 12.7)
 		(stroke
 			(width 0.1524)
@@ -26692,7 +26592,7 @@
 		)
 		(uuid "90bc1c00-8aa2-4331-ad43-a75c4df66101")
 		(property "Sheetname" "MCU POWER"
-			(at 31.75 24.13 0)
+			(at 31.75 62.23 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -26704,7 +26604,7 @@
 			)
 		)
 		(property "Sheetfile" "MCUPOWER.kicad_sch"
-			(at 31.75 25.4 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -26713,6 +26613,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "~{DEV_RELAY}" input
+			(at 57.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c510506-42cc-49fa-809e-8aa5db3d80f6")
+		)
+		(pin "PWR_RELAY" input
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95736bfd-60a9-46e1-8aef-a41d25bac8c3")
 		)
 		(instances
 			(project "HW.ACIM-INV"
