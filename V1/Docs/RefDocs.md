@@ -25,3 +25,5 @@
 12. [ACS724 - y Isolated Current Sensor IC with Common-Mode Field Rejection Datasheet](https://www.allegromicro.com/~/media/files/datasheets/acs724-datasheet.ashx).
 
 13. [Incremental Rotary Encoder OD 40 dia - E6B2-C Datasheet](https://www.mouser.com/datasheet/2/307/e6b2-c_ds_csm491-25665.pdf).
+
+14. [AN2016-12 Application Note - Control Integrated POwer System (CIPOS™) In verter IPM R eference B oard Type 3 f or 3-Shunt R esistor](https://www.infineon.com/dgdl/Infineon-CIPOS_Mini_Inverter_module_reference_board_type3_for_3-shunt_resistor-ApplicationNotes-v01_11-EN.pdf?fileId=5546d462566bd0c7015674af23662589).
