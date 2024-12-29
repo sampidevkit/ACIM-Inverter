@@ -24705,6 +24705,101 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
+		(at 133.35 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e36d398-c726-4872-a316-c4c68d710695")
+		(property "Reference" "SH9"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 135.89 170.1799 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
 		(at 101.6 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25059,6 +25154,101 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 139.7 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1b9ece-f2a3-4f43-9089-ede62eec8fa1")
+		(property "Reference" "SH10"
+			(at 138.43 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 142.24 170.1799 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH10")
 					(unit 1)
 				)
 			)
@@ -25643,6 +25833,101 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "SH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 127 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d22eb98d-3c3e-4ff9-94f9-0c8f092d7682")
+		(property "Reference" "SH8"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 129.54 170.1799 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M025045P012"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH8")
 					(unit 1)
 				)
 			)

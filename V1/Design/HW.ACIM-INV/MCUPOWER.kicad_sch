@@ -1973,64 +1973,413 @@
 				)
 			)
 		)
+		(symbol "SIL08_1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J15"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "INV PWR & RELAYS"
+				(at 3.81 -22.225 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SAMPI:HDM1x8x2.54_TH_RA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER R/A 8POS 2.54MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "Sullins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" "PBC08SBAN"
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Checked" "OK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SIL08_1_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -22.86) (xy 0.889 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy 0.889 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy 0.889 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy 0.889 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 0.889 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 0.889 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SIL08_1_1_0"
+				(rectangle
+					(start 0 -3.81)
+					(end 2.54 -24.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -22.86)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -20.32)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -17.78)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -15.24)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 0)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 0)
+					(length 1.27)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -22.86 0)
+					(length 1.27)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 154.94 57.15)
+		(at 129.54 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bffadb9-4186-4cb0-8297-a70859ccd31c")
 	)
 	(junction
-		(at 212.09 57.15)
+		(at 186.69 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37b60451-9080-4c11-8275-1e2122d86d84")
 	)
 	(junction
-		(at 185.42 57.15)
+		(at 160.02 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b099e4a-7f27-46a4-9b02-8b5b85d671e8")
 	)
 	(junction
-		(at 222.25 57.15)
+		(at 196.85 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e6b3da0-94c7-40a1-bf6c-fcc7ff6e1da1")
 	)
 	(junction
-		(at 203.2 62.23)
+		(at 177.8 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "494fd8b9-6eb9-4fd4-8b62-530f019196c1")
 	)
 	(junction
-		(at 203.2 67.31)
+		(at 177.8 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a3436b-c009-4af4-a70e-f17c45e9bc32")
 	)
 	(junction
-		(at 175.26 57.15)
+		(at 149.86 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e10819a6-2b87-4c09-bd97-85d02e47bdee")
 	)
 	(junction
-		(at 185.42 67.31)
+		(at 160.02 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e22cb5cc-8147-4f35-8378-5f0b7a4b9e42")
 	)
 	(junction
-		(at 165.1 57.15)
+		(at 139.7 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e37fbb08-d42d-4d57-b31a-200fbc954ec9")
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 186.69 62.23)
+			(xy 160.02 24.13) (xy 161.29 24.13)
 		)
 		(stroke
 			(width 0.25)
@@ -2040,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 58.42) (xy 222.25 57.15)
+			(xy 196.85 20.32) (xy 196.85 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2050,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 59.69) (xy 203.2 62.23)
+			(xy 177.8 21.59) (xy 177.8 24.13)
 		)
 		(stroke
 			(width 0.25)
@@ -2060,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 185.42 68.58)
+			(xy 160.02 29.21) (xy 160.02 30.48)
 		)
 		(stroke
 			(width 0.25)
@@ -2070,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 67.31) (xy 203.2 67.31)
+			(xy 173.355 29.21) (xy 177.8 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 57.15) (xy 212.09 58.42)
+			(xy 186.69 19.05) (xy 186.69 20.32)
 		)
 		(stroke
 			(width 0.25)
@@ -2090,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 57.15) (xy 222.25 57.15)
+			(xy 186.69 19.05) (xy 196.85 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2100,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 59.69) (xy 185.42 57.15)
+			(xy 160.02 21.59) (xy 160.02 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 175.26 58.42)
+			(xy 149.86 19.05) (xy 149.86 20.32)
 		)
 		(stroke
 			(width 0.25)
@@ -2120,7 +2469,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 165.1 58.42)
+			(xy 139.7 19.05) (xy 139.7 20.32)
 		)
 		(stroke
 			(width 0.25)
@@ -2130,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 212.09 57.15)
+			(xy 176.53 19.05) (xy 186.69 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2140,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 185.42 67.31)
+			(xy 160.02 24.13) (xy 160.02 29.21)
 		)
 		(stroke
 			(width 0.25)
@@ -2150,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 165.1 57.15)
+			(xy 129.54 19.05) (xy 139.7 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2160,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 62.23) (xy 203.2 67.31)
+			(xy 177.8 24.13) (xy 177.8 29.21)
 		)
 		(stroke
 			(width 0.25)
@@ -2170,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 191.135 67.31)
+			(xy 160.02 29.21) (xy 165.735 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 62.23) (xy 203.2 62.23)
+			(xy 176.53 24.13) (xy 177.8 24.13)
 		)
 		(stroke
 			(width 0.25)
@@ -2190,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 55.88) (xy 222.25 57.15)
+			(xy 196.85 17.78) (xy 196.85 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2200,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 59.69) (xy 185.42 59.69)
+			(xy 161.29 21.59) (xy 160.02 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 55.88) (xy 154.94 57.15)
+			(xy 129.54 17.78) (xy 129.54 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2220,7 +2569,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 154.94 58.42)
+			(xy 129.54 19.05) (xy 129.54 20.32)
 		)
 		(stroke
 			(width 0.25)
@@ -2230,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 185.42 57.15)
+			(xy 149.86 19.05) (xy 160.02 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2240,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 57.15) (xy 185.42 57.15)
+			(xy 161.29 19.05) (xy 160.02 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2250,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 67.31) (xy 203.2 68.58)
+			(xy 177.8 29.21) (xy 177.8 30.48)
 		)
 		(stroke
 			(width 0.25)
@@ -2260,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 175.26 57.15)
+			(xy 139.7 19.05) (xy 149.86 19.05)
 		)
 		(stroke
 			(width 0.25)
@@ -2270,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 59.69) (xy 203.2 59.69)
+			(xy 176.53 21.59) (xy 177.8 21.59)
 		)
 		(stroke
 			(width 0.25)
@@ -2280,7 +2629,7 @@
 	)
 	(text_box "+12V_MCU:\n+ DC fan.\n+ Relays.\n+ Encoder."
 		(exclude_from_sim no)
-		(at 251.46 78.74 0)
+		(at 184.15 36.83 0)
 		(size 9.525 8.89)
 		(stroke
 			(width -0.0001)
@@ -2302,7 +2651,7 @@
 	)
 	(text_box "+3V3_ADC:\n+ MCU ADC reference voltage"
 		(exclude_from_sim no)
-		(at 227.965 50.165 0)
+		(at 128.27 36.83 0)
 		(size 15.24 6.985)
 		(stroke
 			(width -0.0001)
@@ -2324,7 +2673,7 @@
 	)
 	(text_box "+5V_MCU:\n+ Current sensors.\n+ Op-amps."
 		(exclude_from_sim no)
-		(at 250.19 62.865 0)
+		(at 165.1 36.83 0)
 		(size 20.32 8.89)
 		(stroke
 			(width -0.0001)
@@ -2346,7 +2695,7 @@
 	)
 	(text_box "+3V3_MCU:\n+ MCU main voltage.\n+ Digital isolators.\n+ Peripherals."
 		(exclude_from_sim no)
-		(at 247.015 48.26 0)
+		(at 145.415 36.83 0)
 		(size 21.59 8.89)
 		(stroke
 			(width -0.0001)
@@ -2368,7 +2717,7 @@
 	)
 	(hierarchical_label "~{DEV_RELAY}"
 		(shape input)
-		(at 236.22 24.765 0)
+		(at 234.95 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2382,7 +2731,7 @@
 	)
 	(hierarchical_label "PWR_RELAY"
 		(shape input)
-		(at 236.22 22.225 0)
+		(at 234.95 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2396,7 +2745,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 218.44 32.385 270)
+		(at 217.17 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2404,7 +2753,7 @@
 		(dnp no)
 		(uuid "05e5a1a7-837f-4917-a38d-ab596dc45153")
 		(property "Reference" "#PWR0200"
-			(at 212.09 32.385 0)
+			(at 210.82 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2416,7 +2765,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 212.725 32.385 90)
+			(at 211.455 29.21 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2426,7 +2775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 32.385 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2437,7 +2786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 32.385 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2448,7 +2797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 32.385 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2472,7 +2821,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 175.26 66.04 0)
+		(at 149.86 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2480,7 +2829,7 @@
 		(dnp no)
 		(uuid "0d559c47-ac55-4cc2-987c-9898bd92709d")
 		(property "Reference" "#PWR063"
-			(at 175.26 72.39 0)
+			(at 149.86 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2492,7 +2841,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 175.26 69.85 0)
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2502,7 +2851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 66.04 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2513,7 +2862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 66.04 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2524,7 +2873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 66.04 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2548,7 +2897,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+5V_MCU")
-		(at 154.94 55.88 0)
+		(at 129.54 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2556,7 +2905,7 @@
 		(dnp no)
 		(uuid "0edb93aa-d2fb-408b-a522-a0d3c6fc5fb8")
 		(property "Reference" "#PWR03"
-			(at 154.94 59.69 0)
+			(at 129.54 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2568,7 +2917,7 @@
 			)
 		)
 		(property "Value" "+5V_MCU"
-			(at 154.94 52.07 0)
+			(at 129.54 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2578,7 +2927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 55.88 0)
+			(at 129.54 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2589,7 +2938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 55.88 0)
+			(at 129.54 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2600,7 +2949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 154.94 55.88 0)
+			(at 129.54 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2624,7 +2973,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:MCP1501")
-		(at 189.23 52.07 0)
+		(at 163.83 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2632,7 +2981,7 @@
 		(dnp no)
 		(uuid "15db738f-09f7-425b-9129-2fc027cbee14")
 		(property "Reference" "U6"
-			(at 194.31 51.435 0)
+			(at 168.91 13.335 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2642,7 +2991,7 @@
 			)
 		)
 		(property "Value" "LDO 3.3V±0.1%/20mA"
-			(at 194.31 53.975 0)
+			(at 168.91 15.875 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2652,7 +3001,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:SOT-23-6_MCHP"
-			(at 189.23 52.07 0)
+			(at 163.83 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2663,7 +3012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 52.07 0)
+			(at 163.83 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2674,7 +3023,7 @@
 			)
 		)
 		(property "Description" "IC VREF SERIES 0.1% SOT23-6"
-			(at 189.23 52.07 0)
+			(at 163.83 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2685,7 +3034,7 @@
 			)
 		)
 		(property "MNP" "MCP1501T-33E/CHY"
-			(at 194.31 54.61 0)
+			(at 168.91 16.51 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2696,7 +3045,7 @@
 			)
 		)
 		(property "MFT" "Microchip"
-			(at 189.23 52.07 0)
+			(at 163.83 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2735,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+16V_INV")
-		(at 236.22 37.465 270)
+		(at 234.95 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2743,7 +3092,7 @@
 		(dnp no)
 		(uuid "1bea1a11-6f8c-4d67-b397-6014a8d48cc2")
 		(property "Reference" "#PWR0205"
-			(at 232.41 37.465 0)
+			(at 231.14 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2755,7 +3104,7 @@
 			)
 		)
 		(property "Value" "+16V_INV"
-			(at 242.57 37.465 90)
+			(at 241.3 34.29 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2765,7 +3114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 37.465 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2776,7 +3125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 37.465 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2787,7 +3136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 236.22 37.465 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2811,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 167.64 63.5 270)
+		(at 142.24 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2820,7 +3169,7 @@
 		(dnp no)
 		(uuid "1d0e485f-620c-4360-92ac-61f34560cf6c")
 		(property "Reference" "C33"
-			(at 171.45 60.96 90)
+			(at 146.05 22.86 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2831,7 +3180,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 171.45 63.5 90)
+			(at 146.05 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2842,7 +3191,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 167.64 63.5 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2853,7 +3202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 63.5 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2864,7 +3213,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
-			(at 167.64 63.5 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2875,7 +3224,7 @@
 			)
 		)
 		(property "MNP" "0603N220J500CT"
-			(at 167.64 63.5 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2886,7 +3235,7 @@
 			)
 		)
 		(property "MFT" "Walsin"
-			(at 167.64 63.5 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2913,7 +3262,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_INV")
-		(at 236.22 40.005 90)
+		(at 234.95 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2921,7 +3270,7 @@
 		(dnp no)
 		(uuid "2f7c7f92-d877-40aa-a919-fad7c61022d6")
 		(property "Reference" "#PWR0206"
-			(at 242.57 40.005 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2933,7 +3282,7 @@
 			)
 		)
 		(property "Value" "GND_INV"
-			(at 241.935 40.005 90)
+			(at 240.665 36.83 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2943,7 +3292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 40.005 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2954,7 +3303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 40.005 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2965,7 +3314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 40.005 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2989,7 +3338,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 172.72 63.5 90)
+		(at 147.32 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2997,7 +3346,7 @@
 		(dnp no)
 		(uuid "402cce14-23b3-4e87-b3f5-9904bfb4c787")
 		(property "Reference" "C35"
-			(at 177.8 60.9599 90)
+			(at 152.4 22.8599 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3008,7 +3357,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 176.53 63.5 90)
+			(at 151.13 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3019,7 +3368,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 172.72 63.5 0)
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3030,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 63.5 0)
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3041,7 +3390,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 172.72 63.5 0)
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3052,7 +3401,7 @@
 			)
 		)
 		(property "MNP" "CL10B104KB8NNNC"
-			(at 172.72 63.5 90)
+			(at 147.32 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3063,7 +3412,7 @@
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 172.72 63.5 0)
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3090,7 +3439,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 219.71 63.5 90)
+		(at 194.31 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3099,7 +3448,7 @@
 		(fields_autoplaced yes)
 		(uuid "45fdd4f1-6e5e-4dbd-8a5e-338784cb2622")
 		(property "Reference" "C37"
-			(at 224.79 60.9599 90)
+			(at 199.39 22.8599 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3110,7 +3459,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 224.79 63.4999 90)
+			(at 199.39 25.3999 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3121,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 219.71 63.5 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3132,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 63.5 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3143,7 +3492,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
-			(at 219.71 63.5 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3154,7 +3503,7 @@
 			)
 		)
 		(property "MNP" "CL10A106MQ8NNNC"
-			(at 219.71 63.5 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3165,7 +3514,7 @@
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 219.71 63.5 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3192,7 +3541,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+3V3_MCU")
-		(at 218.44 37.465 90)
+		(at 217.17 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3200,7 +3549,7 @@
 		(dnp no)
 		(uuid "4a107683-2f58-4ab4-be54-9aaccd67a11e")
 		(property "Reference" "#PWR0198"
-			(at 222.25 37.465 0)
+			(at 220.98 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3212,7 +3561,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 212.09 37.465 90)
+			(at 210.82 34.29 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3222,7 +3571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 37.465 0)
+			(at 217.17 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3233,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 37.465 0)
+			(at 217.17 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3244,7 +3593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 218.44 37.465 0)
+			(at 217.17 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3268,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 218.44 29.845 270)
+		(at 217.17 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3276,7 +3625,7 @@
 		(dnp no)
 		(uuid "4ca2ab3e-a2e3-4da5-a735-760068901777")
 		(property "Reference" "#PWR0201"
-			(at 212.09 29.845 0)
+			(at 210.82 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3288,7 +3637,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 212.725 29.845 90)
+			(at 211.455 26.67 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3298,7 +3647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 29.845 0)
+			(at 217.17 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3309,7 +3658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 29.845 0)
+			(at 217.17 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3320,7 +3669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 29.845 0)
+			(at 217.17 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3344,7 +3693,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 152.4 63.5 90)
+		(at 127 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3353,7 +3702,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d66ff18-df6a-4592-8b89-7cd2d7365ac8")
 		(property "Reference" "C31"
-			(at 157.48 60.9599 90)
+			(at 132.08 22.8599 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3364,7 +3713,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 157.48 63.4999 90)
+			(at 132.08 25.3999 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3375,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 152.4 63.5 0)
+			(at 127 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3386,7 +3735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 63.5 0)
+			(at 127 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3397,7 +3746,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
-			(at 152.4 63.5 0)
+			(at 127 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3408,7 +3757,7 @@
 			)
 		)
 		(property "MNP" "CL10A106MQ8NNNC"
-			(at 152.4 63.5 0)
+			(at 127 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3419,7 +3768,7 @@
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 152.4 63.5 0)
+			(at 127 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3446,7 +3795,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 165.1 66.04 0)
+		(at 139.7 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3454,7 +3803,7 @@
 		(dnp no)
 		(uuid "544b859e-7efb-4d1f-bd93-247a79239d13")
 		(property "Reference" "#PWR060"
-			(at 165.1 72.39 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3466,7 +3815,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 165.1 69.85 0)
+			(at 139.7 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3476,7 +3825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 66.04 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3487,7 +3836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 66.04 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3498,7 +3847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 66.04 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3521,8 +3870,10 @@
 		)
 	)
 	(symbol
+		(lib_name "SIL08_1")
 		(lib_id "SAMPI:SIL08")
-		(at 233.68 45.085 180)
+		(at 232.41 13.97 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3530,7 +3881,7 @@
 		(dnp no)
 		(uuid "5efea103-146e-4a91-bab2-6ab8af8b4d08")
 		(property "Reference" "J15"
-			(at 233.68 19.05 0)
+			(at 232.41 15.875 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -3540,7 +3891,7 @@
 			)
 		)
 		(property "Value" "INV PWR & RELAYS"
-			(at 229.87 22.86 90)
+			(at 228.6 36.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:HDM1x8x2.54_TH_RA"
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3918,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 8POS 2.54MM"
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3927,7 @@
 			)
 		)
 		(property "MFT" "Sullins"
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3936,7 @@
 			)
 		)
 		(property "MNP" "PBC08SBAN"
-			(at 222.25 27.305 0)
+			(at 220.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3945,7 @@
 			)
 		)
 		(property "Unit Price" ""
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3954,7 @@
 			)
 		)
 		(property "Checked" "OK"
-			(at 233.68 45.085 0)
+			(at 232.41 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,9 +3964,6 @@
 		)
 		(pin "1"
 			(uuid "9bacae00-0582-44fb-a35f-8613ff8fc2b8")
-		)
-		(pin "4"
-			(uuid "dbb3ec54-7bee-4666-bdc6-c224d5681163")
 		)
 		(pin "5"
 			(uuid "ac557b58-2762-4d4d-b301-3ebb66e487dc")
@@ -3632,9 +3980,6 @@
 		(pin "2"
 			(uuid "ff67144d-7502-436d-aa4d-6d8259cd8690")
 		)
-		(pin "3"
-			(uuid "fbe102ad-0037-4439-8965-6722a9ea60ea")
-		)
 		(instances
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
@@ -3646,7 +3991,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 209.55 63.5 90)
+		(at 184.15 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3654,7 +3999,7 @@
 		(dnp no)
 		(uuid "71a2ce04-9e2e-46d5-a9b3-159a71b14b90")
 		(property "Reference" "C36"
-			(at 214.63 60.9599 90)
+			(at 189.23 22.8599 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3665,7 +4010,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 213.36 63.5 90)
+			(at 187.96 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3676,7 +4021,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 209.55 63.5 0)
+			(at 184.15 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3687,7 +4032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 63.5 0)
+			(at 184.15 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3698,7 +4043,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 209.55 63.5 0)
+			(at 184.15 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3709,7 +4054,7 @@
 			)
 		)
 		(property "MNP" "CL10B104KB8NNNC"
-			(at 209.55 63.5 90)
+			(at 184.15 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3720,7 +4065,7 @@
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 209.55 63.5 0)
+			(at 184.15 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3747,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 185.42 68.58 0)
+		(at 160.02 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3755,7 +4100,7 @@
 		(dnp no)
 		(uuid "7d590044-5f9e-42e2-8a96-efbf5211e201")
 		(property "Reference" "#PWR065"
-			(at 185.42 74.93 0)
+			(at 160.02 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3767,7 +4112,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 185.42 72.39 0)
+			(at 160.02 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3777,7 +4122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 68.58 0)
+			(at 160.02 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3788,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 68.58 0)
+			(at 160.02 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3799,7 +4144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 68.58 0)
+			(at 160.02 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3823,7 +4168,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+24V_MCU")
-		(at 218.44 24.765 90)
+		(at 217.17 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3831,7 +4176,7 @@
 		(dnp no)
 		(uuid "85effc0e-6fdf-4da8-b2df-f5cccde86423")
 		(property "Reference" "#PWR0195"
-			(at 222.25 24.765 0)
+			(at 220.98 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3843,7 +4188,7 @@
 			)
 		)
 		(property "Value" "+24V_MCU"
-			(at 212.09 24.765 90)
+			(at 210.82 21.59 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3853,7 +4198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 24.765 0)
+			(at 217.17 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3864,7 +4209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 24.765 0)
+			(at 217.17 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3875,7 +4220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 218.44 24.765 0)
+			(at 217.17 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3899,7 +4244,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+12V_MCU")
-		(at 218.44 27.305 90)
+		(at 217.17 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,7 +4252,7 @@
 		(dnp no)
 		(uuid "875b4e3b-ff38-4fd9-a693-633170d4c88b")
 		(property "Reference" "#PWR0196"
-			(at 222.25 27.305 0)
+			(at 220.98 24.13 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3919,7 +4264,7 @@
 			)
 		)
 		(property "Value" "+12V_MCU"
-			(at 212.09 27.305 90)
+			(at 210.82 24.13 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3929,7 +4274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 27.305 0)
+			(at 217.17 24.13 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3940,7 +4285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 27.305 0)
+			(at 217.17 24.13 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3951,7 +4296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 218.44 27.305 0)
+			(at 217.17 24.13 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3975,7 +4320,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ADC")
-		(at 203.2 68.58 0)
+		(at 177.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3983,7 +4328,7 @@
 		(dnp no)
 		(uuid "897622e2-3fd8-44e9-ba5f-347320be2771")
 		(property "Reference" "#PWR066"
-			(at 203.2 74.93 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3995,7 +4340,7 @@
 			)
 		)
 		(property "Value" "GND_ADC"
-			(at 203.2 72.39 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4005,7 +4350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 68.58 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4016,7 +4361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 68.58 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4027,7 +4372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 68.58 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4051,7 +4396,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+3V3_ADC")
-		(at 222.25 55.88 0)
+		(at 196.85 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4059,7 +4404,7 @@
 		(dnp no)
 		(uuid "a13af31b-6a50-42ac-b6dd-20e45707062e")
 		(property "Reference" "#PWR068"
-			(at 222.25 59.69 0)
+			(at 196.85 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4071,7 +4416,7 @@
 			)
 		)
 		(property "Value" "+3V3_ADC"
-			(at 222.25 52.07 0)
+			(at 196.85 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4081,7 +4426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 55.88 0)
+			(at 196.85 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4092,7 +4437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 55.88 0)
+			(at 196.85 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4103,7 +4448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 222.25 55.88 0)
+			(at 196.85 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4127,7 +4472,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_INV")
-		(at 236.22 34.925 90)
+		(at 234.95 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4135,7 +4480,7 @@
 		(dnp no)
 		(uuid "b891353e-6dfd-4841-a240-4b310226e45b")
 		(property "Reference" "#PWR0204"
-			(at 242.57 34.925 0)
+			(at 241.3 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4147,7 +4492,7 @@
 			)
 		)
 		(property "Value" "GND_INV"
-			(at 241.935 34.925 90)
+			(at 240.665 31.75 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4157,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 34.925 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4168,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 34.925 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4179,7 +4524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 34.925 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4203,7 +4548,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:FerriteBead")
-		(at 194.31 63.5 0)
+		(at 168.91 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4211,7 +4556,7 @@
 		(dnp no)
 		(uuid "d441888f-18a0-4ceb-a1ec-080674626e34")
 		(property "Reference" "FT5"
-			(at 194.945 64.77 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4221,7 +4566,7 @@
 			)
 		)
 		(property "Value" "120R@100MHz"
-			(at 194.945 69.215 0)
+			(at 169.545 31.115 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4231,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:FT0603"
-			(at 194.31 63.5 0)
+			(at 168.91 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4242,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 63.5 0)
+			(at 168.91 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4253,7 +4598,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 120 OHM 1A 0603 1LN"
-			(at 194.31 63.5 0)
+			(at 168.91 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4264,7 +4609,7 @@
 			)
 		)
 		(property "MFT" "Pulse"
-			(at 194.31 63.5 0)
+			(at 168.91 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4275,7 +4620,7 @@
 			)
 		)
 		(property "MNP" "PE-0603PFB121ST"
-			(at 194.31 63.5 0)
+			(at 168.91 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4302,7 +4647,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ADC")
-		(at 222.25 66.04 0)
+		(at 196.85 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4310,7 +4655,7 @@
 		(dnp no)
 		(uuid "d8b88a39-dc60-4724-a6a0-f98981f8aee5")
 		(property "Reference" "#PWR069"
-			(at 222.25 72.39 0)
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4322,7 +4667,7 @@
 			)
 		)
 		(property "Value" "GND_ADC"
-			(at 222.25 69.85 0)
+			(at 196.85 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4332,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 66.04 0)
+			(at 196.85 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4343,7 +4688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 66.04 0)
+			(at 196.85 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4354,7 +4699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 66.04 0)
+			(at 196.85 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4378,7 +4723,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 218.44 22.225 270)
+		(at 217.17 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4386,7 +4731,7 @@
 		(dnp no)
 		(uuid "da7f3e6c-792e-4d27-ad46-e21bccb87a8b")
 		(property "Reference" "#PWR0202"
-			(at 212.09 22.225 0)
+			(at 210.82 19.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4398,7 +4743,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 212.725 22.225 90)
+			(at 211.455 19.05 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4408,7 +4753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 22.225 0)
+			(at 217.17 19.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4419,7 +4764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 22.225 0)
+			(at 217.17 19.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4430,7 +4775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 22.225 0)
+			(at 217.17 19.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4454,8 +4799,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SIL08")
-		(at 220.98 45.085 0)
-		(mirror x)
+		(at 219.71 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4463,7 +4807,7 @@
 		(dnp no)
 		(uuid "df120597-2078-4fce-8b5e-4350bde60a37")
 		(property "Reference" "J14"
-			(at 220.98 19.05 0)
+			(at 219.075 15.875 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4473,7 +4817,7 @@
 			)
 		)
 		(property "Value" "MCU PWR"
-			(at 224.79 26.67 90)
+			(at 223.52 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4826,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:HDM1x8x2.54_TH_RA"
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4844,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 8POS 2.54MM"
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4853,7 @@
 			)
 		)
 		(property "MFT" "Sullins"
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4862,7 @@
 			)
 		)
 		(property "MNP" "PBC08SBAN"
-			(at 232.41 27.305 0)
+			(at 231.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4871,7 @@
 			)
 		)
 		(property "Unit Price" ""
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4880,7 @@
 			)
 		)
 		(property "Checked" "OK"
-			(at 220.98 45.085 0)
+			(at 219.71 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4923,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ADC")
-		(at 212.09 66.04 0)
+		(at 186.69 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4587,7 +4931,7 @@
 		(dnp no)
 		(uuid "e36f417e-7d9a-41f9-9f61-21bae3807314")
 		(property "Reference" "#PWR067"
-			(at 212.09 72.39 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4599,7 +4943,7 @@
 			)
 		)
 		(property "Value" "GND_ADC"
-			(at 212.09 69.85 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4609,7 +4953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 66.04 0)
+			(at 186.69 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4620,7 +4964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 66.04 0)
+			(at 186.69 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4631,7 +4975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 66.04 0)
+			(at 186.69 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4655,7 +4999,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+5V_INV")
-		(at 236.22 32.385 270)
+		(at 234.95 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4663,7 +5007,7 @@
 		(dnp no)
 		(uuid "e5609ef1-9228-4f9e-b09c-a9a2335bf3ab")
 		(property "Reference" "#PWR0203"
-			(at 232.41 32.385 0)
+			(at 231.14 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4675,7 +5019,7 @@
 			)
 		)
 		(property "Value" "+5V_INV"
-			(at 242.57 32.385 90)
+			(at 241.3 29.21 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4685,7 +5029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 32.385 0)
+			(at 234.95 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4696,7 +5040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 32.385 0)
+			(at 234.95 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4707,7 +5051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 236.22 32.385 0)
+			(at 234.95 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4731,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 154.94 66.04 0)
+		(at 129.54 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4739,7 +5083,7 @@
 		(dnp no)
 		(uuid "ed3b667f-87f4-43c5-983d-83289a89e2b6")
 		(property "Reference" "#PWR058"
-			(at 154.94 72.39 0)
+			(at 129.54 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4751,7 +5095,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 154.94 69.85 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4761,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 66.04 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4772,7 +5116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 66.04 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4783,7 +5127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 66.04 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4807,7 +5151,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 218.44 40.005 270)
+		(at 217.17 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4815,7 +5159,7 @@
 		(dnp no)
 		(uuid "f916e34e-8f70-4fe3-8213-7a20e547a9a5")
 		(property "Reference" "#PWR0199"
-			(at 212.09 40.005 0)
+			(at 210.82 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4827,7 +5171,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 212.725 40.005 90)
+			(at 211.455 36.83 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4837,7 +5181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 40.005 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4848,7 +5192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 40.005 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4859,7 +5203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 40.005 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4883,7 +5227,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+5V_MCU")
-		(at 218.44 34.925 90)
+		(at 217.17 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4891,7 +5235,7 @@
 		(dnp no)
 		(uuid "ff5d6cc6-6062-4df9-83ba-3e206953298d")
 		(property "Reference" "#PWR0197"
-			(at 222.25 34.925 0)
+			(at 220.98 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4903,7 +5247,7 @@
 			)
 		)
 		(property "Value" "+5V_MCU"
-			(at 212.725 34.925 90)
+			(at 211.455 31.75 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4913,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 34.925 0)
+			(at 217.17 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4924,7 +5268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 34.925 0)
+			(at 217.17 31.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4935,7 +5279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 218.44 34.925 0)
+			(at 217.17 31.75 0)
 			(effects
 				(font
 					(face "Consolas")

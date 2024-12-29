@@ -7642,7 +7642,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
+			(property "Reference" "J16"
 				(at 7.62 -15.24 0)
 				(effects
 					(font
@@ -7742,7 +7742,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -21.59) (xy 3.429 -21.59)
+						(xy 1.27 -19.05) (xy 3.429 -19.05)
 					)
 					(stroke
 						(width 0)
@@ -7778,7 +7778,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -11.43) (xy 3.429 -11.43)
+						(xy 1.27 -8.89) (xy 3.429 -8.89)
 					)
 					(stroke
 						(width 0)
@@ -7848,7 +7848,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -21.59)
+					(center 3.81 -19.05)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -7881,7 +7881,7 @@
 					)
 				)
 				(circle
-					(center 3.81 -11.43)
+					(center 3.81 -8.89)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -7968,16 +7968,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -11.43 0)
+					(at 0 -8.89 0)
 					(length 1.27)
-					(name "4"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8022,16 +8022,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 0)
+					(at 0 -19.05 0)
 					(length 1.27)
-					(name "8"
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8542,12 +8542,6 @@
 		(uuid "886db581-8156-4058-905e-051d09ccbcbd")
 	)
 	(junction
-		(at 268.605 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9355009e-2cf6-4a6b-ad2f-96cb0c901a31")
-	)
-	(junction
 		(at 245.11 131.445)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8588,12 +8582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aff95c1a-5807-4d21-bac6-9704e0f7ec0f")
-	)
-	(junction
-		(at 268.605 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b05030f2-4564-40ec-903f-b2252869176d")
 	)
 	(junction
 		(at 202.565 46.99)
@@ -9203,16 +9191,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 31.75) (xy 268.605 31.75)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(uuid "30f420ed-a30b-437d-aa07-d22eb40293cf")
-	)
-	(wire
-		(pts
 			(xy 219.075 66.04) (xy 219.075 67.31)
 		)
 		(stroke
@@ -9551,16 +9529,6 @@
 			(type default)
 		)
 		(uuid "507ae432-fe66-4ef6-bede-cdfabf9ba31a")
-	)
-	(wire
-		(pts
-			(xy 267.335 21.59) (xy 268.605 21.59)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(uuid "50f4d68e-1987-49eb-b271-75d651251860")
 	)
 	(wire
 		(pts
@@ -10386,6 +10354,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.335 34.29) (xy 268.605 34.29)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "b7bcce8d-dd71-4186-877f-ff085bfdcb4c")
+	)
+	(wire
+		(pts
 			(xy 81.28 145.415) (xy 74.93 145.415)
 		)
 		(stroke
@@ -10874,6 +10852,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "ef21ae01-60e6-447d-8be3-44ecd1cdce49")
+	)
+	(wire
+		(pts
+			(xy 267.335 24.13) (xy 268.605 24.13)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "ef470e9d-010b-4563-a834-33faf905da8c")
 	)
 	(wire
 		(pts
@@ -16695,8 +16683,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SIL10")
-		(at 269.875 48.26 0)
-		(mirror x)
+		(at 269.875 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16714,7 +16701,7 @@
 			)
 		)
 		(property "Value" "HIGH VOLTAGE OUTPUTS"
-			(at 276.225 22.86 90)
+			(at 276.225 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16723,7 +16710,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:HDF1x10x2.54_TH_RA"
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16732,7 +16719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16741,7 +16728,7 @@
 			)
 		)
 		(property "Description" "CONN HDR 10POS 0.1 TIN PCB R/A"
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,7 +16737,7 @@
 			)
 		)
 		(property "MFT" "Sullins"
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,7 +16746,7 @@
 			)
 		)
 		(property "MNP" "PPTC101LGBN-RC"
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16768,7 +16755,7 @@
 			)
 		)
 		(property "Checked" "OK"
-			(at 269.875 48.26 0)
+			(at 269.875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,9 +16766,6 @@
 		(pin "6"
 			(uuid "82b85302-a82e-4917-9738-2f7a237a0256")
 		)
-		(pin "8"
-			(uuid "d3d17050-5dae-440f-a18d-c4bec2de9506")
-		)
 		(pin "1"
 			(uuid "9b876999-c919-4972-b557-1ec4d201c038")
 		)
@@ -16791,14 +16775,17 @@
 		(pin "10"
 			(uuid "ac2af335-80a9-4026-8dfd-989171a971ea")
 		)
-		(pin "4"
-			(uuid "a72183e3-dddc-441b-84db-6c1ccb41da74")
-		)
 		(pin "9"
 			(uuid "c8bb79e6-d647-4a83-bfc6-d190757ce57b")
 		)
 		(pin "5"
 			(uuid "3757c785-2728-4f54-8843-9172599da3e6")
+		)
+		(pin "3"
+			(uuid "e70c6f31-aa05-4d76-a960-ed2f1479b137")
+		)
+		(pin "7"
+			(uuid "2f279bd1-9e50-45a8-93de-c9d1c5efd2d2")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -21499,7 +21486,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 267.335 21.59 90)
+		(at 267.335 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21507,7 +21494,7 @@
 		(dnp no)
 		(uuid "df8ef76c-b0e2-4d05-a75b-89016c2a44db")
 		(property "Reference" "#PWR0209"
-			(at 269.875 21.59 0)
+			(at 269.875 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -21519,17 +21506,18 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 262.89 21.59 90)
+			(at 262.89 34.29 90)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+					(bold yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 267.335 21.59 0)
+			(at 267.335 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -21540,7 +21528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.335 21.59 0)
+			(at 267.335 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -21551,7 +21539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.335 21.59 0)
+			(at 267.335 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -22058,7 +22046,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:PGND")
-		(at 267.335 31.75 270)
+		(at 267.335 24.13 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22067,7 +22055,7 @@
 		(dnp no)
 		(uuid "e77273a6-727d-4771-b29c-bce1c15139c4")
 		(property "Reference" "#PWR0207"
-			(at 262.255 31.75 0)
+			(at 262.255 24.13 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -22077,7 +22065,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 262.89 31.75 90)
+			(at 262.89 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +22074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.335 31.75 0)
+			(at 267.335 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22095,7 +22083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.335 31.75 0)
+			(at 267.335 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22104,7 +22092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.335 31.75 0)
+			(at 267.335 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
