@@ -25161,101 +25161,6 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
-		(at 139.7 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c1b9ece-f2a3-4f43-9089-ede62eec8fa1")
-		(property "Reference" "SH10"
-			(at 138.43 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCREW HOLDER"
-			(at 142.24 170.1799 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PAN PHILLIPS SCREW, M2.5 X 4.5 T"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Essentra"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "50M025045P012"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "HW.ACIM-INV"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "SH10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:SCREWHOLDER")
 		(at 82.55 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26903,7 +26808,9 @@
 			(at 57.15 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify right)
 			)
@@ -26913,7 +26820,9 @@
 			(at 57.15 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify right)
 			)

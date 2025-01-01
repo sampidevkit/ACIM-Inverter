@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -82,19 +82,19 @@
   "project": {
     "files": [
       {
-        "name": "HW.ACIM-INV.kicad_pcb",
+        "name": "HW.ACIM-INV.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
+          "pos_x": -1374,
           "pos_y": -8,
           "size_x": 1382,
           "size_y": 752
         }
       },
       {
-        "name": "HW.ACIM-INV.kicad_sch",
+        "name": "HW.ACIM-INV.kicad_pcb",
         "open": true,
         "window": {
           "display": 0,
