@@ -8353,6 +8353,12 @@
 		(uuid "13373241-2e20-43cd-bc4d-c1d33d2d6482")
 	)
 	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1586de1d-697b-4075-9c59-f6d5f927cd14")
+	)
+	(junction
 		(at 186.055 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8369,12 +8375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e38d16f-b84f-44a0-b8dd-58204565d5f7")
-	)
-	(junction
-		(at 168.91 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "215a2867-c744-46f7-96a5-33cf69cf4cba")
 	)
 	(junction
 		(at 268.605 44.45)
@@ -8635,10 +8635,10 @@
 		(uuid "dcddd72a-0f46-4d82-9c3a-96d84c3ba226")
 	)
 	(junction
-		(at 158.75 69.85)
+		(at 168.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd1967a3-3512-42bd-8373-1e33083dbeda")
+		(uuid "e46ebcef-1599-4d46-8aaf-e24b44722dae")
 	)
 	(junction
 		(at 81.28 145.415)
@@ -8728,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 69.85) (xy 170.18 69.85)
+			(xy 167.64 69.85) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0.381)
@@ -9120,16 +9120,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 46.99) (xy 158.75 69.85)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "1e900009-dc42-4b43-aa04-3746ad92e332")
-	)
-	(wire
-		(pts
 			(xy 245.11 131.445) (xy 252.73 131.445)
 		)
 		(stroke
@@ -9147,6 +9137,16 @@
 			(type default)
 		)
 		(uuid "1f1e3e0e-7eec-4084-91e9-0de5370f4350")
+	)
+	(wire
+		(pts
+			(xy 168.91 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "1f69e94c-5d9b-4d46-bcd6-2576d70e44d8")
 	)
 	(wire
 		(pts
@@ -9211,7 +9211,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 46.99) (xy 158.75 46.99)
+			(xy 92.71 46.99) (xy 168.91 46.99)
 		)
 		(stroke
 			(width 0.381)
@@ -9502,7 +9502,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 160.02 69.85)
+			(xy 157.48 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0.381)
@@ -9773,6 +9773,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 57.15) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "56fea830-5dbc-4f4e-8351-9adf44af9c3a")
+	)
+	(wire
+		(pts
 			(xy 124.46 130.175) (xy 124.46 136.525)
 		)
 		(stroke
@@ -9831,16 +9841,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "5c4d8c4b-ce46-4000-ace7-f11a4ef09692")
-	)
-	(wire
-		(pts
-			(xy 167.64 69.85) (xy 168.91 69.85)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "5c616dd8-fa73-41a9-8028-ad924c875cfa")
 	)
 	(wire
 		(pts
@@ -9942,16 +9942,6 @@
 			(type default)
 		)
 		(uuid "641ffc8e-195d-4284-bd41-1baef72c5da2")
-	)
-	(wire
-		(pts
-			(xy 157.48 69.85) (xy 158.75 69.85)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "642e497d-1077-47ee-843a-de6aa4533895")
 	)
 	(wire
 		(pts
@@ -10296,16 +10286,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 46.99) (xy 168.91 69.85)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "916c95a2-50c9-45a7-ac3e-049370583990")
-	)
-	(wire
-		(pts
 			(xy 45.72 99.06) (xy 45.72 95.25)
 		)
 		(stroke
@@ -10586,6 +10566,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "b23f774c-179f-48db-9729-dea01481cc2c")
+	)
+	(wire
+		(pts
 			(xy 268.605 41.91) (xy 269.875 41.91)
 		)
 		(stroke
@@ -10646,7 +10636,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 57.15) (xy 207.01 57.15)
+			(xy 92.71 57.15) (xy 158.75 57.15)
 		)
 		(stroke
 			(width 0.3)
@@ -10997,6 +10987,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 57.15) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "db480054-d8e4-49dc-91d9-1b42c84cb3a3")
+	)
+	(wire
+		(pts
 			(xy 96.52 155.575) (xy 86.995 155.575)
 		)
 		(stroke
@@ -11134,6 +11134,16 @@
 			(type default)
 		)
 		(uuid "eae656d6-0030-4cf5-bd81-3f5d4b7af908")
+	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "ee4d5aca-554c-479e-9a1e-828a7c728af2")
 	)
 	(wire
 		(pts
@@ -12561,7 +12571,7 @@
 			)
 		)
 		(property "Value" "470uF/25V"
-			(at 29.845 96.52 90)
+			(at 29.21 96.52 90)
 			(effects
 				(font
 					(face "Consolas")
