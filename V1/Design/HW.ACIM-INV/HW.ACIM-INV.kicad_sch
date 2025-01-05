@@ -1262,6 +1262,16 @@
 		)
 		(uuid "36a69099-7ffa-43f4-acfb-0c244812aa5d")
 	)
+	(wire
+		(pts
+			(xy 209.55 103.505) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f89be1-325d-4edf-a81a-a5b3b80a359c")
+	)
 	(polyline
 		(pts
 			(xy 65.405 85.09) (xy 65.405 75.565)
@@ -1672,16 +1682,6 @@
 		)
 		(uuid "9367f00a-3641-49fa-bc8a-7f321ed292d8")
 	)
-	(wire
-		(pts
-			(xy 209.55 103.505) (xy 209.55 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952d3ff7-6e44-4e10-a497-4b31e58ebc97")
-	)
 	(polyline
 		(pts
 			(xy 184.15 65.405) (xy 185.42 64.135)
@@ -1821,16 +1821,6 @@
 			(type dot)
 		)
 		(uuid "aec4bbce-c589-41a5-ba3d-4964b6c3f302")
-	)
-	(wire
-		(pts
-			(xy 207.01 103.505) (xy 207.01 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17e4cd6-824f-4acd-8467-e4ca14530589")
 	)
 	(polyline
 		(pts
@@ -26015,30 +26005,6 @@
 			)
 			(uuid "1f18b58e-0685-4262-a2d5-9dce34cf5a21")
 		)
-		(pin "MC_IDC_P" output
-			(at 207.01 103.505 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "6b4c3761-b681-4de9-844a-ee99d8b99ac2")
-		)
-		(pin "MC_IDC_N" output
-			(at 209.55 103.505 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "117773e5-afd4-4785-ad2e-7559f5c01613")
-		)
 		(pin "MC_PWM_UL" input
 			(at 158.75 70.485 180)
 			(effects
@@ -26098,6 +26064,16 @@
 				(justify left)
 			)
 			(uuid "4a2f9f68-a829-4c11-9844-441b1536bde3")
+		)
+		(pin "MC_IDC_HAL" output
+			(at 209.55 103.505 270)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "de4c7774-c5d5-4920-974d-e8c62d448ebb")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26678,30 +26654,6 @@
 			)
 			(uuid "2e7cbd3b-fce5-436e-9cf2-ec68d9d80852")
 		)
-		(pin "MC_IDC_P" input
-			(at 207.01 110.49 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "a0098db8-2523-4165-b462-43ba47091e89")
-		)
-		(pin "MC_IDC_N" input
-			(at 209.55 110.49 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "ff8caa18-b706-4edc-8ef6-6c058e96cd30")
-		)
 		(pin "MC_IV_HAL" input
 			(at 214.63 110.49 90)
 			(effects
@@ -26761,6 +26713,16 @@
 				(justify left)
 			)
 			(uuid "f972f13c-1738-48a9-a117-880fcf22f025")
+		)
+		(pin "MC_IDC_HAL" input
+			(at 209.55 110.49 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "fde556ac-87f7-40df-abdd-e1b32a3edb5f")
 		)
 		(instances
 			(project "HW.ACIM-INV"

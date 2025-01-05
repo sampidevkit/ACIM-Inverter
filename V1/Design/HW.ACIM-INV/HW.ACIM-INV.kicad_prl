@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -82,24 +82,24 @@
   "project": {
     "files": [
       {
-        "name": "HW.ACIM-INV.kicad_pcb",
-        "open": false,
+        "name": "HW.ACIM-INV.kicad_sch",
+        "open": true,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
+          "pos_x": -1374,
           "pos_y": -8,
           "size_x": 1382,
           "size_y": 752
         }
       },
       {
-        "name": "HW.ACIM-INV.kicad_sch",
+        "name": "HW.ACIM-INV.kicad_pcb",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
-          "pos_x": -1374,
+          "pos_x": -8,
           "pos_y": -8,
           "size_x": 1382,
           "size_y": 752

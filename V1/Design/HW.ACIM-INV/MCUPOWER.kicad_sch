@@ -2389,6 +2389,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 29.21) (xy 234.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d17f63-1bd3-4f79-a8dd-1420da8a4ce9")
+	)
+	(wire
+		(pts
 			(xy 196.85 20.32) (xy 196.85 19.05)
 		)
 		(stroke
@@ -2406,6 +2416,16 @@
 			(type default)
 		)
 		(uuid "2cf4fbfc-4f67-4b66-9edd-9df0a668ca4b")
+	)
+	(wire
+		(pts
+			(xy 245.11 34.29) (xy 234.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ff5ea7-8027-4b38-97fb-b30096ed130b")
 	)
 	(wire
 		(pts
@@ -2456,6 +2476,16 @@
 			(type default)
 		)
 		(uuid "54477978-fbf3-4ed2-92cb-82fef62e8ff8")
+	)
+	(wire
+		(pts
+			(xy 255.27 29.21) (xy 252.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5996a423-3374-4e52-8859-7bc01ebe204d")
 	)
 	(wire
 		(pts
@@ -2586,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "adab60a0-2eff-4bf2-a092-f4faf504e623")
+	)
+	(wire
+		(pts
+			(xy 255.27 34.29) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3da83f0-6632-456b-aff1-a6d98be7418c")
 	)
 	(wire
 		(pts
@@ -3084,7 +3124,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+16V_INV")
-		(at 234.95 34.29 270)
+		(at 262.89 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3092,7 +3132,7 @@
 		(dnp no)
 		(uuid "1bea1a11-6f8c-4d67-b397-6014a8d48cc2")
 		(property "Reference" "#PWR0205"
-			(at 231.14 34.29 0)
+			(at 259.08 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3104,7 +3144,7 @@
 			)
 		)
 		(property "Value" "+16V_INV"
-			(at 241.3 34.29 90)
+			(at 269.24 34.29 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3114,7 +3154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3125,7 +3165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3136,7 +3176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 234.95 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3331,6 +3371,105 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:FerriteBead")
+		(at 258.445 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e1251cf-2224-4bdc-9da5-13f78ffc533e")
+		(property "Reference" "FT4"
+			(at 258.445 24.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 259.08 26.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:FB10MM-TH"
+			(at 258.445 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 258.445 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 1A 0603 1LN"
+			(at 258.445 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Pulse"
+			(at 258.445 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "PE-0603PFB121ST"
+			(at 258.445 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eafbb06f-5c8e-4aa1-9e9b-db37b398311e")
+		)
+		(pin "2"
+			(uuid "f1f5ee51-d1a4-47b0-8b00-367db7206e5b")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "FT4")
 					(unit 1)
 				)
 			)
@@ -4184,6 +4323,105 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:FerriteBead")
+		(at 248.285 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e13574f-9b56-4acd-be1d-bc74d977e625")
+		(property "Reference" "FT3"
+			(at 248.92 36.195 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 249.555 38.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:FB10MM-TH"
+			(at 248.285 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.285 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 1A 0603 1LN"
+			(at 248.285 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Pulse"
+			(at 248.285 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "PE-0603PFB121ST"
+			(at 248.285 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "addd3256-2a97-4af8-8622-5d3965cad9f2")
+		)
+		(pin "2"
+			(uuid "ab10aa8c-7313-4bd6-b28f-baccc5bd1376")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "FT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:+24V_MCU")
 		(at 217.17 21.59 90)
 		(unit 1)
@@ -4406,6 +4644,105 @@
 			(project ""
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:FerriteBead")
+		(at 258.445 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89dcdd2a-bb39-4194-b226-fcfed4b4341b")
+		(property "Reference" "FT6"
+			(at 259.08 36.195 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 259.715 38.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:FB10MM-TH"
+			(at 258.445 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 258.445 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 1A 0603 1LN"
+			(at 258.445 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Pulse"
+			(at 258.445 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "PE-0603PFB121ST"
+			(at 258.445 30.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a6dd28-8e0c-4fcd-80db-df54b0d627f4")
+		)
+		(pin "2"
+			(uuid "d0ceade2-3e8d-4a5e-8166-a3f8ca96ac9e")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "FT6")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5370,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+5V_INV")
-		(at 234.95 29.21 270)
+		(at 262.89 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5041,7 +5378,7 @@
 		(dnp no)
 		(uuid "e5609ef1-9228-4f9e-b09c-a9a2335bf3ab")
 		(property "Reference" "#PWR0203"
-			(at 231.14 29.21 0)
+			(at 259.08 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -5053,7 +5390,7 @@
 			)
 		)
 		(property "Value" "+5V_INV"
-			(at 241.3 29.21 90)
+			(at 269.24 29.21 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -5063,7 +5400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -5074,7 +5411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -5085,7 +5422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 234.95 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -5178,6 +5515,105 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:FerriteBead")
+		(at 248.285 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7283a6a-70c9-48c2-9616-df13eb1af076")
+		(property "Reference" "FT2"
+			(at 248.285 24.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:FB10MM-TH"
+			(at 248.285 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.285 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 1A 0603 1LN"
+			(at 248.285 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Pulse"
+			(at 248.285 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "PE-0603PFB121ST"
+			(at 248.285 25.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1024532a-c114-4f16-bf00-966a7c6d547a")
+		)
+		(pin "2"
+			(uuid "851e6bf1-606f-4df7-9c93-b66054de0a2c")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/90bc1c00-8aa2-4331-ad43-a75c4df66101"
+					(reference "FT2")
 					(unit 1)
 				)
 			)
