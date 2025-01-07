@@ -11154,7 +11154,7 @@
 	)
 	(hierarchical_label "MC_PWM_WH"
 		(shape input)
-		(at 180.34 129.54 90)
+		(at 196.85 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11282,7 +11282,7 @@
 	)
 	(hierarchical_label "MC_PWM_VH"
 		(shape input)
-		(at 172.72 129.54 90)
+		(at 189.23 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11335,6 +11335,20 @@
 			(justify right)
 		)
 		(uuid "6d737d11-99ff-4f9a-8445-2fdead6f070d")
+	)
+	(hierarchical_label "MC_PWM_UL"
+		(shape input)
+		(at 158.75 142.24 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+		(uuid "73aef050-7d02-4685-a279-881bacf1ab65")
 	)
 	(hierarchical_label "IPM_TEMP_SEN"
 		(shape output)
@@ -11423,7 +11437,7 @@
 	)
 	(hierarchical_label "MC_PWM_UH"
 		(shape input)
-		(at 165.1 129.54 90)
+		(at 181.61 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11434,6 +11448,20 @@
 			(justify left)
 		)
 		(uuid "bd417ffd-e7f6-4c1a-ace3-b73c4afde041")
+	)
+	(hierarchical_label "MC_PWM_WL"
+		(shape input)
+		(at 173.99 142.24 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+		(uuid "bd5c84e7-8561-4ad9-a2aa-5ec798168498")
 	)
 	(hierarchical_label "MC_TEMP_FLT"
 		(shape output)
@@ -11462,6 +11490,20 @@
 			(justify right)
 		)
 		(uuid "d1b768e2-9520-491e-87d6-e1fb94e77bcc")
+	)
+	(hierarchical_label "MC_PWM_VL"
+		(shape input)
+		(at 166.37 142.24 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+		(uuid "d942fb77-dc0f-44c8-8ed7-89d41f6f12b7")
 	)
 	(hierarchical_label "MC_PWM_WL"
 		(shape input)
@@ -11577,6 +11619,108 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:YLED")
+		(at 161.29 153.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04afb7bc-c389-4e0c-8c10-111981961a70")
+		(property "Reference" "D7"
+			(at 172.085 152.4 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PV"
+			(at 170.815 154.94 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:LED0603"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED WHITE 0603 SMD"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Harvatek"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B1931TW--20P000314U1930"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "K"
+			(uuid "f533072e-b595-4436-baa3-66ddd9fa2af2")
+		)
+		(pin "A"
+			(uuid "612aed45-0a2d-46e8-a115-ea3cabe84dbd")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13376,6 +13520,106 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:RES")
+		(at 176.53 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26792ce1-77ad-433e-a442-367a7401287a")
+		(property "Reference" "R6"
+			(at 177.8 144.78 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 177.8 147.32 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "YAGEO"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "RC0603JR-071KL"
+			(at 176.53 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f70ba0cf-e7b9-437f-861f-c5607e1c5509")
+		)
+		(pin "2"
+			(uuid "2b175816-721f-4970-8307-adfb1df562b2")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:OPTO-BJT-1CH")
 		(at 206.375 105.41 0)
 		(mirror y)
@@ -13787,7 +14031,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 182.88 134.62 270)
+		(at 199.39 147.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13796,7 +14040,7 @@
 		(dnp no)
 		(uuid "30f81f2c-ce0e-4b65-aa5f-e47baa55e610")
 		(property "Reference" "R20"
-			(at 184.15 132.08 90)
+			(at 200.66 144.78 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -13806,7 +14050,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 184.15 134.62 90)
+			(at 200.66 147.32 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -13816,7 +14060,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:RES0603"
-			(at 182.88 134.62 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13827,7 +14071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 134.62 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13838,7 +14082,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 5% 1/10W 0603"
-			(at 182.88 134.62 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13849,7 +14093,7 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 182.88 134.62 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13860,7 +14104,7 @@
 			)
 		)
 		(property "MNP" "RC0603JR-071KL"
-			(at 182.88 134.62 0)
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13880,6 +14124,82 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 173.99 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3631a55b-4413-44f1-b52b-f976299fca08")
+		(property "Reference" "#PWR026"
+			(at 173.99 163.83 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 173.99 161.29 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf278ba-effa-4793-8715-6fb9cddbce7c")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13992,7 +14312,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 172.72 144.78 0)
+		(at 189.23 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14000,7 +14320,7 @@
 		(dnp no)
 		(uuid "3750ed86-e207-4e59-a727-4c93208288b4")
 		(property "Reference" "#PWR0105"
-			(at 172.72 151.13 0)
+			(at 189.23 163.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14012,7 +14332,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 172.72 148.59 0)
+			(at 189.23 161.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14022,7 +14342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 144.78 0)
+			(at 189.23 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14033,7 +14353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 144.78 0)
+			(at 189.23 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14044,7 +14364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 144.78 0)
+			(at 189.23 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14137,6 +14457,107 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:RLED")
+		(at 163.195 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39931851-e8d8-45e8-814d-41185839d8d8")
+		(property "Reference" "D8"
+			(at 160.655 152.4 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PU"
+			(at 161.29 154.94 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:LED0603"
+			(at 163.195 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED DIFFUSED 0603 SMD"
+			(at 163.195 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Harvatek"
+			(at 163.195 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B1911USD-20D000114U1930"
+			(at 163.195 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "K"
+			(uuid "b983f62d-3d0c-4432-ae18-bfbab352f354")
+		)
+		(pin "A"
+			(uuid "e0410ded-5631-46e9-9e78-809d15be4cd6")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14618,7 +15039,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 167.64 134.62 270)
+		(at 184.15 147.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14627,7 +15048,7 @@
 		(dnp no)
 		(uuid "429e4d0c-d0c6-4f10-b6c2-3d237a114a8d")
 		(property "Reference" "R18"
-			(at 168.91 132.08 90)
+			(at 185.42 144.78 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -14637,7 +15058,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 168.91 134.62 90)
+			(at 185.42 147.32 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -14647,7 +15068,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:RES0603"
-			(at 167.64 134.62 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14658,7 +15079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 134.62 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14669,7 +15090,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 5% 1/10W 0603"
-			(at 167.64 134.62 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14680,7 +15101,7 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 167.64 134.62 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14691,7 +15112,7 @@
 			)
 		)
 		(property "MNP" "RC0603JR-071KL"
-			(at 167.64 134.62 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15161,7 +15582,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RLED")
-		(at 169.545 139.7 270)
+		(at 186.055 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15169,7 +15590,7 @@
 		(dnp no)
 		(uuid "4fe73c0d-8840-4775-8b8a-5a319cc9d876")
 		(property "Reference" "D13"
-			(at 167.005 139.7 90)
+			(at 183.515 152.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -15180,7 +15601,7 @@
 			)
 		)
 		(property "Value" "PU"
-			(at 167.64 142.24 90)
+			(at 184.15 154.94 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -15191,7 +15612,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:LED0603"
-			(at 169.545 139.7 0)
+			(at 186.055 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15202,7 +15623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 139.7 0)
+			(at 186.055 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15213,7 +15634,7 @@
 			)
 		)
 		(property "Description" "LED RED DIFFUSED 0603 SMD"
-			(at 169.545 139.7 0)
+			(at 186.055 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15224,7 +15645,7 @@
 			)
 		)
 		(property "MFT" "Harvatek"
-			(at 169.545 139.7 0)
+			(at 186.055 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15235,7 +15656,7 @@
 			)
 		)
 		(property "MNP" "B1911USD-20D000114U1930"
-			(at 169.545 139.7 0)
+			(at 186.055 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15607,7 +16028,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 165.1 144.78 0)
+		(at 181.61 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15615,7 +16036,7 @@
 		(dnp no)
 		(uuid "5bc8a9a6-ea88-429b-ab63-186654113fd3")
 		(property "Reference" "#PWR0104"
-			(at 165.1 151.13 0)
+			(at 181.61 163.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15627,7 +16048,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 165.1 148.59 0)
+			(at 181.61 161.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15637,7 +16058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 144.78 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15648,7 +16069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 144.78 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15659,7 +16080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 144.78 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -17131,6 +17552,108 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:BLED")
+		(at 169.545 151.765 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d1ca46-03e5-43b1-b22b-9a3d38bdc874")
+		(property "Reference" "D9"
+			(at 179.705 152.4 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PW"
+			(at 178.435 154.94 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:LED0603"
+			(at 169.545 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR 0603 SMD"
+			(at 169.545 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Harvatek"
+			(at 169.545 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B19Y1NB--20C000113U1930"
+			(at 169.545 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "2a3f3fe7-a964-401d-a77d-bfc022af6a19")
+		)
+		(pin "K"
+			(uuid "60b632b7-977d-4696-ae2f-c12a1898d9fc")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:RES")
 		(at 188.595 25.4 270)
 		(mirror x)
@@ -17961,6 +18484,106 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:RES")
+		(at 161.29 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "841547c4-1466-4de2-ab46-3bd60703be8d")
+		(property "Reference" "R4"
+			(at 162.56 144.78 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 162.56 147.32 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "YAGEO"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "RC0603JR-071KL"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f02b90-9fa3-4c46-bae8-bc45c5acbaa9")
+		)
+		(pin "2"
+			(uuid "4f4be081-80f7-4414-9e3b-1658d0a40aad")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19050,7 +19673,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:YLED")
-		(at 167.64 140.97 90)
+		(at 184.15 153.67 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19059,7 +19682,7 @@
 		(dnp no)
 		(uuid "995372cf-ffb4-483a-a1b5-8fc392533bd2")
 		(property "Reference" "D11"
-			(at 178.435 139.7 90)
+			(at 194.945 152.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -19070,7 +19693,7 @@
 			)
 		)
 		(property "Value" "PV"
-			(at 177.165 142.24 90)
+			(at 193.675 154.94 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -19081,7 +19704,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:LED0603"
-			(at 167.64 140.97 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19092,7 +19715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 140.97 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19103,7 +19726,7 @@
 			)
 		)
 		(property "Description" "LED WHITE 0603 SMD"
-			(at 167.64 140.97 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19114,7 +19737,7 @@
 			)
 		)
 		(property "MFT" "Harvatek"
-			(at 167.64 140.97 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19125,7 +19748,7 @@
 			)
 		)
 		(property "MNP" "B1931TW--20P000314U1930"
-			(at 167.64 140.97 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19228,7 +19851,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:BLED")
-		(at 175.895 139.065 90)
+		(at 192.405 151.765 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19237,7 +19860,7 @@
 		(dnp no)
 		(uuid "9a4ee3f1-a3ef-44fe-aa13-8d2c4aa52cec")
 		(property "Reference" "D12"
-			(at 186.055 139.7 90)
+			(at 202.565 152.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -19248,7 +19871,7 @@
 			)
 		)
 		(property "Value" "PW"
-			(at 184.785 142.24 90)
+			(at 201.295 154.94 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -19259,7 +19882,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:LED0603"
-			(at 175.895 139.065 0)
+			(at 192.405 151.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19270,7 +19893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.895 139.065 0)
+			(at 192.405 151.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19281,7 +19904,7 @@
 			)
 		)
 		(property "Description" "LED BLUE CLEAR 0603 SMD"
-			(at 175.895 139.065 0)
+			(at 192.405 151.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19292,7 +19915,7 @@
 			)
 		)
 		(property "MFT" "Harvatek"
-			(at 175.895 139.065 0)
+			(at 192.405 151.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19303,7 +19926,7 @@
 			)
 		)
 		(property "MNP" "B19Y1NB--20C000113U1930"
-			(at 175.895 139.065 0)
+			(at 192.405 151.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -19411,6 +20034,106 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:RES")
+		(at 168.91 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b442026-156e-48ed-a5a6-88c77659d17b")
+		(property "Reference" "R5"
+			(at 170.18 144.78 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 170.18 147.32 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "YAGEO"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "RC0603JR-071KL"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c8f3ac-8dad-482b-829a-5cbd31c34f4b")
+		)
+		(pin "2"
+			(uuid "2b942a0d-6a34-4631-8a75-a36e74f8ffb6")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -21024,6 +21747,158 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 158.75 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8fcc1d2-515c-4a69-bd52-3df361ecae56")
+		(property "Reference" "#PWR024"
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0073379-c088-4641-ae68-7bcdaaecfbe3")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_MCU")
+		(at 166.37 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba13a4ad-5d86-437c-b84d-72c52b5b0206")
+		(property "Reference" "#PWR025"
+			(at 166.37 163.83 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 166.37 161.29 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "627fc8e0-9406-4d3f-9b9a-592e5ab76888")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:GND_INV")
 		(at 95.25 136.525 0)
 		(unit 1)
@@ -22489,7 +23364,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 175.26 134.62 270)
+		(at 191.77 147.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22498,7 +23373,7 @@
 		(dnp no)
 		(uuid "d4436978-0d7c-4eaf-8c52-55bf5fca7fff")
 		(property "Reference" "R19"
-			(at 176.53 132.08 90)
+			(at 193.04 144.78 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -22508,7 +23383,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 176.53 134.62 90)
+			(at 193.04 147.32 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -22518,7 +23393,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:RES0603"
-			(at 175.26 134.62 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -22529,7 +23404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 134.62 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -22540,7 +23415,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 5% 1/10W 0603"
-			(at 175.26 134.62 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -22551,7 +23426,7 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 175.26 134.62 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -22562,7 +23437,7 @@
 			)
 		)
 		(property "MNP" "RC0603JR-071KL"
-			(at 175.26 134.62 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -24034,7 +24909,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_MCU")
-		(at 180.34 144.78 0)
+		(at 196.85 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24042,7 +24917,7 @@
 		(dnp no)
 		(uuid "f1d938b1-0008-434b-aa63-b26831be16bb")
 		(property "Reference" "#PWR0106"
-			(at 180.34 151.13 0)
+			(at 196.85 163.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -24054,7 +24929,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 180.34 148.59 0)
+			(at 196.85 161.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -24064,7 +24939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 144.78 0)
+			(at 196.85 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -24075,7 +24950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 144.78 0)
+			(at 196.85 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -24086,7 +24961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 144.78 0)
+			(at 196.85 157.48 0)
 			(effects
 				(font
 					(face "Consolas")
