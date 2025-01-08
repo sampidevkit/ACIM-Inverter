@@ -3675,11 +3675,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
+			(property "Reference" "U7"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
-						(size 1.5 1.5)
+						(face "Consolas")
+						(size 1.27 1.27)
 						(bold yes)
 					)
 				)
@@ -3688,7 +3689,9 @@
 				(at 8.89 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 				)
 			)
@@ -3696,7 +3699,9 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -3705,7 +3710,9 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -3714,7 +3721,9 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -3723,7 +3732,9 @@
 				(at 34.29 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -3732,7 +3743,9 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -5961,24 +5974,6 @@
 						)
 					)
 					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 45.72 -69.85 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11645,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PV"
+		(property "Value" "VL"
 			(at 170.815 154.94 90)
 			(effects
 				(font
@@ -14482,7 +14477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PU"
+		(property "Value" "UL"
 			(at 161.29 154.94 90)
 			(effects
 				(font
@@ -15600,7 +15595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PU"
+		(property "Value" "UH"
 			(at 184.15 154.94 90)
 			(effects
 				(font
@@ -16233,9 +16228,6 @@
 		)
 		(pin "23"
 			(uuid "97c88922-663a-4567-a2f2-86ce2bc388fb")
-		)
-		(pin "24"
-			(uuid "c6d983db-759e-4a13-9739-3ca7532e591a")
 		)
 		(pin "3"
 			(uuid "4e4047c8-222a-4e1d-a92a-a04a267718b7")
@@ -17572,7 +17564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PW"
+		(property "Value" "WL"
 			(at 178.435 154.94 90)
 			(effects
 				(font
@@ -19692,7 +19684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PV"
+		(property "Value" "VH"
 			(at 193.675 154.94 90)
 			(effects
 				(font
@@ -19870,7 +19862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PW"
+		(property "Value" "WH"
 			(at 201.295 154.94 90)
 			(effects
 				(font

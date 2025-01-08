@@ -2554,7 +2554,7 @@
 	)
 	(hierarchical_label "MC_IU_SEN"
 		(shape input)
-		(at 182.245 77.47 0)
+		(at 182.245 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2888,7 +2888,7 @@
 	)
 	(hierarchical_label "MC_IV_SEN"
 		(shape input)
-		(at 182.245 74.93 0)
+		(at 182.245 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
