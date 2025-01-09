@@ -1410,30 +1410,33 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U6"
+				(at 5.08 0.635 0)
 				(effects
 					(font
-						(size 1.5 1.5)
+						(face "Consolas")
+						(size 1.27 1.27)
 						(bold yes)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "MCP1501"
-				(at 0 -1.905 0)
+			(property "Value" "LDO 3.3V±0.1%/20mA"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SAMPI:SOT-23-6_MCHP"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -1442,16 +1445,42 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IC VREF SERIES 0.1% SOT23-6"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" "MCP1501T-33E/CHY"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(face "Consolas")
+						(size 1.016 1.016)
+						(thickness 0.127)
 					)
 					(hide yes)
 				)
@@ -1505,7 +1534,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -10.16 0)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "GND1"
 						(effects
@@ -1541,7 +1570,7 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -10.16 180)
+					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "GND2"
 						(effects

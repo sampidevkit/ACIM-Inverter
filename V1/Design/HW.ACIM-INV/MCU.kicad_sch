@@ -584,7 +584,7 @@
 				(pin input line
 					(at 13.97 -12.7 180)
 					(length 2.54)
-					(name "MC_IV_SEN"
+					(name "MC_IU_SEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,7 +602,7 @@
 				(pin input line
 					(at 13.97 -10.16 180)
 					(length 2.54)
-					(name "MC_IU_SEN"
+					(name "MC_IV_SEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 				(pin input line
 					(at 13.97 -12.7 180)
 					(length 2.54)
-					(name "MC_IV_SEN"
+					(name "MC_IU_SEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 				(pin input line
 					(at 13.97 -10.16 180)
 					(length 2.54)
-					(name "MC_IU_SEN"
+					(name "MC_IV_SEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 	)
 	(hierarchical_label "MC_IU_SEN"
 		(shape input)
-		(at 182.245 74.93 0)
+		(at 182.245 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2888,7 +2888,7 @@
 	)
 	(hierarchical_label "MC_IV_SEN"
 		(shape input)
-		(at 182.245 77.47 0)
+		(at 182.245 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
