@@ -540,7 +540,7 @@
       "plot": "../../Production/V0.1/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../Production/V0.1/3D/HW.ACIM-INV.step",
+      "step": "../../Productions/HW.ACIM-INV-V1.0/3D/HW.ACIM-INV.step",
       "svg": "",
       "vrml": ""
     },
@@ -548,7 +548,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "..\\..\\Productions\\HW.ACIM-INV-V1.0\\BoM\\HW.ACIM-INV.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

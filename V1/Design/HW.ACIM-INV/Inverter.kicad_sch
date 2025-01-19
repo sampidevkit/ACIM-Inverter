@@ -11053,7 +11053,6 @@
 	)
 	(label "MC_W"
 		(at 202.565 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11066,7 +11065,6 @@
 	)
 	(label "MC_U"
 		(at 219.075 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11079,7 +11077,6 @@
 	)
 	(label "MC_V"
 		(at 186.055 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11093,7 +11090,6 @@
 	(hierarchical_label "MC_PWM_UL"
 		(shape input)
 		(at 123.19 150.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11107,7 +11103,6 @@
 	(hierarchical_label "MC_IV_HAL"
 		(shape output)
 		(at 167.64 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11122,7 +11117,6 @@
 	(hierarchical_label "MC_PWM_UH"
 		(shape input)
 		(at 123.19 117.475 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11136,7 +11130,6 @@
 	(hierarchical_label "MC_PWM_WH"
 		(shape input)
 		(at 123.19 145.415 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11150,7 +11143,6 @@
 	(hierarchical_label "MC_PWM_WH"
 		(shape input)
 		(at 196.85 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11164,7 +11156,6 @@
 	(hierarchical_label "IPM_PWM_FLT"
 		(shape output)
 		(at 218.44 125.095 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11178,7 +11169,6 @@
 	(hierarchical_label "IPM_TEMP_SEN"
 		(shape input)
 		(at 254 131.445 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11193,7 +11183,6 @@
 	(hierarchical_label "IPM_PWM_VL"
 		(shape input)
 		(at 46.99 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11207,7 +11196,6 @@
 	(hierarchical_label "IPM_PWM_UL"
 		(shape input)
 		(at 46.99 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11221,7 +11209,6 @@
 	(hierarchical_label "MC_IU_HAL"
 		(shape output)
 		(at 133.985 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11236,7 +11223,6 @@
 	(hierarchical_label "IPM_PWM_VL"
 		(shape output)
 		(at 71.755 173.355 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11250,7 +11236,6 @@
 	(hierarchical_label "MC_PWM_VL"
 		(shape input)
 		(at 123.19 173.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11264,7 +11249,6 @@
 	(hierarchical_label "IPM_PWM_UL"
 		(shape output)
 		(at 71.755 150.495 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11278,7 +11262,6 @@
 	(hierarchical_label "MC_PWM_VH"
 		(shape input)
 		(at 189.23 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11292,7 +11275,6 @@
 	(hierarchical_label "IPM_PWM_UH"
 		(shape input)
 		(at 46.99 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11306,7 +11288,6 @@
 	(hierarchical_label "MC_PWM_VH"
 		(shape input)
 		(at 123.19 122.555 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11320,7 +11301,6 @@
 	(hierarchical_label "IPM_PWM_WH"
 		(shape output)
 		(at 71.755 145.415 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11334,7 +11314,6 @@
 	(hierarchical_label "MC_PWM_UL"
 		(shape input)
 		(at 158.75 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11348,7 +11327,6 @@
 	(hierarchical_label "IPM_TEMP_SEN"
 		(shape output)
 		(at 26.035 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11363,7 +11341,6 @@
 	(hierarchical_label "IPM_PWM_WH"
 		(shape input)
 		(at 46.99 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11377,7 +11354,6 @@
 	(hierarchical_label "IPM_PWM_UH"
 		(shape output)
 		(at 71.755 117.475 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11391,7 +11367,6 @@
 	(hierarchical_label "IPM_PWM_VH"
 		(shape input)
 		(at 46.99 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11405,7 +11380,6 @@
 	(hierarchical_label "IPM_PWM_VH"
 		(shape output)
 		(at 71.755 122.555 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11419,7 +11393,6 @@
 	(hierarchical_label "IPM_PWM_WL"
 		(shape input)
 		(at 46.99 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11433,7 +11406,6 @@
 	(hierarchical_label "MC_PWM_UH"
 		(shape input)
 		(at 181.61 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11447,7 +11419,6 @@
 	(hierarchical_label "MC_PWM_WL"
 		(shape input)
 		(at 173.99 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11461,7 +11432,6 @@
 	(hierarchical_label "MC_TEMP_FLT"
 		(shape output)
 		(at 197.485 109.855 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11475,7 +11445,6 @@
 	(hierarchical_label "IPM_PWM_WL"
 		(shape output)
 		(at 71.755 178.435 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11489,7 +11458,6 @@
 	(hierarchical_label "MC_PWM_VL"
 		(shape input)
 		(at 166.37 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11503,7 +11471,6 @@
 	(hierarchical_label "MC_PWM_WL"
 		(shape input)
 		(at 123.19 178.435 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11517,7 +11484,6 @@
 	(hierarchical_label "IPM_PWM_FLT"
 		(shape input)
 		(at 46.99 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -11531,7 +11497,6 @@
 	(hierarchical_label "MC_IDC_HAL"
 		(shape output)
 		(at 38.1 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")

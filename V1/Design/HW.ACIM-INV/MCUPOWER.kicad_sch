@@ -2747,7 +2747,6 @@
 	(hierarchical_label "~{DEV_RELAY}"
 		(shape input)
 		(at 234.95 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -2761,7 +2760,6 @@
 	(hierarchical_label "PWR_RELAY"
 		(shape input)
 		(at 234.95 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
