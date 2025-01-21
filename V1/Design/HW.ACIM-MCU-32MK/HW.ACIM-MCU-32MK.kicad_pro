@@ -781,7 +781,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "TDTU_Sheet.kicad_wks",
+    "page_layout_descr_file": "${SAMPI_LIB_DIR}/KiCAD_Sheet.kicad_wks",
     "plot_directory": "../../Productions/HW.ACIM-MCU-32MK/Sch/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

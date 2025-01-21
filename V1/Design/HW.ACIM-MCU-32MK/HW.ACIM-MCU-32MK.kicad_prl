@@ -1,13 +1,13 @@
 {
   "board": {
-    "active_layer": 49,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       ""
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -81,6 +81,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "HW.ACIM-MCU-32MK.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1064
+        }
+      },
+      {
+        "name": "HW.ACIM-MCU-32MK.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1064
+        }
+      }
+    ]
   }
 }

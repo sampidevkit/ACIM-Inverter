@@ -1,4 +1,4 @@
-2048242715756404
+2170181650423709
 Liem
 6-WLCSP
 
@@ -406,6 +406,13 @@ DIL04_2.54_MTHRA
 4
 4
 Liem
+DIL10-1.27-SMD
+
+
+0
+10
+10
+Liem
 DIL10_1.27_MTH
 
 
@@ -414,6 +421,13 @@ DIL10_1.27_MTH
 10
 Liem
 DIL14-1.27-SMD
+
+
+0
+14
+14
+Liem
+DIL14_1.27_MTH
 
 
 0
@@ -468,6 +482,13 @@ EA2-5NU
 0
 10
 10
+Liem
+EC800G-CN
+
+
+0
+109
+109
 Liem
 ECWFE2W105
 
@@ -566,6 +587,13 @@ GM02SP
 0
 120
 120
+Liem
+HD-2x4x1.27-SMD
+
+
+0
+8
+8
 Liem
 HDF-1x10x2MM
 
@@ -942,8 +970,8 @@ ITRON-MIU-SENSOR
 
 
 0
-27
-9
+24
+8
 Liem
 JP0603
 
@@ -972,6 +1000,20 @@ LAMP_6.35MM
 0
 2
 2
+Liem
+LCD-ZIF48
+
+
+0
+96
+48
+Liem
+LCDPINMAP
+
+
+0
+96
+96
 Liem
 LD10-23BxxR2-RC
 
@@ -1030,6 +1072,13 @@ LED0805
 2
 Liem
 LED1206
+
+
+0
+2
+2
+Liem
+LED4520_1808
 
 
 0
@@ -1105,6 +1154,13 @@ PCS.06.A
 0
 4
 4
+Liem
+PCTEST-4952
+
+
+0
+1
+1
 Liem
 PJ-002AH-SMT
 
@@ -1225,6 +1281,20 @@ RLGA10VG020T_ROHM
 10
 10
 Liem
+RPAS.NB-B3L-1.0
+
+
+0
+1
+1
+Liem
+RPAS.NB-B3R-1.0
+
+
+0
+1
+1
+Liem
 RPDBG
 
 
@@ -1316,6 +1386,34 @@ SIL01
 1
 1
 Liem
+SIM5320
+
+
+0
+80
+80
+Liem
+SIM5320_ADAPTOR
+
+
+0
+80
+80
+Liem
+SIM5320_ADAPTOR_LITE
+
+
+0
+36
+36
+Liem
+SIM7020E
+
+
+0
+42
+42
+Liem
 SIM8051-6-0-14-01-A_GCT
 
 SIM8051-6-0-14-01-A 
@@ -1337,6 +1435,13 @@ SMAJACKFEMALE-5
 2
 2
 Liem
+SMD4-2025
+
+
+0
+4
+4
+Liem
 SMD4-7015
 
 
@@ -1345,6 +1450,13 @@ SMD4-7015
 4
 Liem
 SMLV56
+
+
+0
+6
+6
+Liem
+SMPS-TRANS-786
 
 
 0
@@ -1408,6 +1520,13 @@ SOD-323
 2
 Liem
 SOD-323_12
+
+
+0
+2
+2
+Liem
+SOD-523_SC-79_EMD2
 
 
 0
@@ -1973,6 +2092,13 @@ XTAL-2P-FC135
 0
 2
 2
+Liem
+ZIF48
+
+
+0
+48
+48
 Liem
 ZX60-B-5S(31)
 
@@ -3297,6 +3423,20 @@ Socket_Bluetooth
 6
 6
 My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CL
+
+
+0
+1
+1
+My_Library
+Spring_Coil_Antenna_GBT-1800_2023.09.15CR
+
+
+0
+1
+1
+My_Library
 T60403-K5024-X044
 
 
@@ -3585,6 +3725,13 @@ ASGGB184.A
 2
 SAMPI
 AT-1224
+
+
+0
+2
+2
+SAMPI
+AXIAL-9.5x4.0
 
 
 0
@@ -3948,7 +4095,21 @@ ECWFE2W105
 2
 2
 SAMPI
+EE8.3
+
+
+0
+4
+4
+SAMPI
 ESMQ451VSN681MA50S
+
+
+0
+2
+2
+SAMPI
+FB10MM-TH
 
 
 0
@@ -3970,6 +4131,13 @@ FB0603
 2
 SAMPI
 FB0805
+
+
+0
+2
+2
+SAMPI
+FCAP-15MM
 
 
 0
@@ -4031,6 +4199,27 @@ GM02SP
 0
 120
 120
+SAMPI
+HD-1x4x1.27MM-TH
+
+
+0
+4
+4
+SAMPI
+HD-1x6x1.27MM-TH
+
+
+0
+6
+6
+SAMPI
+HD-2x5x1.27MM-TH
+
+
+0
+10
+10
 SAMPI
 HD-2x15x0.4-SMD
 
@@ -4263,12 +4452,26 @@ HDM1x8x2.54_TH_RA
 8
 8
 SAMPI
+HDM1x10x2.54_TH
+
+
+0
+10
+10
+SAMPI
 HDM1x10x2.54_TH_RA
 
 
 0
 10
 10
+SAMPI
+HDM1x12x2.54_TH_RA
+
+
+0
+12
+12
 SAMPI
 HDM1x19x2.54_TH_RA
 
@@ -4285,6 +4488,13 @@ HDR2x8x1.27_SMD
 16
 SAMPI
 HLK-10M
+
+
+0
+4
+4
+SAMPI
+HLK-PMxx
 
 
 0
@@ -4333,6 +4543,34 @@ HW.ACIM-MCU
 60
 60
 SAMPI
+HW.ACIM-MCU_SMD
+
+
+0
+60
+60
+SAMPI
+IDC-2x5x1.27MM-TH
+
+
+0
+10
+10
+SAMPI
+IDC-2x5x2MM-TH
+
+
+0
+10
+10
+SAMPI
+IDC-2x6x2.54MM_TH
+
+
+0
+12
+12
+SAMPI
 IDC-2x7x2MM-TH
 
 
@@ -4341,6 +4579,13 @@ IDC-2x7x2MM-TH
 14
 SAMPI
 IND-5D28-5832
+
+
+0
+2
+2
+SAMPI
+IND-8D43-8045
 
 
 0
@@ -4367,6 +4612,27 @@ IND-2520-1008
 0
 2
 2
+SAMPI
+IND-FL2D
+
+
+0
+4
+4
+SAMPI
+IND-R5-2MM-TH
+
+
+0
+2
+2
+SAMPI
+IND-SQ1010
+
+
+0
+4
+4
 SAMPI
 IND0402
 
@@ -4465,6 +4731,13 @@ LE910
 0
 181
 181
+SAMPI
+LED3MM
+
+
+0
+2
+2
 SAMPI
 LED0603
 
@@ -4599,6 +4872,13 @@ PowerVQFN15_TI
 15
 15
 SAMPI
+QC-6.3
+
+
+0
+2
+1
+SAMPI
 QFN-10_1.5x2
 
 
@@ -4612,6 +4892,13 @@ QFN NoLead
 0
 25
 25
+SAMPI
+QFN13-3x4
+
+
+0
+13
+13
 SAMPI
 QFN16
 
@@ -4746,6 +5033,13 @@ SLA-12VDC-SL-C
 6
 6
 SAMPI
+SM13117EL
+
+
+0
+10
+10
+SAMPI
 SMAJACKFEMALE-5
 
 
@@ -4787,6 +5081,13 @@ SO8W_5.3
 0
 8
 8
+SAMPI
+SOD-80C_DO-213AC
+
+
+0
+2
+2
 SAMPI
 SOD-123
 
@@ -4831,6 +5132,13 @@ SOD-323_12
 2
 SAMPI
 SOD-923
+
+
+0
+2
+2
+SAMPI
+SOD80C-LL34
 
 
 0
@@ -4893,12 +5201,26 @@ SOIC16-3.9
 16
 16
 SAMPI
+SOIC16-W
+
+
+0
+16
+16
+SAMPI
 SOIC16_7.5_AN
 
 
 0
 16
 16
+SAMPI
+SOP8-2.54
+
+
+0
+8
+8
 SAMPI
 SOT-23-5_MCHP
 
@@ -4908,6 +5230,34 @@ SOT-23-5_MCHP
 5
 SAMPI
 SOT-23-6_MCHP
+
+
+0
+6
+6
+SAMPI
+SOT-23-8
+
+
+0
+8
+8
+SAMPI
+SOT-89
+
+
+0
+3
+3
+SAMPI
+SOT-223-3
+
+
+0
+4
+4
+SAMPI
+SOT-563_SOT-666
 
 
 0
@@ -4927,6 +5277,13 @@ SOT-723
 0
 3
 3
+SAMPI
+SOT-753_TSOP5_SC74
+
+
+0
+5
+5
 SAMPI
 SOT23
 
@@ -5166,6 +5523,13 @@ TP1MM
 1
 1
 SAMPI
+TQFP44-10x10-P0.8
+
+
+0
+44
+44
+SAMPI
 TQFP48-7x7_MCHP
 
 
@@ -5299,6 +5663,13 @@ VDFN-10-3x3-EP
 11
 11
 SAMPI
+VQFN-21HR
+
+
+0
+21
+21
+SAMPI
 VQFN-56_FTDI
 
 
@@ -5313,12 +5684,26 @@ VQFN20-4x4_MCHP
 21
 21
 SAMPI
+VQFN28-4x4-EP
+
+
+0
+29
+29
+SAMPI
 VQFN64-9x9-L0.5
 
 
 0
 65
 65
+SAMPI
+WFDFN-12-EP
+
+
+0
+13
+13
 SAMPI
 WQFN16-3x3_TI
 
@@ -5551,6 +5936,13 @@ CAP-ALU-TH-DxP-10x5
 2
 2
 Triet_KiCAD_Fprint
+CAP-TANT-1411
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 CAP-TANT-1608
 
 
@@ -5573,13 +5965,6 @@ CAP-TANT-2312
 2
 Triet_KiCAD_Fprint
 CAP-TANT-3216
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
-CAP-TANT-3528-1411
 
 
 0
@@ -5669,6 +6054,34 @@ DxRxC_18x9x12
 0
 2
 2
+Triet_KiCAD_Fprint
+Cap_MKP
+
+
+0
+0
+0
+Triet_KiCAD_Fprint
+Cap_MKP-S3
+
+
+0
+0
+0
+Triet_KiCAD_Fprint
+Cap_MKP-X2
+
+
+0
+0
+0
+Triet_KiCAD_Fprint
+Cap_MKPH
+
+
+0
+0
+0
 Triet_KiCAD_Fprint
 Capxon_DxL_3.0x5.5
 Capxon_DxL_3.0x5.5
@@ -5894,8 +6307,8 @@ FT232RQ
 33
 33
 Triet_KiCAD_Fprint
-FUSE 1812 30V0.5A
-Fuse 1812 
+FUSE 1812
+
 
 0
 2
@@ -5906,6 +6319,13 @@ FUSE BLOCK BLADE
 
 0
 6
+2
+Triet_KiCAD_Fprint
+Fuse Block 1808
+
+
+0
+2
 2
 Triet_KiCAD_Fprint
 Fuse-P5.08
@@ -5921,6 +6341,13 @@ HM-10_Base
 0
 102
 34
+Triet_KiCAD_Fprint
+HTU31
+
+
+0
+7
+7
 Triet_KiCAD_Fprint
 Header-2P
 
@@ -6133,6 +6560,13 @@ IND_Murata_3900Series
 3
 Triet_KiCAD_Fprint
 IND_SMD_7.2x6.65
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+INOUT-RSLFP
 
 
 0
@@ -6370,6 +6804,13 @@ MP4575
 21
 21
 Triet_KiCAD_Fprint
+MP5031-USB-PD
+
+
+0
+21
+21
+Triet_KiCAD_Fprint
 MP8770C
 
 
@@ -6390,6 +6831,20 @@ MT3608_Bst
 0
 4
 4
+Triet_KiCAD_Fprint
+MX3.0-18P
+
+
+0
+18
+18
+Triet_KiCAD_Fprint
+MX3.0-18P-RSLFP8s
+
+
+0
+18
+9
 Triet_KiCAD_Fprint
 MapleMini_Base
 
@@ -6647,14 +7102,14 @@ ResShunt1206
 
 
 0
-10
+8
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-6
+8
 4
 Triet_KiCAD_Fprint
 SB
@@ -6677,6 +7132,13 @@ SH8MC5
 0
 8
 8
+Triet_KiCAD_Fprint
+SHT45
+
+
+0
+4
+4
 Triet_KiCAD_Fprint
 SL871
 
@@ -6734,6 +7196,13 @@ SOD-106
 2
 2
 Triet_KiCAD_Fprint
+SOD-128
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
 SOD_80
 
 
@@ -6755,13 +7224,6 @@ SMF5V0TR
 2
 2
 Triet_KiCAD_Fprint
-SOD_128
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
 SOD_323
 
 
@@ -6769,19 +7231,33 @@ SOD_323
 2
 2
 Triet_KiCAD_Fprint
+SOIC-8
+
+
+0
+8
+8
+Triet_KiCAD_Fprint
+SOIC-8-358
+
+
+0
+8
+8
+Triet_KiCAD_Fprint
+SOIC-8-Mosfet
+
+
+0
+8
+6
+Triet_KiCAD_Fprint
 SOIC-14_4ChOp
 SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 14
 14
-Triet_KiCAD_Fprint
-SOIC8-Mosfet
-
-
-0
-8
-6
 Triet_KiCAD_Fprint
 SOT-23-3
 
@@ -6860,6 +7336,13 @@ SOT-363-TVS
 6
 6
 Triet_KiCAD_Fprint
+SOT-363_Mosfet
+
+
+0
+6
+6
+Triet_KiCAD_Fprint
 SOT-457
 
 
@@ -6888,7 +7371,7 @@ SOT-583
 8
 8
 Triet_KiCAD_Fprint
-SOT-723-Mosfet
+SOT-723-Mosfet-GDS
 
 
 0
@@ -7119,12 +7602,12 @@ TQFP-128-EP_14x14
 129
 129
 Triet_KiCAD_Fprint
-TSMT8
-Dual Mosfet Nch
+TSMT8-Mosfet
+Mosfet Dual
 
 0
 8
-8
+6
 Triet_KiCAD_Fprint
 TVS-SOD-128
 TVS
@@ -7166,7 +7649,7 @@ USB4105
 
 0
 16
-14
+9
 Triet_KiCAD_Fprint
 USB4125
 
@@ -7258,6 +7741,13 @@ VQFN-48P
 0
 49
 49
+Triet_KiCAD_Fprint
+VQFN28-1EP
+VQFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9505-AT42-QTouch-BSW-AT42QT1060_Datasheet.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+29
+29
 Triet_KiCAD_Fprint
 WBZ451
 
