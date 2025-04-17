@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "20f80521-75f2-4ccc-bb34-c9566e70ef5c")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	(lib_symbols
 		(symbol "SAMPI:+3V3_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,7 +90,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -98,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -129,6 +133,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:CABLE1"
 			(exclude_from_sim no)
@@ -201,34 +206,34 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start -1.905 -8.255)
-					(mid -1.719 -8.704)
-					(end -1.27 -8.89)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -8.89)
-					(mid 0.449 -8.704)
-					(end 0.635 -8.255)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.905 -6.35) (xy -1.905 -8.255)
 					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -8.89)
+					(mid -1.719 -8.704)
+					(end -1.905 -8.255)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 -8.255)
+					(mid 0.449 -8.704)
+					(end 0 -8.89)
 					(stroke
 						(width 0.5)
 						(type default)
@@ -273,22 +278,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.175 -4.445) (xy 3.175 -6.35)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
-					(start 1.27 -3.81)
+					(start 0.635 -4.445)
 					(mid 0.821 -3.996)
-					(end 0.635 -4.445)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.5)
 						(type default)
@@ -308,6 +301,18 @@
 						(type background)
 					)
 				)
+				(arc
+					(start 2.54 -3.81)
+					(mid 2.989 -3.996)
+					(end 3.175 -4.445)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 2.54 -8.255)
 					(end 3.81 -8.89)
@@ -319,10 +324,10 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start 3.175 -4.445)
-					(mid 2.989 -3.996)
-					(end 2.54 -3.81)
+				(polyline
+					(pts
+						(xy 3.175 -4.445) (xy 3.175 -6.35)
+					)
 					(stroke
 						(width 0.5)
 						(type default)
@@ -332,12 +337,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -428,6 +438,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:MCDBG"
 			(exclude_from_sim no)
@@ -539,78 +550,6 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "PGC/SWDCK"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "USB_DM"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "DB_RXD"
@@ -629,24 +568,6 @@
 					)
 				)
 				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "DV_TXD"
@@ -657,24 +578,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -701,24 +604,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "PGD/SWDIO"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "UDB_DP"
@@ -736,11 +621,142 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "USB_DM"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PGD/SWDIO"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "PGC/SWDCK"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:SCREWHOLDER"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -792,19 +808,20 @@
 			(symbol "SCREWHOLDER_1_1"
 				(polyline
 					(pts
-						(xy -0.508 -5.588) (xy 0.508 -5.08)
+						(xy -1.905 -1.27) (xy 1.905 -1.27) (xy 1.905 -2.54) (xy 0.635 -2.54) (xy 0.635 -5.715) (xy 0 -6.35)
+						(xy -0.635 -5.715) (xy -0.635 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.27)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy -0.508 -4.826) (xy 0.508 -4.318)
+						(xy -0.508 -3.302) (xy 0.508 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -828,7 +845,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -3.302) (xy 0.508 -2.794)
+						(xy -0.508 -4.826) (xy 0.508 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -5.588) (xy 0.508 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -850,21 +879,431 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy 1.905 -1.27) (xy 1.905 -2.54) (xy 0.635 -2.54) (xy 0.635 -5.715) (xy 0 -6.35)
-						(xy -0.635 -5.715) (xy -0.635 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 114.3 52.705)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 026b1403-9800-4688-be3a-cbe875065665)
+	)
+	(circle
+		(center 107.95 52.705)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 2bf71566-7595-4b96-8198-810e342a7b36)
+	)
+	(circle
+		(center 207.01 52.705)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 36b3f716-bee5-4c7e-b7dd-c34f1a5e9f80)
+	)
+	(circle
+		(center 262.89 144.78)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 5e9f6483-6d62-4a3f-b3c0-e70a4b9c3673)
+	)
+	(circle
+		(center 199.39 52.705)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 72ee6852-cd9b-4c42-9ae3-41e7ebf942c5)
+	)
+	(circle
+		(center 184.15 52.705)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 802873b1-4f05-4365-8f66-9cdb3130a080)
+	)
+	(circle
+		(center 214.63 52.705)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 8a32240f-8efa-4e0a-89b0-90aaf5fe6eae)
+	)
+	(circle
+		(center 191.77 52.705)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid b5cdd615-5477-4403-81c1-0a48fe7b6a47)
+	)
+	(circle
+		(center 262.89 116.205)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid b9f67e82-9d69-459a-a8dd-b38af6b06f6b)
+	)
+	(circle
+		(center 262.89 120.65)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid edb324e6-0187-44f4-935e-63f9695bc2b6)
+	)
+	(circle
+		(center 262.89 150.495)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid fc4b95a7-6f9c-4e8a-a390-91aaad3e860b)
+	)
+	(text "5V_MCU"
+		(exclude_from_sim no)
+		(at 224.79 119.38 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
 			)
 		)
+		(uuid "101ae45f-7f85-4337-8307-d2e75946552b")
+	)
+	(text "3V3_MCU"
+		(exclude_from_sim no)
+		(at 213.36 57.785 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "125834e0-d1b3-4bbf-b493-5766c76dfb87")
+	)
+	(text "UART 3MBIT\n\nUART 115.2KBIT"
+		(exclude_from_sim no)
+		(at 50.8 149.225 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "16d0d691-2923-4924-90c3-23fd54af0315")
+	)
+	(text "3V3_MCU"
+		(exclude_from_sim no)
+		(at 107.315 60.96 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+		(uuid "191f8bcb-d20c-4e06-9d59-78e3b0f29d18")
+	)
+	(text "16V_INV"
+		(exclude_from_sim no)
+		(at 190.5 57.785 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "19979e29-0aa5-407a-807c-b9442657f11d")
+	)
+	(text "3V3_MCU"
+		(exclude_from_sim no)
+		(at 226.06 154.94 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "3542f961-d198-4890-9e5f-3dc47cc7d64a")
+	)
+	(text "5V_MCU"
+		(exclude_from_sim no)
+		(at 205.74 57.785 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "37fbf657-1a31-4e4a-9ab7-eea50abade0c")
+	)
+	(text "3-PHASE AC"
+		(exclude_from_sim no)
+		(at 230.505 69.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "51e194b3-04cf-4cab-97c1-0ed4bcd0e8fd")
+	)
+	(text "5V_INV"
+		(exclude_from_sim no)
+		(at 198.12 57.785 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "62d0d5a8-4746-48a4-bead-39bec70dcf82")
+	)
+	(text "ENCODER"
+		(exclude_from_sim no)
+		(at 252.73 88.9 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "acf565ac-8474-453c-bf2c-15651aed8fbb")
+	)
+	(text "ICSP"
+		(exclude_from_sim no)
+		(at 42.545 147.955 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "b026ba33-7871-49da-a06d-b4190ef94685")
+	)
+	(text "3V3_ADC"
+		(exclude_from_sim no)
+		(at 113.665 60.96 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ce926e-1147-4cd5-9400-01e04b65d7c3")
+	)
+	(text "12V_MCU"
+		(exclude_from_sim no)
+		(at 229.235 150.495 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "c77dfaa4-4f5a-4959-ac36-b4a755596b4b")
+	)
+	(text "Inter-Connection"
+		(exclude_from_sim no)
+		(at 224.155 81.915 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "c7d4fa4b-6779-48fb-bcb3-854e9c2b55ae")
+	)
+	(text "24V_MCU"
+		(exclude_from_sim no)
+		(at 229.235 144.78 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "d54aefd0-edcd-44cc-a743-795e05eddbb6")
+	)
+	(text "Inter-Connection"
+		(exclude_from_sim no)
+		(at 63.5 80.645 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "ddf0cb84-936e-4f85-a002-d6515058e84a")
+	)
+	(text "VDC (310V)"
+		(exclude_from_sim no)
+		(at 182.88 58.42 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "e1e87d57-bc63-4f51-878f-fbc14491b6aa")
+	)
+	(text "5V_INV"
+		(exclude_from_sim no)
+		(at 224.79 115.57 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "e51e2cc1-3b73-4413-bc4a-ceae3d398225")
+	)
+	(text "Inter-Connection"
+		(exclude_from_sim no)
+		(at 211.455 163.83 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "e90a6b52-d01a-47e0-b9ca-89f31d9719be")
+	)
+	(text_box "DEBUGGER\nBOARD"
+		(exclude_from_sim no)
+		(at 39.37 161.29 0)
+		(size 15.24 6.35)
+		(margins 0.762 0.762 0.762 0.762)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 250 250 200 1)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "00c8f7e1-467e-43c2-b7db-8fa1f75e5b38")
+	)
+	(text_box "POWER SUPPLY BOARD"
+		(exclude_from_sim no)
+		(at 13.97 65.405 0)
+		(size 7.62 12.7)
+		(margins 0.762 0.762 0.762 0.762)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 250 250 200 1)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "4adb4369-999b-4426-8e04-e5e47624c563")
 	)
 	(no_connect
 		(at 218.44 73.025)
@@ -2051,149 +2490,6 @@
 			(type default)
 		)
 		(uuid "ff074965-530c-4331-9cff-e0d59b31afde")
-	)
-	(circle
-		(center 114.3 52.705)
-		(radius 0.635)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 026b1403-9800-4688-be3a-cbe875065665)
-	)
-	(circle
-		(center 107.95 52.705)
-		(radius 0.635)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 2bf71566-7595-4b96-8198-810e342a7b36)
-	)
-	(circle
-		(center 207.01 52.705)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 36b3f716-bee5-4c7e-b7dd-c34f1a5e9f80)
-	)
-	(circle
-		(center 262.89 144.78)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 5e9f6483-6d62-4a3f-b3c0-e70a4b9c3673)
-	)
-	(circle
-		(center 199.39 52.705)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 72ee6852-cd9b-4c42-9ae3-41e7ebf942c5)
-	)
-	(circle
-		(center 184.15 52.705)
-		(radius 0.635)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 802873b1-4f05-4365-8f66-9cdb3130a080)
-	)
-	(circle
-		(center 214.63 52.705)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 8a32240f-8efa-4e0a-89b0-90aaf5fe6eae)
-	)
-	(circle
-		(center 191.77 52.705)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid b5cdd615-5477-4403-81c1-0a48fe7b6a47)
-	)
-	(circle
-		(center 262.89 116.205)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid b9f67e82-9d69-459a-a8dd-b38af6b06f6b)
-	)
-	(circle
-		(center 262.89 120.65)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid edb324e6-0187-44f4-935e-63f9695bc2b6)
-	)
-	(circle
-		(center 262.89 150.495)
-		(radius 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid fc4b95a7-6f9c-4e8a-a390-91aaad3e860b)
 	)
 	(image
 		(at 249.555 82.55)
@@ -4211,7 +4507,25 @@
 			"CAQAAKAQCAAAQPkv2WG8bU+nkLMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMTItMDNUMTQ6NDc6"
 			"MjQrMDA6MDDR/7zCAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTEyLTAzVDE0OjQ3OjI0KzAwOjAw"
 			"oKIEfgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNC0xMi0wM1QxNDo0NzoyNCswMDowMPe3JaEA"
-			"AAAASUVORK5CYII="
+			"AAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -24318,285 +24632,26 @@
 			"Oqv22ValoLUZoqyqAIDREbAAALYdcnwxWcWrt7T/u2Kr1kVWlzUVAHD2BCwAgP1KAWiIVdeQSoFK"
 			"sAIAAACgqBSwalFr0vhYu84pYhkAAAAA/8ik8LwWrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAA2OMLw/w/UWmg2ZwAAAAASUVORK5CYII="
+			"AAAAAAAAAAAAAAAA2OMLw/w/UWmg2ZwAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
-	)
-	(text_box "DEBUGGER\nBOARD"
-		(exclude_from_sim no)
-		(at 39.37 161.29 0)
-		(size 15.24 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 250 250 200 1)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "00c8f7e1-467e-43c2-b7db-8fa1f75e5b38")
-	)
-	(text_box "POWER SUPPLY BOARD"
-		(exclude_from_sim no)
-		(at 13.97 65.405 0)
-		(size 7.62 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 250 250 200 1)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "4adb4369-999b-4426-8e04-e5e47624c563")
-	)
-	(text "5V_MCU"
-		(exclude_from_sim no)
-		(at 224.79 119.38 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "101ae45f-7f85-4337-8307-d2e75946552b")
-	)
-	(text "3V3_MCU"
-		(exclude_from_sim no)
-		(at 213.36 57.785 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "125834e0-d1b3-4bbf-b493-5766c76dfb87")
-	)
-	(text "UART 3MBIT\n\nUART 115.2KBIT"
-		(exclude_from_sim no)
-		(at 50.8 149.225 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "16d0d691-2923-4924-90c3-23fd54af0315")
-	)
-	(text "3V3_MCU"
-		(exclude_from_sim no)
-		(at 107.315 60.96 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify left bottom)
-		)
-		(uuid "191f8bcb-d20c-4e06-9d59-78e3b0f29d18")
-	)
-	(text "16V_INV"
-		(exclude_from_sim no)
-		(at 190.5 57.785 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "19979e29-0aa5-407a-807c-b9442657f11d")
-	)
-	(text "3V3_MCU"
-		(exclude_from_sim no)
-		(at 226.06 154.94 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "3542f961-d198-4890-9e5f-3dc47cc7d64a")
-	)
-	(text "5V_MCU"
-		(exclude_from_sim no)
-		(at 205.74 57.785 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "37fbf657-1a31-4e4a-9ab7-eea50abade0c")
-	)
-	(text "3-PHASE AC"
-		(exclude_from_sim no)
-		(at 230.505 69.85 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify right bottom)
-		)
-		(uuid "51e194b3-04cf-4cab-97c1-0ed4bcd0e8fd")
-	)
-	(text "5V_INV"
-		(exclude_from_sim no)
-		(at 198.12 57.785 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "62d0d5a8-4746-48a4-bead-39bec70dcf82")
-	)
-	(text "ENCODER"
-		(exclude_from_sim no)
-		(at 252.73 88.9 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify right bottom)
-		)
-		(uuid "acf565ac-8474-453c-bf2c-15651aed8fbb")
-	)
-	(text "ICSP"
-		(exclude_from_sim no)
-		(at 42.545 147.955 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify right bottom)
-		)
-		(uuid "b026ba33-7871-49da-a06d-b4190ef94685")
-	)
-	(text "3V3_ADC"
-		(exclude_from_sim no)
-		(at 113.665 60.96 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9ce926e-1147-4cd5-9400-01e04b65d7c3")
-	)
-	(text "12V_MCU"
-		(exclude_from_sim no)
-		(at 229.235 150.495 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify right bottom)
-		)
-		(uuid "c77dfaa4-4f5a-4959-ac36-b4a755596b4b")
-	)
-	(text "Inter-Connection"
-		(exclude_from_sim no)
-		(at 224.155 81.915 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "c7d4fa4b-6779-48fb-bcb3-854e9c2b55ae")
-	)
-	(text "24V_MCU"
-		(exclude_from_sim no)
-		(at 229.235 144.78 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-			(justify right bottom)
-		)
-		(uuid "d54aefd0-edcd-44cc-a743-795e05eddbb6")
-	)
-	(text "Inter-Connection"
-		(exclude_from_sim no)
-		(at 63.5 80.645 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "ddf0cb84-936e-4f85-a002-d6515058e84a")
-	)
-	(text "VDC (310V)"
-		(exclude_from_sim no)
-		(at 182.88 58.42 90)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "e1e87d57-bc63-4f51-878f-fbc14491b6aa")
-	)
-	(text "5V_INV"
-		(exclude_from_sim no)
-		(at 224.79 115.57 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "e51e2cc1-3b73-4413-bc4a-ceae3d398225")
-	)
-	(text "Inter-Connection"
-		(exclude_from_sim no)
-		(at 211.455 163.83 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "e90a6b52-d01a-47e0-b9ca-89f31d9719be")
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
@@ -25327,7 +25382,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9068bd26-f98c-4d70-a223-3ccc2af5e476")
 		(property "Reference" "J1"
 			(at 46.99 108.585 0)
@@ -25831,6 +25886,10 @@
 	(sheet
 		(at 158.75 65.405)
 		(size 59.69 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -25863,6 +25922,7 @@
 		)
 		(pin "MC_PWM_WH" input
 			(at 158.75 78.105 180)
+			(uuid "77682956-93c5-44b6-ba2f-fd72c63723f3")
 			(effects
 				(font
 					(face "Consolas")
@@ -25871,10 +25931,10 @@
 				)
 				(justify left)
 			)
-			(uuid "77682956-93c5-44b6-ba2f-fd72c63723f3")
 		)
 		(pin "MC_PWM_VL" input
 			(at 158.75 75.565 180)
+			(uuid "16c3eb4a-d3a1-4118-bcca-78f51eeca9f3")
 			(effects
 				(font
 					(face "Consolas")
@@ -25883,10 +25943,10 @@
 				)
 				(justify left)
 			)
-			(uuid "16c3eb4a-d3a1-4118-bcca-78f51eeca9f3")
 		)
 		(pin "MC_PWM_WL" input
 			(at 158.75 80.645 180)
+			(uuid "b59c9431-d801-40a4-b4dc-11e1b0af205d")
 			(effects
 				(font
 					(face "Consolas")
@@ -25895,10 +25955,10 @@
 				)
 				(justify left)
 			)
-			(uuid "b59c9431-d801-40a4-b4dc-11e1b0af205d")
 		)
 		(pin "MC_PWM_VH" input
 			(at 158.75 73.025 180)
+			(uuid "4272ae8a-255e-4dd4-9916-dc98a21606d5")
 			(effects
 				(font
 					(face "Consolas")
@@ -25907,10 +25967,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4272ae8a-255e-4dd4-9916-dc98a21606d5")
 		)
 		(pin "IPM_TEMP_SEN" output
 			(at 218.44 73.025 0)
+			(uuid "d021131c-bf2e-41a6-9b6f-0805180efb8c")
 			(effects
 				(font
 					(face "Consolas")
@@ -25919,10 +25979,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d021131c-bf2e-41a6-9b6f-0805180efb8c")
 		)
 		(pin "IPM_PWM_FLT" input
 			(at 218.44 75.565 0)
+			(uuid "28089d78-8191-47f0-b830-8ed3d830d808")
 			(effects
 				(font
 					(face "Consolas")
@@ -25931,10 +25991,10 @@
 				)
 				(justify right)
 			)
-			(uuid "28089d78-8191-47f0-b830-8ed3d830d808")
 		)
 		(pin "IPM_PWM_VL" input
 			(at 218.44 85.725 0)
+			(uuid "c8b6527a-b4c9-4ad1-986f-4651b4c86563")
 			(effects
 				(font
 					(face "Consolas")
@@ -25943,10 +26003,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c8b6527a-b4c9-4ad1-986f-4651b4c86563")
 		)
 		(pin "IPM_PWM_UL" input
 			(at 218.44 80.645 0)
+			(uuid "d85a96d7-47b5-4e7a-8c8d-17c52c854841")
 			(effects
 				(font
 					(face "Consolas")
@@ -25955,10 +26015,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d85a96d7-47b5-4e7a-8c8d-17c52c854841")
 		)
 		(pin "IPM_PWM_WH" input
 			(at 218.44 88.265 0)
+			(uuid "39d94a8d-46a3-44e5-aa5c-5d69cd99bd22")
 			(effects
 				(font
 					(face "Consolas")
@@ -25967,10 +26027,10 @@
 				)
 				(justify right)
 			)
-			(uuid "39d94a8d-46a3-44e5-aa5c-5d69cd99bd22")
 		)
 		(pin "IPM_PWM_VH" input
 			(at 218.44 83.185 0)
+			(uuid "42660254-754b-4418-b112-ae8af73cf7de")
 			(effects
 				(font
 					(face "Consolas")
@@ -25979,10 +26039,10 @@
 				)
 				(justify right)
 			)
-			(uuid "42660254-754b-4418-b112-ae8af73cf7de")
 		)
 		(pin "IPM_PWM_WL" input
 			(at 218.44 90.805 0)
+			(uuid "8c68c385-7108-482b-99a0-398c14e48123")
 			(effects
 				(font
 					(face "Consolas")
@@ -25991,10 +26051,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8c68c385-7108-482b-99a0-398c14e48123")
 		)
 		(pin "IPM_PWM_UH" input
 			(at 218.44 78.105 0)
+			(uuid "1f18b58e-0685-4262-a2d5-9dce34cf5a21")
 			(effects
 				(font
 					(face "Consolas")
@@ -26003,10 +26063,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1f18b58e-0685-4262-a2d5-9dce34cf5a21")
 		)
 		(pin "MC_PWM_UL" input
 			(at 158.75 70.485 180)
+			(uuid "4cf3acd4-7266-4564-a4c6-11d7fb46b7d6")
 			(effects
 				(font
 					(face "Consolas")
@@ -26015,10 +26075,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4cf3acd4-7266-4564-a4c6-11d7fb46b7d6")
 		)
 		(pin "MC_IU_HAL" output
 			(at 212.09 103.505 270)
+			(uuid "a2bb1754-b946-40d3-a550-3891974c1293")
 			(effects
 				(font
 					(face "Consolas")
@@ -26027,10 +26087,10 @@
 				)
 				(justify left)
 			)
-			(uuid "a2bb1754-b946-40d3-a550-3891974c1293")
 		)
 		(pin "MC_PWM_UH" input
 			(at 158.75 67.945 180)
+			(uuid "c3d09035-db17-4823-b113-4d06556a617c")
 			(effects
 				(font
 					(face "Consolas")
@@ -26039,10 +26099,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c3d09035-db17-4823-b113-4d06556a617c")
 		)
 		(pin "MC_TEMP_FLT" output
 			(at 158.75 83.185 180)
+			(uuid "0bda8906-3873-42a4-8584-022605d1750e")
 			(effects
 				(font
 					(face "Consolas")
@@ -26051,10 +26111,10 @@
 				)
 				(justify left)
 			)
-			(uuid "0bda8906-3873-42a4-8584-022605d1750e")
 		)
 		(pin "MC_IV_HAL" output
 			(at 214.63 103.505 270)
+			(uuid "4a2f9f68-a829-4c11-9844-441b1536bde3")
 			(effects
 				(font
 					(face "Consolas")
@@ -26063,17 +26123,16 @@
 				)
 				(justify left)
 			)
-			(uuid "4a2f9f68-a829-4c11-9844-441b1536bde3")
 		)
 		(pin "MC_IDC_HAL" output
 			(at 209.55 103.505 270)
+			(uuid "de4c7774-c5d5-4920-974d-e8c62d448ebb")
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 				(justify left)
 			)
-			(uuid "de4c7774-c5d5-4920-974d-e8c62d448ebb")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26086,6 +26145,10 @@
 	(sheet
 		(at 158.75 135.255)
 		(size 59.69 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -26118,6 +26181,7 @@
 		)
 		(pin "INDEX" input
 			(at 209.55 158.75 270)
+			(uuid "b8340097-7406-4c66-b966-85a1b280b69f")
 			(effects
 				(font
 					(face "Consolas")
@@ -26126,10 +26190,10 @@
 				)
 				(justify left)
 			)
-			(uuid "b8340097-7406-4c66-b966-85a1b280b69f")
 		)
 		(pin "ENC_B" output
 			(at 158.75 141.605 180)
+			(uuid "cb8e843b-35ca-402a-b70e-44a3bc6e4fe0")
 			(effects
 				(font
 					(face "Consolas")
@@ -26138,10 +26202,10 @@
 				)
 				(justify left)
 			)
-			(uuid "cb8e843b-35ca-402a-b70e-44a3bc6e4fe0")
 		)
 		(pin "ENC_A" output
 			(at 158.75 139.065 180)
+			(uuid "84e29fe3-3494-465f-b5eb-cb39a68be1ce")
 			(effects
 				(font
 					(face "Consolas")
@@ -26150,10 +26214,10 @@
 				)
 				(justify left)
 			)
-			(uuid "84e29fe3-3494-465f-b5eb-cb39a68be1ce")
 		)
 		(pin "PULSE_B" input
 			(at 212.09 158.75 270)
+			(uuid "932081e3-01dc-4726-a2ad-80e937b5d5e2")
 			(effects
 				(font
 					(face "Consolas")
@@ -26162,10 +26226,10 @@
 				)
 				(justify left)
 			)
-			(uuid "932081e3-01dc-4726-a2ad-80e937b5d5e2")
 		)
 		(pin "PULSE_A" input
 			(at 214.63 158.75 270)
+			(uuid "1c1b15dd-55bc-4f11-9606-77bfac4f239f")
 			(effects
 				(font
 					(face "Consolas")
@@ -26174,10 +26238,10 @@
 				)
 				(justify left)
 			)
-			(uuid "1c1b15dd-55bc-4f11-9606-77bfac4f239f")
 		)
 		(pin "HOME" input
 			(at 207.01 158.75 270)
+			(uuid "630cbee7-2c54-40d5-bd41-89092516e225")
 			(effects
 				(font
 					(face "Consolas")
@@ -26186,10 +26250,10 @@
 				)
 				(justify left)
 			)
-			(uuid "630cbee7-2c54-40d5-bd41-89092516e225")
 		)
 		(pin "ENC_HOME" output
 			(at 158.75 144.145 180)
+			(uuid "85b8f40b-e2ef-4def-9aea-3c52552b2e38")
 			(effects
 				(font
 					(face "Consolas")
@@ -26198,10 +26262,10 @@
 				)
 				(justify left)
 			)
-			(uuid "85b8f40b-e2ef-4def-9aea-3c52552b2e38")
 		)
 		(pin "ENC_INDEX" output
 			(at 158.75 146.685 180)
+			(uuid "02982d97-ce8e-4b27-aa97-334972a443ac")
 			(effects
 				(font
 					(face "Consolas")
@@ -26210,7 +26274,6 @@
 				)
 				(justify left)
 			)
-			(uuid "02982d97-ce8e-4b27-aa97-334972a443ac")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26223,6 +26286,10 @@
 	(sheet
 		(at 69.85 65.405)
 		(size 63.5 93.345)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -26255,6 +26322,7 @@
 		)
 		(pin "~{DEV_RELAY}" output
 			(at 69.85 69.85 180)
+			(uuid "39c17043-7d8b-4355-b5df-21c19b779f05")
 			(effects
 				(font
 					(face "Consolas")
@@ -26263,10 +26331,10 @@
 				)
 				(justify left)
 			)
-			(uuid "39c17043-7d8b-4355-b5df-21c19b779f05")
 		)
 		(pin "PWR_RELAY" output
 			(at 69.85 67.31 180)
+			(uuid "38906702-2e1e-46a1-a70a-0e203e9277b7")
 			(effects
 				(font
 					(face "Consolas")
@@ -26275,10 +26343,10 @@
 				)
 				(justify left)
 			)
-			(uuid "38906702-2e1e-46a1-a70a-0e203e9277b7")
 		)
 		(pin "IND_RUN" output
 			(at 69.85 78.74 180)
+			(uuid "d47753c6-fc61-4277-9fa5-22b74cf14c17")
 			(effects
 				(font
 					(face "Consolas")
@@ -26287,10 +26355,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d47753c6-fc61-4277-9fa5-22b74cf14c17")
 		)
 		(pin "ENC_INDEX" input
 			(at 133.35 146.685 0)
+			(uuid "49f69074-8900-4340-87f6-64b4747cceb9")
 			(effects
 				(font
 					(face "Consolas")
@@ -26299,10 +26367,10 @@
 				)
 				(justify right)
 			)
-			(uuid "49f69074-8900-4340-87f6-64b4747cceb9")
 		)
 		(pin "ENC_HOME" input
 			(at 133.35 144.145 0)
+			(uuid "dd046cb4-5066-41e8-8752-7340a150be99")
 			(effects
 				(font
 					(face "Consolas")
@@ -26311,10 +26379,10 @@
 				)
 				(justify right)
 			)
-			(uuid "dd046cb4-5066-41e8-8752-7340a150be99")
 		)
 		(pin "MC_UDC_DIV" input
 			(at 133.35 113.665 0)
+			(uuid "053753a2-eb46-4959-bbcb-af1eb3abef33")
 			(effects
 				(font
 					(face "Consolas")
@@ -26323,10 +26391,10 @@
 				)
 				(justify right)
 			)
-			(uuid "053753a2-eb46-4959-bbcb-af1eb3abef33")
 		)
 		(pin "MC_IDC_SEN" input
 			(at 133.35 116.205 0)
+			(uuid "11d683bd-1e5b-4762-ac51-400e422673f2")
 			(effects
 				(font
 					(face "Consolas")
@@ -26335,10 +26403,10 @@
 				)
 				(justify right)
 			)
-			(uuid "11d683bd-1e5b-4762-ac51-400e422673f2")
 		)
 		(pin "ENC_A" input
 			(at 133.35 139.065 0)
+			(uuid "8a338946-d57d-4b49-886c-c9301e94af56")
 			(effects
 				(font
 					(face "Consolas")
@@ -26347,10 +26415,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8a338946-d57d-4b49-886c-c9301e94af56")
 		)
 		(pin "ENC_B" input
 			(at 133.35 141.605 0)
+			(uuid "e8f16dcc-8eb6-4c27-8073-78cf607e49e8")
 			(effects
 				(font
 					(face "Consolas")
@@ -26359,10 +26427,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e8f16dcc-8eb6-4c27-8073-78cf607e49e8")
 		)
 		(pin "IND_ERR" output
 			(at 69.85 81.28 180)
+			(uuid "bd0be788-7dc3-4783-95b4-a26f5885331d")
 			(effects
 				(font
 					(face "Consolas")
@@ -26371,10 +26439,10 @@
 				)
 				(justify left)
 			)
-			(uuid "bd0be788-7dc3-4783-95b4-a26f5885331d")
 		)
 		(pin "DV_RXD" input
 			(at 69.85 99.06 180)
+			(uuid "87eb36d8-c801-43a1-9faa-771f1c752a1e")
 			(effects
 				(font
 					(face "Consolas")
@@ -26383,10 +26451,10 @@
 				)
 				(justify left)
 			)
-			(uuid "87eb36d8-c801-43a1-9faa-771f1c752a1e")
 		)
 		(pin "VBUS" input
 			(at 69.85 127 180)
+			(uuid "3e3b6568-3460-46b4-873c-63da30e52cea")
 			(effects
 				(font
 					(face "Consolas")
@@ -26395,10 +26463,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3e3b6568-3460-46b4-873c-63da30e52cea")
 		)
 		(pin "USB_P" bidirectional
 			(at 69.85 96.52 180)
+			(uuid "69370b6d-49ae-4224-8be4-d1756afb5e75")
 			(effects
 				(font
 					(face "Consolas")
@@ -26407,10 +26475,10 @@
 				)
 				(justify left)
 			)
-			(uuid "69370b6d-49ae-4224-8be4-d1756afb5e75")
 		)
 		(pin "USB_N" bidirectional
 			(at 69.85 93.98 180)
+			(uuid "49d63b83-9ab1-450e-9a17-c6f0d5940ce8")
 			(effects
 				(font
 					(face "Consolas")
@@ -26419,10 +26487,10 @@
 				)
 				(justify left)
 			)
-			(uuid "49d63b83-9ab1-450e-9a17-c6f0d5940ce8")
 		)
 		(pin "DB_RXD" input
 			(at 69.85 104.14 180)
+			(uuid "e8ed4b6d-9363-4590-b440-4b5b88dc0ad1")
 			(effects
 				(font
 					(face "Consolas")
@@ -26431,10 +26499,10 @@
 				)
 				(justify left)
 			)
-			(uuid "e8ed4b6d-9363-4590-b440-4b5b88dc0ad1")
 		)
 		(pin "MC_IU_SEN" input
 			(at 133.35 118.745 0)
+			(uuid "33783220-d027-4f5a-883f-fa40fa88dc29")
 			(effects
 				(font
 					(face "Consolas")
@@ -26443,10 +26511,10 @@
 				)
 				(justify right)
 			)
-			(uuid "33783220-d027-4f5a-883f-fa40fa88dc29")
 		)
 		(pin "MC_PWM_WL" output
 			(at 133.35 80.645 0)
+			(uuid "9fe705e3-41a7-4ab8-94e1-fb69c5ad3803")
 			(effects
 				(font
 					(face "Consolas")
@@ -26455,10 +26523,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9fe705e3-41a7-4ab8-94e1-fb69c5ad3803")
 		)
 		(pin "MC_PWM_UL" output
 			(at 133.35 70.485 0)
+			(uuid "52b31d33-bf34-4c63-adb9-ba4548fe3cf6")
 			(effects
 				(font
 					(face "Consolas")
@@ -26467,10 +26535,10 @@
 				)
 				(justify right)
 			)
-			(uuid "52b31d33-bf34-4c63-adb9-ba4548fe3cf6")
 		)
 		(pin "MC_PWM_VL" output
 			(at 133.35 75.565 0)
+			(uuid "55532440-1521-4642-a909-462977bda5e7")
 			(effects
 				(font
 					(face "Consolas")
@@ -26479,10 +26547,10 @@
 				)
 				(justify right)
 			)
-			(uuid "55532440-1521-4642-a909-462977bda5e7")
 		)
 		(pin "MC_IV_SEN" input
 			(at 133.35 121.285 0)
+			(uuid "49d3d44f-931d-4ec3-a691-bae72926ff97")
 			(effects
 				(font
 					(face "Consolas")
@@ -26491,10 +26559,10 @@
 				)
 				(justify right)
 			)
-			(uuid "49d3d44f-931d-4ec3-a691-bae72926ff97")
 		)
 		(pin "~{MC_PWM_FLT}" input
 			(at 133.35 83.185 0)
+			(uuid "f42d14e3-09f3-4851-975a-4b08191450b9")
 			(effects
 				(font
 					(face "Consolas")
@@ -26503,10 +26571,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f42d14e3-09f3-4851-975a-4b08191450b9")
 		)
 		(pin "MC_PWM_VH" output
 			(at 133.35 73.025 0)
+			(uuid "766b426b-04a6-4160-aef8-0d564491184e")
 			(effects
 				(font
 					(face "Consolas")
@@ -26515,10 +26583,10 @@
 				)
 				(justify right)
 			)
-			(uuid "766b426b-04a6-4160-aef8-0d564491184e")
 		)
 		(pin "MC_PWM_WH" output
 			(at 133.35 78.105 0)
+			(uuid "04f77ba9-19e1-431d-8a53-f607f5b3a537")
 			(effects
 				(font
 					(face "Consolas")
@@ -26527,10 +26595,10 @@
 				)
 				(justify right)
 			)
-			(uuid "04f77ba9-19e1-431d-8a53-f607f5b3a537")
 		)
 		(pin "MC_PWM_UH" output
 			(at 133.35 67.945 0)
+			(uuid "3a7927de-f553-4bfa-b6de-b83da73d85f1")
 			(effects
 				(font
 					(face "Consolas")
@@ -26539,10 +26607,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3a7927de-f553-4bfa-b6de-b83da73d85f1")
 		)
 		(pin "PGC" input
 			(at 69.85 124.46 180)
+			(uuid "bcd75a43-d9c6-49c6-8833-d8c6d75c6797")
 			(effects
 				(font
 					(face "Consolas")
@@ -26551,10 +26619,10 @@
 				)
 				(justify left)
 			)
-			(uuid "bcd75a43-d9c6-49c6-8833-d8c6d75c6797")
 		)
 		(pin "DV_TXD" output
 			(at 69.85 101.6 180)
+			(uuid "a3c724ec-3c89-4acf-8549-d8356b0579f0")
 			(effects
 				(font
 					(face "Consolas")
@@ -26563,10 +26631,10 @@
 				)
 				(justify left)
 			)
-			(uuid "a3c724ec-3c89-4acf-8549-d8356b0579f0")
 		)
 		(pin "~{MCLR}" input
 			(at 69.85 114.3 180)
+			(uuid "38a1598d-3369-4cf9-b0c7-022fe3885f1f")
 			(effects
 				(font
 					(face "Consolas")
@@ -26575,10 +26643,10 @@
 				)
 				(justify left)
 			)
-			(uuid "38a1598d-3369-4cf9-b0c7-022fe3885f1f")
 		)
 		(pin "DB_TXD" output
 			(at 69.85 106.68 180)
+			(uuid "97f2c19c-7fd2-4302-a19e-60a5e102a38a")
 			(effects
 				(font
 					(face "Consolas")
@@ -26587,10 +26655,10 @@
 				)
 				(justify left)
 			)
-			(uuid "97f2c19c-7fd2-4302-a19e-60a5e102a38a")
 		)
 		(pin "PGD" bidirectional
 			(at 69.85 121.92 180)
+			(uuid "936bf618-2de2-4987-a5bc-750550146efb")
 			(effects
 				(font
 					(face "Consolas")
@@ -26599,7 +26667,6 @@
 				)
 				(justify left)
 			)
-			(uuid "936bf618-2de2-4987-a5bc-750550146efb")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26612,6 +26679,10 @@
 	(sheet
 		(at 158.75 110.49)
 		(size 59.69 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -26644,6 +26715,7 @@
 		)
 		(pin "MC_IV_SEN" output
 			(at 158.75 121.285 180)
+			(uuid "2e7cbd3b-fce5-436e-9cf2-ec68d9d80852")
 			(effects
 				(font
 					(face "Consolas")
@@ -26652,10 +26724,10 @@
 				)
 				(justify left)
 			)
-			(uuid "2e7cbd3b-fce5-436e-9cf2-ec68d9d80852")
 		)
 		(pin "MC_IV_HAL" input
 			(at 214.63 110.49 90)
+			(uuid "fd1698ff-41c4-432b-a820-e52a58e0d9db")
 			(effects
 				(font
 					(face "Consolas")
@@ -26664,10 +26736,10 @@
 				)
 				(justify right)
 			)
-			(uuid "fd1698ff-41c4-432b-a820-e52a58e0d9db")
 		)
 		(pin "MC_IDC_SEN" output
 			(at 158.75 116.205 180)
+			(uuid "0bfe8f5f-de8d-4a6f-bc30-5ff7093b0178")
 			(effects
 				(font
 					(face "Consolas")
@@ -26676,10 +26748,10 @@
 				)
 				(justify left)
 			)
-			(uuid "0bfe8f5f-de8d-4a6f-bc30-5ff7093b0178")
 		)
 		(pin "MC_IU_HAL" input
 			(at 212.09 110.49 90)
+			(uuid "d9f35fae-4ad8-4d3e-952c-fcd0fe166d1f")
 			(effects
 				(font
 					(face "Consolas")
@@ -26688,10 +26760,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d9f35fae-4ad8-4d3e-952c-fcd0fe166d1f")
 		)
 		(pin "MC_IU_SEN" output
 			(at 158.75 118.745 180)
+			(uuid "7e16fbd0-ef0f-47fe-b75c-f32de15a8c97")
 			(effects
 				(font
 					(face "Consolas")
@@ -26700,10 +26772,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7e16fbd0-ef0f-47fe-b75c-f32de15a8c97")
 		)
 		(pin "MC_UDC_DIV" output
 			(at 158.75 113.665 180)
+			(uuid "f972f13c-1738-48a9-a117-880fcf22f025")
 			(effects
 				(font
 					(face "Consolas")
@@ -26712,17 +26784,16 @@
 				)
 				(justify left)
 			)
-			(uuid "f972f13c-1738-48a9-a117-880fcf22f025")
 		)
 		(pin "MC_IDC_HAL" input
 			(at 209.55 110.49 90)
+			(uuid "fde556ac-87f7-40df-abdd-e1b32a3edb5f")
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 				(justify right)
 			)
-			(uuid "fde556ac-87f7-40df-abdd-e1b32a3edb5f")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26735,6 +26806,10 @@
 	(sheet
 		(at 31.75 65.405)
 		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -26768,6 +26843,7 @@
 		)
 		(pin "~{DEV_RELAY}" input
 			(at 57.15 69.85 0)
+			(uuid "1c510506-42cc-49fa-809e-8aa5db3d80f6")
 			(effects
 				(font
 					(face "Consolas")
@@ -26776,10 +26852,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1c510506-42cc-49fa-809e-8aa5db3d80f6")
 		)
 		(pin "PWR_RELAY" input
 			(at 57.15 67.31 0)
+			(uuid "95736bfd-60a9-46e1-8aef-a41d25bac8c3")
 			(effects
 				(font
 					(face "Consolas")
@@ -26788,7 +26864,6 @@
 				)
 				(justify right)
 			)
-			(uuid "95736bfd-60a9-46e1-8aef-a41d25bac8c3")
 		)
 		(instances
 			(project "HW.ACIM-INV"
@@ -26803,4 +26878,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

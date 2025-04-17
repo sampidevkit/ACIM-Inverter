@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5b9a6f6a-fe75-49cd-8ce8-b49c836f8814")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	(lib_symbols
 		(symbol "SAMPI:+5V_INV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,7 +90,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -98,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -129,12 +133,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+5V_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -206,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -218,7 +227,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -249,9 +258,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:CERCAP"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -328,7 +340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -2.54) (xy 2.54 -2.54)
+						(xy 1.905 -1.27) (xy 1.905 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -340,7 +352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 -3.81)
+						(xy 1.905 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -389,9 +401,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:DIODE_ARR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -444,7 +459,7 @@
 			(symbol "DIODE_ARR2_0_1"
 				(polyline
 					(pts
-						(xy 12.065 -6.35) (xy 13.335 -6.35)
+						(xy 12.065 -2.54) (xy 13.335 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -456,7 +471,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.065 -2.54) (xy 13.335 -2.54)
+						(xy 12.065 -6.35) (xy 13.335 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -482,6 +497,18 @@
 				)
 				(polyline
 					(pts
+						(xy 12.7 -2.54) (xy 12.065 -3.81) (xy 13.335 -3.81) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 12.7 -3.81) (xy 12.7 -6.35)
 					)
 					(stroke
@@ -490,6 +517,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -5.08)
+					(radius 0.1796)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -504,40 +542,17 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 12.065 -3.81) (xy 13.335 -3.81) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 12.7 -5.08)
-					(radius 0.1796)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at 12.7 -10.16 90)
+					(at 8.89 -5.08 0)
 					(length 2.54)
-					(name "A1"
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -564,16 +579,16 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -5.08 0)
+					(at 12.7 -10.16 90)
 					(length 2.54)
-					(name "COM"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -582,12 +597,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_ADC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -678,12 +698,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_INV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -774,12 +799,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -870,9 +900,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:ISO-OPAMP"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -941,14 +974,14 @@
 			(symbol "ISO-OPAMP_1_1"
 				(polyline
 					(pts
-						(xy -6.985 -12.7) (xy -6.985 -12.446)
+						(xy -9.525 1.27) (xy -9.525 -13.97) (xy -6.35 -12.065) (xy -6.35 -0.635) (xy -9.525 1.27)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -965,7 +998,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 -10.795) (xy -6.35 -12.065)
+						(xy -6.985 -12.7) (xy -6.985 -12.446)
 					)
 					(stroke
 						(width 0)
@@ -989,7 +1022,19 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -12.7) (xy -3.175 -10.033)
+						(xy -4.445 -1.905) (xy -4.445 -10.795) (xy 3.175 -6.35) (xy -4.445 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -10.795) (xy -6.35 -12.065)
 					)
 					(stroke
 						(width 0)
@@ -1013,7 +1058,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -8.89) (xy -1.143 -8.89)
+						(xy -3.175 -12.7) (xy -3.175 -10.033)
 					)
 					(stroke
 						(width 0)
@@ -1037,50 +1082,14 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 -1.905) (xy -4.445 -10.795) (xy 3.175 -6.35) (xy -4.445 -1.905)
+						(xy 1.905 -8.89) (xy -1.143 -8.89)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -9.525 1.27) (xy -9.525 -13.97) (xy -6.35 -12.065) (xy -6.35 -0.635) (xy -9.525 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "GND1"
-					(at -7.112 -10.541 900)
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(text "GND2"
-					(at -3.683 -8.382 900)
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(text "ISOLATION"
-					(at -5.334 -6.35 900)
-					(effects
-						(font
-							(size 1 1)
-						)
+						(type none)
 					)
 				)
 				(text "V+"
@@ -1107,8 +1116,32 @@
 						)
 					)
 				)
+				(text "GND1"
+					(at -7.112 -10.541 900)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "ISOLATION"
+					(at -5.334 -6.35 900)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
 				(text "VDD2"
 					(at -3.683 -4.445 900)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "GND2"
+					(at -3.683 -8.382 900)
 					(effects
 						(font
 							(size 1 1)
@@ -1128,24 +1161,6 @@
 					(effects
 						(font
 							(size 1 1)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.985 2.54 270)
-					(length 2.54)
-					(name "VDD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -1185,6 +1200,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -6.985 2.54 270)
+					(length 2.54)
+					(name "VDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -6.985 -15.24 90)
 					(length 2.54)
@@ -1196,6 +1229,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.175 2.54 270)
+					(length 2.54)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1222,24 +1273,6 @@
 					)
 				)
 				(pin output line
-					(at 4.445 -8.89 180)
-					(length 2.54)
-					(name "VOUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 4.445 -3.81 180)
 					(length 2.54)
 					(name "VOUT+"
@@ -1257,17 +1290,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -3.175 2.54 270)
+				(pin output line
+					(at 4.445 -8.89 180)
 					(length 2.54)
-					(name "VDD2"
+					(name "VOUT-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1276,6 +1309,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:NCV21871SQ3T2G"
 			(exclude_from_sim no)
@@ -1375,24 +1409,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -4.445 -12.7 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -13.335 -10.795 0)
 					(length 2.54)
@@ -1404,24 +1420,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 4.445 -6.35 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1447,7 +1445,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -4.445 -12.7 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 4.445 -6.35 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:PGND"
 			(power)
@@ -1550,11 +1585,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy -0.635 -1.905)
+						(xy 0 0) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1562,11 +1597,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27)
+						(xy 0 -1.27) (xy -0.635 -1.905)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1600,7 +1635,8 @@
 			(symbol "PGND_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "PGND"
 						(effects
 							(font
@@ -1617,9 +1653,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:RES"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1722,6 +1761,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VDC"
 			(power)
@@ -1799,7 +1839,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1811,7 +1851,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1825,7 +1865,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VDC"
 						(effects
 							(font
@@ -1842,7 +1883,46 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "LOW VOLTAGE ZONE"
+		(exclude_from_sim no)
+		(at 49.53 118.11 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "4849cb13-b1a5-47cc-aefe-3009799672ef")
+	)
+	(text "HIGH VOLTAGE ZONE"
+		(exclude_from_sim no)
+		(at 49.53 112.395 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8ac809ca-ffac-45ae-96a9-3fcf78812727")
+	)
+	(text "VOUT=(VOUTP-VOUTN)×(4.99k/10k)+VCM"
+		(exclude_from_sim no)
+		(at 113.665 104.775 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "fcf86d6b-ec95-49c9-8d03-3c5d742668fa")
 	)
 	(junction
 		(at 158.75 87.63)
@@ -3236,44 +3316,6 @@
 		)
 		(uuid "fda07e3d-3e0e-4ea1-8be3-d7f01844e745")
 	)
-	(text "LOW VOLTAGE ZONE"
-		(exclude_from_sim no)
-		(at 49.53 118.11 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 0 0 255 1)
-			)
-		)
-		(uuid "4849cb13-b1a5-47cc-aefe-3009799672ef")
-	)
-	(text "HIGH VOLTAGE ZONE"
-		(exclude_from_sim no)
-		(at 49.53 112.395 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "8ac809ca-ffac-45ae-96a9-3fcf78812727")
-	)
-	(text "VOUT=(VOUTP-VOUTN)×(4.99k/10k)+VCM"
-		(exclude_from_sim no)
-		(at 113.665 104.775 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "fcf86d6b-ec95-49c9-8d03-3c5d742668fa")
-	)
 	(hierarchical_label "MC_IV_HAL"
 		(shape input)
 		(at 157.48 77.47 180)
@@ -3379,7 +3421,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00abd743-68e2-4161-b84d-6fc60d104c3a")
 		(property "Reference" "#PWR0126"
 			(at 38.735 100.33 0)
@@ -3455,7 +3497,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00ec72f6-1445-486c-84f2-873bfca07212")
 		(property "Reference" "#PWR0148"
 			(at 158.75 46.355 0)
@@ -3532,7 +3574,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "03dce053-0b51-4df5-888e-dc07f46688de")
 		(property "Reference" "C81"
 			(at 212.09 39.37 90)
@@ -3633,7 +3675,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0c38c956-dc44-4596-9bad-a28c0ec65272")
 		(property "Reference" "#PWR0125"
 			(at 38.735 58.42 0)
@@ -3710,7 +3752,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10806ac5-8182-4336-b222-49bd6d8e13df")
 		(property "Reference" "C82"
 			(at 212.09 95.885 90)
@@ -3812,7 +3854,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10c8a8b5-592d-41c1-8319-b762405fa0b8")
 		(property "Reference" "C77"
 			(at 173.99 34.925 90)
@@ -3913,7 +3955,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10fa12a4-6719-4213-a3a0-a10f498c2b6e")
 		(property "Reference" "#PWR0155"
 			(at 184.15 104.775 0)
@@ -3989,7 +4031,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ada138e-b497-485a-9143-08b9ae92be70")
 		(property "Reference" "#PWR014"
 			(at 121.92 33.655 0)
@@ -4065,7 +4107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1eb7ef18-6423-4cdc-a670-be502f34f057")
 		(property "Reference" "U17"
 			(at 102.87 78.105 0)
@@ -4174,7 +4216,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2004899d-fd22-4b0a-a779-d281a750db54")
 		(property "Reference" "#PWR0132"
 			(at 63.5 102.87 0)
@@ -4250,7 +4292,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "224d0a91-bc33-4640-a9e8-02f962e2cc1e")
 		(property "Reference" "#PWR0157"
 			(at 194.31 91.44 0)
@@ -4327,7 +4369,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23181d56-5a47-447b-ba6a-e6c95fe262a8")
 		(property "Reference" "R43"
 			(at 162.56 24.765 90)
@@ -4426,7 +4468,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23c19a34-9217-45ac-8b2e-b72a911b138e")
 		(property "Reference" "C69"
 			(at 74.295 71.12 0)
@@ -4528,7 +4570,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "28f24604-d9bb-4a4a-b904-9a77a1943ed9")
 		(property "Reference" "R30"
 			(at 42.545 86.36 90)
@@ -4627,7 +4669,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2aa6c855-a4c8-4aee-b29d-a952063949d5")
 		(property "Reference" "#PWR0138"
 			(at 77.47 81.915 0)
@@ -4703,7 +4745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2fb65715-e09f-462a-8385-f3099fbd520e")
 		(property "Reference" "R41"
 			(at 125.73 85.09 0)
@@ -4802,7 +4844,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "303228ad-0471-4423-bc3f-361bf14e5d95")
 		(property "Reference" "U15"
 			(at 69.85 83.185 0)
@@ -4920,7 +4962,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "31b886ff-9972-42de-a72f-21c29de89ea1")
 		(property "Reference" "#PWR010"
 			(at 86.36 45.085 0)
@@ -4996,7 +5038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3234413e-affc-4738-8034-3876a3c92a21")
 		(property "Reference" "#PWR0145"
 			(at 130.81 102.87 0)
@@ -5073,7 +5115,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3364289c-f050-4b10-8eda-f3cb409aa297")
 		(property "Reference" "C10"
 			(at 26.035 59.69 90)
@@ -5173,7 +5215,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3c449080-a833-4769-8868-3c6f62c2ad6d")
 		(property "Reference" "C5"
 			(at 101.6 33.655 90)
@@ -5274,7 +5316,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3e116786-f10a-4bd9-80ff-3b2b03cc827c")
 		(property "Reference" "#PWR0149"
 			(at 158.75 102.87 0)
@@ -5351,7 +5393,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4056d8f9-7988-4941-a1f1-dd17c091c71c")
 		(property "Reference" "D14"
 			(at 34.925 78.74 0)
@@ -5456,7 +5498,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "48750943-2304-412e-82c8-53b5abbd2239")
 		(property "Reference" "R48"
 			(at 200.66 89.535 0)
@@ -5555,7 +5597,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4aa12fbd-632f-4f6b-a2cd-483ec686e2a9")
 		(property "Reference" "#PWR0151"
 			(at 167.005 102.87 0)
@@ -5632,7 +5674,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c865e8a-de80-4a37-b802-baf0f7444af9")
 		(property "Reference" "C7"
 			(at 139.7 38.1 90)
@@ -5734,7 +5776,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5035b127-2959-4a90-b1ff-03dd343d8704")
 		(property "Reference" "R44"
 			(at 162.56 34.925 90)
@@ -5833,7 +5875,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5055de7f-f421-41a5-bf89-d6048d1e83a1")
 		(property "Reference" "#PWR0142"
 			(at 109.22 81.915 0)
@@ -5910,7 +5952,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "59b00895-b4b7-4ea7-80e5-66fc0ff2f7af")
 		(property "Reference" "R2"
 			(at 90.17 33.655 90)
@@ -6009,7 +6051,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "59eafd9d-3af6-4d22-8f1b-c6319c8a494b")
 		(property "Reference" "#PWR012"
 			(at 111.76 28.575 0)
@@ -6086,7 +6128,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d1dc219-ab0e-47b1-9ca0-99eccae983da")
 		(property "Reference" "C67"
 			(at 56.515 71.12 0)
@@ -6188,7 +6230,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5da47044-fc6b-4303-8f6d-96b17c994e0e")
 		(property "Reference" "C6"
 			(at 114.935 22.86 0)
@@ -6289,7 +6331,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5fdf3884-1394-4c5a-8418-727d696b1559")
 		(property "Reference" "U2"
 			(at 105.41 24.765 0)
@@ -6398,7 +6440,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "663b40c5-43c4-4676-81f6-1fed01f0b7db")
 		(property "Reference" "#PWR0154"
 			(at 184.15 86.36 0)
@@ -6474,7 +6516,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "688ff33b-d9d2-45e4-a5e7-0f29c7ae5dcc")
 		(property "Reference" "R3"
 			(at 128.27 31.75 0)
@@ -6574,7 +6616,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6e580a7d-d24d-4ac8-88cc-06399d9f2ffe")
 		(property "Reference" "C80"
 			(at 187.325 80.645 0)
@@ -6676,7 +6718,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6f06d554-5ca6-4117-9b9e-30e21e772730")
 		(property "Reference" "C78"
 			(at 173.99 91.44 90)
@@ -6777,7 +6819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71cce653-7f6b-4bab-a645-7491f5a1b9e4")
 		(property "Reference" "#PWR0139"
 			(at 90.805 107.315 0)
@@ -6854,7 +6896,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7952488c-2a35-4431-81bd-818f0d0880f6")
 		(property "Reference" "R29"
 			(at 42.545 76.2 90)
@@ -6954,7 +6996,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c0b94c7-9f91-49d8-8d7c-41225d4bc1ff")
 		(property "Reference" "R1"
 			(at 90.17 23.495 90)
@@ -7053,7 +7095,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7cfe7294-bcb3-4c3f-98e3-a19c72095191")
 		(property "Reference" "#PWR0123"
 			(at 29.845 81.28 0)
@@ -7129,7 +7171,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "80dc5d29-7e2b-45fd-a24c-65096a479f7b")
 		(property "Reference" "#PWR0135"
 			(at 67.31 76.835 0)
@@ -7205,7 +7247,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "81036cdd-e289-4669-ab4b-365b72552e87")
 		(property "Reference" "#PWR0158"
 			(at 205.74 50.8 0)
@@ -7281,7 +7323,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "816d5592-75aa-4f70-98ac-ed765bbf131f")
 		(property "Reference" "#PWR0153"
 			(at 184.15 48.26 0)
@@ -7357,7 +7399,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "835037ac-08ad-4a43-bbb6-f8cfae908efa")
 		(property "Reference" "#PWR0143"
 			(at 109.22 100.33 0)
@@ -7433,7 +7475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "84c119dd-7fd9-4c51-a7fa-97a27307f7de")
 		(property "Reference" "#PWR0150"
 			(at 167.005 46.355 0)
@@ -7510,7 +7552,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "852dd6f2-ac11-456a-b2ca-916b26e4bbfa")
 		(property "Reference" "R38"
 			(at 85.725 89.535 0)
@@ -7609,7 +7651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "878e9455-a513-4e97-b7c3-695b63dedc03")
 		(property "Reference" "#PWR015"
 			(at 133.35 49.53 0)
@@ -7685,7 +7727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "87bedc65-7866-4096-bda6-73576008133c")
 		(property "Reference" "U18"
 			(at 177.8 26.035 0)
@@ -7794,7 +7836,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8e538344-0e87-48ae-ae5b-70d0b58ce87b")
 		(property "Reference" "#PWR0131"
 			(at 63.5 76.835 0)
@@ -7870,7 +7912,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9009b8ff-d242-4ae3-96fd-3ec7003c0f61")
 		(property "Reference" "#PWR0124"
 			(at 29.845 93.98 0)
@@ -7946,7 +7988,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "949d1775-356b-4b4f-909c-9b99163d5c69")
 		(property "Reference" "U19"
 			(at 177.8 82.55 0)
@@ -8055,7 +8097,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c354272-26a9-471b-a35d-21893ac1e463")
 		(property "Reference" "#PWR0128"
 			(at 53.34 81.915 0)
@@ -8132,7 +8174,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9cb72bc5-dd82-4cad-8b27-55d757124dd1")
 		(property "Reference" "R34"
 			(at 46.99 90.805 0)
@@ -8232,7 +8274,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9d9b518b-07b7-47a3-97c7-499ab9ed4e56")
 		(property "Reference" "R46"
 			(at 162.56 91.44 90)
@@ -8331,7 +8373,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a33af42c-eed0-49ae-8250-65c9113f893d")
 		(property "Reference" "R47"
 			(at 200.66 33.02 0)
@@ -8430,7 +8472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a4d4a44e-a038-4587-a3db-aa2f199495f8")
 		(property "Reference" "#PWR013"
 			(at 111.76 46.99 0)
@@ -8506,7 +8548,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac766824-c6c7-4cb3-ad41-2244a4c6dd93")
 		(property "Reference" "R39"
 			(at 87.63 95.885 90)
@@ -8605,7 +8647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b74d3d9a-4706-498d-aa56-18940c0fd88f")
 		(property "Reference" "#PWR0152"
 			(at 184.15 29.845 0)
@@ -8681,7 +8723,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8ce3968-f964-422c-9521-b948e8a38250")
 		(property "Reference" "#PWR011"
 			(at 94.615 45.085 0)
@@ -8758,7 +8800,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bdde76c0-8387-4094-aa89-1603f4258731")
 		(property "Reference" "C79"
 			(at 187.325 24.13 0)
@@ -8859,7 +8901,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c1aa6c98-314b-43dd-b691-bc8044b8ac64")
 		(property "Reference" "C71"
 			(at 93.345 86.36 90)
@@ -8961,7 +9003,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c1e41156-eef6-498c-8104-2b79717b0fb5")
 		(property "Reference" "C74"
 			(at 137.16 91.44 90)
@@ -9063,7 +9105,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c39477d9-1f73-40ab-8dfc-e100fb29ffa6")
 		(property "Reference" "R33"
 			(at 46.99 80.01 0)
@@ -9163,7 +9205,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c52f0884-98c6-491d-9f27-016459a13fbd")
 		(property "Reference" "R28"
 			(at 42.545 68.58 90)
@@ -9262,7 +9304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ca595c52-2db3-443f-8438-831d45443930")
 		(property "Reference" "#PWR0136"
 			(at 67.31 102.87 0)
@@ -9338,7 +9380,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d02e674a-cd04-4428-8c49-839b54446e97")
 		(property "Reference" "#PWR0144"
 			(at 119.38 86.995 0)
@@ -9415,7 +9457,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d345ec9d-95b6-41dc-b026-bd2b3e1f8aaa")
 		(property "Reference" "C73"
 			(at 112.395 76.2 0)
@@ -9517,7 +9559,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d493dad9-d1c1-4ad0-ae7b-7c6ae28bbe09")
 		(property "Reference" "R27"
 			(at 42.545 60.96 90)
@@ -9616,7 +9658,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d9c030d5-e87d-47af-be0f-9d3534452550")
 		(property "Reference" "#PWR018"
 			(at 29.845 71.12 0)
@@ -9693,7 +9735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "db3d9153-4e19-45e8-8a08-c0785cbed829")
 		(property "Reference" "R37"
 			(at 85.725 80.645 0)
@@ -9792,7 +9834,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dbf7c1c8-7125-4756-9800-eac4d5b3d33f")
 		(property "Reference" "#PWR0159"
 			(at 205.74 107.315 0)
@@ -9869,7 +9911,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ddf6cae6-1a82-40a9-a394-a1afecf19d2d")
 		(property "Reference" "R45"
 			(at 162.56 81.28 90)
@@ -9968,7 +10010,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dfd37492-96b9-4324-9988-89761dd4a780")
 		(property "Reference" "R40"
 			(at 95.885 95.885 90)
@@ -10068,7 +10110,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e1873549-24e1-4611-88d3-a783ef6bb582")
 		(property "Reference" "C65"
 			(at 59.69 86.36 90)
@@ -10169,7 +10211,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fba7044d-dfa9-4987-ad5f-2d54aedf2b19")
 		(property "Reference" "#PWR0156"
 			(at 194.31 34.925 0)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "62102c60-f92d-4c51-bae5-965384a891f0")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	(lib_symbols
 		(symbol "SAMPI:+12V_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,7 +90,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -98,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -129,12 +133,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+16V_INV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -206,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -218,7 +227,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -249,12 +258,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+24V_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -326,7 +340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -338,7 +352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -369,12 +383,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+3V3_ADC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -446,7 +465,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -458,7 +477,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -489,12 +508,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+3V3_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -566,7 +590,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -578,7 +602,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -609,12 +633,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+5V_INV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -686,7 +715,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -698,7 +727,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -729,12 +758,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:+5V_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -806,7 +840,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -818,7 +852,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -849,9 +883,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:CERCAP"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -928,7 +965,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -2.54) (xy 2.54 -2.54)
+						(xy 1.905 -1.27) (xy 1.905 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -940,7 +977,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 -3.81)
+						(xy 1.905 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -989,9 +1026,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:FerriteBead"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1044,7 +1084,7 @@
 			(symbol "FerriteBead_0_1"
 				(polyline
 					(pts
-						(xy 1.905 -4.445) (xy -0.635 -4.445)
+						(xy 1.905 -3.175) (xy -0.635 -3.175)
 					)
 					(stroke
 						(width 0)
@@ -1068,7 +1108,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -3.175) (xy -0.635 -3.175)
+						(xy 1.905 -4.445) (xy -0.635 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -1117,12 +1157,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_ADC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1213,12 +1258,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_INV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1309,12 +1359,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:GND_MCU"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1405,6 +1460,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:MCP1501"
 			(exclude_from_sim no)
@@ -1497,6 +1553,60 @@
 						(type background)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 12.7 -5.08 180)
 					(length 2.54)
@@ -1551,64 +1661,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SAMPI:SIL08"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1661,67 +1720,7 @@
 			(symbol "SIL08_0_0"
 				(polyline
 					(pts
-						(xy -1.27 -22.86) (xy 0.889 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -20.32) (xy 0.889 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -17.78) (xy 0.889 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -15.24) (xy 0.889 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -12.7) (xy 0.889 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy 0.889 -10.16)
+						(xy -1.27 -5.08) (xy 0.889 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1745,7 +1744,67 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy 0.889 -5.08)
+						(xy -1.27 -10.16) (xy 0.889 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy 0.889 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy 0.889 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy 0.889 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy 0.889 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -22.86) (xy 0.889 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -1769,62 +1828,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -22.86)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -20.32)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -17.78)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -15.24)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -12.7)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -10.16)
+					(center 1.27 -5.08)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -1846,7 +1850,62 @@
 					)
 				)
 				(circle
-					(center 1.27 -5.08)
+					(center 1.27 -10.16)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -12.7)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -15.24)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -17.78)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -20.32)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -22.86)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -2001,9 +2060,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SIL08_1"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2092,43 +2154,7 @@
 			(symbol "SIL08_1_0_0"
 				(polyline
 					(pts
-						(xy -1.27 -22.86) (xy 0.889 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -20.32) (xy 0.889 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -17.78) (xy 0.889 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -15.24) (xy 0.889 -15.24)
+						(xy -1.27 -5.08) (xy 0.889 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -2152,7 +2178,43 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy 0.889 -5.08)
+						(xy -1.27 -15.24) (xy 0.889 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy 0.889 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy 0.889 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -22.86) (xy 0.889 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -2176,40 +2238,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -22.86)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -20.32)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -17.78)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -15.24)
+					(center 1.27 -5.08)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -2231,7 +2260,40 @@
 					)
 				)
 				(circle
-					(center 1.27 -5.08)
+					(center 1.27 -15.24)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -17.78)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -20.32)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -22.86)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -2350,7 +2412,100 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "+12V_MCU:\n+ DC fan.\n+ Relays.\n+ Encoder."
+		(exclude_from_sim no)
+		(at 184.15 36.83 0)
+		(size 9.525 8.89)
+		(margins 0.7619 0.7619 0.7619 0.7619)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "131d6707-d2f2-4006-aee9-4d6e1dcab476")
+	)
+	(text_box "+3V3_ADC:\n+ MCU ADC reference voltage"
+		(exclude_from_sim no)
+		(at 128.27 36.83 0)
+		(size 15.24 6.985)
+		(margins 0.7619 0.7619 0.7619 0.7619)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4edb6f72-9412-4011-a39d-3a97e6c00fb2")
+	)
+	(text_box "+5V_MCU:\n+ Current sensors.\n+ Op-amps."
+		(exclude_from_sim no)
+		(at 165.1 36.83 0)
+		(size 20.32 8.89)
+		(margins 0.7619 0.7619 0.7619 0.7619)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a6485587-2521-4604-a946-9eb891d3a32d")
+	)
+	(text_box "+3V3_MCU:\n+ MCU main voltage.\n+ Digital isolators.\n+ Peripherals."
+		(exclude_from_sim no)
+		(at 145.415 36.83 0)
+		(size 21.59 8.89)
+		(margins 0.7619 0.7619 0.7619 0.7619)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 255 78 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e0429495-a660-4c96-9aad-d340827d47b3")
 	)
 	(junction
 		(at 129.54 19.05)
@@ -2656,94 +2811,6 @@
 		)
 		(uuid "f11a1cf4-a55a-455c-a439-368e862f2519")
 	)
-	(text_box "+12V_MCU:\n+ DC fan.\n+ Relays.\n+ Encoder."
-		(exclude_from_sim no)
-		(at 184.15 36.83 0)
-		(size 9.525 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 255 78 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "131d6707-d2f2-4006-aee9-4d6e1dcab476")
-	)
-	(text_box "+3V3_ADC:\n+ MCU ADC reference voltage"
-		(exclude_from_sim no)
-		(at 128.27 36.83 0)
-		(size 15.24 6.985)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 255 78 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4edb6f72-9412-4011-a39d-3a97e6c00fb2")
-	)
-	(text_box "+5V_MCU:\n+ Current sensors.\n+ Op-amps."
-		(exclude_from_sim no)
-		(at 165.1 36.83 0)
-		(size 20.32 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 255 78 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "a6485587-2521-4604-a946-9eb891d3a32d")
-	)
-	(text_box "+3V3_MCU:\n+ MCU main voltage.\n+ Digital isolators.\n+ Peripherals."
-		(exclude_from_sim no)
-		(at 145.415 36.83 0)
-		(size 21.59 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-				(color 255 78 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "e0429495-a660-4c96-9aad-d340827d47b3")
-	)
 	(hierarchical_label "~{DEV_RELAY}"
 		(shape input)
 		(at 234.95 19.05 0)
@@ -2777,7 +2844,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "05e5a1a7-837f-4917-a38d-ab596dc45153")
 		(property "Reference" "#PWR0200"
 			(at 210.82 29.21 0)
@@ -2853,7 +2920,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d559c47-ac55-4cc2-987c-9898bd92709d")
 		(property "Reference" "#PWR063"
 			(at 149.86 34.29 0)
@@ -2929,7 +2996,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0edb93aa-d2fb-408b-a522-a0d3c6fc5fb8")
 		(property "Reference" "#PWR03"
 			(at 129.54 21.59 0)
@@ -3005,7 +3072,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "15db738f-09f7-425b-9129-2fc027cbee14")
 		(property "Reference" "U6"
 			(at 168.91 13.335 0)
@@ -3116,7 +3183,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1bea1a11-6f8c-4d67-b397-6014a8d48cc2")
 		(property "Reference" "#PWR0205"
 			(at 231.14 34.29 0)
@@ -3193,7 +3260,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1d0e485f-620c-4360-92ac-61f34560cf6c")
 		(property "Reference" "C33"
 			(at 146.05 22.86 90)
@@ -3294,7 +3361,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f7c7f92-d877-40aa-a919-fad7c61022d6")
 		(property "Reference" "#PWR0206"
 			(at 241.3 36.83 0)
@@ -3370,7 +3437,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "402cce14-23b3-4e87-b3f5-9904bfb4c787")
 		(property "Reference" "C35"
 			(at 152.4 22.8599 90)
@@ -3471,7 +3538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45fdd4f1-6e5e-4dbd-8a5e-338784cb2622")
 		(property "Reference" "C37"
@@ -3573,7 +3640,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4a107683-2f58-4ab4-be54-9aaccd67a11e")
 		(property "Reference" "#PWR0198"
 			(at 220.98 34.29 0)
@@ -3649,7 +3716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ca2ab3e-a2e3-4da5-a735-760068901777")
 		(property "Reference" "#PWR0201"
 			(at 210.82 26.67 0)
@@ -3725,7 +3792,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4d66ff18-df6a-4592-8b89-7cd2d7365ac8")
 		(property "Reference" "C31"
@@ -3827,7 +3894,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "544b859e-7efb-4d1f-bd93-247a79239d13")
 		(property "Reference" "#PWR060"
 			(at 139.7 34.29 0)
@@ -4040,7 +4107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71a2ce04-9e2e-46d5-a9b3-159a71b14b90")
 		(property "Reference" "C36"
 			(at 189.23 22.8599 90)
@@ -4141,7 +4208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7d590044-5f9e-42e2-8a96-efbf5211e201")
 		(property "Reference" "#PWR065"
 			(at 160.02 36.83 0)
@@ -4217,7 +4284,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85effc0e-6fdf-4da8-b2df-f5cccde86423")
 		(property "Reference" "#PWR0195"
 			(at 220.98 21.59 0)
@@ -4293,7 +4360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "875b4e3b-ff38-4fd9-a693-633170d4c88b")
 		(property "Reference" "#PWR0196"
 			(at 220.98 24.13 0)
@@ -4369,7 +4436,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "897622e2-3fd8-44e9-ba5f-347320be2771")
 		(property "Reference" "#PWR066"
 			(at 177.8 36.83 0)
@@ -4445,7 +4512,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a13af31b-6a50-42ac-b6dd-20e45707062e")
 		(property "Reference" "#PWR068"
 			(at 196.85 21.59 0)
@@ -4521,7 +4588,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b891353e-6dfd-4841-a240-4b310226e45b")
 		(property "Reference" "#PWR0204"
 			(at 241.3 31.75 0)
@@ -4597,7 +4664,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d441888f-18a0-4ceb-a1ec-080674626e34")
 		(property "Reference" "FT5"
 			(at 169.545 26.67 0)
@@ -4696,7 +4763,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8b88a39-dc60-4724-a6a0-f98981f8aee5")
 		(property "Reference" "#PWR069"
 			(at 196.85 34.29 0)
@@ -4772,7 +4839,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da7f3e6c-792e-4d27-ad46-e21bccb87a8b")
 		(property "Reference" "#PWR0202"
 			(at 210.82 19.05 0)
@@ -4989,7 +5056,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e36f417e-7d9a-41f9-9f61-21bae3807314")
 		(property "Reference" "#PWR067"
 			(at 186.69 34.29 0)
@@ -5065,7 +5132,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e5609ef1-9228-4f9e-b09c-a9a2335bf3ab")
 		(property "Reference" "#PWR0203"
 			(at 231.14 29.21 0)
@@ -5141,7 +5208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ed3b667f-87f4-43c5-983d-83289a89e2b6")
 		(property "Reference" "#PWR058"
 			(at 129.54 34.29 0)
@@ -5217,7 +5284,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f916e34e-8f70-4fe3-8213-7a20e547a9a5")
 		(property "Reference" "#PWR0199"
 			(at 210.82 36.83 0)
@@ -5293,7 +5360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ff5d6cc6-6062-4df9-83ba-3e206953298d")
 		(property "Reference" "#PWR0197"
 			(at 220.98 31.75 0)
