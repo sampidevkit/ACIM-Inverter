@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram name="Page-1" id="7gi6GD3bRSaIO4V4-UoW">
+    <mxGraphModel dx="1042" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQfLmcwhFBj1v4yusZEq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-2" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-3" value="Khởi tạo điện áp tham chiếu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Khởi tạo điện áp tham chiếu&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tạo 3 điện áp tham chiếu có tần số là 50Hz, điện áp +-10V&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tần số sóng mang là 20kHz (50us), tần số sóng sin tham chiếu là 50Hz (20ms)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=&amp;gt; 20m/50u = 400&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tạo bảng sine có 400 điểm&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Tạo bảng sine có nửa chu kỳ đầu là có giá trị, nửa chu kỳ sau là bằng 0, vì duty cycle ở bán kỳ âm hình sine là không đáng kể.&lt;/li&gt;&lt;li&gt;Dịch chuyển 2 pha, tạo điện áp tham chiếu 3 pha&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BQfLmcwhFBj1v4yusZEq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-7" value="Tính hệ số nhiệm vụ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tính hệ số nhiệm vụ&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;duty cycle = Value of Sine Table x Tpwm&lt;br&gt;&lt;div&gt;duty1 = VU/10.0 * Ts;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;duty2 = VV/10.0 * Ts;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;duty3 = VW/10.0 * Ts;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="510" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BQfLmcwhFBj1v4yusZEq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-16" value="quy đổi sang khoảng, truyền" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tính hệ số nhiệm vụ, quy đổi, truyền&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Quy đổi sang khoảng từ 0 đến 2999&lt;/span&gt;&lt;/div&gt;&lt;div&gt;McOutputs&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BQfLmcwhFBj1v4yusZEq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQfLmcwhFBj1v4yusZEq-19" target="BQfLmcwhFBj1v4yusZEq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-19" value="Kết thúc MC_myProcess()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-20" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQfLmcwhFBj1v4yusZEq-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-22" value="MC_myInit()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-24" value="MC_myProcess(),&lt;div&gt;t++&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="421" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-28" value="t = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQfLmcwhFBj1v4yusZEq-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dịch chuyển bảng sin&lt;/h1&gt;&lt;div&gt;Ở chu kỳ PWM đầu tiên t = 0, tiếp theo sẽ t++&lt;br&gt;Khi t = 400, tức cuối bảng sine, sẽ reset về 0 và tiếp tục&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="391" width="320" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
