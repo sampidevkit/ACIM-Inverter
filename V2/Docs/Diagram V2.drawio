@@ -1,0 +1,92 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="N4hNaVlz6gwLDCqrYFCW">
+    <mxGraphModel dx="926" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-1" target="Oh_2O0WvNrI30ojENO4q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-1" target="Oh_2O0WvNrI30ojENO4q-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-1" value="PROCESS MCU" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-2" target="Oh_2O0WvNrI30ojENO4q-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-2" value="INVERTER MCU" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-4" target="Oh_2O0WvNrI30ojENO4q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="280" />
+              <mxPoint x="520" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-4" value="PROGRAMMER&lt;div&gt;&amp;amp; DEBUGGER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-8" value="&lt;div&gt;SPI Master&lt;/div&gt;64Mbps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-9" value="&lt;div&gt;SPI Slaver&lt;/div&gt;64Mbps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-14" value="Pre-program" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-15" value="Program" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-17" value="UART 1,2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-20" value="UART 3,4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-3" value="ISOLATION" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="40" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-22" value="PWMs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-23" value="Voltages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-24" value="Currents" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-25" target="Oh_2O0WvNrI30ojENO4q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oh_2O0WvNrI30ojENO4q-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="220.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oh_2O0WvNrI30ojENO4q-27" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
