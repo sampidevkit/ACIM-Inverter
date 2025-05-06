@@ -1912,16 +1912,15 @@
 		)
 		(uuid "8ac809ca-ffac-45ae-96a9-3fcf78812727")
 	)
-	(text "VOUT=(VOUTP-VOUTN)×(4.99k/10k)+VCM\nVCM=0\nVdiff=(VOUTP-VOUTN)\n=> VOUT=Vdiff×(4.99k/10k)"
+	(text "VOUT=(VOUTP-VOUTN)×(4.99k/10k)+VCM"
 		(exclude_from_sim no)
-		(at 97.155 106.68 0)
+		(at 113.665 104.775 0)
 		(effects
 			(font
 				(face "Consolas")
 				(size 1.016 1.016)
 				(thickness 0.127)
 			)
-			(justify left)
 		)
 		(uuid "fcf86d6b-ec95-49c9-8d03-3c5d742668fa")
 	)
@@ -4583,8 +4582,8 @@
 				)
 			)
 		)
-		(property "Value" "100R, 1%"
-			(at 43.815 88.265 90)
+		(property "Value" "1.1K, 1%"
+			(at 43.18 88.9 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -4615,7 +4614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100R OHM 1% 1/10W 0603"
+		(property "Description" "RES 1.1K OHM 1% 1/10W 0603"
 			(at 36.195 86.36 0)
 			(effects
 				(font
@@ -4626,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0603FR-07100RL"
+		(property "MNP" "RC0603FR-071K1L"
 			(at 36.195 86.36 0)
 			(effects
 				(font
@@ -4921,14 +4920,6 @@
 					(thickness 0.127)
 				)
 				(hide yes)
-			)
-		)
-		(property "Note" "Gain=8.0"
-			(at 71.755 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "8"
