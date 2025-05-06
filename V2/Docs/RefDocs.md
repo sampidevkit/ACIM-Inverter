@@ -27,3 +27,5 @@
 13. [Incremental Rotary Encoder OD 40 dia - E6B2-C Datasheet](https://www.mouser.com/datasheet/2/307/e6b2-c_ds_csm491-25665.pdf).
 
 14. [AN2016-12 Application Note - Control Integrated POwer System (CIPOS™) In verter IPM R eference B oard Type 3 f or 3-Shunt R esistor](https://www.infineon.com/dgdl/Infineon-CIPOS_Mini_Inverter_module_reference_board_type3_for_3-shunt_resistor-ApplicationNotes-v01_11-EN.pdf?fileId=5546d462566bd0c7015674af23662589).
+
+15. [DS70005576A - Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/UserGuides/Motor-Control-High-Voltage-230VAC-1.5kW-Dev-Board-Users-Guide-DS70005576.pdf).
