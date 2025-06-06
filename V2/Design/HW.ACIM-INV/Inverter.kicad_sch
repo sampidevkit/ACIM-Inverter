@@ -9469,6 +9469,17 @@
 		)
 		(uuid "3a2edfa4-9490-436b-b1bf-d4c0f0d1f56f")
 	)
+	(hierarchical_label "IPM_NV"
+		(shape output)
+		(at 92.71 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a9d82f4-e9e4-412a-9fbd-514fd6a3e88e")
+	)
 	(hierarchical_label "BUF_PWM_VH"
 		(shape input)
 		(at 66.04 165.1 180)
@@ -9482,6 +9493,17 @@
 		)
 		(uuid "3be59408-989b-4fbb-8ce0-8e63ad6ca980")
 	)
+	(hierarchical_label "IPM_U"
+		(shape output)
+		(at 92.71 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44765281-fd1a-497e-9856-57b4df1afb66")
+	)
 	(hierarchical_label "IPM_PWM_UL"
 		(shape output)
 		(at 44.45 181.61 0)
@@ -9494,6 +9516,17 @@
 			(justify left)
 		)
 		(uuid "4e36bec5-48c1-4d2d-9e1a-892f813736f0")
+	)
+	(hierarchical_label "IPM_NW"
+		(shape output)
+		(at 92.71 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "528ee9ed-9270-43ac-9dba-81c151a4df08")
 	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape input)
@@ -9533,6 +9566,17 @@
 			(justify right)
 		)
 		(uuid "62c89647-2321-466f-9ba4-5ba50ce40e11")
+	)
+	(hierarchical_label "IPM_NU"
+		(shape output)
+		(at 92.71 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7204d812-c83e-47c2-a29c-6425765b8dd4")
 	)
 	(hierarchical_label "IPM_TEMP_SEN"
 		(shape output)
@@ -9717,6 +9761,17 @@
 		)
 		(uuid "c01fb121-e980-47ae-87f3-96c6d9d17e8d")
 	)
+	(hierarchical_label "IPM_W"
+		(shape output)
+		(at 92.71 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c13783aa-51b5-4367-a6cb-451efe9e2ea7")
+	)
 	(hierarchical_label "BUF_PWM_WL"
 		(shape input)
 		(at 107.95 181.61 180)
@@ -9768,6 +9823,17 @@
 			(justify left)
 		)
 		(uuid "ded13b74-6b6b-4a97-8d3f-173adfc0aac9")
+	)
+	(hierarchical_label "IPM_V"
+		(shape output)
+		(at 92.71 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4b1e332-480b-4805-bbf0-668e17985276")
 	)
 	(hierarchical_label "MC_PWM_VH"
 		(shape input)
@@ -12800,6 +12866,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 139.7 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "515e34d6-896c-49f4-b6ea-51e2f58fbce3")
+		(property "Reference" "#PWR0101"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 135.255 44.45 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc192b23-b49e-4665-a522-c2f0424e3c7e")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:KDZ3.6B")
 		(at 33.02 170.18 270)
 		(unit 1)
@@ -13162,6 +13304,83 @@
 			(project "HW.ACIM-INV"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 148.59 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ac887fe-82a8-48ac-ab5b-8c25f0981dec")
+		(property "Reference" "#PWR0102"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 153.035 44.45 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71fa018f-0d24-47cc-9402-87da6b720e78")
+		)
+		(instances
+			(project "HW.ACIM-INV"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/220ce183-b27e-490b-828f-5201e8e92b41"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -19401,16 +19620,15 @@
 	)
 	(symbol
 		(lib_id "Liem:DIL20")
-		(at 130.175 45.085 0)
+		(at 144.145 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9ac9a2f-9e7d-4fe2-bd2e-f88796a8f9c0")
 		(property "Reference" "J12"
-			(at 130.175 42.545 0)
+			(at 144.145 39.37 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -19419,7 +19637,7 @@
 			)
 		)
 		(property "Value" "DIL20"
-			(at 130.175 45.085 0)
+			(at 144.145 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19427,7 +19645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.175 45.085 0)
+			(at 144.145 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19436,7 +19654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.175 45.085 0)
+			(at 144.145 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19445,7 +19663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.175 45.085 0)
+			(at 144.145 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
