@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -535,25 +536,51 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/CTS2": "UART2",
+      "/CTS2": [
+        "UART2"
+      ],
       "/DB_RXD": [
         "UART1"
       ],
       "/DB_TXD": [
         "UART1"
       ],
-      "/DEBUGGER/CTS2": "UART2",
-      "/DEBUGGER/PWM_UH": "PWM12H",
-      "/DEBUGGER/PWM_UL": "PWM12L",
-      "/DEBUGGER/PWM_VH": "PWM5H",
-      "/DEBUGGER/PWM_VL": "PWM5L",
-      "/DEBUGGER/PWM_WH": "PWM6H",
-      "/DEBUGGER/PWM_WL": "PWM6L",
-      "/DEBUGGER/RTS2": "UART2",
-      "/DEBUGGER/RXD1": "UART1",
-      "/DEBUGGER/RXD2": "UART2",
-      "/DEBUGGER/TXD1": "UART1",
-      "/DEBUGGER/TXD2": "UART2",
+      "/DEBUGGER/CTS2": [
+        "UART2"
+      ],
+      "/DEBUGGER/PWM_UH": [
+        "PWM12H"
+      ],
+      "/DEBUGGER/PWM_UL": [
+        "PWM12L"
+      ],
+      "/DEBUGGER/PWM_VH": [
+        "PWM5H"
+      ],
+      "/DEBUGGER/PWM_VL": [
+        "PWM5L"
+      ],
+      "/DEBUGGER/PWM_WH": [
+        "PWM6H"
+      ],
+      "/DEBUGGER/PWM_WL": [
+        "PWM6L"
+      ],
+      "/DEBUGGER/RTS2": [
+        "UART2"
+      ],
+      "/DEBUGGER/RXD1": [
+        "UART1"
+      ],
+      "/DEBUGGER/RXD2": [
+        "UART2"
+      ],
+      "/DEBUGGER/TXD1": [
+        "UART1"
+      ],
+      "/DEBUGGER/TXD2": [
+        "UART2"
+      ],
       "/DV_CTS": [
         "UART2"
       ],
@@ -566,10 +593,18 @@
       "/DV_TXD": [
         "UART2"
       ],
-      "/ENCODER/ENC_A": "QEI1",
-      "/ENCODER/ENC_B": "QEI1",
-      "/ENCODER/ENC_HOME": "QEI1",
-      "/ENCODER/ENC_INDEX": "QEI1",
+      "/ENCODER/ENC_A": [
+        "QEI1"
+      ],
+      "/ENCODER/ENC_B": [
+        "QEI1"
+      ],
+      "/ENCODER/ENC_HOME": [
+        "QEI1"
+      ],
+      "/ENCODER/ENC_INDEX": [
+        "QEI1"
+      ],
       "/ENC_A": [
         "QEI1"
       ],
@@ -582,72 +617,186 @@
       "/ENC_IDX": [
         "QEI1"
       ],
-      "/ENC_INDEX": "QEI1",
+      "/ENC_INDEX": [
+        "QEI1"
+      ],
       "/IDC_SEN": [
         "ADCH2"
       ],
-      "/IO0": "UART2",
-      "/IO00": "UART2",
-      "/IO01": "UART2",
-      "/IO02": "UART2",
-      "/IO03": "UART2",
-      "/IO04": "UART2",
-      "/IO05": "UART2",
-      "/IO06": "UART2",
-      "/IO07": "UART2",
-      "/IO08": "UART2",
-      "/IO09": "UART2",
-      "/IO1": "UART2",
-      "/IO10": "UART2",
-      "/IO2": "UART2",
-      "/IO3": "UART2",
-      "/IO4": "UART2",
-      "/IO7": "UART2",
-      "/Inverter/MC_IDC_SENSE": "ADCH7",
-      "/Inverter/MC_IPM_TEMP": "ADCH7",
-      "/Inverter/MC_IU_SENSE": "ADCH0",
-      "/Inverter/MC_IV_SENSE": "ADCH1",
-      "/Inverter/MC_IW_SENSE": "ADCH2",
-      "/Inverter/MC_PWM_UH": "PWM12H",
-      "/Inverter/MC_PWM_UL": "PWM12L",
-      "/Inverter/MC_PWM_VH": "PWM5H",
-      "/Inverter/MC_PWM_VL": "PWM5L",
-      "/Inverter/MC_PWM_WH": "PWM6H",
-      "/Inverter/MC_PWM_WL": "PWM6L",
-      "/MCU/CTS2": "UART2",
-      "/MCU/ENC_A": "QEI1",
-      "/MCU/ENC_B": "QEI1",
-      "/MCU/ENC_HOME": "QEI1",
-      "/MCU/ENC_INDEX": "QEI1",
-      "/MCU/MC_VDC_SENSE": "ADCH7",
-      "/MCU/MC_VU_SENSE": "ADCH0",
-      "/MCU/MC_VV_SENSE": "ADCH1",
-      "/MCU/MC_VW_SENSE": "ADCH2",
-      "/MCU/RTS2": "UART2",
-      "/MCU/RXD1": "UART1",
-      "/MCU/RXD2": "UART2",
-      "/MCU/SCK": "SPI6",
-      "/MCU/SDI": "SPI6",
-      "/MCU/SDO": "SPI6",
-      "/MCU/TXD1": "UART1",
-      "/MCU/TXD2": "UART2",
-      "/MCU/~{INV_FLT_OC}": "FLT1",
-      "/MC_IDC": "ADCH7",
-      "/MC_IDC_SENSE": "ADCH7",
-      "/MC_IPM_TEMP": "ADCH7",
-      "/MC_IU": "ADCH1",
+      "/IO0": [
+        "UART2"
+      ],
+      "/IO00": [
+        "UART2"
+      ],
+      "/IO01": [
+        "UART2"
+      ],
+      "/IO02": [
+        "UART2"
+      ],
+      "/IO03": [
+        "UART2"
+      ],
+      "/IO04": [
+        "UART2"
+      ],
+      "/IO05": [
+        "UART2"
+      ],
+      "/IO06": [
+        "UART2"
+      ],
+      "/IO07": [
+        "UART2"
+      ],
+      "/IO08": [
+        "UART2"
+      ],
+      "/IO09": [
+        "UART2"
+      ],
+      "/IO1": [
+        "UART2"
+      ],
+      "/IO10": [
+        "UART2"
+      ],
+      "/IO2": [
+        "UART2"
+      ],
+      "/IO3": [
+        "UART2"
+      ],
+      "/IO4": [
+        "UART2"
+      ],
+      "/IO7": [
+        "UART2"
+      ],
+      "/Inverter/MC_IDC_SENSE": [
+        "ADCH7"
+      ],
+      "/Inverter/MC_IPM_TEMP": [
+        "ADCH7"
+      ],
+      "/Inverter/MC_IU_SENSE": [
+        "ADCH0"
+      ],
+      "/Inverter/MC_IV_SENSE": [
+        "ADCH1"
+      ],
+      "/Inverter/MC_IW_SENSE": [
+        "ADCH2"
+      ],
+      "/Inverter/MC_PWM_UH": [
+        "PWM12H"
+      ],
+      "/Inverter/MC_PWM_UL": [
+        "PWM12L"
+      ],
+      "/Inverter/MC_PWM_VH": [
+        "PWM5H"
+      ],
+      "/Inverter/MC_PWM_VL": [
+        "PWM5L"
+      ],
+      "/Inverter/MC_PWM_WH": [
+        "PWM6H"
+      ],
+      "/Inverter/MC_PWM_WL": [
+        "PWM6L"
+      ],
+      "/MCU/CTS2": [
+        "UART2"
+      ],
+      "/MCU/ENC_A": [
+        "QEI1"
+      ],
+      "/MCU/ENC_B": [
+        "QEI1"
+      ],
+      "/MCU/ENC_HOME": [
+        "QEI1"
+      ],
+      "/MCU/ENC_INDEX": [
+        "QEI1"
+      ],
+      "/MCU/MC_VDC_SENSE": [
+        "ADCH7"
+      ],
+      "/MCU/MC_VU_SENSE": [
+        "ADCH0"
+      ],
+      "/MCU/MC_VV_SENSE": [
+        "ADCH1"
+      ],
+      "/MCU/MC_VW_SENSE": [
+        "ADCH2"
+      ],
+      "/MCU/RTS2": [
+        "UART2"
+      ],
+      "/MCU/RXD1": [
+        "UART1"
+      ],
+      "/MCU/RXD2": [
+        "UART2"
+      ],
+      "/MCU/SCK": [
+        "SPI6"
+      ],
+      "/MCU/SDI": [
+        "SPI6"
+      ],
+      "/MCU/SDO": [
+        "SPI6"
+      ],
+      "/MCU/TXD1": [
+        "UART1"
+      ],
+      "/MCU/TXD2": [
+        "UART2"
+      ],
+      "/MCU/~{INV_FLT_OC}": [
+        "FLT1"
+      ],
+      "/MC_IDC": [
+        "ADCH7"
+      ],
+      "/MC_IDC_SENSE": [
+        "ADCH7"
+      ],
+      "/MC_IPM_TEMP": [
+        "ADCH7"
+      ],
+      "/MC_IU": [
+        "ADCH1"
+      ],
       "/MC_IU_SEN": [
         "ADCH0"
       ],
-      "/MC_IU_SENSE": "ADCH0",
-      "/MC_IV": "ADCH2",
+      "/MC_IU_SENSE": [
+        "ADCH0"
+      ],
+      "/MC_IV": [
+        "ADCH2"
+      ],
       "/MC_IV_SEN": [
         "ADCH3"
       ],
-      "/MC_IV_SENSE": "ADCH1",
-      "/MC_IW": "ADCH3",
-      "/MC_IW_SEN": "ADCH5",
-      "/MC_IW_SENSE": "ADCH2",
+      "/MC_IV_SENSE": [
+        "ADCH1"
+      ],
+      "/MC_IW": [
+        "ADCH3"
+      ],
+      "/MC_IW_SEN": [
+        "ADCH5"
+      ],
+      "/MC_IW_SENSE": [
+        "ADCH2"
+      ],
       "/MC_PWM_UH": [
         "PWM12H"
       ],
@@ -666,46 +815,78 @@
       "/MC_PWM_WL": [
         "PWM6L"
       ],
-      "/MC_TEMP": "ADCH7",
+      "/MC_TEMP": [
+        "ADCH7"
+      ],
       "/MC_TEMP_SEN": [
         "ADCH7"
       ],
-      "/MC_VDC_DIV": "ADCH7",
-      "/MC_VDC_SENSE": "ADCH7",
+      "/MC_VDC_DIV": [
+        "ADCH7"
+      ],
+      "/MC_VDC_SENSE": [
+        "ADCH7"
+      ],
       "/MC_VR_DIV": [
         "ADCH7"
       ],
       "/MC_VU_DIV": [
         "ADCH0"
       ],
-      "/MC_VU_SENSE": "ADCH0",
+      "/MC_VU_SENSE": [
+        "ADCH0"
+      ],
       "/MC_VV_DIV": [
         "ADCH3"
       ],
-      "/MC_VV_SENSE": "ADCH1",
-      "/MC_VW_DIV": "ADCH5",
-      "/MC_VW_SENSE": "ADCH2",
-      "/PFC_IA": "ADCH4",
+      "/MC_VV_SENSE": [
+        "ADCH1"
+      ],
+      "/MC_VW_DIV": [
+        "ADCH5"
+      ],
+      "/MC_VW_SENSE": [
+        "ADCH2"
+      ],
+      "/PFC_IA": [
+        "ADCH4"
+      ],
       "/PFC_IA_SEN": [
         "ADCH1"
       ],
-      "/PFC_IB": "ADCH0",
+      "/PFC_IB": [
+        "ADCH0"
+      ],
       "/PFC_IB_SEN": [
         "ADCH4"
       ],
-      "/PFC_IDC": "ADCH0",
+      "/PFC_IDC": [
+        "ADCH0"
+      ],
       "/PFC_PWM_A": [
         "OC3"
       ],
       "/PFC_PWM_B": [
         "OC1"
       ],
-      "/PFC_PWM_ENA": "PWM3L",
-      "/PFC_PWM_ENB": "PWM2L",
-      "/PFC_VAC_DIV": "ADCH5",
-      "/RTS2": "UART2",
-      "/RXD1": "UART1",
-      "/RXD2": "UART2",
+      "/PFC_PWM_ENA": [
+        "PWM3L"
+      ],
+      "/PFC_PWM_ENB": [
+        "PWM2L"
+      ],
+      "/PFC_VAC_DIV": [
+        "ADCH5"
+      ],
+      "/RTS2": [
+        "UART2"
+      ],
+      "/RXD1": [
+        "UART1"
+      ],
+      "/RXD2": [
+        "UART2"
+      ],
       "/SCK": [
         "SPI6"
       ],
@@ -721,16 +902,24 @@
       "/SDO": [
         "SPI6"
       ],
-      "/TXD1": "UART1",
-      "/TXD2": "UART2",
+      "/TXD1": [
+        "UART1"
+      ],
+      "/TXD2": [
+        "UART2"
+      ],
       "/VAC_DIV": [
         "ADCH5"
       ],
       "/VDC_DIV": [
         "ADCH5"
       ],
-      "/VREF_DIV": "ADCH7",
-      "/~{INV_FLT_OC}": "FLT1",
+      "/VREF_DIV": [
+        "ADCH7"
+      ],
+      "/~{INV_FLT_OC}": [
+        "FLT1"
+      ],
       "/~{INV_FLT}": [
         "FLT1"
       ],

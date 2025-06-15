@@ -2017,177 +2017,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SAMPI:PGND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PGND"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"PGND\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PGND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.27) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SAMPI:RES"
 			(pin_names
 				(hide yes)
@@ -4831,7 +4660,7 @@
 		)
 		(uuid "fff521c0-e7f3-4692-907a-775a0577e676")
 	)
-	(hierarchical_label "MC_UV_DIV"
+	(hierarchical_label "MC_UV"
 		(shape output)
 		(at 169.545 100.33 0)
 		(effects
@@ -4845,7 +4674,7 @@
 		)
 		(uuid "8564283b-d30f-4e42-9c2f-3d6757b09fa1")
 	)
-	(hierarchical_label "MC_UW_DIV"
+	(hierarchical_label "MC_UW"
 		(shape output)
 		(at 169.545 151.13 0)
 		(effects
@@ -4859,7 +4688,7 @@
 		)
 		(uuid "93764cd8-c1f7-4699-a530-555b41555e8c")
 	)
-	(hierarchical_label "MC_UU_DIV"
+	(hierarchical_label "MC_UU"
 		(shape output)
 		(at 169.545 49.53 0)
 		(effects
@@ -5577,6 +5406,82 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:GND_INV")
+		(at 67.31 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d8b0521-6f06-45d6-9952-0fb8ddf8fe03")
+		(property "Reference" "#PWR054"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d980ba0-557b-4b1d-91a1-77efc508b9fc")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 170.815 157.48 270)
 		(mirror x)
@@ -5608,7 +5513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 170.815 157.48 0)
 			(effects
 				(font
@@ -5727,7 +5632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 133.985 152.4 0)
 			(effects
 				(font
@@ -6568,82 +6473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:PGND")
-		(at 67.31 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21009ed6-014b-4aef-97e5-4b388f039322")
-		(property "Reference" "#PWR054"
-			(at 67.31 134.62 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 67.31 132.715 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce46eb02-d0b3-4081-81cf-1c1e13711a30")
-		)
-		(instances
-			(project "HW.ACIM-MCU-ADAP"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:ISO-OPAMP")
 		(at 107.95 93.98 0)
 		(unit 1)
@@ -6818,7 +6647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 108.585 33.655 0)
 			(effects
 				(font
@@ -7521,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 130.81 159.385 0)
 			(effects
 				(font
@@ -7638,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 130.81 108.585 0)
 			(effects
 				(font
@@ -7755,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 164.465 52.07 0)
 			(effects
 				(font
@@ -8224,7 +8053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 93.345 0)
 			(effects
 				(font
@@ -8534,7 +8363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 86.36 181.61 0)
 			(effects
 				(font
@@ -8643,7 +8472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 108.585 84.455 0)
 			(effects
 				(font
@@ -8835,7 +8664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 66.04 181.61 0)
 			(effects
 				(font
@@ -8943,7 +8772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 153.035 0)
 			(effects
 				(font
@@ -9963,7 +9792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 164.465 102.87 0)
 			(effects
 				(font
@@ -10368,6 +10197,82 @@
 			(project "HW.ACIM-MCU-ADAP"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:GND_INV")
+		(at 67.31 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69bdc3f1-ae5f-4b2b-81d5-2735abb71d75")
+		(property "Reference" "#PWR019"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb331925-362d-43c3-b2de-4d07e22fa5c8")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11558,7 +11463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 91.44 181.61 0)
 			(effects
 				(font
@@ -11935,7 +11840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 139.065 159.385 0)
 			(effects
 				(font
@@ -12361,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 51.435 0)
 			(effects
 				(font
@@ -12647,7 +12552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 153.035 89.535 0)
 			(effects
 				(font
@@ -13957,6 +13862,82 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:GND_INV")
+		(at 67.31 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd3ed5b-214d-4eff-b95a-764563a6a678")
+		(property "Reference" "#PWR018"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78519a8d-5bc3-4c86-b2cf-346de168c419")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:NCV21871SQ3T2G")
 		(at 151.13 144.78 0)
 		(unit 1)
@@ -14271,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 139.065 108.585 0)
 			(effects
 				(font
@@ -14540,7 +14521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 130.81 57.785 0)
 			(effects
 				(font
@@ -14925,7 +14906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 133.985 50.8 0)
 			(effects
 				(font
@@ -15045,7 +15026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 170.815 55.88 0)
 			(effects
 				(font
@@ -16046,7 +16027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 102.235 0)
 			(effects
 				(font
@@ -16165,7 +16146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 108.585 135.255 0)
 			(effects
 				(font
@@ -16285,7 +16266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 153.035 38.735 0)
 			(effects
 				(font
@@ -16599,7 +16580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 153.035 140.335 0)
 			(effects
 				(font
@@ -16716,7 +16697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 164.465 153.67 0)
 			(effects
 				(font
@@ -16886,82 +16867,6 @@
 			(project "HW.ACIM-MCU-ADAP"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "FT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:PGND")
-		(at 67.31 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9c030d5-e87d-47af-be0f-9d3534452550")
-		(property "Reference" "#PWR018"
-			(at 67.31 33.02 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 67.31 31.115 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 27.94 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 27.94 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 27.94 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d6de037-bd00-483f-8b21-348d5a727a86")
-		)
-		(instances
-			(project "HW.ACIM-MCU-ADAP"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17197,7 +17102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 42.545 0)
 			(effects
 				(font
@@ -17314,7 +17219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 139.065 57.785 0)
 			(effects
 				(font
@@ -17630,7 +17535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 170.815 106.68 0)
 			(effects
 				(font
@@ -18214,7 +18119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:RES0603"
+		(property "Footprint" "SAMPI:RES0402"
 			(at 124.46 144.145 0)
 			(effects
 				(font
@@ -18333,7 +18238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SAMPI:CAP0603"
+		(property "Footprint" "SAMPI:CAP0402"
 			(at 133.985 101.6 0)
 			(effects
 				(font
@@ -18416,82 +18321,6 @@
 			(project "HW.ACIM-MCU-ADAP"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:PGND")
-		(at 67.31 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd1b64a7-50f3-4d03-9ee2-6ca93122a213")
-		(property "Reference" "#PWR019"
-			(at 67.31 83.82 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 67.31 81.915 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cedf3946-0732-4de5-b479-bf4ef435ee17")
-		)
-		(instances
-			(project "HW.ACIM-MCU-ADAP"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)

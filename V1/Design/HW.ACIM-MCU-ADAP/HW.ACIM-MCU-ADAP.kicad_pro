@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -575,6 +575,9 @@
       "/MCU/MC_IV_SEN": [
         "ADCH3"
       ],
+      "/MCU/MC_IW_SEN": [
+        "ADCH3"
+      ],
       "/MCU/MC_PWM_UH": [
         "PWM12H"
       ],
@@ -595,6 +598,15 @@
       ],
       "/MCU/MC_TEMP_SEN": [
         "ADCH7"
+      ],
+      "/MCU/MC_UU_DIV": [
+        "ADCH1"
+      ],
+      "/MCU/MC_UV_DIV": [
+        "ADCH4"
+      ],
+      "/MCU/MC_UW_DIV": [
+        "ADCH5"
       ],
       "/MCU/MC_VR_DIV": [
         "ADCH7"
@@ -631,6 +643,9 @@
       ],
       "/MCU/SDO": [
         "SPI6"
+      ],
+      "/MCU/UDC_DIV": [
+        "ADCH7"
       ],
       "/MCU/VAC_DIV": [
         "ADCH5"
