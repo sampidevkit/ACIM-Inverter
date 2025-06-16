@@ -3518,16 +3518,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 176.53) (xy 83.82 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684ac983-3784-4be6-a109-6456ee3c3ff6")
-	)
-	(wire
-		(pts
 			(xy 83.82 186.69) (xy 83.82 187.96)
 		)
 		(stroke
@@ -12349,89 +12339,6 @@
 			(project "HW.ACIM-MCU-ADAP"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Liem:TESTPOINT")
-		(at 83.82 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "857505ce-5b59-46ad-aaf2-68e91a007c76")
-		(property "Reference" "TP6"
-			(at 83.82 170.815 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "5V ISO"
-			(at 88.265 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SAMPI:TP1MM"
-			(at 83.82 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60a556ac-c65a-40aa-a31e-20580f3382e6")
-		)
-		(instances
-			(project "HW.ACIM-MCU-ADAP"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
