@@ -2363,6 +2363,12 @@
 		(uuid "192f9685-3c23-40a6-92b1-3efaaee0ef43")
 	)
 	(junction
+		(at 72.39 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af9f67b-1572-4ea7-89bc-929156628071")
+	)
+	(junction
 		(at 156.845 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2453,6 +2459,12 @@
 		(uuid "6138f63a-cef1-47b4-be64-ed7ce3bad980")
 	)
 	(junction
+		(at 72.39 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6468a919-88c0-43e7-832e-c58d33c29c70")
+	)
+	(junction
 		(at 128.27 146.685)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2511,6 +2523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99cfcc8e-ad8a-4850-b490-e5071b8f4a35")
+	)
+	(junction
+		(at 72.39 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a640660-c382-4b84-8582-e09ee748e1ab")
 	)
 	(junction
 		(at 156.845 100.33)
@@ -2666,6 +2684,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 156.21) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6cfe20-b167-4a6e-b96e-f3573aef33cf")
+	)
+	(wire
+		(pts
 			(xy 88.265 54.61) (xy 90.805 54.61)
 		)
 		(stroke
@@ -2806,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 105.41) (xy 72.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6e58d8-55a8-4e10-a837-d49f3b79e8af")
+	)
+	(wire
+		(pts
 			(xy 104.775 86.995) (xy 104.775 91.44)
 		)
 		(stroke
@@ -2856,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 76.2 146.05)
+			(xy 71.12 146.05) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2883,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "24642479-6549-4f81-a3d1-0b647f81f9a3")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 72.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25426740-73a9-49d4-aeb7-4beef10f7032")
 	)
 	(wire
 		(pts
@@ -2933,6 +2981,16 @@
 			(type default)
 		)
 		(uuid "29e3dd74-321d-4c0b-9cfb-935123548584")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae171b1-9e72-4f41-8d0b-a94b6ae4a22c")
 	)
 	(wire
 		(pts
@@ -3013,6 +3071,16 @@
 			(type default)
 		)
 		(uuid "35b5ac68-0846-4464-b69d-3eb1e361363f")
+	)
+	(wire
+		(pts
+			(xy 72.39 146.05) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362ee601-71ec-4326-b841-7d9a6b255fa4")
 	)
 	(wire
 		(pts
@@ -3388,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 76.2 44.45)
+			(xy 71.12 44.45) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3558,6 +3626,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 95.25) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6caad70b-ddc6-483f-b4ef-d654b52d80b5")
+	)
+	(wire
+		(pts
 			(xy 156.845 165.735) (xy 156.845 151.13)
 		)
 		(stroke
@@ -3689,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 76.2 95.25)
+			(xy 71.12 95.25) (xy 72.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3947,6 +4025,16 @@
 			(type default)
 		)
 		(uuid "9f949309-7921-465c-bb12-c63ddb7f564f")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c1c6d3-ce2c-4f4a-b9dd-40f88af2d347")
 	)
 	(wire
 		(pts
@@ -4420,6 +4508,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 105.41) (xy 72.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e162def8-67d6-4f98-89d5-0fd9d12f1e0f")
+	)
+	(wire
+		(pts
 			(xy 168.275 151.13) (xy 168.275 152.4)
 		)
 		(stroke
@@ -4568,6 +4666,16 @@
 			(type default)
 		)
 		(uuid "f1d32b06-b411-4011-8cd6-c5c0d4f0aa29")
+	)
+	(wire
+		(pts
+			(xy 67.31 156.21) (xy 72.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a83891-df83-4cbd-81a0-e0ac313caef2")
 	)
 	(polyline
 		(pts
@@ -5196,6 +5304,89 @@
 			(project "HW.ACIM-MCU-ADAP"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
 					(reference "FT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Liem:TESTPOINT")
+		(at 64.77 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0947b94b-b0ac-4e36-bd92-17e57d16fb5b")
+		(property "Reference" "TP6"
+			(at 60.325 52.07 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "UU DIV"
+			(at 59.69 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:TP1MM"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" ""
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" ""
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a9dfe3-87a4-432f-aec7-dc34e532537a")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7180,7 +7371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ADC"
+		(property "Value" "AGND_MCU"
 			(at 168.275 113.03 0)
 			(effects
 				(font
@@ -8152,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ADC"
+		(property "Value" "AGND_MCU"
 			(at 168.275 62.23 0)
 			(effects
 				(font
@@ -13112,6 +13303,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Liem:TESTPOINT")
+		(at 64.77 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "94fe715d-3265-4619-ab89-2391d0bad843")
+		(property "Reference" "TP7"
+			(at 60.325 102.87 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "UV DIV"
+			(at 59.69 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:TP1MM"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fad5845-f2b0-4704-843b-0ad343e405cf")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Liem:TESTPOINT")
+		(at 64.77 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "950702a5-216f-417a-945b-4ee694bdfe39")
+		(property "Reference" "TP8"
+			(at 60.325 153.67 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "UW DIV"
+			(at 60.325 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:TP1MM"
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Checked" ""
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" ""
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "380f98e8-aee7-4bf5-a6e6-498d00ed59a5")
+		)
+		(instances
+			(project "HW.ACIM-MCU-ADAP"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/7de2aa19-8f84-4f41-81e1-8fc4a5d38687"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:+5V_INV")
 		(at 63.5 176.53 0)
 		(unit 1)
@@ -16400,7 +16757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ADC"
+		(property "Value" "AGND_MCU"
 			(at 168.275 163.83 0)
 			(effects
 				(font
