@@ -8484,24 +8484,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 98.425 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 98.425 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2303d348-177b-4d5e-815f-29a19d42fb01")
 		)
@@ -8569,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 222.25 135.89 0)
 			(effects
 				(font
@@ -8578,7 +8560,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 222.25 135.89 0)
 			(effects
 				(font
@@ -8587,26 +8569,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 222.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 222.25 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 222.25 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 265.43 135.89 0)
 			(effects
 				(font
@@ -8760,26 +8724,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 265.43 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 265.43 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
 			(at 255.27 21.59 0)
 			(effects
 				(font
@@ -8934,26 +8880,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402JR-0710KL"
+		(property "MNP" "RC0402JR-072K2L"
 			(at 255.27 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 255.27 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 255.27 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +8958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 241.935 102.87 0)
 			(effects
 				(font
@@ -9041,7 +8969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 241.935 102.87 0)
 			(effects
 				(font
@@ -9059,24 +8987,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 241.935 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 241.935 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9142,7 +9052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 256.54 135.89 0)
 			(effects
 				(font
@@ -9151,7 +9061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 256.54 135.89 0)
 			(effects
 				(font
@@ -9160,26 +9070,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 256.54 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 256.54 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 256.54 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 219.075 102.87 0)
 			(effects
 				(font
@@ -9267,26 +9159,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 219.075 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 219.075 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 219.075 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,24 +9257,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 265.43 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 265.43 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "703f687e-4593-4b97-8f82-74e303990f83")
 		)
@@ -9470,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -9481,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -9499,24 +9355,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9647,7 +9485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -9656,7 +9494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -9665,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -9867,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 55.88 0)
 			(effects
 				(font
@@ -9876,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 55.88 0)
 			(effects
 				(font
@@ -9885,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 55.88 0)
 			(effects
 				(font
@@ -10028,24 +9866,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 179.07 159.385 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 179.07 159.385 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "16f55a0f-94e4-41a2-aace-f15ff20eac6a")
 		)
@@ -10104,7 +9924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 273.685 135.89 0)
 			(effects
 				(font
@@ -10113,7 +9933,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 273.685 135.89 0)
 			(effects
 				(font
@@ -10122,26 +9942,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 273.685 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 273.685 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 273.685 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -10362,7 +10164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -10380,24 +10182,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10538,7 +10322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 25.4 0)
 			(effects
 				(font
@@ -10549,7 +10333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 25.4 0)
 			(effects
 				(font
@@ -10567,24 +10351,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10725,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 127 0)
 			(effects
 				(font
@@ -10736,7 +10502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 127 0)
 			(effects
 				(font
@@ -10754,24 +10520,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10924,24 +10672,6 @@
 			)
 		)
 		(property "MFT" "Amphenol"
-			(at 144.145 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 144.145 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 144.145 190.5 0)
 			(effects
 				(font
@@ -11274,7 +11004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 137.16 0)
 			(effects
 				(font
@@ -11283,7 +11013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 137.16 0)
 			(effects
 				(font
@@ -11292,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 137.16 0)
 			(effects
 				(font
@@ -11362,7 +11092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 224.155 102.87 0)
 			(effects
 				(font
@@ -11371,7 +11101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 224.155 102.87 0)
 			(effects
 				(font
@@ -11380,26 +11110,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 224.155 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 224.155 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 224.155 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +11189,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 231.14 135.89 0)
 			(effects
 				(font
@@ -11486,26 +11198,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 231.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 231.14 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 231.14 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +11467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 255.27 36.83 0)
 			(effects
 				(font
@@ -11782,7 +11476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 255.27 36.83 0)
 			(effects
 				(font
@@ -11791,26 +11485,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 255.27 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 255.27 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 255.27 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -11898,7 +11574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -11916,24 +11592,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12198,7 +11856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
 			(at 262.89 21.59 0)
 			(effects
 				(font
@@ -12216,26 +11874,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402JR-0710KL"
+		(property "MNP" "RC0402JR-072K2L"
 			(at 262.89 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 262.89 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 262.89 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,24 +12105,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 95.885 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 95.885 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "15298adf-b49c-4123-afde-1f0f479b5bf6")
 		)
@@ -12632,24 +12254,6 @@
 			)
 		)
 		(property "MFT" "Amphenol"
-			(at 97.79 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 97.79 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 97.79 190.5 0)
 			(effects
 				(font
@@ -12827,7 +12431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 96.52 0)
 			(effects
 				(font
@@ -12836,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 96.52 0)
 			(effects
 				(font
@@ -12845,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 96.52 0)
 			(effects
 				(font
@@ -13064,24 +12668,6 @@
 			)
 		)
 		(property "MFT" "Microchip"
-			(at 126.365 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 126.365 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 126.365 17.78 0)
 			(effects
 				(font
@@ -13365,24 +12951,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 254.635 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 254.635 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f6e9581a-3912-4e85-9848-eba46306686c")
 		)
@@ -13454,7 +13022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 219.075 82.55 0)
 			(effects
 				(font
@@ -13463,26 +13031,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 219.075 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 219.075 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 219.075 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13309,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 248.285 135.89 0)
 			(effects
 				(font
@@ -13768,26 +13318,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 248.285 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 248.285 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 248.285 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,24 +13416,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 241.935 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 241.935 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "40c91449-2e05-4e7d-b29b-bfd794db5282")
 		)
@@ -13963,7 +13477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 6.3V X6S 0402"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
 			(at 239.395 135.89 0)
 			(effects
 				(font
@@ -13972,7 +13486,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155C80J106ME11D"
+		(property "MNP" "CL05A106MQ5NUNC"
 			(at 239.395 135.89 0)
 			(effects
 				(font
@@ -13981,26 +13495,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Samsung"
 			(at 239.395 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 239.395 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 239.395 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,24 +13803,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 179.07 140.335 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 179.07 140.335 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8d311e5a-7f75-4f62-a59a-873587701d57")
 		)
@@ -14449,24 +13927,6 @@
 		)
 		(property "Description" ""
 			(at 179.07 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 179.07 146.685 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 179.07 146.685 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14826,24 +14286,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 111.125 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 111.125 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9f74ead6-793e-4c29-8975-5d9efc194ebc")
 		)
@@ -15037,7 +14479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 76.2 0)
 			(effects
 				(font
@@ -15046,7 +14488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 76.2 0)
 			(effects
 				(font
@@ -15055,7 +14497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 76.2 0)
 			(effects
 				(font
@@ -15134,7 +14576,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R71H104ME14D"
+		(property "MNP" "0402B104K500CT"
 			(at 213.995 135.89 0)
 			(effects
 				(font
@@ -15143,26 +14585,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata"
+		(property "MFT" "Walsin"
 			(at 213.995 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 213.995 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 213.995 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15364,7 +14788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 116.84 0)
 			(effects
 				(font
@@ -15373,7 +14797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 116.84 0)
 			(effects
 				(font
@@ -15382,7 +14806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 116.84 0)
 			(effects
 				(font
@@ -15480,24 +14904,6 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
-			(at 270.51 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 270.51 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "K"
 			(uuid "ce789aca-12c6-4a73-bbc5-753d153c4e9c")
 		)
@@ -15580,24 +14986,6 @@
 		)
 		(property "MNP" "B1931URO-20D000114U1930"
 			(at 261.62 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 261.62 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 261.62 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 86.36 0)
 			(effects
 				(font
@@ -15752,7 +15140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 86.36 0)
 			(effects
 				(font
@@ -15770,24 +15158,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15852,7 +15222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 15.24 0)
 			(effects
 				(font
@@ -15861,7 +15231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 15.24 0)
 			(effects
 				(font
@@ -15870,7 +15240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 15.24 0)
 			(effects
 				(font
@@ -15948,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1nF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 36.83 147.32 0)
 			(effects
 				(font
@@ -15959,7 +15329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "CL10B102KB8NNNC"
+		(property "MNP" "0402B102K500CT"
 			(at 36.83 147.32 0)
 			(effects
 				(font
@@ -15977,24 +15347,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 36.83 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 36.83 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -16060,24 +15412,6 @@
 		)
 		(property "Description" ""
 			(at 179.07 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 179.07 153.035 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 179.07 153.035 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +15543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
 			(at 28.575 35.56 0)
 			(effects
 				(font
@@ -16218,7 +15552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Checked" ""
+		(property "MNP" "BLM15AX102SN1D"
 			(at 28.575 35.56 0)
 			(effects
 				(font
@@ -16227,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit Price" ""
+		(property "MFT" "TDK"
 			(at 28.575 35.56 0)
 			(effects
 				(font
@@ -16384,24 +15718,6 @@
 		)
 		(property "MFT" "Murata"
 			(at 247.015 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked" ""
-			(at 247.015 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
-			(at 247.015 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)

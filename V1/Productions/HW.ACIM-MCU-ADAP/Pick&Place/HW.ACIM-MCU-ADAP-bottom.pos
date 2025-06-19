@@ -1,0 +1,12 @@
+### Footprint positions - created on 2025-06-19T22:41:40+0700 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                PosX       PosY       Rot  Side
+J1        U               SIL01              252.0975   -47.9550  180.0000  bottom
+J2        V               SIL01              256.7975   -47.9550  180.0000  bottom
+J3        W               SIL01              261.4975   -47.9550  180.0000  bottom
+J4        PGND            SIL01              275.5975   -47.9550  180.0000  bottom
+J101      HEADER_2x15POS  HD-2x15x1.27-SMD   201.0025   -97.5550   90.0000  bottom
+J102      HEADER_2x15POS  HD-2x15x1.27-SMD   225.0025   -97.5550   90.0000  bottom
+## End
