@@ -5327,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Value" "UU DIV"
+		(property "Value" "UU*"
 			(at 59.69 54.61 90)
 			(effects
 				(font
@@ -9407,7 +9407,7 @@
 				)
 			)
 		)
-		(property "Value" "GND ISO"
+		(property "Value" "GND*"
 			(at 44.45 178.435 0)
 			(effects
 				(font
@@ -10242,8 +10242,8 @@
 				)
 			)
 		)
-		(property "Value" "AVDD"
-			(at 172.085 45.085 0)
+		(property "Value" "UU"
+			(at 170.815 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12553,8 +12553,8 @@
 				)
 			)
 		)
-		(property "Value" "AVDD"
-			(at 172.085 95.885 0)
+		(property "Value" "UV"
+			(at 170.815 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13320,7 @@
 				)
 			)
 		)
-		(property "Value" "UV DIV"
+		(property "Value" "UV*"
 			(at 59.69 105.41 90)
 			(effects
 				(font
@@ -13403,7 +13403,7 @@
 				)
 			)
 		)
-		(property "Value" "UW DIV"
+		(property "Value" "UW*"
 			(at 60.325 156.21 90)
 			(effects
 				(font
@@ -13562,7 +13562,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3 ISO"
+		(property "Value" "3V3*"
 			(at 54.61 179.07 90)
 			(effects
 				(font
@@ -14346,8 +14346,8 @@
 				)
 			)
 		)
-		(property "Value" "AVDD"
-			(at 172.085 146.685 0)
+		(property "Value" "UW"
+			(at 170.815 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
