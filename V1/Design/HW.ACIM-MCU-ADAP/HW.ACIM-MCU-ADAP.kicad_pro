@@ -684,7 +684,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Production/V0.1/Gerber/",
+      "plot": "../../Productions/HW.ACIM-MCU-ADAP/Gerber/",
       "pos_files": "../../Productions/HW.ACIM-MCU-ADAP/Pick&Place/",
       "specctra_dsn": "",
       "step": "../../Productions/HW.ACIM-MCU-ADAP/3D/HW.ACIM-MCU-ADAP.step",
