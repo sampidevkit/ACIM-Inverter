@@ -13584,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Amphenol ICC (FCI)"
+		(property "MFT" "Amphenol"
 			(at 273.05 38.735 0)
 			(effects
 				(font

@@ -5939,7 +5939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SINGLE, 10MHZ OP AMP, E TEMP"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 5TSOP"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -5950,7 +5950,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCP6486UT-E/OT"
+		(property "MNP" "LMV321SN3T1G"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -5961,7 +5961,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Microchip"
+		(property "MFT" "Onsemi"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SINGLE, 10MHZ OP AMP, E TEMP"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 5TSOP"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCP6486UT-E/OT"
+		(property "MNP" "LMV321SN3T1G"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Microchip"
+		(property "MFT" "Onsemi"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -6583,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Texas Instruments"
+		(property "MFT" "TI"
 			(at 107.95 95.885 0)
 			(effects
 				(font
@@ -7631,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Texas Instruments"
+		(property "MFT" "TI"
 			(at 107.95 45.085 0)
 			(effects
 				(font
@@ -8614,7 +8614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GP DIODE"
+		(property "Value" "BAV99"
 			(at 60.96 50.8 90)
 			(effects
 				(font
@@ -8648,7 +8648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE ARRAY GP 75V 150MA SOT23"
+		(property "Description" "DIODE ARRAY GP 75V 215MA SOT23-3"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -8659,7 +8659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MMBD4148SE"
+		(property "MNP" "BAV99"
 			(at 64.77 44.45 90)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "ANBON"
+		(property "MFT" "Diotec"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -8973,7 +8973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GP DIODE"
+		(property "Value" "BAV99"
 			(at 60.96 101.6 90)
 			(effects
 				(font
@@ -9007,7 +9007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE ARRAY GP 75V 150MA SOT23"
+		(property "Description" "DIODE ARRAY GP 75V 215MA SOT23-3"
 			(at 80.01 90.17 0)
 			(effects
 				(font
@@ -9018,7 +9018,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MMBD4148SE"
+		(property "MNP" "BAV99"
 			(at 64.77 95.25 90)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "ANBON"
+		(property "MFT" "Diotec"
 			(at 80.01 90.17 0)
 			(effects
 				(font
@@ -10709,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Texas Instruments"
+		(property "MFT" "TI"
 			(at 107.95 146.685 0)
 			(effects
 				(font
@@ -12357,7 +12357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC DC CONVERTER 5V 1W"
+		(property "Description" "DC DC CONVERTER 3.3V-5V 1W"
 			(at 102.235 190.5 0)
 			(effects
 				(font
@@ -12366,7 +12366,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "B0505S-1WR3"
+		(property "MNP" "B0305S-1W"
 			(at 102.87 190.5 0)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Mornsun America, LLC"
+		(property "MFT" "Mornsun"
 			(at 102.87 190.5 0)
 			(effects
 				(font
@@ -13284,7 +13284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SINGLE, 10MHZ OP AMP, E TEMP"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 5TSOP"
 			(at 151.13 144.78 0)
 			(effects
 				(font
@@ -13295,7 +13295,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCP6486UT-E/OT"
+		(property "MNP" "LMV321SN3T1G"
 			(at 151.13 144.78 0)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Microchip"
+		(property "MFT" "Onsemi"
 			(at 151.13 144.78 0)
 			(effects
 				(font
@@ -15940,7 +15940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GP DIODE"
+		(property "Value" "BAV99"
 			(at 60.96 152.4 90)
 			(effects
 				(font
@@ -15974,7 +15974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE ARRAY GP 75V 150MA SOT23"
+		(property "Description" "DIODE ARRAY GP 75V 215MA SOT23-3"
 			(at 80.01 140.97 0)
 			(effects
 				(font
@@ -15985,7 +15985,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MMBD4148SE"
+		(property "MNP" "BAV99"
 			(at 64.77 146.05 90)
 			(effects
 				(font
@@ -15996,7 +15996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "ANBON"
+		(property "MFT" "Diotec"
 			(at 80.01 140.97 0)
 			(effects
 				(font
