@@ -38,7 +38,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#warning "The tmr0_deprecated.h file contains the deprecated macros or functions. Replace the deprecated macro or functions with the recommended alternative."
+//#warning "The tmr0_deprecated.h file contains the deprecated macros or functions. Replace the deprecated macro or functions with the recommended alternative."
 
 /**
  * @misradeviation{@advisory,2.5}
