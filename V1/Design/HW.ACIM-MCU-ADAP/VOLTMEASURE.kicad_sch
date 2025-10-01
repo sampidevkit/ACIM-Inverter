@@ -1731,8 +1731,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0.635 0 0)
+			(property "Reference" "U5"
+				(at 4.445 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1740,15 +1740,15 @@
 					)
 				)
 			)
-			(property "Value" "MCP1700"
-				(at 2.54 -1.905 0)
+			(property "Value" "LDO 3.3V"
+				(at 4.445 -1.905 0)
 				(effects
 					(font
 						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SAMPI:SOT23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1766,7 +1766,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IC REG LINEAR 3.3V 250MA SOT23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" "MCP1700T-3302E/TT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "Microchip"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1797,7 +1815,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1833,7 +1851,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)

@@ -82,7 +82,7 @@ FIXDEPS=fixDeps
 _/_=\\
 ShExtension=.bat
 Device=PIC16F13145
-ProjectDir="E:\Github\ACIM\INV\V1\V1\Firmware\IPMTest.X"
+ProjectDir="F:\ACIM\INV\V1\V1\Firmware\IPMTest.X"
 ProjectName=IPMTest
 ConfName=default
 ImagePath="dist\default\${IMAGE_TYPE}\IPMTest.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}"
@@ -93,8 +93,8 @@ IsDebug="true"
 else
 IsDebug="false"
 endif
-MDFUHostPath="D:\Resource\Program Files\microchip\MPLABX\v6.25\mplab_platform\mplab-pymdfu\bin\windows\pymdfu-bin.exe"
-PYFWImageBuilderPath="D:\Resource\Program Files\microchip\MPLABX\v6.25\mplab_platform\mplab-pymdfu\bin\windows\pyfwimagebuilder-bin.exe"
+MDFUHostPath="E:\Microchip\MPLABX\v6.25\mplab_platform\mplab-pymdfu\bin\windows\pymdfu-bin.exe"
+PYFWImageBuilderPath="E:\Microchip\MPLABX\v6.25\mplab_platform\mplab-pymdfu\bin\windows\pyfwimagebuilder-bin.exe"
 
 .build-conf:  ${BUILD_SUBPROJECTS}
 ifneq ($(INFORMATION_MESSAGE), )
@@ -285,7 +285,7 @@ ${DISTDIR}/IPMTest.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/M
 	
 	
 	@echo Normalizing hex file
-	@"D:/Resource/Program Files/microchip/MPLABX/v6.25/mplab_platform/platform/../mplab_ide/modules/../../bin/hexmate" --edf="D:/Resource/Program Files/microchip/MPLABX/v6.25/mplab_platform/platform/../mplab_ide/modules/../../dat/en_msgs.txt" ${DISTDIR}/IPMTest.X.${IMAGE_TYPE}.hex -o${DISTDIR}/IPMTest.X.${IMAGE_TYPE}.hex
+	@"E:/Microchip/MPLABX/v6.25/mplab_platform/platform/../mplab_ide/modules/../../bin/hexmate" --edf="E:/Microchip/MPLABX/v6.25/mplab_platform/platform/../mplab_ide/modules/../../dat/en_msgs.txt" ${DISTDIR}/IPMTest.X.${IMAGE_TYPE}.hex -o${DISTDIR}/IPMTest.X.${IMAGE_TYPE}.hex
 
 endif
 
